@@ -34,7 +34,7 @@
         if (!acc || !pwd) { msg.textContent = '请输入手机号和密码'; return; }
         msg.textContent = '登录中...';
         var xhr = new XMLHttpRequest();
-        xhr.open('POST', 'http://' + location.hostname + ':9493/login/login/dispatch', true);
+        xhr.open('POST', 'https://' + location.hostname + '/kapi/login/login/dispatch', true);
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         xhr.send('data=' + encodeURIComponent(JSON.stringify({ event: 'Msg_User_Login', data: { telephone: acc, password: pwd, type: 2, code: -1, equipmentcard: '' } })));
         xhr.onload = function () {
@@ -43,7 +43,7 @@
             var base = location.href.split('?')[0].split('#')[0];
             if (base.charAt(base.length - 1) === '/') base += 'index.html';
             // 不带 gtype -> boot 自动进入大厅首页
-            location.replace(base + '?token=' + encodeURIComponent(j.data.token) + '&x=1&addr=ws://' + location.hostname + ':16000');
+            location.replace(base + '?token=' + encodeURIComponent(j.data.token) + '&x=1');
           } else {
             msg.textContent = (j && j.msg) ? j.msg : '登录失败';
           }

@@ -34,4 +34,15 @@ for f in "${BUNDLES[@]}"; do
   echo "    已处理: $f"
 done
 
+# 登录页 h5/63/index.html 的内联脚本也有硬编码，HTTPS 页面禁止混合内容，必须一并改
+HTML="$FRONT_DIR/index.html"
+if [ -f "$HTML" ]; then
+  cp -f "$HTML" "$HTML.bak_domain"
+  # 1) 登录分发走 /kapi 反代（原 http://域名:9493/login/login/dispatch）
+  sed -i "s#http://' + location.hostname + ':9493#https://' + location.hostname + '/kapi#g" "$HTML"
+  # 2) 登录成功后跳转去掉明文 ws://域名:16000，改用 ServerConfig 里已 patch 的 wss://域名/gamews
+  sed -i "s#&addr=ws://' + location.hostname + ':16000##g" "$HTML"
+  echo "    已处理登录页: $HTML"
+fi
+
 echo "==> 完成。浏览器请用 Ctrl+F5 硬刷新以加载新 JS。"
