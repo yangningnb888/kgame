@@ -79,9 +79,11 @@ class Data extends Controller
         $string = '';
         for ($i = 0; $i < $num; $i++) {
             $uid = $start + $i;
-            $_res = Db::table('jh_user')->where('uid', $uid)->find();
-            if (empty($_res)) {
-                $pass = rand(100000, 999999);
+            $pass = rand(100000, 999999);
+            $now = date('Y-m-d H:i:s', time());
+
+            $_user = Db::table('jh_user')->where('uid', $uid)->find();
+            if (empty($_user)) {
                 try {
                     Db::name('jh_user')->insert([
                         'uid' => $uid,
@@ -91,7 +93,7 @@ class Data extends Controller
                         'rcard' => $rcard,
                         'rcardtime' => 0,
                         'bankpass' => '888888',
-                        'last_time' => date('Y-m-d H:i:s', time()),
+                        'last_time' => $now,
                         'last_ip' => '0.0.0.0',
                         'battery' => 0,
                         'pictureframe' => 0,
@@ -102,26 +104,49 @@ class Data extends Controller
                         'online' => 2,
                         'status' => 1,
                         'display' => 1,
-                        'created' => date('Y-m-d H:i:s', time()),
+                        'created' => $now,
                         'agent' => 1,
                     ]);
-                    Db::name('jh_register')->insert([
-                        'uid' => $uid,
-                        'created' => date('Y-m-d H:i:s', time()),
-                        'password' => (string)$pass,
-                        'status' => 1,
-                    ]);
-                    Db::name('jh_agent')->insert([
-                        'uid' => $uid,
-                        'extension' => 0,
-                        'power' => $cpower,
-                    ]);
-                    $string .= 'uid:' . $uid . '          pass:' . $pass . "\r\n";
                 } catch (\Exception $e) {
                     // 单个账号写入失败（如唯一键冲突）跳过，继续下一个
                     continue;
                 }
+            } else {
+                // 已存在：确保标记为代理（不破坏原有金币等数据）
+                Db::table('jh_user')->where('uid', $uid)->update(['agent' => 1]);
             }
+
+            // 不论新旧账号，统一设置/更新登录密码（明文，与游戏登录校验一致）
+            $_reg = Db::table('jh_register')->where('uid', $uid)->find();
+            if (empty($_reg)) {
+                Db::name('jh_register')->insert([
+                    'uid' => $uid,
+                    'created' => $now,
+                    'password' => (string)$pass,
+                    'telephone' => (string)$uid,
+                    'status' => 1,
+                ]);
+            } else {
+                $_upd = ['password' => (string)$pass, 'status' => 1];
+                if (empty($_reg['telephone'])) {
+                    $_upd['telephone'] = (string)$uid;
+                }
+                Db::table('jh_register')->where('uid', $uid)->update($_upd);
+            }
+
+            // 确保代理商记录存在
+            $_agent = Db::table('jh_agent')->where('uid', $uid)->find();
+            if (empty($_agent)) {
+                Db::name('jh_agent')->insert([
+                    'uid' => $uid,
+                    'extension' => 0,
+                    'power' => $cpower,
+                ]);
+            } else {
+                Db::table('jh_agent')->where('uid', $uid)->update(['power' => $cpower]);
+            }
+
+            $string .= 'uid:' . $uid . '          pass:' . $pass . "\r\n";
         }
 
         if ($string === '') {
