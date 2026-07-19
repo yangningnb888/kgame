@@ -174,6 +174,9 @@ class Data extends Controller
      *  3) jh_register.telephone 必须是合法手机号（11位、1[3-9]开头），否则
      *     Login::user_login 的 /^1[3456789]\d{9}$/ 正则会拦截，导致根本登不进去。
      *     这里用 uid 派生一个 13 开头的 11 位号作为登录账号（唯一且合规）。
+     *  4) jh_user_superior.superior 必须 = 0（无上级）。游戏大厅 Agent() 会读该字段，
+     *     只要 >0（曾被绑过上级/代理体系）前端就显示“代理”入口。已存在账号若
+     *     残留 superior>0，必须强制归零，否则重跑也清不掉，大厅仍显示代理按钮。
      */
     public function createplayer()
     {
@@ -252,6 +255,9 @@ class Data extends Controller
             Db::table('jh_agent')->where('uid', $uid)->delete();
 
             // 普通玩家必须有的上下级记录（与正常注册一致）
+            // 关键：无论账号新旧，都要把 superior 强制归零！
+            // 大厅 Agent() 会读 jh_user_superior.superior，只要 >0 前端就显示“代理”入口。
+            // 已存在的账号若之前残留 superior>0（如曾被当代理下级），不归零就会一直显示代理按钮。
             $_sup = Db::table('jh_user_superior')->where('uid', $uid)->find();
             if (empty($_sup)) {
                 Db::name('jh_user_superior')->insert([
@@ -263,6 +269,9 @@ class Data extends Controller
                     'createtime' => $now,
                     'usecard' => 0,
                 ]);
+            } else {
+                // 已存在也要把 superior 强制归零，否则残留上级会让大厅判定为代理
+                Db::table('jh_user_superior')->where('uid', $uid)->update(['superior' => 0]);
             }
 
             // 登录账号（telephone）必须是合法手机号，否则 user_login 正则拦截无法登录
