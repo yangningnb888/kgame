@@ -60,6 +60,7 @@ class GameNotice extends Controller
         $row  = Db::table('jh_sysconfig')->where('key', self::KEY)->value('val');
         $data = $row ? json_decode($row, true) : ['title' => '', 'date' => '', 'content' => ''];
         $this->assign('data', $data);
-        $this->fetch();
+        // 视图目录名为 gamenotice（无下划线），显式指定，避免框架按路由 game_notice 去找 view/game_notice/ 而 404
+        $this->fetch('gamenotice/index');
     }
 }

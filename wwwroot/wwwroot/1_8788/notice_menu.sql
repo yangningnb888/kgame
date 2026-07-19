@@ -6,7 +6,7 @@
 -- ------------------------------------------------------------
 -- 备选方案（无需本 SQL）：
 --   后台「系统管理 → 菜单管理 → 刷新菜单」会自动扫到
---   GameNotice.php 里 @menu true 注解的 admin/gamenotice/index，
+--   GameNotice.php 里 @menu true 注解的 admin/game_notice/index，
 --   然后在菜单管理界面把新出现的「公告通知」手动拖到「游戏管理」下即可。
 -- ============================================================
 
@@ -15,8 +15,8 @@ INSERT INTO system_menu (pid, title, url, node, icon, params, target, sort, stat
 SELECT
     COALESCE((SELECT id FROM (SELECT id FROM system_menu WHERE title LIKE '%游戏管理%' AND url = '#' LIMIT 1) t), 0),
     '公告通知',
-    'admin/gamenotice/index',
-    'admin/gamenotice/index',
+    'admin/game_notice/index',
+    'admin/game_notice/index',
     '',
     '',
     '_self',
@@ -24,5 +24,5 @@ SELECT
     1
 FROM DUAL
 WHERE NOT EXISTS (
-    SELECT 1 FROM (SELECT node FROM system_menu WHERE node = 'admin/gamenotice/index') x
+    SELECT 1 FROM (SELECT node FROM system_menu WHERE node = 'admin/game_notice/index') x
 );

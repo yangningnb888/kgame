@@ -38,7 +38,7 @@
             var title   = $('#notice_title').val().trim();
             var date    = $('#notice_date').val().trim();
             var content = $('#notice_content').val();
-            $.post('{:sysuri("admin/gamenotice/index")}', {title: title, date: date, content: content}, function (res) {
+            $.post('{:sysuri("admin/game_notice/index")}', {title: title, date: date, content: content}, function (res) {
                 if (res.code == 1) {
                     layer.msg(res.msg || '保存成功');
                     $('#notice_tip').text('已保存，玩家下次登录即生效（内容变化才会重新弹窗）');
