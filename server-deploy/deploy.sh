@@ -136,7 +136,8 @@ if [ ! -f "$MARK" ]; then
   $MYSQL 63 -e "UPDATE jh_user SET type=0 WHERE uid=66670276;" || true
   # 种子测试账号: 13800138000 / 123456 -> uid 66670276 (jh_user 已存在)，供登录接口校验手机号
   # 注意 jh_register 在导出 SQL 中无数据，必须此处补齐，否则 kgame-api 账号登录永远 401
-  $MYSQL 63 -e "INSERT IGNORE INTO jh_register (uid, telephone, password, created, status) VALUES (66670276, '13800138000', MD5('123456'), NOW(), 0);" || true
+  # 注意 jh_register.password 是 varchar(20)，存不下 32 位 MD5，必须存明文（≤20字符）；verify_password 优先明文比对
+  $MYSQL 63 -e "INSERT IGNORE INTO jh_register (uid, telephone, password, created, status) VALUES (66670276, '13800138000', '123456', NOW(), 0);" || true
 else
   warn "数据库已导入过（存在 $MARK），跳过。如需重导请删除该文件。"
 fi
