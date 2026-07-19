@@ -163,6 +163,101 @@ class Data extends Controller
         return json(['code' => 0, 'msg' => '生成成功', 'data' => $string]);
     }
 
+    /**
+     * 生成游戏账号（普通玩家，非代理）
+     */
+    public function createplayer()
+    {
+        $post = input('post.');
+        $start = intval($post['startuid'] ?? 0);
+        $num = intval($post['num'] ?? 0);
+        $gold = intval($post['gold'] ?? 0);
+        $rcard = intval($post['rcard'] ?? 0);
+
+        if ($start <= 0 || $num <= 0) {
+            return json(['code' => 1, 'msg' => '初始uid和生成数量都必须为正整数', 'data' => '']);
+        }
+        if ($num > 100) {
+            return json(['code' => 1, 'msg' => '每次生成不能超过100个账号', 'data' => '']);
+        }
+        if ($start > 9999999) {
+            return json(['code' => 1, 'msg' => '生成uid不得超过7位', 'data' => '']);
+        }
+
+        $string = '';
+        for ($i = 0; $i < $num; $i++) {
+            $uid = $start + $i;
+            $pass = rand(100000, 999999);
+            $now = date('Y-m-d H:i:s', time());
+
+            $_user = Db::table('jh_user')->where('uid', $uid)->find();
+            if (empty($_user)) {
+                try {
+                    Db::name('jh_user')->insert([
+                        'uid' => $uid,
+                        'gold' => $gold,
+                        'bank' => $gold,
+                        'mcard' => 0,
+                        'rcard' => $rcard,
+                        'rcardtime' => 0,
+                        'bankpass' => '888888',
+                        'last_time' => $now,
+                        'last_ip' => '0.0.0.0',
+                        'battery' => 0,
+                        'pictureframe' => 0,
+                        'headimgurl' => rand(1, 90),
+                        'nickname' => '玩家' . ($uid % 100),
+                        'sex' => 1,
+                        'type' => 0,
+                        'online' => 2,
+                        'status' => 1,
+                        'display' => 1,
+                        'created' => $now,
+                        'agent' => 0,
+                    ]);
+                } catch (\Exception $e) {
+                    continue;
+                }
+            } else {
+                $_upd = [];
+                if ($gold > 0) {
+                    $_upd['gold'] = $gold;
+                    $_upd['bank'] = $gold;
+                }
+                if ($rcard > 0) {
+                    $_upd['rcard'] = $rcard;
+                }
+                if ($_upd) {
+                    Db::table('jh_user')->where('uid', $uid)->update($_upd);
+                }
+            }
+
+            $_reg = Db::table('jh_register')->where('uid', $uid)->find();
+            if (empty($_reg)) {
+                Db::name('jh_register')->insert([
+                    'uid' => $uid,
+                    'created' => $now,
+                    'password' => (string)$pass,
+                    'telephone' => (string)$uid,
+                    'status' => 1,
+                ]);
+            } else {
+                $_upd = ['password' => (string)$pass, 'status' => 1];
+                if (empty($_reg['telephone'])) {
+                    $_upd['telephone'] = (string)$uid;
+                }
+                Db::table('jh_register')->where('uid', $uid)->update($_upd);
+            }
+
+            $string .= 'uid:' . $uid . '          pass:' . $pass . "\r\n";
+        }
+
+        if ($string === '') {
+            return json(['code' => 1, 'msg' => '未生成任何账号（uid可能已存在或参数有误）', 'data' => '']);
+        }
+        return json(['code' => 0, 'msg' => '生成成功', 'data' => $string]);
+    }
+
     public function updategameinfo()
     {
         $post = input('post.');

@@ -60,6 +60,44 @@
         </div>
     </fieldset>
     <fieldset class="table-search-fieldset">
+        <legend>生成游戏账号</legend>
+        <div style="margin: 10px 10px 10px 10px" id="createplayer">
+            <form class="layui-form layui-form-pane" action="" id="createplayerform">
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">初始uid</label>
+                        <div class="layui-input-inline">
+                            <input class="layui-input" name="player_startuid" id="player_startuid" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">生成数量</label>
+                        <div class="layui-input-inline">
+                            <input class="layui-input" name="player_num" id="player_num" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">初始金币</label>
+                        <div class="layui-input-inline">
+                            <input class="layui-input" name="player_gold" id="player_gold" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">初始兑换卡</label>
+                        <div class="layui-input-inline">
+                            <input class="layui-input" name="player_rcard" id="player_rcard" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <button type="button" class="layui-btn layui-btn-primary" lay-submit data-type="reload"
+                                lay-filter="data-search-btn10"> 生成
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </fieldset>
+    <fieldset class="table-search-fieldset">
         <legend>批量修改游戏配置</legend>
         <div style="margin: 10px 10px 10px 10px" id="game">
             <form class="layui-form layui-form-pane" action="" id="gameconfig">
@@ -715,6 +753,43 @@
                 },
                 error: function () {
                     alert('操作失败');
+                }
+            });
+            return false;
+        });
+
+        form.on('submit(data-search-btn10)', function () {
+            let startuid = Number($("#player_startuid").val());
+            let num = Number($("#player_num").val());
+            let gold = Number($("#player_gold").val()) || 0;
+            let rcard = Number($("#player_rcard").val()) || 0;
+            if (!startuid || !num) {
+                alert('请填写初始uid和生成数量');
+                return false;
+            }
+            if (startuid > 9999999 || num > 100) {
+                alert('生成uid不得超过7位，且每次生成不能超过100个账号');
+                return false;
+            }
+            $.ajax({
+                url: '{:url("createplayer")}',
+                type: 'post',
+                data: {
+                    'startuid': startuid,
+                    'num': num,
+                    'gold': gold,
+                    'rcard': rcard,
+                },
+                success: res => {
+                    if (res.data) {
+                        var timestamp = parseInt(Date.parse(new Date()) / 1000);
+                        download("player" + timestamp + ".txt", res.data);
+                    } else {
+                        alert(res.msg || '生成失败');
+                    }
+                },
+                error: function () {
+                    alert('生成请求失败，请重试');
                 }
             });
             return false;
