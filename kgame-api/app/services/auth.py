@@ -62,7 +62,7 @@ def user_login(telephone: str, password: str) -> Optional[dict]:
     db: SessionLocal = SessionLocal()
     try:
         reg = db.query(UserRegister).filter(
-            UserRegister.telephone == telephone
+            func.trim(UserRegister.telephone) == telephone.strip()
         ).first()
         if not reg:
             return None
