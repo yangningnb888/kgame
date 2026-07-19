@@ -164,7 +164,7 @@ class Data extends Controller
     }
 
     /**
-     * 生成游戏账号（普通玩家，非代理）
+     * 生成游戏账号（普通玩家，与正常注册一致：agent=2 + jh_user_superior）
      */
     public function createplayer()
     {
@@ -213,13 +213,14 @@ class Data extends Controller
                         'status' => 1,
                         'display' => 1,
                         'created' => $now,
-                        'agent' => 0,
+                        'agent' => 2,
                     ]);
                 } catch (\Exception $e) {
                     continue;
                 }
             } else {
-                $_upd = [];
+                // 已存在：强制改成普通玩家(agent=2)，并按需覆盖金币/兑换卡
+                $_upd = ['agent' => 2];
                 if ($gold > 0) {
                     $_upd['gold'] = $gold;
                     $_upd['bank'] = $gold;
@@ -227,9 +228,21 @@ class Data extends Controller
                 if ($rcard > 0) {
                     $_upd['rcard'] = $rcard;
                 }
-                if ($_upd) {
-                    Db::table('jh_user')->where('uid', $uid)->update($_upd);
-                }
+                Db::table('jh_user')->where('uid', $uid)->update($_upd);
+            }
+
+            // 普通玩家必须有的上下级记录（与正常注册一致）
+            $_sup = Db::table('jh_user_superior')->where('uid', $uid)->find();
+            if (empty($_sup)) {
+                Db::name('jh_user_superior')->insert([
+                    'uid' => $uid,
+                    'superior' => 0,
+                    'flagget' => 0,
+                    'curget' => 0,
+                    'control' => 0,
+                    'createtime' => $now,
+                    'usecard' => 0,
+                ]);
             }
 
             $_reg = Db::table('jh_register')->where('uid', $uid)->find();
