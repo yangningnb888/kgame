@@ -6,7 +6,7 @@
 import hashlib
 import time
 import json
-import traceback
+import urllib.parse
 from fastapi import APIRouter, Request, Form
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
@@ -28,42 +28,37 @@ class DispatchRequest(BaseModel):
 @router.post("/login/dispatch")
 async def dispatch(req: Request):
     """统一接口分发 — 兼容 JSON 和 www-form-urlencoded"""
-    try:
-        ct = req.headers.get("content-type", "")
+    ct = req.headers.get("content-type", "")
 
-        # 先判断格式
-        if "application/json" in ct:
-            body = await req.json()
-            event = body.get("event", "")
-            data = body.get("data", {})
+    # 先判断格式
+    if "application/json" in ct:
+        body = await req.json()
+        event = body.get("event", "")
+        data = body.get("data", {})
+    else:
+        # url-encoded: data=<json_string>
+        # 注意：用标准库 urllib.parse 解析，避免依赖 python-multipart（未装会导致 500）
+        raw_body = (await req.body()).decode("utf-8", "ignore")
+        form = urllib.parse.parse_qs(raw_body)
+        raw = form.get("data", [""])[0]
+        if raw:
+            parsed = json.loads(raw)
+            event = parsed.get("event", "")
+            data = parsed.get("data", {})
         else:
-            # url-encoded: data=<json_string>
-            form = await req.form()
-            raw = str(form.get("data", ""))
-            if raw:
-                parsed = json.loads(raw)
-                event = parsed.get("event", "")
-                data = parsed.get("data", {})
-            else:
-                return JSONResponse({"code": 400, "msg": "无法解析请求", "data": None})
-        handler = {
-            "Msg_User_Login":             _user_login,
-            "Msg_User_getCode":           _get_code,
-            "Msg_User_register":          _tourist_register,
-            "Msg_User_ChangePassword":    _forget_userpass,
-            "Msg_User_changePhone":       _stub_ok,
-            "Msg_User_VerificationCode":  _stub_ok,
-            "Msg_User_upgrade":           _stub_ok,
-            "Msg_User_forgeBank":         _stub_ok,
-        }.get(event, _unknown)
+            return JSONResponse({"code": 400, "msg": "无法解析请求", "data": None})
+    handler = {
+        "Msg_User_Login":             _user_login,
+        "Msg_User_getCode":           _get_code,
+        "Msg_User_register":          _tourist_register,
+        "Msg_User_ChangePassword":    _forget_userpass,
+        "Msg_User_changePhone":       _stub_ok,
+        "Msg_User_VerificationCode":  _stub_ok,
+        "Msg_User_upgrade":           _stub_ok,
+        "Msg_User_forgeBank":         _stub_ok,
+    }.get(event, _unknown)
 
-        return await handler(data)
-    except Exception as e:
-        # 临时诊断：把真实异常透传给调用方（定位 500 后移除）
-        return JSONResponse(
-            status_code=200,
-            content={"code": 500, "msg": f"{type(e).__name__}: {e}", "trace": traceback.format_exc()}
-        )
+    return await handler(data)
 
 
 async def _unknown(data: dict):
