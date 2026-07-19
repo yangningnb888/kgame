@@ -6,6 +6,8 @@ msg/
 log/
 logs/
 win-logs/
+# vendor 依赖必须入库（clone 即运行模式）；勿因上面 log/ 等宽规则误忽略 vendor/psr/log 等包
+!vendor/
 __pycache__/
 *.pyc
 /venv/
