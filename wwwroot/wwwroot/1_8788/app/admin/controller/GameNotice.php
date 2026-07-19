@@ -60,7 +60,11 @@ class GameNotice extends Controller
             if ($exists) {
                 Db::table('jh_sysconfig')->where('key', self::KEY)->update(['val' => $val]);
             } else {
-                Db::table('jh_sysconfig')->insert(['key' => self::KEY, 'val' => $val]);
+                Db::table('jh_sysconfig')->insert([
+                    'key'   => self::KEY,
+                    'name'  => $title ?: '弹窗公告',
+                    'val'   => $val,
+                ]);
             }
             return json(['code' => 1, 'msg' => '保存成功']);
         } catch (\Throwable $e) {
