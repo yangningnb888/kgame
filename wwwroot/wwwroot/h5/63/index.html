@@ -9,6 +9,26 @@
        游客入口 -> ?x=1（不带 gtype，同样进入大厅）。
        已带 token+gtype 的深度链接仍会直接进对应游戏。
        这样不依赖源码原生（本机独立启动下到不了的）Cocos 登录界面。 -->
+  <!-- token 归一化：修复"进游戏->退出后 URL 变成 ?token=token%3D...%26x%3D1%26key%3Dpassword"
+       的套娃问题。退出时 Cocos 会把整条 query 又塞进 token 参数，导致解析出的 token 畸形
+       -> 后端认不出 -> 回退游客 -> 昵称显示 undefined。这里在游戏启动前把真正的 token 提取出来，
+       把 URL 洗成干净的 ?token=<真token>&x=1 再交给游戏，避免退出后变 undefined。 -->
+  <script type="text/javascript">
+  (function () {
+    var m = /[?&]token=([^&]*)/.exec(window.location.search);
+    if (!m) return;
+    var raw = decodeURIComponent(m[1]);
+    // 真 token 形如 <前缀字母?><uid数字><40位hex>，从可能被套娃/夹带的字符串里抽出来
+    var hit = raw.match(/[a-zA-Z]?\d{6,}[0-9a-f]{16,}/);
+    var real = hit ? hit[0] : raw.replace(/^token=/, '').split('&')[0];
+    if (real && real !== raw) {
+      var base = window.location.href.split('?')[0].split('#')[0];
+      if (base.charAt(base.length - 1) === '/') base += 'index.html';
+      window.location.replace(base + '?token=' + encodeURIComponent(real) + '&x=1');
+    }
+  })();
+  </script>
+
   <script type="text/javascript">
   (function () {
     var href = window.location.href;
