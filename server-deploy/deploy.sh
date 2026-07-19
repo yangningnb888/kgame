@@ -134,6 +134,9 @@ if [ ! -f "$MARK" ]; then
   $MYSQL 63 -e "UPDATE jh_sysconfig SET val='' WHERE \`key\` IN ('SERVER_WHSTART','SERVER_WHEND');" || true
   # 测试账号 13800138000 落在机器人种子段(uid 66670276, type=1)，翻为真人，否则大厅显示机器人
   $MYSQL 63 -e "UPDATE jh_user SET type=0 WHERE uid=66670276;" || true
+  # 种子测试账号: 13800138000 / 123456 -> uid 66670276 (jh_user 已存在)，供登录接口校验手机号
+  # 注意 jh_register 在导出 SQL 中无数据，必须此处补齐，否则 kgame-api 账号登录永远 401
+  $MYSQL 63 -e "INSERT IGNORE INTO jh_register (uid, telephone, password, created, status) VALUES (66670276, '13800138000', MD5('123456'), NOW(), 0);" || true
 else
   warn "数据库已导入过（存在 $MARK），跳过。如需重导请删除该文件。"
 fi
