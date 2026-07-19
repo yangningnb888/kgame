@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 ###############################################################################
-# KGame 一键部署脚本  (Ubuntu 22.04 / 20.04)
+# KGame 一键部署脚本  (Ubuntu 22.04 / 24.04)
 # 目标：把本项目部署到 Linux 服务器，域名 4399521.xyz，HTTPS + 反向代理。
 #
 # 用法：
@@ -47,13 +47,16 @@ warn(){ echo -e "\033[1;33m[!] $*\033[0m"; }
 [ -d "$SRC_DIR" ] || { echo "找不到项目目录 $SRC_DIR，请先上传项目并修改 SRC_DIR"; exit 1; }
 
 ###############################################################################
-log "[1/7] 安装系统软件包"
+log "[1/7] 安装系统软件包 (Ubuntu $(lsb_release -rs))"
 ###############################################################################
 export DEBIAN_FRONTEND=noninteractive
 apt-get update -y
-apt-get install -y software-properties-common curl unzip
-# ondrej PPA 提供 php7.4/7.3
-add-apt-repository -y ppa:ondrej/php || true
+apt-get install -y software-properties-common curl unzip ca-certificates gnupg2 lsb-release
+
+# Ubuntu 24.04 官方源没有 php7.4，必须加 ondrej/php PPA
+if ! grep -Rq "ondrej/php" /etc/apt/sources.list /etc/apt/sources.list.d/ 2>/dev/null; then
+  add-apt-repository -y ppa:ondrej/php || true
+fi
 apt-get update -y
 
 apt-get install -y nginx mysql-server \
@@ -61,10 +64,25 @@ apt-get install -y nginx mysql-server \
   php${PHP_VER}-gd php${PHP_VER}-bcmath php${PHP_VER}-xml php${PHP_VER}-zip \
   php${PHP_VER}-cli php${PHP_VER}-opcache php${PHP_VER}-redis \
   python3 python3-venv python3-pip \
-  certbot python3-certbot-nginx
+  certbot python3-certbot-nginx || {
+    echo "软件包安装失败。如果是 Ubuntu 24.04，请确认 ppa:ondrej/php 已正确添加。"
+    exit 1
+  }
 
 # php-cli 需要 pcntl / posix 给 Workerman（php-cli 默认已带 pcntl/posix，确认一下）
 php${PHP_VER} -m | grep -qi pcntl || warn "php-cli 缺少 pcntl，Workerman 可能无法多进程，请检查"
+
+# 内存提示
+MEM_KB=$(grep MemTotal /proc/meminfo | awk '{print $2}')
+MEM_GB=$((MEM_KB / 1024 / 1024))
+if [ "$MEM_GB" -lt 2 ]; then
+  warn "服务器内存仅 ${MEM_GB} GB。建议至少 2 GB；1 GB 跑 32 个 GAME worker 会 OOM，建议换 t3.small/c7i-flex.large 或更多内存。"
+  warn "若你坚持 1 GB 部署，需要手动减少 game/63JHLM/Applications/GAME_*/ 的 worker 数量。"
+elif [ "$MEM_GB" -lt 4 ]; then
+  warn "服务器内存 ${MEM_GB} GB，能跑但并发高时请留意 OOM。建议 4 GB 起步。"
+else
+  log "服务器内存 ${MEM_GB} GB，配置充裕。"
+fi
 
 ###############################################################################
 log "[2/7] 初始化数据库并导入数据"

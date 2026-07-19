@@ -1,6 +1,6 @@
 # KGame 捕鱼平台 · Linux 部署仓库
 
-把游戏服务部署到 Linux 服务器（Ubuntu 22.04 验证）的一键方案。
+把游戏服务部署到 Linux 服务器（Ubuntu 22.04 / 24.04 验证）的一键方案。
 域名：`4399521.xyz`，全站 HTTPS + 反向代理（wss / api 统一走 443）。
 
 ---
@@ -15,12 +15,20 @@
 **务必把本仓库设为 Private（私有）！** 不要公开。
 若要改密码，需同步改上面三处，保持一致。
 
+## 环境要求
+- **系统**：Ubuntu Server 22.04 LTS 或 **24.04 LTS**（24.04 需脚本自动添加 `ppa:ondrej/php` 安装 PHP 7.4）
+- **内存**：推荐 **4 GB 起步**，2 GB 能跑但并发高时可能 OOM，1 GB 不推荐
+- **架构**：x86_64（64 位）
+- **域名**：已注册并把 A 记录解析到服务器公网 IP
+- **端口**：服务器安全组需放行 **80、443**（HTTP/HTTPS）
+  - 其余内部端口（16000/8163/9493/8063/8081/3306）可仅允许本机访问，由 nginx 反代统一对外
+
 ---
 
 ## 目录结构（对应服务器 `/opt/kgame`）
 ```
 kgame/
-├── deploy.sh                 # 一键部署（Ubuntu 22.04）
+├── deploy.sh                 # 一键部署（Ubuntu 22.04 / 24.04）
 ├── nginx-4399521.conf       # nginx 站点配置（HTTPS 反代）
 ├── patch-frontend.sh         # 把前端写死的 127.0.0.1 改成域名
 ├── systemd/
@@ -38,7 +46,7 @@ kgame/
 
 ## 部署步骤
 ```bash
-# 1. 在服务器上（建议 Ubuntu 22.04），克隆本仓库
+# 1. 在服务器上（建议 Ubuntu 22.04 LTS 或 24.04 LTS），克隆本仓库
 sudo apt-get update && sudo apt-get install -y git
 git clone https://github.com/yangningnb888/kgame.git /opt/kgame
 cd /opt/kgame
