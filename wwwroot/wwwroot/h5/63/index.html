@@ -41,7 +41,7 @@
       d.innerHTML =
         '<h2 style="margin-bottom:4px">捕鱼·账号登录</h2>' +
         '<div style="font-size:12px;opacity:.6;margin-bottom:14px">登录后进入大厅，可在大厅选择任意游戏</div>' +
-        '<input id="accI" placeholder="手机号" style="margin:8px;padding:11px;width:260px;font-size:16px;border-radius:6px;border:none;outline:none">' +
+        '<input id="accI" placeholder="账号" style="margin:8px;padding:11px;width:260px;font-size:16px;border-radius:6px;border:none;outline:none">' +
         '<input id="pwdI" type="password" placeholder="密码" style="margin:8px;padding:11px;width:260px;font-size:16px;border-radius:6px;border:none;outline:none">' +
         '<button id="accBtn" style="margin:14px;padding:11px 36px;font-size:16px;border:none;border-radius:6px;background:#e6a23c;color:#fff;cursor:pointer">登录</button>' +
         '<div id="accMsg" style="color:#ff7676;height:20px;font-size:13px"></div>';
@@ -50,7 +50,7 @@
         var acc = document.getElementById('accI').value.trim();
         var pwd = document.getElementById('pwdI').value;
         var msg = document.getElementById('accMsg');
-        if (!acc || !pwd) { msg.textContent = '请输入手机号和密码'; return; }
+        if (!acc || !pwd) { msg.textContent = '请输入账号和密码'; return; }
         msg.textContent = '登录中...';
         var xhr = new XMLHttpRequest();
         xhr.open('POST', 'https://' + location.hostname + '/kapi/login/login/dispatch', true);
