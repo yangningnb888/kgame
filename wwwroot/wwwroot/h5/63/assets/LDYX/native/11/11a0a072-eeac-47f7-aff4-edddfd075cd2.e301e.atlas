@@ -1,0 +1,69 @@
+
+lingdangyouxi4_beijing.png
+size: 933,762
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GOOD
+  rotate: false
+  xy: 596, 152
+  size: 335, 148
+  orig: 335, 148
+  offset: 0, 0
+  index: -1
+LUCK
+  rotate: false
+  xy: 596, 2
+  size: 335, 148
+  orig: 335, 148
+  offset: 0, 0
+  index: -1
+dengkuang
+  rotate: false
+  xy: 2, 8
+  size: 334, 255
+  orig: 334, 255
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 338, 7
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+goodluck_bk
+  rotate: false
+  xy: 2, 527
+  size: 572, 233
+  orig: 572, 233
+  offset: 0, 0
+  index: -1
+luck_glow01
+  rotate: false
+  xy: 576, 532
+  size: 355, 228
+  orig: 355, 228
+  offset: 0, 0
+  index: -1
+luck_glow02
+  rotate: false
+  xy: 576, 302
+  size: 355, 228
+  orig: 355, 228
+  offset: 0, 0
+  index: -1
+luck_xingxing
+  rotate: false
+  xy: 2, 265
+  size: 470, 260
+  orig: 470, 260
+  offset: 0, 0
+  index: -1
+shuzikuang
+  rotate: false
+  xy: 474, 479
+  size: 96, 46
+  orig: 96, 46
+  offset: 0, 0
+  index: -1

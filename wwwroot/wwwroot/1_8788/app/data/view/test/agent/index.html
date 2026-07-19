@@ -1,0 +1,99 @@
+{extend name="../../admin/view/main"}
+
+{block name="button"}
+{/block}
+
+{block name="content"}
+<body>
+<div class="layui-tab layui-tab-card think-bg-white">
+    <fieldset class="table-search-fieldset">
+        <legend>搜索信息</legend>
+        <div style="margin: 10px 10px 10px 10px" id="btn">
+            <form class="layui-form layui-form-pane" action="" id="test">
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">状态</label>
+                        <div class="layui-input-inline">
+                            <select name="status">
+                                <option value="1" selected="">在线</option>
+                                <option value="2">离线</option>
+                                <option value="3">封禁</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">搜索代理</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="uid" id="player" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <!--注意此处button标签里的type属性-->
+                        <button type="button" class="layui-btn layui-btn-primary" lay-submit data-type="reload"
+                                lay-filter="data-search-btn"><i class="layui-icon"></i> 搜 索
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </fieldset>
+    <table class="layui-hide" id="demo" lay-filter="test"></table>
+</div>
+</body>
+<script>
+    layui.use(['table', 'form'], function () {
+        var table = layui.table;
+        table.render({
+            elem: '#demo'
+            , url: '{:url("agentlist")}'
+            , cellMinWidth: 100 //全局定义常规单元格的最小宽度，layui 2.2.1 新增
+            , id: 'list'
+            , cols: [[
+                {field: 'uid', width: 150, title: 'uid', align: 'center'}
+                , {field: 'nickname', title: '昵称', align: 'center'}
+                , {field: 'gold', title: '金币', align: 'center'}
+                , {field: 'bank', title: '银行', align: 'center'}
+                , {field: 'rcard', title: '兑换卡', align: 'center'}
+                , {field: 'superior', title: '上级', width: 150, align: 'center'} //minWidth：局部定义当前单元格的最小宽度，layui 2.2.1 新增
+                , {field: 'income', title: '总入', align: 'center'}
+                , {field: 'expenditure', title: '总出', align: 'center'}
+                , {field: 'control', title: '场控状态', align: 'center'}
+                , {field: 'playernum', title: '玩家总数', align: 'center'}
+                , {field: 'agentnum', title: '代理总数', align: 'center'}
+            ]]
+            , page: true
+            , limit: 20
+            , parseData: function (res) {
+                console.log(res.data);
+                return {
+                    'code': 0
+                    , 'msg': ''
+                    , 'count': res.count
+                    , 'data': res.data
+                }
+            }
+        });
+
+
+        var form = layui.form;
+        form.render();
+        form.on('submit(data-search-btn)', function (data) {
+            //alert(data.value);
+            console.log(data.field);
+            //console.log(data.field.status);
+            table.reload('list', {
+                page: {
+                    curr: 1 //重新从第 1 页开始
+                }
+                , where: data.field
+                , url: '{:url("select")}'//后台做模糊搜索接口路径
+                , method: 'post'
+            });
+            return false;
+        });
+    });
+
+</script>
+
+{/block}

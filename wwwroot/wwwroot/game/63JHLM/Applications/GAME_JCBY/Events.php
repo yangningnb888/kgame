@@ -1,0 +1,200 @@
+<?php
+
+/**
+ * 用于检测业务代码死循环或者长时间阻塞等问题
+ * 如果发现业务卡死，可以将下面declare打开（去掉//注释），并执行php start.php reload
+ * 然后观察一段时间workerman.log看是否有process_timeout异常
+ */
+
+//declare(ticks=1);
+
+use Workerman\Worker;
+use Workerman\Lib\Timer;
+use \GatewayWorker\Lib\Gateway;
+
+// 自动加载类
+require_once __DIR__ . '/../../vendor/autoload.php';
+require_once __DIR__ . '/../Common/CentralCon.php';
+require_once __DIR__ . '/../Common/DBInstance.php';
+require_once __DIR__ . '/../Common/Common.php';
+require_once __DIR__ . '/Room/Algorithm.php';
+
+class Events
+{
+    public static function onWorkerStart($businessWorker)
+    {
+        MyTools::$LTYPE = LOGIC_GAME;
+        MyTools::$GTYPE = GAME_JCBY;
+        Logic::$businessWorkerID = MyTools::$businessWorkerID = "$businessWorker->lanIp:$businessWorker->name:$businessWorker->id";
+
+        DBInstance::Init(Config::$dbConfig);
+        Timer::add(Config::$dbpingInterval, function () {
+            DBInstance::$db->table('sysconfig')->select('val')->where(array('key' => 'GAME_LOGIN_IP'))->one(true);
+        });
+
+        //连接中心服
+        CentralCon::Init($businessWorker->centralAddress);
+        //self::GetPath();
+        /*Timer::add(3, function () {
+            $class = new Algorithm();
+            $fish = json_decode('{"id":257,"type":10,"speed":45,"couples":[],"createtime":1628244109408,"wayid":1000,"circlepoint":[667,375],"endtime":{"257000":1628244119297,"257001":1628244119920,"257002":1628244117253,"257003":1628244115231,"257004":1628244114542,"257005":1628244114542,"257006":1628244115231,"257007":1628244117253,"257008":1628244124142,"257009":1628244127208,"257010":1628244127208,"257011":1628244127208,"257012":1628244127208,"257013":1628244127208,"257014":1628244127208,"257015":1628244127208,"257016":1628244122297,"257017":1628244119920},"fishes":{"257000":1,"257001":1,"257002":1,"257003":1,"257004":1,"257005":1,"257006":1,"257007":1,"257008":1,"257009":1,"257010":1,"257011":1,"257012":1,"257013":1,"257014":1,"257015":1,"257016":1,"257017":1}}', true);
+            $ret = $class->CountPosition($fish, 2);
+            var_dump($ret);
+            var_dump($ret);
+        }, false, []);*/
+        //Algorithm::GetRandCircle([500, 300]);
+    }
+
+    /**
+     * 中心服务器消息UserHead
+     * @param mixed $connection 连接对象
+     * @param mixed $message 具体消息
+     */
+    public static function onCentralMessage($connection, $message)
+    {
+        $msg = json_decode($message, true);
+        if (!isset($msg['event'])) {
+            MyTools::msg('RecvFromCentral : UnKnown');
+            return;
+        } else {
+            $uid = -11111;
+            if (isset($msg['uid'])) {
+                $uid = $msg['uid'];
+            }
+            MyTools::msg('uid : ' . $uid . '        RecvFromCentral  : ' . $msg['event'], $msg['event']);
+        }
+
+        $callback = $msg['event'];
+        if (isset(MyGlobal::$LogicCenterCallBackList[$callback])) {
+            $callback = MyGlobal::$LogicCenterCallBackList[$callback];
+        }
+
+        if (is_callable(array('Common', $callback))) {
+            call_user_func_array(array('Common', $callback), array($msg));
+        } elseif (is_callable(array('Logic', $callback))) {
+            call_user_func_array(array('Logic', $callback), array($msg));
+        } else {
+            MyTools::msg('onCentralMessage Unknown message : ' . $message);
+        }
+    }
+
+    /**
+     * 当客户端发来消息时触发
+     * @param int $client_id 连接id
+     * @param mixed $message 具体消息
+     */
+    public static function onMessage($client_id, $message)
+    {
+        if (!isset($_SESSION['router']) || empty($_SESSION['router'])) {
+            $_SESSION['router'] = MyTools::$businessWorkerID;
+        }
+
+        $msg = json_decode(base64_decode($message), true);
+        if (!isset($msg['event'])) {
+            MyTools::msg('RecvFromClient : UnKnown');
+            return;
+        } else {
+            $uid = -11111;
+            if (isset($msg['uid']) && $msg['uid'] != -1) {
+                $uid = $msg['uid'];
+            }
+            MyTools::msg('uid : ' . $uid . '        RecvFromClient  : ' . $msg['event'], $msg['event']);
+        }
+
+        $callback = $msg['event'];
+
+        if (is_callable(array('Common', $callback))) {
+            call_user_func_array(array('Common', $callback), array($client_id, $msg));
+        } elseif (is_callable(array('Logic', $callback))) {
+            call_user_func_array(array('Logic', $callback), array($client_id, $msg));
+        } else {
+            if (!isset(Logic::$UidRoom[$msg['uid']])) {
+                MyTools::msg('UnknownUID : ' . $msg['uid']);
+                Logic::SendError($msg['uid'], $msg['event'], '房间不存在');
+                return;
+            }
+            $rid = Logic::$UidRoom[$msg['uid']];
+            if (isset(Logic::$RoomList[$rid]) && is_callable(array(Logic::$RoomList[$rid]['room'], 'All_RECV'))) {
+                call_user_func_array(array(Logic::$RoomList[$rid]['room'], 'All_RECV'), array($msg));
+            } else {
+                MyTools::msg('Logic onClientMessage Unknown message : ' . json_encode($msg));
+            }
+        }
+    }
+
+    /**
+     * 当客户端连接时触发
+     * 如果业务不需此回调可以删除onConnect
+     *
+     * @param int $client_id 连接id
+     */
+    public static function onConnect($client_id)
+    {
+        MyTools::msg("New Connect: $client_id");
+    }
+
+    /**
+     * 当用户断开连接时触发
+     * @param int $client_id 连接id
+     */
+    public static function onClose($client_id)
+    {
+        MyTools::msg("Close Connect: $client_id");
+        Logic::UserClose($client_id);
+    }
+
+    /**
+     * 当businessWorker进程退出时触发
+     * 如果业务不需此回调可以删除onWorkerStop
+     *
+     * @param Worker $businessWorker 当前进程
+     */
+    public static function onWorkerStop($businessWorker)
+    {
+        MyTools::msg('WorkerStop');
+    }
+
+
+    public static function GetPath()
+    {
+        $filename = __DIR__ . "/fish_path.txt";
+        $handle = fopen($filename, "r");//读取二进制文件时，需要将第二个参数设置成'rb'
+        //通过filesize获得文件大小，将整个文件一下子读到一个字符串中
+        $contents = fread($handle, filesize($filename));
+        $len = strlen($contents);
+        $num = '';
+        $arr = [];
+        $lines = [];
+
+        for ($i = 0; $i < $len; $i++) {
+            if ($contents[$i] == "\n" && !empty($arr)) {
+                $arr[] = $num;
+                $num = '';
+                $lines[] = $arr;
+                $arr = [];
+            } elseif ($contents[$i] == ",") {
+                $arr[] = $num;
+                $num = '';
+            } elseif (is_numeric($contents[$i]) || $contents[$i] === '-') {
+                $num .= $contents[$i];
+                /*if ($num < 0) {
+                    $num = 0;
+                }*/
+            } elseif ($contents[$i] == "+" && !empty($lines)) {
+                $point = [667, 375];
+                $news = [$lines];
+                foreach ($lines as $key => $value) {
+                    $news[1][] = [2 * $point[0] - $value[0], $value[1]];
+                    $news[2][] = [$value[0], 2 * $point[1] - $value[1]];
+                    $news[3][] = [2 * $point[0] - $value[0], 2 * $point[1] - $value[1]];
+                }
+                foreach ($news as $key => $value) {
+                    $ret = Algorithm::BezierCalculate($value, 800);
+                    DBInstance::AddFinshWays($ret, 800);
+                }
+                $lines = [];
+            }
+            //var_dump($contents[$i]);
+        }
+    }
+}

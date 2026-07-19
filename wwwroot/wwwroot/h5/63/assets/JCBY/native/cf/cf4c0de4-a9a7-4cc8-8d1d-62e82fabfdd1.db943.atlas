@@ -1,0 +1,208 @@
+
+wudifenghuolun_buyu.png
+size: 1022,996
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wudifenghuolun_10001
+  rotate: true
+  xy: 2, 850
+  size: 144, 168
+  orig: 144, 168
+  offset: 0, 0
+  index: -1
+wudifenghuolun_10002
+  rotate: true
+  xy: 172, 850
+  size: 144, 168
+  orig: 144, 168
+  offset: 0, 0
+  index: -1
+wudifenghuolun_10003
+  rotate: true
+  xy: 342, 850
+  size: 144, 168
+  orig: 144, 168
+  offset: 0, 0
+  index: -1
+wudifenghuolun_10004
+  rotate: true
+  xy: 512, 850
+  size: 144, 168
+  orig: 144, 168
+  offset: 0, 0
+  index: -1
+wudifenghuolun_10005
+  rotate: true
+  xy: 682, 850
+  size: 144, 168
+  orig: 144, 168
+  offset: 0, 0
+  index: -1
+wudifenghuolun_10006
+  rotate: true
+  xy: 852, 850
+  size: 144, 168
+  orig: 144, 168
+  offset: 0, 0
+  index: -1
+wudifenghuolun_10007
+  rotate: true
+  xy: 2, 704
+  size: 144, 168
+  orig: 144, 168
+  offset: 0, 0
+  index: -1
+wudifenghuolun_10008
+  rotate: true
+  xy: 172, 704
+  size: 144, 168
+  orig: 144, 168
+  offset: 0, 0
+  index: -1
+wudifenghuolun_10009
+  rotate: true
+  xy: 342, 704
+  size: 144, 168
+  orig: 144, 168
+  offset: 0, 0
+  index: -1
+wudifenghuolun_20001
+  rotate: false
+  xy: 512, 616
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+wudifenghuolun_20002
+  rotate: false
+  xy: 746, 616
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+wudifenghuolun_20003
+  rotate: false
+  xy: 2, 470
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+wudifenghuolun_20004
+  rotate: false
+  xy: 236, 470
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+wudifenghuolun_20005
+  rotate: false
+  xy: 470, 382
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+wudifenghuolun_20006
+  rotate: false
+  xy: 704, 382
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+wudifenghuolun_20007
+  rotate: false
+  xy: 2, 236
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+wudifenghuolun_20008
+  rotate: false
+  xy: 236, 236
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+wudifenghuolun_20009
+  rotate: false
+  xy: 470, 148
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+wudifenghuolun_20010
+  rotate: false
+  xy: 704, 148
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+wudifenghuolun_20011
+  rotate: false
+  xy: 2, 2
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+wudifenghuolun_20012
+  rotate: false
+  xy: 236, 2
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+
+wudifenghuolun_buyu2.png
+size: 938,470
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wudifenghuolun_20013
+  rotate: false
+  xy: 2, 236
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+wudifenghuolun_20014
+  rotate: false
+  xy: 2, 2
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+wudifenghuolun_20015
+  rotate: false
+  xy: 236, 236
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+wudifenghuolun_20016
+  rotate: false
+  xy: 236, 2
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+wudifenghuolun_20017
+  rotate: false
+  xy: 470, 236
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+wudifenghuolun_20018
+  rotate: false
+  xy: 470, 2
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+wudifenghuolun_20019
+  rotate: false
+  xy: 704, 236
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1

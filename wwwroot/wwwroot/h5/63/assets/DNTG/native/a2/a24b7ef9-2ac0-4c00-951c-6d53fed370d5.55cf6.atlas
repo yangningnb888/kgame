@@ -1,0 +1,34 @@
+
+325adnt_xuanchang_beijing.png
+size: 410,267
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hall_xuanchang_shandian01
+  rotate: false
+  xy: 2, 77
+  size: 406, 188
+  orig: 406, 188
+  offset: 0, 0
+  index: -1
+hall_xuanchang_yun00
+  rotate: false
+  xy: 214, 2
+  size: 98, 33
+  orig: 98, 33
+  offset: 0, 0
+  index: -1
+hall_xuanchang_yun01
+  rotate: false
+  xy: 2, 17
+  size: 210, 58
+  orig: 210, 58
+  offset: 0, 0
+  index: -1
+hall_xuanchang_yun02
+  rotate: false
+  xy: 214, 37
+  size: 134, 38
+  orig: 134, 38
+  offset: 0, 0
+  index: -1

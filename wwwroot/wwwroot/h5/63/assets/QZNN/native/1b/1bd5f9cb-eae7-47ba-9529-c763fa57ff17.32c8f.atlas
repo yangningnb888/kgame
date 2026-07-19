@@ -1,0 +1,76 @@
+
+qiangzhuangpinshi_jiesuan.png
+size: 840,425
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+qiangzhuangpinshi_bai
+  rotate: false
+  xy: 2, 2
+  size: 141, 139
+  orig: 141, 139
+  offset: 0, 0
+  index: -1
+qiangzhuangpinshi_glow
+  rotate: false
+  xy: 2, 143
+  size: 271, 280
+  orig: 271, 280
+  offset: 0, 0
+  index: -1
+qiangzhuangpinshi_niujiao
+  rotate: false
+  xy: 214, 25
+  size: 250, 116
+  orig: 250, 116
+  offset: 0, 0
+  index: -1
+qiangzhuangpinshi_niujiao2
+  rotate: true
+  xy: 275, 173
+  size: 250, 116
+  orig: 250, 116
+  offset: 0, 0
+  index: -1
+qiangzhuangpinshi_piaodai1
+  rotate: false
+  xy: 393, 204
+  size: 147, 219
+  orig: 147, 219
+  offset: 0, 0
+  index: -1
+qiangzhuangpinshi_piaodai2
+  rotate: false
+  xy: 542, 204
+  size: 147, 219
+  orig: 147, 219
+  offset: 0, 0
+  index: -1
+qiangzhuangpinshi_piaodai3
+  rotate: false
+  xy: 691, 204
+  size: 147, 219
+  orig: 147, 219
+  offset: 0, 0
+  index: -1
+qiangzhuangpinshi_piaodai4
+  rotate: true
+  xy: 617, 55
+  size: 147, 219
+  orig: 147, 219
+  offset: 0, 0
+  index: -1
+qiangzhuangpinshi_shengli
+  rotate: true
+  xy: 145, 13
+  size: 128, 67
+  orig: 128, 67
+  offset: 0, 0
+  index: -1
+qiangzhuangpinshi_shi
+  rotate: false
+  xy: 466, 51
+  size: 149, 151
+  orig: 149, 151
+  offset: 0, 0
+  index: -1

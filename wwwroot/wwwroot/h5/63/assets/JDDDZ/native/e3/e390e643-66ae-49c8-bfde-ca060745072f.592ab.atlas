@@ -1,0 +1,69 @@
+
+325ddz_weikaifang02_donghua.png
+size: 538,203
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+325ddz_weikaifang02_body
+  rotate: true
+  xy: 162, 42
+  size: 159, 158
+  orig: 159, 158
+  offset: 0, 0
+  index: -1
+325ddz_weikaifang02_erhuan
+  rotate: false
+  xy: 2, 13
+  size: 11, 15
+  orig: 11, 15
+  offset: 0, 0
+  index: -1
+325ddz_weikaifang02_tou
+  rotate: false
+  xy: 2, 30
+  size: 158, 171
+  orig: 158, 171
+  offset: 0, 0
+  index: -1
+325ddz_weikaifang02_toufa00
+  rotate: true
+  xy: 250, 2
+  size: 38, 61
+  orig: 38, 61
+  offset: 0, 0
+  index: -1
+325ddz_weikaifang02_toufa01
+  rotate: true
+  xy: 322, 78
+  size: 123, 119
+  orig: 123, 119
+  offset: 0, 0
+  index: -1
+325ddz_weikaifang02_yanjing
+  rotate: false
+  xy: 162, 9
+  size: 86, 31
+  orig: 86, 31
+  offset: 0, 0
+  index: -1
+325ddz_weikaifang02_yingzi
+  rotate: false
+  xy: 322, 14
+  size: 204, 62
+  orig: 204, 62
+  offset: 0, 0
+  index: -1
+325ddz_weikaifang02_youshou
+  rotate: false
+  xy: 443, 86
+  size: 47, 59
+  orig: 47, 59
+  offset: 0, 0
+  index: -1
+325ddz_weikaifang02_zuoshou
+  rotate: true
+  xy: 443, 147
+  size: 54, 93
+  orig: 54, 93
+  offset: 0, 0
+  index: -1

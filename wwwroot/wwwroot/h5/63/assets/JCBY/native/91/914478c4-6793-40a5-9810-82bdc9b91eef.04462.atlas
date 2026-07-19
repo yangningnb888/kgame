@@ -1,0 +1,69 @@
+
+frog.png
+size: 855,303
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frog-bread
+  rotate: false
+  xy: 641, 144
+  size: 156, 157
+  orig: 156, 157
+  offset: 0, 0
+  index: -1
+frog-burner
+  rotate: true
+  xy: 291, 37
+  size: 264, 162
+  orig: 264, 162
+  offset: 0, 0
+  index: -1
+frog-eye
+  rotate: false
+  xy: 291, 2
+  size: 119, 33
+  orig: 119, 33
+  offset: 0, 0
+  index: -1
+frog-head
+  rotate: false
+  xy: 650, 28
+  size: 192, 114
+  orig: 192, 114
+  offset: 0, 0
+  index: -1
+frog-lefthand
+  rotate: false
+  xy: 799, 217
+  size: 54, 84
+  orig: 54, 84
+  offset: 0, 0
+  index: -1
+frog-pan
+  rotate: false
+  xy: 2, 13
+  size: 287, 288
+  orig: 287, 288
+  offset: 0, 0
+  index: -1
+frog-righthand
+  rotate: false
+  xy: 455, 2
+  size: 81, 95
+  orig: 81, 95
+  offset: 0, 0
+  index: -1
+frog-tripe
+  rotate: false
+  xy: 538, 34
+  size: 110, 63
+  orig: 110, 63
+  offset: 0, 0
+  index: -1
+shanxingxing111
+  rotate: true
+  xy: 455, 99
+  size: 202, 184
+  orig: 202, 184
+  offset: 0, 0
+  index: -1

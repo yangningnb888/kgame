@@ -1,0 +1,55 @@
+
+heguan_1.png
+size: 646,179
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+heguan_left_shoubi
+  rotate: false
+  xy: 467, 50
+  size: 74, 127
+  orig: 74, 127
+  offset: 0, 0
+  index: -1
+heguan_lift_qian shoubi
+  rotate: true
+  xy: 597, 41
+  size: 136, 47
+  orig: 136, 47
+  offset: 0, 0
+  index: -1
+heguan_right_qian shoubi
+  rotate: true
+  xy: 543, 42
+  size: 135, 52
+  orig: 135, 52
+  offset: 0, 0
+  index: -1
+heguan_right_shoubi
+  rotate: false
+  xy: 389, 47
+  size: 76, 130
+  orig: 76, 130
+  offset: 0, 0
+  index: -1
+heguan_shenti
+  rotate: true
+  xy: 248, 23
+  size: 154, 139
+  orig: 154, 139
+  offset: 0, 0
+  index: -1
+heguan_yanjing
+  rotate: false
+  xy: 389, 2
+  size: 62, 43
+  orig: 62, 43
+  offset: 0, 0
+  index: -1
+heguantou
+  rotate: true
+  xy: 2, 3
+  size: 174, 244
+  orig: 174, 244
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,104 @@
+
+shz_xuanchang_dashichang.png
+size: 1009,613
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shz_laobanchang_body
+  rotate: true
+  xy: 2, 163
+  size: 136, 213
+  orig: 136, 213
+  offset: 0, 0
+  index: -1
+shz_laobanchang_qizi00
+  rotate: true
+  xy: 2, 301
+  size: 310, 343
+  orig: 310, 343
+  offset: 0, 0
+  index: -1
+shz_laobanchang_qizi01
+  rotate: false
+  xy: 347, 56
+  size: 317, 295
+  orig: 317, 295
+  offset: 0, 0
+  index: -1
+shz_laobanchang_suizi
+  rotate: false
+  xy: 217, 164
+  size: 114, 135
+  orig: 114, 135
+  offset: 0, 0
+  index: -1
+shz_laobanchang_tou
+  rotate: false
+  xy: 2, 2
+  size: 177, 159
+  orig: 177, 159
+  offset: 0, 0
+  index: -1
+shz_laobanchang_tui00
+  rotate: true
+  xy: 898, 26
+  size: 54, 90
+  orig: 54, 90
+  offset: 0, 0
+  index: -1
+shz_laobanchang_tui01
+  rotate: true
+  xy: 347, 353
+  size: 258, 475
+  orig: 258, 475
+  offset: 0, 0
+  index: -1
+shz_laobanchang_weijing
+  rotate: false
+  xy: 801, 9
+  size: 95, 71
+  orig: 95, 71
+  offset: 0, 0
+  index: -1
+shz_laobanchang_wuqi
+  rotate: false
+  xy: 824, 318
+  size: 182, 293
+  orig: 182, 293
+  offset: 0, 0
+  index: -1
+shz_laobanchang_yanjing
+  rotate: true
+  xy: 990, 36
+  size: 44, 17
+  orig: 44, 17
+  offset: 0, 0
+  index: -1
+shz_laobanchang_youjian
+  rotate: false
+  xy: 666, 153
+  size: 139, 198
+  orig: 139, 198
+  offset: 0, 0
+  index: -1
+shz_laobanchang_youshou
+  rotate: false
+  xy: 181, 45
+  size: 137, 116
+  orig: 137, 116
+  offset: 0, 0
+  index: -1
+shz_laobanchang_zuojian
+  rotate: true
+  xy: 666, 3
+  size: 148, 133
+  orig: 148, 133
+  offset: 0, 0
+  index: -1
+shz_laobanchang_zuoshou
+  rotate: false
+  xy: 807, 82
+  size: 200, 234
+  orig: 200, 234
+  offset: 0, 0
+  index: -1

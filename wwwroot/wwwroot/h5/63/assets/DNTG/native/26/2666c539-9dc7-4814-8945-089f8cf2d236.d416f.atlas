@@ -1,0 +1,34 @@
+
+wanfochaozhongwenzidonghua_buyu.png
+size: 356,97
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chaozi
+  rotate: false
+  xy: 92, 5
+  size: 86, 90
+  orig: 86, 90
+  offset: 0, 0
+  index: -1
+fozi
+  rotate: false
+  xy: 180, 6
+  size: 86, 89
+  orig: 86, 89
+  offset: 0, 0
+  index: -1
+wanzi
+  rotate: false
+  xy: 268, 6
+  size: 86, 89
+  orig: 86, 89
+  offset: 0, 0
+  index: -1
+zongzi
+  rotate: false
+  xy: 2, 2
+  size: 88, 93
+  orig: 88, 93
+  offset: 0, 0
+  index: -1

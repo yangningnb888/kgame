@@ -1,0 +1,146 @@
+
+lingdangyouxi4_shuiguoanniu.png
+size: 721,155
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bar
+  rotate: true
+  xy: 2, 2
+  size: 53, 72
+  orig: 53, 72
+  offset: 0, 0
+  index: -1
+Bar_1
+  rotate: false
+  xy: 434, 81
+  size: 53, 72
+  orig: 53, 72
+  offset: 0, 0
+  index: -1
+juzi
+  rotate: true
+  xy: 76, 2
+  size: 53, 72
+  orig: 53, 72
+  offset: 0, 0
+  index: -1
+juzi_1
+  rotate: false
+  xy: 489, 81
+  size: 53, 72
+  orig: 53, 72
+  offset: 0, 0
+  index: -1
+lingdang
+  rotate: true
+  xy: 150, 2
+  size: 53, 72
+  orig: 53, 72
+  offset: 0, 0
+  index: -1
+lingdang_1
+  rotate: false
+  xy: 544, 81
+  size: 53, 72
+  orig: 53, 72
+  offset: 0, 0
+  index: -1
+ningmeng
+  rotate: true
+  xy: 224, 2
+  size: 53, 72
+  orig: 53, 72
+  offset: 0, 0
+  index: -1
+ningmeng_1
+  rotate: false
+  xy: 599, 81
+  size: 53, 72
+  orig: 53, 72
+  offset: 0, 0
+  index: -1
+pingguo
+  rotate: true
+  xy: 298, 2
+  size: 53, 72
+  orig: 53, 72
+  offset: 0, 0
+  index: -1
+pingguo_1
+  rotate: false
+  xy: 654, 81
+  size: 53, 72
+  orig: 53, 72
+  offset: 0, 0
+  index: -1
+seventyseven
+  rotate: true
+  xy: 372, 2
+  size: 53, 72
+  orig: 53, 72
+  offset: 0, 0
+  index: -1
+seventyseven_1
+  rotate: false
+  xy: 446, 7
+  size: 53, 72
+  orig: 53, 72
+  offset: 0, 0
+  index: -1
+shuiguoanniu_lvguang
+  rotate: false
+  xy: 2, 57
+  size: 106, 96
+  orig: 106, 96
+  offset: 0, 0
+  index: -1
+shuiguoanniu_lvzhengchang
+  rotate: false
+  xy: 110, 57
+  size: 106, 96
+  orig: 106, 96
+  offset: 0, 0
+  index: -1
+shuiguoanniu_lvzhengchangwu
+  rotate: false
+  xy: 218, 57
+  size: 106, 96
+  orig: 106, 96
+  offset: 0, 0
+  index: -1
+shuiguoanniu_lvzhengchangwu_1
+  rotate: false
+  xy: 326, 57
+  size: 106, 96
+  orig: 106, 96
+  offset: 0, 0
+  index: -1
+xigua
+  rotate: false
+  xy: 501, 7
+  size: 53, 72
+  orig: 53, 72
+  offset: 0, 0
+  index: -1
+xigua_1
+  rotate: false
+  xy: 556, 7
+  size: 53, 72
+  orig: 53, 72
+  offset: 0, 0
+  index: -1
+xingxing
+  rotate: false
+  xy: 611, 7
+  size: 53, 72
+  orig: 53, 72
+  offset: 0, 0
+  index: -1
+xingxing_1
+  rotate: false
+  xy: 666, 7
+  size: 53, 72
+  orig: 53, 72
+  offset: 0, 0
+  index: -1

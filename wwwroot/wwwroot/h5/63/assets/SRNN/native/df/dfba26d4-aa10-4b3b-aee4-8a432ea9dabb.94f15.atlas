@@ -1,0 +1,263 @@
+
+sirenniuniu_xuanchangkapai.png
+size: 1015,993
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/beijingguang/00000
+  rotate: false
+  xy: 2, 2
+  size: 98, 237
+  orig: 98, 237
+  offset: 0, 0
+  index: -1
+images/beijingguang/00002
+  rotate: false
+  xy: 102, 2
+  size: 98, 237
+  orig: 98, 237
+  offset: 0, 0
+  index: -1
+images/beijingguang/00004
+  rotate: false
+  xy: 202, 2
+  size: 98, 237
+  orig: 98, 237
+  offset: 0, 0
+  index: -1
+images/beijingguang/00006
+  rotate: false
+  xy: 302, 10
+  size: 98, 237
+  orig: 98, 237
+  offset: 0, 0
+  index: -1
+images/beijingguang/00008
+  rotate: false
+  xy: 402, 10
+  size: 98, 237
+  orig: 98, 237
+  offset: 0, 0
+  index: -1
+images/beijingguang/00010
+  rotate: true
+  xy: 752, 555
+  size: 98, 237
+  orig: 98, 237
+  offset: 0, 0
+  index: -1
+images/beijingguang/00012
+  rotate: true
+  xy: 752, 455
+  size: 98, 237
+  orig: 98, 237
+  offset: 0, 0
+  index: -1
+images/beijingguang/00014
+  rotate: true
+  xy: 752, 355
+  size: 98, 237
+  orig: 98, 237
+  offset: 0, 0
+  index: -1
+images/beijingguang/00016
+  rotate: true
+  xy: 752, 255
+  size: 98, 237
+  orig: 98, 237
+  offset: 0, 0
+  index: -1
+images/chujichang/banzi
+  rotate: true
+  xy: 502, 18
+  size: 229, 511
+  orig: 229, 511
+  offset: 0, 0
+  index: -1
+images/dashichang/di
+  rotate: false
+  xy: 521, 249
+  size: 229, 511
+  orig: 229, 511
+  offset: 0, 0
+  index: -1
+images/gaojichang/di
+  rotate: false
+  xy: 289, 249
+  size: 230, 511
+  orig: 230, 511
+  offset: 0, 0
+  index: -1
+images/tiyanchang/ren_00022
+  rotate: false
+  xy: 816, 655
+  size: 193, 336
+  orig: 193, 336
+  offset: 0, 0
+  index: -1
+images/tiyanchang/tiyanchangpai
+  rotate: true
+  xy: 302, 762
+  size: 229, 512
+  orig: 229, 512
+  offset: 0, 0
+  index: -1
+images/zhezao
+  rotate: false
+  xy: 2, 241
+  size: 285, 750
+  orig: 285, 750
+  offset: 0, 0
+  index: -1
+
+sirenniuniu_xuanchangkapai2.png
+size: 983,1011
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/beijingguang/00018
+  rotate: false
+  xy: 310, 14
+  size: 98, 237
+  orig: 98, 237
+  offset: 0, 0
+  index: -1
+images/beijingguang/00020
+  rotate: false
+  xy: 410, 14
+  size: 98, 237
+  orig: 98, 237
+  offset: 0, 0
+  index: -1
+images/beijingguang/00022
+  rotate: true
+  xy: 504, 295
+  size: 98, 237
+  orig: 98, 237
+  offset: 0, 0
+  index: -1
+images/beijingguang/00024
+  rotate: true
+  xy: 743, 295
+  size: 98, 237
+  orig: 98, 237
+  offset: 0, 0
+  index: -1
+images/beijingguang/00026
+  rotate: false
+  xy: 510, 56
+  size: 98, 237
+  orig: 98, 237
+  offset: 0, 0
+  index: -1
+images/beijingguang/00028
+  rotate: true
+  xy: 610, 2
+  size: 98, 237
+  orig: 98, 237
+  offset: 0, 0
+  index: -1
+images/chujichang/ren
+  rotate: false
+  xy: 310, 253
+  size: 192, 313
+  orig: 192, 313
+  offset: 0, 0
+  index: -1
+images/chujichang/zi
+  rotate: true
+  xy: 541, 395
+  size: 306, 438
+  orig: 306, 438
+  offset: 0, 0
+  index: -1
+images/dashichang/ren
+  rotate: true
+  xy: 610, 102
+  size: 191, 356
+  orig: 191, 356
+  offset: 0, 0
+  index: -1
+images/dashichang/zi
+  rotate: false
+  xy: 233, 568
+  size: 306, 441
+  orig: 306, 441
+  offset: 0, 0
+  index: -1
+images/gaojichang/zi
+  rotate: false
+  xy: 2, 54
+  size: 306, 442
+  orig: 306, 442
+  offset: 0, 0
+  index: -1
+images/zhongjichang/di
+  rotate: false
+  xy: 2, 498
+  size: 229, 511
+  orig: 229, 511
+  offset: 0, 0
+  index: -1
+images/zhongjichang/zi
+  rotate: true
+  xy: 541, 703
+  size: 306, 440
+  orig: 306, 440
+  offset: 0, 0
+  index: -1
+
+sirenniuniu_xuanchangkapai3.png
+size: 631,602
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/beijingguang/00030
+  rotate: false
+  xy: 329, 55
+  size: 98, 237
+  orig: 98, 237
+  offset: 0, 0
+  index: -1
+images/beijingguang/00032
+  rotate: true
+  xy: 2, 2
+  size: 98, 237
+  orig: 98, 237
+  offset: 0, 0
+  index: -1
+images/beijingguang/00034
+  rotate: false
+  xy: 429, 32
+  size: 98, 237
+  orig: 98, 237
+  offset: 0, 0
+  index: -1
+images/beijingguang/00036
+  rotate: false
+  xy: 529, 32
+  size: 98, 237
+  orig: 98, 237
+  offset: 0, 0
+  index: -1
+images/gaojichang/ren
+  rotate: false
+  xy: 438, 271
+  size: 191, 329
+  orig: 191, 329
+  offset: 0, 0
+  index: -1
+images/tiyanchang/zi_00022
+  rotate: true
+  xy: 2, 294
+  size: 306, 434
+  orig: 306, 434
+  offset: 0, 0
+  index: -1
+images/zhongjichang/ren
+  rotate: true
+  xy: 2, 102
+  size: 190, 325
+  orig: 190, 325
+  offset: 0, 0
+  index: -1

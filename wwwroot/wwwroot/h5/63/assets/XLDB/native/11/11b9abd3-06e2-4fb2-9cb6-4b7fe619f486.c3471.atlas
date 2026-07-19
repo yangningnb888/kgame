@@ -1,0 +1,13 @@
+
+skill_guangxian_01.png
+size: 384,384
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skill_guangxian_01
+  rotate: false
+  xy: 2, 2
+  size: 380, 380
+  orig: 380, 380
+  offset: 0, 0
+  index: -1

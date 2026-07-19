@@ -1,0 +1,132 @@
+
+325_hbsl_hongbao.png
+size: 735,518
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+325_hbsl_hongbao01
+  rotate: false
+  xy: 575, 336
+  size: 149, 180
+  orig: 149, 180
+  offset: 0, 0
+  index: -1
+325_hbsl_hongbao02
+  rotate: true
+  xy: 415, 2
+  size: 92, 119
+  orig: 92, 119
+  offset: 0, 0
+  index: -1
+325_hbsl_hongbao03
+  rotate: true
+  xy: 536, 3
+  size: 26, 31
+  orig: 26, 31
+  offset: 0, 0
+  index: -1
+325_hbsl_hongbao04
+  rotate: false
+  xy: 364, 7
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+325_hbsl_hongbao05
+  rotate: false
+  xy: 536, 31
+  size: 73, 63
+  orig: 73, 63
+  offset: 0, 0
+  index: -1
+325_hbsl_hongbao06
+  rotate: false
+  xy: 210, 16
+  size: 152, 109
+  orig: 152, 109
+  offset: 0, 0
+  index: -1
+325_hbsl_hongbao07
+  rotate: true
+  xy: 575, 104
+  size: 230, 104
+  orig: 230, 104
+  offset: 0, 0
+  index: -1
+325_hbsl_hongbao08
+  rotate: true
+  xy: 2, 19
+  size: 268, 206
+  orig: 268, 206
+  offset: 0, 0
+  index: -1
+325_hbsl_hongbao09
+  rotate: true
+  xy: 364, 38
+  size: 87, 49
+  orig: 87, 49
+  offset: 0, 0
+  index: -1
+325_hbsl_hongbao10
+  rotate: true
+  xy: 681, 296
+  size: 38, 21
+  orig: 38, 21
+  offset: 0, 0
+  index: -1
+325_hbsl_hongbao11
+  rotate: true
+  xy: 210, 248
+  size: 39, 18
+  orig: 39, 18
+  offset: 0, 0
+  index: -1
+325_hbsl_hongbao12
+  rotate: true
+  xy: 210, 215
+  size: 31, 18
+  orig: 31, 18
+  offset: 0, 0
+  index: -1
+325_hbsl_hongbao13
+  rotate: true
+  xy: 210, 180
+  size: 33, 8
+  orig: 33, 8
+  offset: 0, 0
+  index: -1
+325_hbsl_hongbao14
+  rotate: true
+  xy: 231, 127
+  size: 389, 183
+  orig: 389, 183
+  offset: 0, 0
+  index: -1
+325_hbsl_hongbao15
+  rotate: false
+  xy: 569, 4
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: -1
+325_hbsl_hongbao16
+  rotate: true
+  xy: 611, 4
+  size: 98, 122
+  orig: 98, 122
+  offset: 0, 0
+  index: -1
+325_hbsl_hongbao17
+  rotate: false
+  xy: 2, 289
+  size: 227, 227
+  orig: 227, 227
+  offset: 0, 0
+  index: -1
+dizuo
+  rotate: true
+  xy: 416, 96
+  size: 420, 157
+  orig: 420, 157
+  offset: 0, 0
+  index: -1

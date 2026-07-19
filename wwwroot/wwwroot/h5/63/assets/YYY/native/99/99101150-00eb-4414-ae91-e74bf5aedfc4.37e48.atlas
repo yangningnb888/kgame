@@ -1,0 +1,27 @@
+
+kaishixiazhu_kaijiang.png
+size: 512,321
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kaishi_di
+  rotate: false
+  xy: 1, 1
+  size: 509, 123
+  orig: 509, 123
+  offset: 0, 0
+  index: -1
+tingzhixiazhu
+  rotate: false
+  xy: 1, 126
+  size: 346, 96
+  orig: 346, 96
+  offset: 0, 0
+  index: -1
+kaishixiazhu
+  rotate: false
+  xy: 1, 224
+  size: 345, 95
+  orig: 345, 95
+  offset: 0, 0
+  index: -1

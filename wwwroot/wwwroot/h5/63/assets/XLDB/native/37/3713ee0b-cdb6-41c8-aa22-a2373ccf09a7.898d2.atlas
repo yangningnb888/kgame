@@ -1,0 +1,55 @@
+
+xldb_xuanchang_qianpaofang.png
+size: 715,277
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+325_jcby_body_a
+  rotate: false
+  xy: 334, 42
+  size: 184, 233
+  orig: 184, 233
+  offset: 0, 0
+  index: -1
+325_jcby_eye_a
+  rotate: false
+  xy: 334, 3
+  size: 98, 37
+  orig: 98, 37
+  offset: 0, 0
+  index: -1
+325_jcby_hudiejie
+  rotate: false
+  xy: 653, 35
+  size: 34, 39
+  orig: 34, 39
+  offset: 0, 0
+  index: -1
+325_jcby_maozidi
+  rotate: false
+  xy: 520, 76
+  size: 173, 90
+  orig: 173, 90
+  offset: 0, 0
+  index: -1
+325_jcby_maozishang
+  rotate: false
+  xy: 520, 168
+  size: 193, 107
+  orig: 193, 107
+  offset: 0, 0
+  index: -1
+325_jcby_xianglian
+  rotate: false
+  xy: 520, 14
+  size: 131, 60
+  orig: 131, 60
+  offset: 0, 0
+  index: -1
+xldb_zhongjichang_dizuo
+  rotate: true
+  xy: 2, 2
+  size: 273, 330
+  orig: 273, 330
+  offset: 0, 0
+  index: -1

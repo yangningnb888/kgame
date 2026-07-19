@@ -1,0 +1,83 @@
+
+duofuduocai_caishen.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cs_gh2
+  rotate: false
+  xy: 2, 248
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+cs_guanghuan
+  rotate: false
+  xy: 260, 248
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+d494b7a2
+  rotate: false
+  xy: 518, 248
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+dfdc_caishen_glow
+  rotate: true
+  xy: 776, 256
+  size: 248, 225
+  orig: 248, 225
+  offset: 0, 0
+  index: -1
+dfdc_caishen_maozi
+  rotate: false
+  xy: 785, 112
+  size: 146, 68
+  orig: 146, 68
+  offset: 0, 0
+  index: -1
+dfdc_caishen_st
+  rotate: false
+  xy: 306, 20
+  size: 227, 226
+  orig: 227, 226
+  offset: 0, 0
+  index: -1
+dfdc_caishen_tou
+  rotate: false
+  xy: 686, 2
+  size: 80, 115
+  orig: 80, 115
+  offset: 0, 0
+  index: -1
+dfdc_caishen_xy
+  rotate: true
+  xy: 2, 60
+  size: 186, 302
+  orig: 186, 302
+  offset: 0, 0
+  index: -1
+dfdc_caishen_youshou
+  rotate: true
+  xy: 785, 182
+  size: 72, 152
+  orig: 72, 152
+  offset: 0, 0
+  index: -1
+dfdc_caishen_yun
+  rotate: false
+  xy: 535, 119
+  size: 248, 127
+  orig: 248, 127
+  offset: 0, 0
+  index: -1
+dfdc_caishen_zuoshou
+  rotate: true
+  xy: 535, 28
+  size: 89, 149
+  orig: 89, 149
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,132 @@
+
+qiangzhuangpinshi_dengdaikaishi.png
+size: 295,266
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gui_txt_ready
+  rotate: false
+  xy: 2, 214
+  size: 257, 50
+  orig: 257, 50
+  offset: 0, 0
+  index: -1
+gui_txt_ready_point
+  rotate: false
+  xy: 2, 8
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1
+qzps_kaishi_01
+  rotate: false
+  xy: 2, 187
+  size: 129, 25
+  orig: 129, 25
+  offset: 0, 0
+  index: -1
+qzps_kaishi_02
+  rotate: false
+  xy: 2, 160
+  size: 129, 25
+  orig: 129, 25
+  offset: 0, 0
+  index: -1
+qzps_kaishi_03
+  rotate: false
+  xy: 2, 133
+  size: 129, 25
+  orig: 129, 25
+  offset: 0, 0
+  index: -1
+qzps_kaishi_04
+  rotate: false
+  xy: 2, 106
+  size: 129, 25
+  orig: 129, 25
+  offset: 0, 0
+  index: -1
+qzps_kaishi_05
+  rotate: false
+  xy: 2, 79
+  size: 129, 25
+  orig: 129, 25
+  offset: 0, 0
+  index: -1
+qzps_kaishi_06
+  rotate: true
+  xy: 133, 83
+  size: 129, 25
+  orig: 129, 25
+  offset: 0, 0
+  index: -1
+qzps_kaishi_07
+  rotate: false
+  xy: 2, 52
+  size: 129, 25
+  orig: 129, 25
+  offset: 0, 0
+  index: -1
+qzps_kaishi_08
+  rotate: true
+  xy: 160, 83
+  size: 129, 25
+  orig: 129, 25
+  offset: 0, 0
+  index: -1
+qzps_kaishi_09
+  rotate: false
+  xy: 2, 25
+  size: 129, 25
+  orig: 129, 25
+  offset: 0, 0
+  index: -1
+qzps_kaishi_10
+  rotate: true
+  xy: 187, 83
+  size: 129, 25
+  orig: 129, 25
+  offset: 0, 0
+  index: -1
+qzps_kaishi_11
+  rotate: true
+  xy: 214, 83
+  size: 129, 25
+  orig: 129, 25
+  offset: 0, 0
+  index: -1
+qzps_kaishi_12
+  rotate: true
+  xy: 241, 83
+  size: 129, 25
+  orig: 129, 25
+  offset: 0, 0
+  index: -1
+qzps_kaishi_13
+  rotate: false
+  xy: 133, 56
+  size: 129, 25
+  orig: 129, 25
+  offset: 0, 0
+  index: -1
+qzps_kaishi_14
+  rotate: false
+  xy: 133, 29
+  size: 129, 25
+  orig: 129, 25
+  offset: 0, 0
+  index: -1
+qzps_kaishi_15
+  rotate: false
+  xy: 133, 2
+  size: 129, 25
+  orig: 129, 25
+  offset: 0, 0
+  index: -1
+qzps_kaishi_16
+  rotate: true
+  xy: 268, 135
+  size: 129, 25
+  orig: 129, 25
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,83 @@
+
+eagle.png
+size: 488,153
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eagle/L_b
+  rotate: false
+  xy: 178, 2
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+eagle/L_w
+  rotate: false
+  xy: 388, 23
+  size: 46, 47
+  orig: 46, 47
+  offset: 0, 0
+  index: -1
+eagle/R_b
+  rotate: false
+  xy: 210, 2
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+eagle/R_w
+  rotate: true
+  xy: 436, 24
+  size: 46, 47
+  orig: 46, 47
+  offset: 0, 0
+  index: -1
+eagle/eye2
+  rotate: false
+  xy: 265, 2
+  size: 106, 41
+  orig: 106, 41
+  offset: 0, 0
+  index: -1
+eagle/eye3
+  rotate: true
+  xy: 265, 45
+  size: 106, 42
+  orig: 106, 42
+  offset: 0, 0
+  index: -1
+eagle/eye_brow
+  rotate: true
+  xy: 2, 11
+  size: 140, 40
+  orig: 140, 40
+  offset: 0, 0
+  index: -1
+eagle/head_2
+  rotate: false
+  xy: 44, 14
+  size: 132, 137
+  orig: 132, 137
+  offset: 0, 0
+  index: -1
+eagle/mouth1_1
+  rotate: false
+  xy: 388, 72
+  size: 98, 79
+  orig: 98, 79
+  offset: 0, 0
+  index: -1
+eagle/mouth2_1
+  rotate: true
+  xy: 309, 48
+  size: 103, 77
+  orig: 103, 77
+  offset: 0, 0
+  index: -1
+eagle/mouth3_1
+  rotate: true
+  xy: 178, 35
+  size: 116, 85
+  orig: 116, 85
+  offset: 0, 0
+  index: -1

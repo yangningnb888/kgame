@@ -1,0 +1,76 @@
+
+dengwanjia_xuepinniuniu.png
+size: 203,78
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+txt10
+  rotate: true
+  xy: 125, 41
+  size: 35, 39
+  orig: 35, 39
+  offset: 0, 0
+  index: -1
+txt11
+  rotate: false
+  xy: 166, 37
+  size: 35, 39
+  orig: 35, 39
+  offset: 0, 0
+  index: -1
+txt12
+  rotate: true
+  xy: 43, 4
+  size: 35, 39
+  orig: 35, 39
+  offset: 0, 0
+  index: -1
+txt13
+  rotate: true
+  xy: 2, 2
+  size: 35, 39
+  orig: 35, 39
+  offset: 0, 0
+  index: -1
+txt14
+  rotate: true
+  xy: 84, 4
+  size: 35, 39
+  orig: 35, 39
+  offset: 0, 0
+  index: -1
+txt15
+  rotate: true
+  xy: 125, 4
+  size: 35, 39
+  orig: 35, 39
+  offset: 0, 0
+  index: -1
+txt16
+  rotate: true
+  xy: 166, 23
+  size: 12, 14
+  orig: 12, 14
+  offset: 0, 0
+  index: -1
+txt7
+  rotate: true
+  xy: 43, 41
+  size: 35, 39
+  orig: 35, 39
+  offset: 0, 0
+  index: -1
+txt8
+  rotate: true
+  xy: 84, 41
+  size: 35, 39
+  orig: 35, 39
+  offset: 0, 0
+  index: -1
+txt9
+  rotate: true
+  xy: 2, 39
+  size: 37, 39
+  orig: 37, 39
+  offset: 0, 0
+  index: -1

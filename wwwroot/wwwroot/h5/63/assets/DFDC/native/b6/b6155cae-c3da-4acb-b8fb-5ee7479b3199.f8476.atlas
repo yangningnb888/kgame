@@ -1,0 +1,104 @@
+
+zsyy_xuanguan.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shine
+  rotate: false
+  xy: 286, 542
+  size: 21, 73
+  orig: 21, 73
+  offset: 0, 0
+  index: -1
+zuanshiyongheng_1024ways
+  rotate: false
+  xy: 852, 660
+  size: 153, 21
+  orig: 153, 21
+  offset: 0, 0
+  index: -1
+zuanshiyongheng_10ju_zi
+  rotate: false
+  xy: 2, 25
+  size: 166, 92
+  orig: 166, 92
+  offset: 0, 0
+  index: -1
+zuanshiyongheng_15ju_zi
+  rotate: false
+  xy: 852, 683
+  size: 166, 90
+  orig: 166, 90
+  offset: 0, 0
+  index: -1
+zuanshiyongheng_243ways
+  rotate: false
+  xy: 286, 147
+  size: 146, 21
+  orig: 146, 21
+  offset: 0, 0
+  index: -1
+zuanshiyongheng_3125ways
+  rotate: false
+  xy: 2, 2
+  size: 157, 21
+  orig: 157, 21
+  offset: 0, 0
+  index: -1
+zuanshiyongheng_5ju_zi
+  rotate: false
+  xy: 286, 170
+  size: 166, 88
+  orig: 166, 88
+  offset: 0, 0
+  index: -1
+zuanshiyongheng_bj_xiangyun
+  rotate: true
+  xy: 852, 775
+  size: 242, 167
+  orig: 242, 167
+  offset: 0, 0
+  index: -1
+zuanshiyongheng_guangci_1
+  rotate: false
+  xy: 286, 260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+zuanshiyongheng_guangci_2
+  rotate: false
+  xy: 2, 617
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+zuanshiyongheng_rukou1
+  rotate: true
+  xy: 404, 759
+  size: 258, 446
+  orig: 258, 446
+  offset: 0, 0
+  index: -1
+zuanshiyongheng_rukou2
+  rotate: false
+  xy: 2, 119
+  size: 282, 496
+  orig: 282, 496
+  offset: 0, 0
+  index: -1
+zuanshiyongheng_rukou3
+  rotate: true
+  xy: 404, 518
+  size: 239, 446
+  orig: 239, 446
+  offset: 0, 0
+  index: -1
+zuanshiyongheng_zhenzhu
+  rotate: false
+  xy: 544, 416
+  size: 101, 100
+  orig: 101, 100
+  offset: 0, 0
+  index: -1

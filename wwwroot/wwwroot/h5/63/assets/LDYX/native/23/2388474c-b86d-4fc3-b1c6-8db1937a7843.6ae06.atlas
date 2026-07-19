@@ -1,0 +1,41 @@
+
+lingdangyouxi4_kaishianniu.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kaishianniu
+  rotate: false
+  xy: 2, 2
+  size: 120, 110
+  orig: 120, 110
+  offset: 0, 0
+  index: -1
+kaishianniu-xiaan
+  rotate: false
+  xy: 124, 2
+  size: 120, 110
+  orig: 120, 110
+  offset: 0, 0
+  index: -1
+kaishianniu_glow
+  rotate: false
+  xy: 246, 2
+  size: 120, 110
+  orig: 120, 110
+  offset: 0, 0
+  index: -1
+kaishiwenzi
+  rotate: false
+  xy: 368, 13
+  size: 61, 50
+  orig: 61, 50
+  offset: 0, 0
+  index: -1
+zidongzhong
+  rotate: false
+  xy: 368, 65
+  size: 74, 47
+  orig: 74, 47
+  offset: 0, 0
+  index: -1

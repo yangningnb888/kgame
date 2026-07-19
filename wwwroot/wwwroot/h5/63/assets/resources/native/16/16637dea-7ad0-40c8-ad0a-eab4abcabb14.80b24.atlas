@@ -1,0 +1,20 @@
+
+paotai06_baozha.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kulou
+  rotate: false
+  xy: 2, 2
+  size: 21, 32
+  orig: 21, 32
+  offset: 0, 0
+  index: -1
+wangzi
+  rotate: false
+  xy: 2, 36
+  size: 136, 137
+  orig: 136, 137
+  offset: 0, 0
+  index: -1

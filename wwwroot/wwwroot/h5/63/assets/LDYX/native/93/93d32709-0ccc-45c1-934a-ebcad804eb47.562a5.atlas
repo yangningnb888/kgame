@@ -1,0 +1,83 @@
+
+lingdangyouxi4_cemiananniu.png
+size: 908,171
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+canjian-1-luojiao
+  rotate: false
+  xy: 2, 93
+  size: 193, 76
+  orig: 193, 76
+  offset: 0, 0
+  index: -1
+ceanjian1
+  rotate: false
+  xy: 2, 15
+  size: 193, 76
+  orig: 193, 76
+  offset: 0, 0
+  index: -1
+ceanjian1-liang
+  rotate: false
+  xy: 392, 93
+  size: 193, 76
+  orig: 193, 76
+  offset: 0, 0
+  index: -1
+ceanjian2
+  rotate: false
+  xy: 197, 93
+  size: 193, 76
+  orig: 193, 76
+  offset: 0, 0
+  index: -1
+ceanjian2-liang
+  rotate: false
+  xy: 392, 15
+  size: 193, 76
+  orig: 193, 76
+  offset: 0, 0
+  index: -1
+ceanjian2-luojiao
+  rotate: false
+  xy: 587, 93
+  size: 193, 76
+  orig: 193, 76
+  offset: 0, 0
+  index: -1
+ceanjian3
+  rotate: false
+  xy: 197, 15
+  size: 193, 76
+  orig: 193, 76
+  offset: 0, 0
+  index: -1
+ceanjian3-liangguang
+  rotate: false
+  xy: 587, 15
+  size: 193, 76
+  orig: 193, 76
+  offset: 0, 0
+  index: -1
+ceanjian3luojiao
+  rotate: false
+  xy: 782, 93
+  size: 104, 76
+  orig: 104, 76
+  offset: 0, 0
+  index: -1
+ceanjian4luojiao
+  rotate: true
+  xy: 782, 2
+  size: 89, 76
+  orig: 89, 76
+  offset: 0, 0
+  index: -1
+dengpao
+  rotate: false
+  xy: 860, 41
+  size: 46, 50
+  orig: 46, 50
+  offset: 0, 0
+  index: -1

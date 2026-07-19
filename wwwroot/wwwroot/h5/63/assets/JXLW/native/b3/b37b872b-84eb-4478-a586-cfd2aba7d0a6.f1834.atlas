@@ -1,0 +1,272 @@
+
+jxlw_xingyunwanjia_jinbigundong.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anniu
+  rotate: false
+  xy: 64, 95
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+baiguang
+  rotate: false
+  xy: 2, 740
+  size: 150, 206
+  orig: 150, 206
+  offset: 0, 0
+  index: -1
+dating_yanhua_1
+  rotate: false
+  xy: 2, 588
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_10
+  rotate: false
+  xy: 306, 796
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_11
+  rotate: false
+  xy: 306, 644
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_12
+  rotate: false
+  xy: 306, 492
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_13
+  rotate: false
+  xy: 306, 340
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_14
+  rotate: false
+  xy: 306, 188
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_15
+  rotate: false
+  xy: 458, 797
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_16
+  rotate: false
+  xy: 458, 645
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_17
+  rotate: false
+  xy: 458, 493
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_18
+  rotate: false
+  xy: 458, 341
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_19
+  rotate: false
+  xy: 458, 189
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_2
+  rotate: false
+  xy: 154, 796
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_20
+  rotate: false
+  xy: 610, 870
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_21
+  rotate: false
+  xy: 610, 718
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_22
+  rotate: false
+  xy: 762, 870
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_23
+  rotate: false
+  xy: 610, 566
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_24
+  rotate: false
+  xy: 762, 718
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_25
+  rotate: false
+  xy: 610, 414
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_26
+  rotate: false
+  xy: 762, 566
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_3
+  rotate: false
+  xy: 2, 436
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_4
+  rotate: false
+  xy: 154, 644
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_5
+  rotate: false
+  xy: 2, 284
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_6
+  rotate: false
+  xy: 154, 492
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_7
+  rotate: false
+  xy: 2, 132
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_8
+  rotate: false
+  xy: 154, 340
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dating_yanhua_9
+  rotate: false
+  xy: 154, 188
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+hongdi
+  rotate: false
+  xy: 2, 948
+  size: 379, 72
+  orig: 379, 72
+  offset: 0, 0
+  index: -1
+jinbi-01
+  rotate: false
+  xy: 2, 70
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+jinbi-02
+  rotate: false
+  xy: 914, 960
+  size: 55, 60
+  orig: 55, 60
+  offset: 0, 0
+  index: -1
+jinbi-03
+  rotate: true
+  xy: 154, 140
+  size: 46, 60
+  orig: 46, 60
+  offset: 0, 0
+  index: -1
+jinbi-04
+  rotate: false
+  xy: 2, 8
+  size: 28, 60
+  orig: 28, 60
+  offset: 0, 0
+  index: -1
+jinbi-05
+  rotate: false
+  xy: 914, 898
+  size: 10, 60
+  orig: 10, 60
+  offset: 0, 0
+  index: -1
+jinbi-06
+  rotate: false
+  xy: 762, 504
+  size: 30, 60
+  orig: 30, 60
+  offset: 0, 0
+  index: -1
+jinbi-07
+  rotate: false
+  xy: 610, 352
+  size: 38, 60
+  orig: 38, 60
+  offset: 0, 0
+  index: -1
+jinbi-08
+  rotate: false
+  xy: 971, 960
+  size: 51, 60
+  orig: 51, 60
+  offset: 0, 0
+  index: -1
+wenzi
+  rotate: false
+  xy: 383, 949
+  size: 218, 71
+  orig: 218, 71
+  offset: 0, 0
+  index: -1

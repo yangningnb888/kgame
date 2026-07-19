@@ -1,0 +1,48 @@
+
+goldfrog.png
+size: 951,498
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fish_19_0
+  rotate: false
+  xy: 2, 2
+  size: 177, 185
+  orig: 177, 185
+  offset: 0, 0
+  index: -1
+fish_19_1
+  rotate: false
+  xy: 181, 2
+  size: 177, 185
+  orig: 177, 185
+  offset: 0, 0
+  index: -1
+fish_19_2
+  rotate: false
+  xy: 360, 2
+  size: 177, 185
+  orig: 177, 185
+  offset: 0, 0
+  index: -1
+fish_19_halo_0
+  rotate: false
+  xy: 2, 189
+  size: 318, 307
+  orig: 318, 307
+  offset: 0, 0
+  index: -1
+fish_19_halo_1
+  rotate: false
+  xy: 322, 189
+  size: 318, 307
+  orig: 318, 307
+  offset: 0, 0
+  index: -1
+fish_19_halo_2
+  rotate: true
+  xy: 642, 178
+  size: 318, 307
+  orig: 318, 307
+  offset: 0, 0
+  index: -1

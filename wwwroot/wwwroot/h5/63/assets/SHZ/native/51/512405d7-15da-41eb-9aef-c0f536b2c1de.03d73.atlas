@@ -1,0 +1,104 @@
+
+dagu_shuihuzhuan.png
+size: 732,316
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dagushuihuzhuan0001
+  rotate: false
+  xy: 2, 214
+  size: 155, 100
+  orig: 155, 100
+  offset: 0, 0
+  index: -1
+dagushuihuzhuan0002
+  rotate: false
+  xy: 2, 112
+  size: 155, 100
+  orig: 155, 100
+  offset: 0, 0
+  index: -1
+dagushuihuzhuan0003
+  rotate: false
+  xy: 159, 214
+  size: 155, 100
+  orig: 155, 100
+  offset: 0, 0
+  index: -1
+dagushuihuzhuan0004
+  rotate: false
+  xy: 2, 10
+  size: 155, 100
+  orig: 155, 100
+  offset: 0, 0
+  index: -1
+dagushuihuzhuan0005
+  rotate: false
+  xy: 159, 112
+  size: 155, 100
+  orig: 155, 100
+  offset: 0, 0
+  index: -1
+dagushuihuzhuan0006
+  rotate: false
+  xy: 316, 214
+  size: 155, 100
+  orig: 155, 100
+  offset: 0, 0
+  index: -1
+dagushuihuzhuan0007
+  rotate: false
+  xy: 159, 10
+  size: 155, 100
+  orig: 155, 100
+  offset: 0, 0
+  index: -1
+dagushuihuzhuan0008
+  rotate: false
+  xy: 316, 112
+  size: 155, 100
+  orig: 155, 100
+  offset: 0, 0
+  index: -1
+dagushuihuzhuan0009
+  rotate: false
+  xy: 473, 214
+  size: 155, 100
+  orig: 155, 100
+  offset: 0, 0
+  index: -1
+dagushuihuzhuan0010
+  rotate: false
+  xy: 316, 10
+  size: 155, 100
+  orig: 155, 100
+  offset: 0, 0
+  index: -1
+dagushuihuzhuan0011
+  rotate: false
+  xy: 473, 112
+  size: 155, 100
+  orig: 155, 100
+  offset: 0, 0
+  index: -1
+dagushuihuzhuan0012
+  rotate: true
+  xy: 630, 159
+  size: 155, 100
+  orig: 155, 100
+  offset: 0, 0
+  index: -1
+dagushuihuzhuan0013
+  rotate: false
+  xy: 473, 10
+  size: 155, 100
+  orig: 155, 100
+  offset: 0, 0
+  index: -1
+dagushuihuzhuan0014
+  rotate: true
+  xy: 630, 2
+  size: 155, 100
+  orig: 155, 100
+  offset: 0, 0
+  index: -1

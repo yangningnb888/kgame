@@ -1,0 +1,125 @@
+
+paotai05.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baoshifaguang_1
+  rotate: false
+  xy: 135, 76
+  size: 69, 70
+  orig: 69, 70
+  offset: 0, 0
+  index: -1
+baoshifaguang_2
+  rotate: false
+  xy: 267, 183
+  size: 67, 70
+  orig: 67, 70
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 38
+  size: 131, 108
+  orig: 131, 108
+  offset: 0, 0
+  index: -1
+bufaguang_00B
+  rotate: false
+  xy: 140, 8
+  size: 26, 31
+  orig: 26, 31
+  offset: 0, 0
+  index: -1
+bufaguang_1
+  rotate: false
+  xy: 336, 190
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1
+bufaguang_2
+  rotate: false
+  xy: 401, 190
+  size: 61, 63
+  orig: 61, 63
+  offset: 0, 0
+  index: -1
+faguang_00A
+  rotate: true
+  xy: 260, 87
+  size: 40, 44
+  orig: 40, 44
+  offset: 0, 0
+  index: -1
+faguang_02
+  rotate: false
+  xy: 464, 200
+  size: 31, 53
+  orig: 31, 53
+  offset: 0, 0
+  index: -1
+faguang_02_1
+  rotate: true
+  xy: 85, 5
+  size: 31, 53
+  orig: 31, 53
+  offset: 0, 0
+  index: -1
+faguang_03
+  rotate: false
+  xy: 306, 86
+  size: 16, 41
+  orig: 16, 41
+  offset: 0, 0
+  index: -1
+faguang_03_1
+  rotate: true
+  xy: 168, 23
+  size: 16, 41
+  orig: 16, 41
+  offset: 0, 0
+  index: -1
+kaihuo
+  rotate: false
+  xy: 2, 148
+  size: 211, 105
+  orig: 211, 105
+  offset: 0, 0
+  index: -1
+paoguang
+  rotate: false
+  xy: 215, 148
+  size: 50, 105
+  orig: 50, 105
+  offset: 0, 0
+  index: -1
+youbian_00b
+  rotate: true
+  xy: 2, 2
+  size: 34, 81
+  orig: 34, 81
+  offset: 0, 0
+  index: -1
+youbian_00c
+  rotate: false
+  xy: 206, 88
+  size: 52, 58
+  orig: 52, 58
+  offset: 0, 0
+  index: -1
+zuobian_00a
+  rotate: true
+  xy: 135, 41
+  size: 33, 81
+  orig: 33, 81
+  offset: 0, 0
+  index: -1
+zuobian_00d
+  rotate: true
+  xy: 267, 129
+  size: 52, 58
+  orig: 52, 58
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,76 @@
+
+325ddz_wanyuanchang_donghua.png
+size: 661,201
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+325ddz_wanyuanchang_bianzi
+  rotate: true
+  xy: 553, 3
+  size: 87, 82
+  orig: 87, 82
+  offset: 0, 0
+  index: -1
+325ddz_wanyuanchang_body
+  rotate: false
+  xy: 249, 15
+  size: 143, 184
+  orig: 143, 184
+  offset: 0, 0
+  index: -1
+325ddz_wanyuanchang_lanzi
+  rotate: true
+  xy: 553, 92
+  size: 107, 106
+  orig: 107, 106
+  offset: 0, 0
+  index: -1
+325ddz_wanyuanchang_mao00
+  rotate: false
+  xy: 107, 17
+  size: 9, 11
+  orig: 9, 11
+  offset: 0, 0
+  index: -1
+325ddz_wanyuanchang_mao01
+  rotate: false
+  xy: 97, 11
+  size: 8, 17
+  orig: 8, 17
+  offset: 0, 0
+  index: -1
+325ddz_wanyuanchang_mao02
+  rotate: false
+  xy: 97, 2
+  size: 15, 7
+  orig: 15, 7
+  offset: 0, 0
+  index: -1
+325ddz_wanyuanchang_tou
+  rotate: true
+  xy: 394, 36
+  size: 163, 157
+  orig: 163, 157
+  offset: 0, 0
+  index: -1
+325ddz_wanyuanchang_yanjing
+  rotate: false
+  xy: 97, 30
+  size: 99, 36
+  orig: 99, 36
+  offset: 0, 0
+  index: -1
+325ddz_wanyuanchang_yingzi
+  rotate: false
+  xy: 2, 68
+  size: 245, 131
+  orig: 245, 131
+  offset: 0, 0
+  index: -1
+325ddz_wanyuanchang_zuoshou
+  rotate: false
+  xy: 2, 7
+  size: 93, 59
+  orig: 93, 59
+  offset: 0, 0
+  index: -1

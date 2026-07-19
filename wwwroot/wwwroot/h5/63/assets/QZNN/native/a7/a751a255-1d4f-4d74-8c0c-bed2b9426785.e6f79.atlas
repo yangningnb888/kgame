@@ -1,0 +1,104 @@
+
+qiangzhuangpinshi_beijing.png
+size: 448,526
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+qiangzhuangpinshi_bataiguang1
+  rotate: false
+  xy: 2, 73
+  size: 280, 86
+  orig: 280, 86
+  offset: 0, 0
+  index: -1
+qiangzhuangpinshi_bataiguang2
+  rotate: false
+  xy: 2, 8
+  size: 276, 63
+  orig: 276, 63
+  offset: 0, 0
+  index: -1
+qiangzhuangpinshi_deng1
+  rotate: true
+  xy: 398, 448
+  size: 76, 45
+  orig: 76, 45
+  offset: 0, 0
+  index: -1
+qiangzhuangpinshi_glow1
+  rotate: true
+  xy: 2, 161
+  size: 363, 194
+  orig: 363, 194
+  offset: 0, 0
+  index: -1
+qiangzhuangpinshi_glow2
+  rotate: true
+  xy: 198, 171
+  size: 353, 198
+  orig: 353, 198
+  offset: 0, 0
+  index: -1
+qiangzhuangpinshi_jiubei
+  rotate: true
+  xy: 398, 203
+  size: 19, 33
+  orig: 19, 33
+  offset: 0, 0
+  index: -1
+qiangzhuangpinshi_nvshenti
+  rotate: false
+  xy: 370, 18
+  size: 76, 151
+  orig: 76, 151
+  offset: 0, 0
+  index: -1
+qiangzhuangpinshi_nvshoubi
+  rotate: false
+  xy: 398, 224
+  size: 20, 33
+  orig: 20, 33
+  offset: 0, 0
+  index: -1
+qiangzhuangpinshi_nvxiaobi
+  rotate: false
+  xy: 398, 298
+  size: 23, 31
+  orig: 23, 31
+  offset: 0, 0
+  index: -1
+qiangzhuangpinshi_paizi
+  rotate: true
+  xy: 398, 370
+  size: 76, 33
+  orig: 76, 33
+  offset: 0, 0
+  index: -1
+qiangzhuangpinshi_ren1
+  rotate: true
+  xy: 280, 2
+  size: 69, 88
+  orig: 69, 88
+  offset: 0, 0
+  index: -1
+qiangzhuangpinshi_ren1_shou
+  rotate: false
+  xy: 398, 259
+  size: 20, 37
+  orig: 20, 37
+  offset: 0, 0
+  index: -1
+qiangzhuangpinshi_ren1_shoubi
+  rotate: false
+  xy: 398, 331
+  size: 28, 37
+  orig: 28, 37
+  offset: 0, 0
+  index: -1
+qiangzhuangpinshi_ren2
+  rotate: false
+  xy: 284, 79
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1

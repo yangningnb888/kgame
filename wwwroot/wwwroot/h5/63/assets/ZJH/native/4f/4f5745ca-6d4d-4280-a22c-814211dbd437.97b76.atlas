@@ -1,0 +1,69 @@
+
+xiazhu_qian.png
+size: 986,487
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xiazhu_qian_4
+  rotate: false
+  xy: 1, 242
+  size: 179, 243
+  orig: 400, 340
+  offset: 65, 0
+  index: -1
+xiazhu_qian_9
+  rotate: false
+  xy: 671, 281
+  size: 171, 199
+  orig: 400, 340
+  offset: 30, 0
+  index: -1
+xiazhu_qian_3
+  rotate: false
+  xy: 798, 1
+  size: 186, 154
+  orig: 400, 340
+  offset: 2, 0
+  index: -1
+xiazhu_qian_2
+  rotate: false
+  xy: 182, 242
+  size: 198, 189
+  orig: 400, 340
+  offset: 20, 0
+  index: -1
+xiazhu_qian_8
+  rotate: false
+  xy: 382, 242
+  size: 159, 235
+  orig: 400, 340
+  offset: 74, 0
+  index: -1
+xiazhu_qian_1
+  rotate: false
+  xy: 1, 1
+  size: 187, 239
+  orig: 400, 340
+  offset: 65, 0
+  index: -1
+xiazhu_qian_7
+  rotate: false
+  xy: 671, 1
+  size: 125, 278
+  orig: 400, 340
+  offset: 141, 0
+  index: -1
+xiazhu_qian_6
+  rotate: false
+  xy: 844, 157
+  size: 93, 294
+  orig: 400, 340
+  offset: 201, 0
+  index: -1
+xiazhu_qian_5
+  rotate: false
+  xy: 543, 1
+  size: 126, 293
+  orig: 400, 340
+  offset: 245, 0
+  index: -1

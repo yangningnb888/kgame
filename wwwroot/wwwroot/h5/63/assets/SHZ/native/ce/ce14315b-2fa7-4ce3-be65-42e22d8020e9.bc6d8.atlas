@@ -1,0 +1,94 @@
+
+zhongjiangfeilongchuhua_shuihuzhuan.png
+size: 974,836
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+feilongchuhua0
+  rotate: false
+  xy: 814, 126
+  size: 158, 249
+  orig: 158, 249
+  offset: 0, 0
+  index: -1
+feilongchuhua3
+  rotate: false
+  xy: 2, 377
+  size: 955, 457
+  orig: 955, 457
+  offset: 0, 0
+  index: -1
+feilongchuhua4
+  rotate: false
+  xy: 2, 2
+  size: 810, 373
+  orig: 810, 373
+  offset: 0, 0
+  index: -1
+
+zhongjiangfeilongchuhua_shuihuzhuan2.png
+size: 838,1009
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+feilongchuhua1
+  rotate: true
+  xy: 2, 2
+  size: 283, 263
+  orig: 283, 263
+  offset: 0, 0
+  index: -1
+feilongchuhua6
+  rotate: false
+  xy: 2, 650
+  size: 834, 357
+  orig: 834, 357
+  offset: 0, 0
+  index: -1
+feilongchuhua7
+  rotate: false
+  xy: 2, 287
+  size: 821, 361
+  orig: 821, 361
+  offset: 0, 0
+  index: -1
+
+zhongjiangfeilongchuhua_shuihuzhuan3.png
+size: 841,716
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+feilongchuhua5
+  rotate: false
+  xy: 2, 365
+  size: 837, 349
+  orig: 837, 349
+  offset: 0, 0
+  index: -1
+feilongchuhua8
+  rotate: false
+  xy: 2, 2
+  size: 821, 361
+  orig: 821, 361
+  offset: 0, 0
+  index: -1
+
+zhongjiangfeilongchuhua_shuihuzhuan4.png
+size: 826,724
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+feilongchuhua2
+  rotate: false
+  xy: 2, 2
+  size: 577, 367
+  orig: 577, 367
+  offset: 0, 0
+  index: -1
+feilongchuhua9
+  rotate: false
+  xy: 2, 371
+  size: 822, 351
+  orig: 822, 351
+  offset: 0, 0
+  index: -1

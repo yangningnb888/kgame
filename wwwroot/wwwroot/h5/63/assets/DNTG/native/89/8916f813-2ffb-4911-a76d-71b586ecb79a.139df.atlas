@@ -1,0 +1,41 @@
+
+dingpao_buyu.png
+size: 809,707
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dingzi
+  rotate: false
+  xy: 248, 87
+  size: 217, 223
+  orig: 217, 223
+  offset: 0, 0
+  index: -1
+guagnquan11
+  rotate: false
+  xy: 2, 312
+  size: 393, 393
+  orig: 393, 393
+  offset: 0, 0
+  index: -1
+guangxingxign
+  rotate: false
+  xy: 2, 66
+  size: 244, 244
+  orig: 244, 244
+  offset: 0, 0
+  index: -1
+guangyun1
+  rotate: false
+  xy: 467, 2
+  size: 340, 340
+  orig: 340, 340
+  offset: 0, 0
+  index: -1
+guangyun2
+  rotate: false
+  xy: 397, 344
+  size: 361, 361
+  orig: 361, 361
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,271 @@
+{extend name="../../admin/view/main"}
+
+{block name="button"}
+{/block}
+{block name="content"}
+<body>
+<div class="layui-tab layui-tab-card think-bg-white">
+    <fieldset class="table-search-fieldset">
+        <legend>游戏参数设置</legend>
+        <div style="margin: 10px 10px 10px 10px" id="btn">
+            <form class="layui-form layui-form-pane" action="" id="createagent">
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">开 奖 类 型：</label>
+                        <div class="layui-input-block" id="win">
+                            <input type="radio" name="win" value=1 title="黑方" checked>
+                            <input type="radio" name="win" value=2 title="红方">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">赠 送 次 数</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="time" id="time" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <!--注意此处button标签里的type属性-->
+                        <button type="button" class="layui-btn layui-btn-primary" lay-submit data-type="reload"
+                                lay-filter="data-search-btn"> 赠送
+                        </button>
+                    </div>
+                    <div class="layui-inline">
+                        <div class="layui-input-inline">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">游戏库存</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="profit" id="profit" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <!--注意此处button标签里的type属性-->
+                        <button type="button" class="layui-btn layui-btn-primary" lay-submit data-type="reload"
+                                lay-filter="data-search-btn1" id="data-search-btn-reload-1">刷新库存
+                        </button>
+                    </div>
+                    <div class="layui-inline">
+                        <!--注意此处button标签里的type属性-->
+                        <button type="button" class="layui-btn layui-btn-primary" lay-submit data-type="reload"
+                                lay-filter="data-search-btn2">修改库存
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </fieldset>
+
+    <div class="layui-row">
+        <div class="layui-col-md4" style="height: 700px">
+            <fieldset class="table-search-fieldset">
+                <legend>开奖列表</legend>
+                <div style="margin: 10px 10px 10px 10px" id="rebtn1">
+                    <form class="layui-form layui-form-pane" action="" id="reload1">
+                        <div class="layui-inline">
+                            <label class="layui-form-label">游 戏 状 态</label>
+                            <div class="layui-input-inline">
+                                <!--注意此处input标签里的id-->
+                                <input class="layui-input" name="stage" id="stage" autocomplete="off"
+                                       disabled="disabled">
+                            </div>
+                        </div>
+                        <div class="layui-inline">
+                            <!--注意此处button标签里的type属性-->
+                            <button type="button" class="layui-btn layui-btn-primary" lay-submit data-type="reload"
+                                    lay-filter="data-search-btn3" id="data-search-btn-reload-2">刷 新
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </fieldset>
+            <table class="layui-hide" id="demo1" lay-filter="test1"></table>
+        </div>
+        <div class="layui-col-md8" style="height: 700px">
+            <fieldset class="table-search-fieldset">
+                <legend>开奖列表</legend>
+                <div style="margin: 10px 10px 10px 10px" id="rebtn2">
+                    <form class="layui-form layui-form-pane" action="" id="reload2">
+                        <div class="layui-inline">
+                            <!--注意此处button标签里的type属性-->
+                            <button type="button" class="layui-btn layui-btn-primary" lay-submit data-type="reload"
+                                    lay-filter="data-search-btn4" id="data-search-btn-reload-3">刷 新 玩 家 下 注
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </fieldset>
+            <table class="layui-hide" id="demo2" lay-filter="test2"></table>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    layui.use(['form', 'table'], function () {
+        var form = layui.form;
+        var table1 = layui.table;
+        var table2 = layui.table;
+        form.render();
+        form.on('submit(data-search-btn)', function (data) {
+            let win = $("input[name='win']:checked").val();
+            let time = $("#time").val();
+
+            time = Number(time);
+            if (time <= 0) {
+                alert('赠送次数至少为1');
+                return false;
+            }
+
+            if (win) {
+                $.ajax({　　　　　　　　　　　　　　　　　　　　//交互传值
+                    url: '{:url("addresult")}',　　　　　　　　　　　　//传地址
+                    type: 'post',　　　　　　　　　　　　　　　　　　//传的方式
+                    data: {
+                        'region': win,
+                        'time': time
+                    },
+                    success:function (res) {
+                        table1.reload('demo1', {
+                            url: '{:url("resultlist")}'
+                        });
+                    }
+                });
+            }
+            return false;
+        });
+
+        form.on('submit(data-search-btn1)', function () {
+            $.ajax({　　　　　　　　　　　　　　　　　　　　//交互传值
+                url: '{:url("reprofit")}',　　　　　　　　　　　　//传地址
+                type: 'post',　　　　　　　　　　　　　　　　　　//传的方式
+                data: {},
+                success: res => {
+                    $("#profit").attr('value', res['data'])
+                },
+            });
+            return false;
+        });
+
+        form.on('submit(data-search-btn2)', function () {
+            let profit = $("#profit").val();
+            if (profit) {
+                profit = Number(profit);
+            }
+            if (typeof profit === 'number') {
+                $.ajax({　　　　　　　　　　　　　　　　　　　　//交互传值
+                    url: '{:url("upprofit")}',　　　　　　　　　　　　//传地址
+                    type: 'post',　　　　　　　　　　　　　　　　　　//传的方式
+                    data: {
+                        'profit': profit
+                    },
+                    success: res => {
+                        alert('修改成功！');
+                        $("#profit").attr('value', res['data'])
+                    },
+                });
+            } else {
+                alert('库存参数输入错误！')
+            }
+            return false;
+        });
+
+        form.on('submit(data-search-btn3)', function (data) {
+            table1.reload('demo1', {
+                url: '{:url("resultlist")}'
+            });
+            return false;
+        });
+
+        form.on('submit(data-search-btn4)', function (data) {
+            table2.reload('demo2', {
+                url: '{:url("playerlist")}',
+            });
+            return false;
+        });
+
+        table1.render({
+            elem: '#demo1'
+            , url: '{:url("resultlist")}'
+            , cellMinWidth: 80 //全局定义常规单元格的最小宽度，layui 2.2.1 新增
+            , id: 'demo1'
+            , limit: Number.MAX_VALUE
+            , cols: [[
+                {field: 'region', title: '开奖结果', align: 'center'}
+                , {field: 'right', title: '操作', align: 'center', toolbar: '#barDemo'}
+            ]]
+            , parseData: function (res) {
+                console.log(res);
+                return {
+                    'code': 0
+                    , 'msg': ''
+                    , 'count': res.count
+                    , 'data': res.data
+                }
+            }
+        });
+
+        table2.render({
+            elem: '#demo2'
+            , url: '{:url("playerlist")}'
+            , cellMinWidth: 100 //全局定义常规单元格的最小宽度，layui 2.2.1 新增
+            , id: 'demo2'
+            , limit: Number.MAX_VALUE
+            , cols: [[
+                {field: 'uid', title: 'uid', align: 'center'}
+                , {field: 'nickname', title: '昵称', align: 'center'}
+                , {field: 'hei', title: '黑方', align: 'center'}
+                , {field: 'hong', title: '红方', align: 'center'}
+                , {field: 'luck', title: '幸运一击', align: 'center'}
+            ]]
+            , parseData: function (res) {
+                console.log(res);
+                $("#stage").attr('value', res['data']['stage'])
+                $("#profit").attr('value', res['data']['profit'])
+                return {
+                    'code': 0
+                    , 'msg': ''
+                    , 'count': res.count
+                    , 'data': res['data']['bets']
+                }
+            }
+        });
+
+        table1.on('tool(test1)', function (obj) {
+            $.ajax({　　　　　　　　　　　　　　　　　　　　//交互传值
+                url: '{:url("delresult")}',　　　　　　　　　　　　//传地址
+                type: 'post',　　　　　　　　　　　　　　　　　　//传的方式
+                data: {
+                    'id': obj.data.id
+                },
+                success: res => {
+                    table1.reload('demo1', {
+                        url: '{:url("resultlist")}'
+                    });
+                },
+            });
+        });
+
+
+
+        if("undefined" !== typeof timer_id){
+            clearInterval(timer_id);
+        } else {
+            timer_id = 0;
+        }
+
+        timer_id =setInterval(function () {
+            $("#data-search-btn-reload-1").click();
+            $("#data-search-btn-reload-2").click();
+            $("#data-search-btn-reload-3").click();
+        }, 1900);
+
+    });
+
+
+</script>
+<script type="test/html" id="barDemo">
+    <a class="layui-btn layui-btn-xs layui-btn-warm" lay-event="del">删 除</a>
+</script>
+{/block}

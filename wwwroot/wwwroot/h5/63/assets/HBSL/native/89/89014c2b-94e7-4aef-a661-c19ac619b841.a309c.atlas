@@ -1,0 +1,34 @@
+
+tongyon_loding.png
+size: 128,118
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+loding_1
+  rotate: true
+  xy: 65, 60
+  size: 56, 61
+  orig: 56, 61
+  offset: 0, 0
+  index: -1
+loding_2
+  rotate: true
+  xy: 2, 61
+  size: 55, 61
+  orig: 55, 61
+  offset: 0, 0
+  index: -1
+loding_3
+  rotate: true
+  xy: 2, 3
+  size: 56, 61
+  orig: 56, 61
+  offset: 0, 0
+  index: -1
+loding_4
+  rotate: true
+  xy: 65, 2
+  size: 56, 61
+  orig: 56, 61
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+
+325ddz_beijing_donghua.png
+size: 363,295
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+325ddz_beijing_deng02
+  rotate: true
+  xy: 2, 2
+  size: 24, 91
+  orig: 24, 91
+  offset: 0, 0
+  index: -1
+325ddz_beijing_deng03
+  rotate: true
+  xy: 95, 8
+  size: 18, 73
+  orig: 18, 73
+  offset: 0, 0
+  index: -1
+325ddz_beijing_deng04
+  rotate: false
+  xy: 327, 215
+  size: 34, 78
+  orig: 34, 78
+  offset: 0, 0
+  index: -1
+325ddz_beijing_deng05
+  rotate: false
+  xy: 291, 214
+  size: 34, 79
+  orig: 34, 79
+  offset: 0, 0
+  index: -1
+325ddz_beijing_deng06
+  rotate: false
+  xy: 218, 195
+  size: 71, 98
+  orig: 71, 98
+  offset: 0, 0
+  index: -1
+325ddz_beijing_shuye00
+  rotate: false
+  xy: 2, 28
+  size: 224, 120
+  orig: 224, 120
+  offset: 0, 0
+  index: -1
+325ddz_beijing_shuye01
+  rotate: false
+  xy: 2, 150
+  size: 214, 143
+  orig: 214, 143
+  offset: 0, 0
+  index: -1
+325ddz_beijing_shuye02
+  rotate: true
+  xy: 228, 11
+  size: 182, 132
+  orig: 182, 132
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,132 @@
+
+rw_nongmin_shenti.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 929, 25
+  size: 297, 91
+  orig: 301, 94
+  offset: 2, 1
+  index: -1
+cp1
+  rotate: true
+  xy: 614, 8
+  size: 69, 49
+  orig: 69, 49
+  offset: 0, 0
+  index: -1
+cp2
+  rotate: false
+  xy: 1054, 150
+  size: 47, 49
+  orig: 47, 49
+  offset: 0, 0
+  index: -1
+djs
+  rotate: false
+  xy: 777, 7
+  size: 37, 81
+  orig: 37, 81
+  offset: 0, 0
+  index: -1
+fa1
+  rotate: false
+  xy: 496, 11
+  size: 63, 23
+  orig: 63, 23
+  offset: 0, 0
+  index: -1
+p1
+  rotate: false
+  xy: 727, 23
+  size: 48, 54
+  orig: 48, 54
+  offset: 0, 0
+  index: -1
+p2
+  rotate: false
+  xy: 1011, 148
+  size: 41, 51
+  orig: 41, 51
+  offset: 0, 0
+  index: -1
+p3
+  rotate: false
+  xy: 1057, 205
+  size: 35, 47
+  orig: 35, 47
+  offset: 0, 0
+  index: -1
+p4
+  rotate: false
+  xy: 1011, 201
+  size: 44, 51
+  orig: 44, 52
+  offset: 0, 1
+  index: -1
+shen
+  rotate: true
+  xy: 843, 118
+  size: 134, 129
+  orig: 134, 129
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 249, 2
+  size: 245, 250
+  orig: 247, 250
+  offset: 2, 0
+  index: -1
+tou1
+  rotate: false
+  xy: 2, 2
+  size: 245, 250
+  orig: 247, 250
+  offset: 2, 0
+  index: -1
+toufa1
+  rotate: true
+  xy: 496, 36
+  size: 216, 116
+  orig: 216, 116
+  offset: 0, 0
+  index: -1
+youtui
+  rotate: false
+  xy: 744, 90
+  size: 97, 162
+  orig: 97, 162
+  offset: 0, 0
+  index: -1
+zhayan
+  rotate: true
+  xy: 974, 125
+  size: 127, 35
+  orig: 128, 35
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 816, 36
+  size: 111, 52
+  orig: 111, 52
+  offset: 0, 0
+  index: -1
+zuoshouxia
+  rotate: false
+  xy: 665, 13
+  size: 60, 64
+  orig: 60, 64
+  offset: 0, 0
+  index: -1
+zuotui
+  rotate: false
+  xy: 614, 79
+  size: 128, 173
+  orig: 128, 173
+  offset: 0, 0
+  index: -1

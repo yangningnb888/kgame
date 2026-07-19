@@ -1,0 +1,90 @@
+
+jiesuan_jiemian.png
+size: 512,463
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guangci01
+  rotate: false
+  xy: 219, 1
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+guangxiao_1
+  rotate: false
+  xy: 1, 1
+  size: 216, 209
+  orig: 225, 225
+  offset: 3, 9
+  index: -1
+caidai_1
+  rotate: false
+  xy: 421, 51
+  size: 23, 51
+  orig: 23, 51
+  offset: 0, 0
+  index: -1
+caidai_2
+  rotate: false
+  xy: 421, 104
+  size: 20, 36
+  orig: 23, 36
+  offset: 0, 0
+  index: -1
+caidai_3
+  rotate: false
+  xy: 421, 1
+  size: 35, 48
+  orig: 37, 48
+  offset: 0, 0
+  index: -1
+caidai_4
+  rotate: false
+  xy: 489, 1
+  size: 18, 48
+  orig: 19, 48
+  offset: 1, 0
+  index: -1
+caidai_5
+  rotate: false
+  xy: 458, 1
+  size: 29, 48
+  orig: 29, 48
+  offset: 0, 0
+  index: -1
+noImage
+  rotate: false
+  xy: 509, 1
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+yingle2
+  rotate: false
+  xy: 1, 345
+  size: 333, 116
+  orig: 360, 120
+  offset: 14, 3
+  index: -1
+yingle
+  rotate: false
+  xy: 334, 203
+  size: 176, 66
+  orig: 176, 66
+  offset: 0, 0
+  index: -1
+shule2
+  rotate: false
+  xy: 1, 212
+  size: 331, 131
+  orig: 332, 132
+  offset: 1, 0
+  index: -1
+shule
+  rotate: false
+  xy: 334, 271
+  size: 176, 66
+  orig: 176, 66
+  offset: 0, 0
+  index: -1

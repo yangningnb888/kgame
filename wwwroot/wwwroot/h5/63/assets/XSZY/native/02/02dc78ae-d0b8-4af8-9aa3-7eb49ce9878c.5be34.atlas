@@ -1,0 +1,174 @@
+
+halloween_pt_beijing_ske.png
+size: 2028,1277
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mubei1
+  rotate: true
+  xy: 2, 18
+  size: 167, 364
+  orig: 169, 394
+  offset: 1, 1
+  index: -1
+mubei2
+  rotate: false
+  xy: 1832, 754
+  size: 194, 243
+  orig: 194, 243
+  offset: 0, 0
+  index: -1
+na1
+  rotate: true
+  xy: 1850, 123
+  size: 98, 148
+  orig: 98, 148
+  offset: 0, 0
+  index: -1
+na2
+  rotate: true
+  xy: 1832, 600
+  size: 152, 162
+  orig: 152, 162
+  offset: 0, 0
+  index: -1
+na3
+  rotate: false
+  xy: 1850, 19
+  size: 96, 102
+  orig: 96, 102
+  offset: 0, 0
+  index: -1
+xunhuan_shaugen
+  rotate: true
+  xy: 1516, 8
+  size: 213, 332
+  orig: 213, 332
+  offset: 0, 0
+  index: -1
+xunhuan_shuagan
+  rotate: false
+  xy: 513, 535
+  size: 660, 740
+  orig: 660, 740
+  offset: 0, 0
+  index: -1
+xunhuan_shuzhi
+  rotate: true
+  xy: 521, 46
+  size: 487, 904
+  orig: 487, 904
+  offset: 0, 0
+  index: -1
+xunhuan_yanjing
+  rotate: true
+  xy: 1632, 244
+  size: 46, 90
+  orig: 85, 94
+  offset: 0, 4
+  index: -1
+xunhuan_zui2
+  rotate: false
+  xy: 1832, 999
+  size: 186, 276
+  orig: 193, 284
+  offset: 5, 2
+  index: -1
+z_ng_1_lian
+  rotate: false
+  xy: 1427, 2
+  size: 87, 54
+  orig: 88, 55
+  offset: 0, 1
+  index: -1
+z_ng_1_tou
+  rotate: true
+  xy: 1427, 400
+  size: 143, 122
+  orig: 143, 123
+  offset: 0, 0
+  index: -1
+z_ng_1_xiaba
+  rotate: true
+  xy: 1427, 58
+  size: 145, 80
+  orig: 145, 80
+  offset: 0, 0
+  index: -1
+z_ng_1_zui
+  rotate: false
+  xy: 1417, 545
+  size: 132, 68
+  orig: 134, 68
+  offset: 2, 0
+  index: -1
+z_ng_2_lian
+  rotate: false
+  xy: 603, 10
+  size: 43, 34
+  orig: 95, 47
+  offset: 52, 0
+  index: -1
+z_ng_2_tou
+  rotate: true
+  xy: 368, 10
+  size: 175, 151
+  orig: 198, 305
+  offset: 22, 115
+  index: -1
+z_ng_2_xiaba
+  rotate: true
+  xy: 1427, 205
+  size: 193, 87
+  orig: 193, 87
+  offset: 0, 0
+  index: -1
+z_ng_2_zui
+  rotate: false
+  xy: 1516, 239
+  size: 114, 51
+  orig: 120, 54
+  offset: 3, 3
+  index: -1
+zhongjiang_shugan
+  rotate: true
+  xy: 1175, 615
+  size: 660, 655
+  orig: 660, 655
+  offset: 0, 0
+  index: -1
+zhongjiang_shushao
+  rotate: true
+  xy: 1551, 292
+  size: 321, 260
+  orig: 701, 313
+  offset: 338, 53
+  index: -1
+zhongjiang_shuzhi
+  rotate: false
+  xy: 2, 187
+  size: 509, 1088
+  orig: 509, 1088
+  offset: 0, 0
+  index: -1
+zhongjiang_yanjing
+  rotate: true
+  xy: 521, 18
+  size: 26, 80
+  orig: 95, 80
+  offset: 0, 0
+  index: -1
+zhongjiang_zui1
+  rotate: true
+  xy: 1175, 546
+  size: 67, 240
+  orig: 70, 240
+  offset: 0, 0
+  index: -1
+zhongjiang_zui2
+  rotate: false
+  xy: 1813, 223
+  size: 212, 375
+  orig: 221, 375
+  offset: 0, 0
+  index: -1

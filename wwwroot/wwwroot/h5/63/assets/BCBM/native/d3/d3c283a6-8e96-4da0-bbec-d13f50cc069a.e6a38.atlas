@@ -1,0 +1,27 @@
+
+feiqinzoushou_kaijiang.png
+size: 811,262
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kaishi_di
+  rotate: false
+  xy: 2, 116
+  size: 592, 144
+  orig: 592, 144
+  offset: 0, 0
+  index: -1
+kaishixiazhu
+  rotate: false
+  xy: 407, 3
+  size: 402, 111
+  orig: 402, 111
+  offset: 0, 0
+  index: -1
+tingzhixiazhu
+  rotate: false
+  xy: 2, 2
+  size: 403, 112
+  orig: 403, 112
+  offset: 0, 0
+  index: -1

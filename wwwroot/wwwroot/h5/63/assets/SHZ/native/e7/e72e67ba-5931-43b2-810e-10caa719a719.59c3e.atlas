@@ -1,0 +1,160 @@
+
+dadao_shuihuzhuan.png
+size: 926,478
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+donghua_dadaoa_00
+  rotate: false
+  xy: 2, 240
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+donghua_dadaoa_01
+  rotate: false
+  xy: 163, 359
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+donghua_dadaoa_02
+  rotate: false
+  xy: 2, 121
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+donghua_dadaoa_03
+  rotate: false
+  xy: 163, 240
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+donghua_dadaoa_04
+  rotate: false
+  xy: 324, 359
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+donghua_dadaoa_05
+  rotate: false
+  xy: 2, 2
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+donghua_dadaoa_06
+  rotate: false
+  xy: 163, 121
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+donghua_dadaoa_07
+  rotate: false
+  xy: 324, 240
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+donghua_dadaoa_08
+  rotate: false
+  xy: 485, 359
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+donghua_dadaoa_09
+  rotate: false
+  xy: 163, 2
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+donghua_dadaoa_10
+  rotate: false
+  xy: 324, 121
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+donghua_dadaoa_11
+  rotate: false
+  xy: 485, 240
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+donghua_dadaoa_12
+  rotate: false
+  xy: 646, 359
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+donghua_dadaoa_13
+  rotate: false
+  xy: 324, 2
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+donghua_dadaoa_14
+  rotate: false
+  xy: 485, 121
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+shanguang_dadaoshanguang_00
+  rotate: false
+  xy: 646, 240
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+shanguang_dadaoshanguang_01
+  rotate: true
+  xy: 807, 317
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+shanguang_dadaoshanguang_02
+  rotate: false
+  xy: 485, 2
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+shanguang_dadaoshanguang_03
+  rotate: false
+  xy: 646, 121
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+shanguang_dadaoshanguang_04
+  rotate: true
+  xy: 807, 156
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+shanguang_dadaoshanguang_05
+  rotate: false
+  xy: 646, 2
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+shanguang_dadaoshanguang_06
+  rotate: false
+  xy: 2, 359
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1

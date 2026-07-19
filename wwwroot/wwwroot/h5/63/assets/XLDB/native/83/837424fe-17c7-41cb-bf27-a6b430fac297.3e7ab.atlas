@@ -1,0 +1,76 @@
+
+siwangbaojiSilver.png
+size: 370,554
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baodian_1
+  rotate: false
+  xy: 2, 94
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+guanghuan02
+  rotate: false
+  xy: 2, 296
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+guanghuan_1
+  rotate: false
+  xy: 204, 148
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+yingzi_baoji_jbi_1
+  rotate: false
+  xy: 260, 462
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+yingzi_baoji_jbi_2
+  rotate: false
+  xy: 260, 370
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+yingzi_baoji_jbi_3
+  rotate: false
+  xy: 260, 278
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+yingzi_baoji_jbi_4
+  rotate: false
+  xy: 2, 2
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+yingzi_baoji_jbi_5
+  rotate: false
+  xy: 94, 2
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+yingzi_baoji_jbi_6
+  rotate: false
+  xy: 186, 2
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+yingzi_baoji_jbi_7
+  rotate: false
+  xy: 278, 56
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1

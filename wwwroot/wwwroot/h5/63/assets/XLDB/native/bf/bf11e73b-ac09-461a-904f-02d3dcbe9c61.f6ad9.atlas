@@ -1,0 +1,27 @@
+
+coin-gold.png
+size: 175,82
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coin
+  rotate: true
+  xy: 77, 3
+  size: 77, 73
+  orig: 77, 73
+  offset: 0, 0
+  index: -1
+coin-invert
+  rotate: true
+  xy: 2, 2
+  size: 78, 73
+  orig: 78, 73
+  offset: 0, 0
+  index: -1
+shine
+  rotate: false
+  xy: 152, 7
+  size: 21, 73
+  orig: 21, 73
+  offset: 0, 0
+  index: -1

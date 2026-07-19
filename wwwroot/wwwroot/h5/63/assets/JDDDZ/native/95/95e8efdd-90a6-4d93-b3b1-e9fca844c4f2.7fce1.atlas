@@ -1,0 +1,104 @@
+
+rw_nongmin.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 249, 161
+  size: 297, 91
+  orig: 301, 94
+  offset: 2, 1
+  index: -1
+fa1
+  rotate: false
+  xy: 473, 16
+  size: 63, 23
+  orig: 63, 23
+  offset: 0, 0
+  index: -1
+p1
+  rotate: true
+  xy: 486, 57
+  size: 48, 54
+  orig: 48, 54
+  offset: 0, 0
+  index: -1
+p2
+  rotate: false
+  xy: 830, 19
+  size: 41, 51
+  orig: 41, 51
+  offset: 0, 0
+  index: -1
+p3
+  rotate: true
+  xy: 424, 4
+  size: 35, 47
+  orig: 35, 47
+  offset: 0, 0
+  index: -1
+p4
+  rotate: false
+  xy: 830, 72
+  size: 44, 51
+  orig: 44, 52
+  offset: 0, 1
+  index: -1
+shen
+  rotate: true
+  xy: 666, 118
+  size: 134, 129
+  orig: 134, 129
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 2
+  size: 245, 250
+  orig: 247, 250
+  offset: 2, 0
+  index: -1
+toufa1
+  rotate: true
+  xy: 548, 36
+  size: 216, 116
+  orig: 216, 116
+  offset: 0, 0
+  index: -1
+youtui
+  rotate: true
+  xy: 666, 19
+  size: 97, 162
+  orig: 97, 162
+  offset: 0, 0
+  index: -1
+zhayan
+  rotate: true
+  xy: 797, 125
+  size: 127, 35
+  orig: 128, 35
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 424, 107
+  size: 111, 52
+  orig: 111, 52
+  offset: 0, 0
+  index: -1
+zuoshouxia
+  rotate: false
+  xy: 424, 41
+  size: 60, 64
+  orig: 60, 64
+  offset: 0, 0
+  index: -1
+zuotui
+  rotate: true
+  xy: 249, 31
+  size: 128, 173
+  orig: 128, 173
+  offset: 0, 0
+  index: -1

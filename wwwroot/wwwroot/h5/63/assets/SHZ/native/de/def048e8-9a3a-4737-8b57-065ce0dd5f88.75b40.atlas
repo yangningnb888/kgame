@@ -1,0 +1,131 @@
+
+titianxingdao.png
+size: 1020,1006
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+100
+  rotate: false
+  xy: 774, 549
+  size: 244, 455
+  orig: 244, 455
+  offset: 0, 0
+  index: -1
+102
+  rotate: false
+  xy: 886, 42
+  size: 127, 40
+  orig: 127, 40
+  offset: 0, 0
+  index: -1
+103
+  rotate: true
+  xy: 723, 465
+  size: 65, 47
+  orig: 65, 47
+  offset: 0, 0
+  index: -1
+202
+  rotate: false
+  xy: 626, 394
+  size: 95, 136
+  orig: 95, 136
+  offset: 0, 0
+  index: -1
+203
+  rotate: true
+  xy: 772, 84
+  size: 220, 125
+  orig: 220, 125
+  offset: 0, 0
+  index: -1
+301
+  rotate: false
+  xy: 354, 12
+  size: 416, 340
+  orig: 416, 340
+  offset: 0, 0
+  index: -1
+302
+  rotate: true
+  xy: 774, 306
+  size: 241, 212
+  orig: 241, 212
+  offset: 0, 0
+  index: -1
+303
+  rotate: false
+  xy: 772, 6
+  size: 112, 76
+  orig: 112, 76
+  offset: 0, 0
+  index: -1
+600
+  rotate: false
+  xy: 2, 532
+  size: 770, 472
+  orig: 770, 472
+  offset: 0, 0
+  index: -1
+modi
+  rotate: false
+  xy: 2, 354
+  size: 622, 176
+  orig: 622, 176
+  offset: 0, 0
+  index: -1
+xuanguang
+  rotate: false
+  xy: 2, 2
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+
+titianxingdao2.png
+size: 983,927
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+101
+  rotate: false
+  xy: 2, 2
+  size: 307, 360
+  orig: 307, 360
+  offset: 0, 0
+  index: -1
+104
+  rotate: false
+  xy: 311, 5
+  size: 278, 357
+  orig: 278, 357
+  offset: 0, 0
+  index: -1
+200
+  rotate: true
+  xy: 591, 81
+  size: 413, 383
+  orig: 413, 383
+  offset: 0, 0
+  index: -1
+201
+  rotate: true
+  xy: 591, 496
+  size: 429, 390
+  orig: 429, 390
+  offset: 0, 0
+  index: -1
+300
+  rotate: false
+  xy: 2, 364
+  size: 390, 561
+  orig: 390, 561
+  offset: 0, 0
+  index: -1
+dasha
+  rotate: true
+  xy: 394, 464
+  size: 461, 171
+  orig: 461, 171
+  offset: 0, 0
+  index: -1

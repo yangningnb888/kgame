@@ -1,0 +1,90 @@
+
+fnn_zhuangjiadonghua.png
+size: 377,554
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0000
+  rotate: false
+  xy: 158, 410
+  size: 141, 142
+  orig: 141, 142
+  offset: 0, 0
+  index: -1
+0001
+  rotate: true
+  xy: 268, 190
+  size: 101, 102
+  orig: 101, 102
+  offset: 0, 0
+  index: -1
+0002
+  rotate: true
+  xy: 268, 293
+  size: 115, 104
+  orig: 115, 104
+  offset: 0, 0
+  index: -1
+0003
+  rotate: true
+  xy: 149, 276
+  size: 127, 117
+  orig: 127, 117
+  offset: 0, 0
+  index: -1
+0004
+  rotate: false
+  xy: 2, 2
+  size: 127, 125
+  orig: 127, 125
+  offset: 0, 0
+  index: -1
+0005
+  rotate: true
+  xy: 250, 16
+  size: 118, 113
+  orig: 118, 113
+  offset: 0, 0
+  index: -1
+0006
+  rotate: true
+  xy: 131, 8
+  size: 119, 117
+  orig: 119, 117
+  offset: 0, 0
+  index: -1
+0007
+  rotate: true
+  xy: 140, 136
+  size: 126, 125
+  orig: 126, 125
+  offset: 0, 0
+  index: -1
+0008
+  rotate: false
+  xy: 2, 129
+  size: 136, 133
+  orig: 136, 133
+  offset: 0, 0
+  index: -1
+0009
+  rotate: false
+  xy: 2, 264
+  size: 145, 139
+  orig: 145, 139
+  offset: 0, 0
+  index: -1
+0010
+  rotate: false
+  xy: 2, 405
+  size: 154, 147
+  orig: 154, 147
+  offset: 0, 0
+  index: -1
+zhuang
+  rotate: false
+  xy: 301, 467
+  size: 74, 85
+  orig: 74, 85
+  offset: 0, 0
+  index: -1

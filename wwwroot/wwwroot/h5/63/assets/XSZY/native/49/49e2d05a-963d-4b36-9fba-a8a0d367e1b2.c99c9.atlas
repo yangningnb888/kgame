@@ -1,0 +1,174 @@
+
+Halloween_ske_2_ske.png
+size: 974,554
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan
+  rotate: false
+  xy: 873, 318
+  size: 59, 27
+  orig: 61, 27
+  offset: 1, 0
+  index: -1
+datui
+  rotate: true
+  xy: 797, 7
+  size: 91, 99
+  orig: 91, 99
+  offset: 0, 0
+  index: -1
+dengzi1
+  rotate: false
+  xy: 898, 40
+  size: 67, 181
+  orig: 69, 183
+  offset: 1, 1
+  index: -1
+dengzi2
+  rotate: true
+  xy: 187, 8
+  size: 78, 167
+  orig: 80, 169
+  offset: 1, 1
+  index: -1
+dengzi3
+  rotate: true
+  xy: 2, 186
+  size: 366, 436
+  orig: 368, 438
+  offset: 1, 1
+  index: -1
+gaoling
+  rotate: true
+  xy: 2, 9
+  size: 175, 183
+  orig: 175, 183
+  offset: 0, 0
+  index: -1
+jiezi
+  rotate: false
+  xy: 745, 10
+  size: 50, 41
+  orig: 50, 41
+  offset: 0, 0
+  index: -1
+jiu
+  rotate: false
+  xy: 733, 281
+  size: 34, 34
+  orig: 34, 42
+  offset: 0, 0
+  index: -1
+jiubei
+  rotate: true
+  xy: 898, 2
+  size: 36, 58
+  orig: 38, 80
+  offset: 2, 21
+  index: -1
+jiubeidi
+  rotate: true
+  xy: 421, 8
+  size: 14, 22
+  orig: 15, 33
+  offset: 0, 5
+  index: -1
+lingzi1
+  rotate: true
+  xy: 637, 3
+  size: 48, 52
+  orig: 48, 52
+  offset: 0, 0
+  index: -1
+lingzi2
+  rotate: true
+  xy: 691, 3
+  size: 48, 52
+  orig: 48, 52
+  offset: 0, 0
+  index: -1
+pifeng
+  rotate: false
+  xy: 873, 347
+  size: 89, 205
+  orig: 90, 207
+  offset: 0, 0
+  index: -1
+pifenghou
+  rotate: true
+  xy: 659, 317
+  size: 235, 212
+  orig: 235, 212
+  offset: 0, 0
+  index: -1
+pijian1
+  rotate: true
+  xy: 356, 7
+  size: 79, 63
+  orig: 79, 63
+  offset: 0, 0
+  index: -1
+pijian2
+  rotate: true
+  xy: 187, 88
+  size: 96, 244
+  orig: 96, 244
+  offset: 0, 0
+  index: -1
+qiaotui
+  rotate: true
+  xy: 433, 24
+  size: 153, 202
+  orig: 156, 207
+  offset: 3, 5
+  index: -1
+shengti
+  rotate: false
+  xy: 440, 179
+  size: 217, 373
+  orig: 231, 393
+  offset: 1, 2
+  index: -1
+tou
+  rotate: true
+  xy: 637, 53
+  size: 124, 151
+  orig: 124, 152
+  offset: 0, 0
+  index: -1
+yanbai
+  rotate: true
+  xy: 733, 212
+  size: 67, 29
+  orig: 67, 29
+  offset: 0, 0
+  index: -1
+yanzhu
+  rotate: false
+  xy: 733, 188
+  size: 45, 22
+  orig: 45, 22
+  offset: 0, 0
+  index: -1
+youdabi
+  rotate: true
+  xy: 884, 223
+  size: 93, 88
+  orig: 101, 88
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 659, 196
+  size: 72, 119
+  orig: 81, 132
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 790, 100
+  size: 92, 215
+  orig: 93, 225
+  offset: 1, 5
+  index: -1

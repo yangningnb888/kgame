@@ -1,0 +1,55 @@
+
+benchibaoma_changjingtexiao.png
+size: 518,153
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bcbm_deng
+  rotate: false
+  xy: 468, 53
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+benchibaoma_dengxiang_1
+  rotate: true
+  xy: 213, 50
+  size: 101, 253
+  orig: 101, 253
+  offset: 0, 0
+  index: -1
+benchibaoma_guang2
+  rotate: false
+  xy: 2, 2
+  size: 209, 149
+  orig: 209, 149
+  offset: 0, 0
+  index: -1
+benchibaoma_hong
+  rotate: false
+  xy: 301, 12
+  size: 85, 36
+  orig: 85, 36
+  offset: 0, 0
+  index: -1
+benchibaoma_huang
+  rotate: false
+  xy: 213, 10
+  size: 86, 38
+  orig: 86, 38
+  offset: 0, 0
+  index: -1
+benchibaoma_lv
+  rotate: false
+  xy: 388, 12
+  size: 84, 36
+  orig: 84, 36
+  offset: 0, 0
+  index: -1
+benchibaoma_zhishi
+  rotate: false
+  xy: 468, 86
+  size: 48, 65
+  orig: 48, 65
+  offset: 0, 0
+  index: -1

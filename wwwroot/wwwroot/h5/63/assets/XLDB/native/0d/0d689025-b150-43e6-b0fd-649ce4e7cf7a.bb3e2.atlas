@@ -1,0 +1,145 @@
+
+yuchaolaixi_02.png
+size: 995,989
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yuchaolaixi
+  rotate: false
+  xy: 2, 848
+  size: 515, 139
+  orig: 515, 139
+  offset: 0, 0
+  index: -1
+yuchaolaixi_1
+  rotate: false
+  xy: 2, 707
+  size: 515, 139
+  orig: 515, 139
+  offset: 0, 0
+  index: -1
+yuchaolaixi_2
+  rotate: false
+  xy: 2, 566
+  size: 515, 139
+  orig: 515, 139
+  offset: 0, 0
+  index: -1
+yuchaolaixi_3
+  rotate: true
+  xy: 854, 472
+  size: 515, 139
+  orig: 515, 139
+  offset: 0, 0
+  index: -1
+yuchaolaixi_4
+  rotate: false
+  xy: 2, 425
+  size: 515, 139
+  orig: 515, 139
+  offset: 0, 0
+  index: -1
+yuchaolaixi_5
+  rotate: false
+  xy: 2, 284
+  size: 515, 139
+  orig: 515, 139
+  offset: 0, 0
+  index: -1
+yuchaolaixi_6
+  rotate: false
+  xy: 2, 143
+  size: 515, 139
+  orig: 515, 139
+  offset: 0, 0
+  index: -1
+yuchaolaixi_7
+  rotate: false
+  xy: 2, 2
+  size: 515, 139
+  orig: 515, 139
+  offset: 0, 0
+  index: -1
+yuchaoshandian_1
+  rotate: false
+  xy: 519, 807
+  size: 333, 180
+  orig: 333, 180
+  offset: 0, 0
+  index: -1
+yuchaoshandian_2
+  rotate: false
+  xy: 519, 625
+  size: 333, 180
+  orig: 333, 180
+  offset: 0, 0
+  index: -1
+yuchaoshandian_3
+  rotate: false
+  xy: 519, 443
+  size: 333, 180
+  orig: 333, 180
+  offset: 0, 0
+  index: -1
+yuchaoshandian_4
+  rotate: false
+  xy: 519, 261
+  size: 333, 180
+  orig: 333, 180
+  offset: 0, 0
+  index: -1
+yuchaoshandian_5
+  rotate: false
+  xy: 519, 79
+  size: 333, 180
+  orig: 333, 180
+  offset: 0, 0
+  index: -1
+
+yuchaolaixi_022.png
+size: 789,519
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yuchaolaixi_10
+  rotate: true
+  xy: 284, 2
+  size: 515, 139
+  orig: 515, 139
+  offset: 0, 0
+  index: -1
+yuchaolaixi_8
+  rotate: true
+  xy: 2, 2
+  size: 515, 139
+  orig: 515, 139
+  offset: 0, 0
+  index: -1
+yuchaolaixi_9
+  rotate: true
+  xy: 143, 2
+  size: 515, 139
+  orig: 515, 139
+  offset: 0, 0
+  index: -1
+yuchaoshandian_6
+  rotate: false
+  xy: 425, 337
+  size: 333, 180
+  orig: 333, 180
+  offset: 0, 0
+  index: -1
+yuchaoshandian_7
+  rotate: true
+  xy: 425, 2
+  size: 333, 180
+  orig: 333, 180
+  offset: 0, 0
+  index: -1
+yuchaoshandian_8
+  rotate: true
+  xy: 607, 2
+  size: 333, 180
+  orig: 333, 180
+  offset: 0, 0
+  index: -1

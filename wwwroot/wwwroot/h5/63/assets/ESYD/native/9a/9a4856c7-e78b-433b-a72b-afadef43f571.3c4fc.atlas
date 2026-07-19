@@ -1,0 +1,55 @@
+
+wxl.png
+size: 487,182
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wxl/circle_1
+  rotate: true
+  xy: 222, 43
+  size: 137, 136
+  orig: 137, 136
+  offset: 0, 0
+  index: -1
+wxl/ms_l_1
+  rotate: true
+  xy: 360, 109
+  size: 71, 125
+  orig: 71, 125
+  offset: 0, 0
+  index: -1
+wxl/ms_r_1
+  rotate: true
+  xy: 360, 37
+  size: 70, 125
+  orig: 70, 125
+  offset: 0, 0
+  index: -1
+wxl/plan_1
+  rotate: true
+  xy: 160, 9
+  size: 171, 60
+  orig: 171, 60
+  offset: 0, 0
+  index: -1
+wxl/plan_b_1
+  rotate: false
+  xy: 222, 2
+  size: 118, 39
+  orig: 118, 39
+  offset: 0, 0
+  index: -1
+wxl/shadow_1
+  rotate: true
+  xy: 2, 3
+  size: 177, 156
+  orig: 177, 156
+  offset: 0, 0
+  index: -1
+wxl/text_wxl
+  rotate: false
+  xy: 342, 2
+  size: 92, 33
+  orig: 92, 33
+  offset: 0, 0
+  index: -1

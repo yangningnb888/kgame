@@ -1,0 +1,118 @@
+
+325_byyueka_paotai.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+325_byyueka_00
+  rotate: false
+  xy: 513, 7
+  size: 126, 119
+  orig: 126, 119
+  offset: 0, 0
+  index: -1
+325_byyueka_01
+  rotate: false
+  xy: 904, 46
+  size: 115, 80
+  orig: 115, 80
+  offset: 0, 0
+  index: -1
+325_byyueka_02
+  rotate: false
+  xy: 190, 13
+  size: 158, 113
+  orig: 158, 113
+  offset: 0, 0
+  index: -1
+325_byyueka_03
+  rotate: false
+  xy: 641, 57
+  size: 138, 69
+  orig: 138, 69
+  offset: 0, 0
+  index: -1
+325_byyueka_04
+  rotate: false
+  xy: 764, 2
+  size: 86, 51
+  orig: 86, 51
+  offset: 0, 0
+  index: -1
+325_byyueka_05
+  rotate: true
+  xy: 350, 13
+  size: 15, 111
+  orig: 15, 111
+  offset: 0, 0
+  index: -1
+325_byyueka_06
+  rotate: true
+  xy: 781, 55
+  size: 71, 121
+  orig: 71, 121
+  offset: 0, 0
+  index: -1
+325_byyueka_07
+  rotate: true
+  xy: 893, 4
+  size: 40, 55
+  orig: 40, 55
+  offset: 0, 0
+  index: -1
+325_byyueka_08
+  rotate: false
+  xy: 2, 18
+  size: 186, 108
+  orig: 186, 108
+  offset: 0, 0
+  index: -1
+325_byyueka_09
+  rotate: true
+  xy: 641, 14
+  size: 41, 121
+  orig: 41, 121
+  offset: 0, 0
+  index: -1
+325_byyueka_10
+  rotate: false
+  xy: 986, 17
+  size: 28, 27
+  orig: 28, 27
+  offset: 0, 0
+  index: -1
+325_byyueka_11
+  rotate: false
+  xy: 463, 13
+  size: 29, 15
+  orig: 29, 15
+  offset: 0, 0
+  index: -1
+325_byyueka_13
+  rotate: false
+  xy: 950, 12
+  size: 34, 32
+  orig: 34, 32
+  offset: 0, 0
+  index: -1
+325_byyueka_14
+  rotate: false
+  xy: 852, 23
+  size: 39, 30
+  orig: 39, 30
+  offset: 0, 0
+  index: -1
+325_byyueka_15
+  rotate: true
+  xy: 350, 30
+  size: 96, 161
+  orig: 96, 161
+  offset: 0, 0
+  index: -1
+xdl_hjylz_01
+  rotate: false
+  xy: 2, 5
+  size: 11, 11
+  orig: 11, 11
+  offset: 0, 0
+  index: -1

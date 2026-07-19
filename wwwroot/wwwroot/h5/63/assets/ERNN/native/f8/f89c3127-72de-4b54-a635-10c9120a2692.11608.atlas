@@ -1,0 +1,76 @@
+
+325_qiangzhuangniuniu_zhongjichang.png
+size: 972,200
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 2, 2
+  size: 196, 218
+  orig: 196, 218
+  offset: 0, 0
+  index: -1
+eye
+  rotate: true
+  xy: 879, 14
+  size: 98, 51
+  orig: 98, 51
+  offset: 0, 0
+  index: -1
+huzi01
+  rotate: true
+  xy: 655, 5
+  size: 24, 19
+  orig: 24, 19
+  offset: 0, 0
+  index: -1
+huzi02
+  rotate: false
+  xy: 676, 13
+  size: 37, 16
+  orig: 37, 16
+  offset: 0, 0
+  index: -1
+maoyan
+  rotate: false
+  xy: 655, 123
+  size: 224, 75
+  orig: 224, 75
+  offset: 0, 0
+  index: -1
+maozi
+  rotate: false
+  xy: 655, 31
+  size: 222, 90
+  orig: 222, 90
+  offset: 0, 0
+  index: -1
+pifeng
+  rotate: true
+  xy: 497, 14
+  size: 184, 156
+  orig: 184, 156
+  offset: 0, 0
+  index: -1
+shou
+  rotate: true
+  xy: 881, 114
+  size: 84, 89
+  orig: 84, 89
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 261, 9
+  size: 234, 189
+  orig: 234, 189
+  offset: 0, 0
+  index: -1
+yingzi
+  rotate: true
+  xy: 222, 3
+  size: 195, 37
+  orig: 195, 37
+  offset: 0, 0
+  index: -1

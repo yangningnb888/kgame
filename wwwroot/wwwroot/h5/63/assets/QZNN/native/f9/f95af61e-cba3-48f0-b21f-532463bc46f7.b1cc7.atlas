@@ -1,0 +1,69 @@
+
+qiangzhuangpinshi_dengdaixiaju.png
+size: 153,141
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dai
+  rotate: true
+  xy: 50, 95
+  size: 44, 50
+  orig: 44, 50
+  offset: 0, 0
+  index: -1
+deng
+  rotate: true
+  xy: 102, 95
+  size: 44, 49
+  orig: 44, 49
+  offset: 0, 0
+  index: -1
+gui_txt_point
+  rotate: true
+  xy: 48, 22
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1
+ju
+  rotate: false
+  xy: 2, 41
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+nai
+  rotate: false
+  xy: 51, 45
+  size: 45, 48
+  orig: 45, 48
+  offset: 0, 0
+  index: -1
+qin
+  rotate: false
+  xy: 2, 90
+  size: 46, 49
+  orig: 46, 49
+  offset: 0, 0
+  index: -1
+xia
+  rotate: true
+  xy: 98, 2
+  size: 44, 46
+  orig: 44, 46
+  offset: 0, 0
+  index: -1
+xin
+  rotate: true
+  xy: 98, 48
+  size: 45, 48
+  orig: 45, 48
+  offset: 0, 0
+  index: -1
+yi
+  rotate: false
+  xy: 2, 18
+  size: 44, 21
+  orig: 44, 21
+  offset: 0, 0
+  index: -1

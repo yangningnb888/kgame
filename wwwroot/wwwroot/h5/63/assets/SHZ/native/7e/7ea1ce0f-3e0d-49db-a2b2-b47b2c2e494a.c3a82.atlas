@@ -1,0 +1,20 @@
+
+jiantoulv.png
+size: 108,70
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+down-row
+  rotate: true
+  xy: 2, 2
+  size: 66, 73
+  orig: 66, 73
+  offset: 0, 0
+  index: -1
+green-glow
+  rotate: false
+  xy: 77, 39
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1

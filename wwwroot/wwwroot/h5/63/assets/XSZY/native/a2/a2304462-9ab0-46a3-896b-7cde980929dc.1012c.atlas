@@ -1,0 +1,921 @@
+
+halloween_shengli_ske.png
+size: 1018,1002
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+halloween_shengli_124
+  rotate: true
+  xy: 2, 994
+  size: 6, 30
+  orig: 6, 30
+  offset: 0, 0
+  index: -1
+halloween_shengli_126
+  rotate: false
+  xy: 464, 951
+  size: 44, 36
+  orig: 44, 36
+  offset: 0, 0
+  index: -1
+halloween_shengli_127
+  rotate: false
+  xy: 622, 132
+  size: 355, 216
+  orig: 355, 216
+  offset: 0, 0
+  index: -1
+halloween_shengli_130
+  rotate: true
+  xy: 732, 914
+  size: 60, 65
+  orig: 62, 66
+  offset: 1, 0
+  index: -1
+halloween_shengli_132
+  rotate: true
+  xy: 94, 963
+  size: 29, 37
+  orig: 29, 37
+  offset: 0, 0
+  index: -1
+halloween_shengli_133
+  rotate: true
+  xy: 144, 993
+  size: 7, 21
+  orig: 7, 21
+  offset: 0, 0
+  index: -1
+halloween_shengli_134
+  rotate: false
+  xy: 2, 564
+  size: 976, 79
+  orig: 978, 80
+  offset: 0, 0
+  index: -1
+halloween_shengli_135
+  rotate: true
+  xy: 133, 962
+  size: 29, 37
+  orig: 29, 37
+  offset: 0, 0
+  index: -1
+halloween_shengli_139
+  rotate: true
+  xy: 434, 238
+  size: 214, 186
+  orig: 220, 194
+  offset: 3, 0
+  index: -1
+halloween_shengli_142
+  rotate: false
+  xy: 2, 58
+  size: 446, 128
+  orig: 455, 137
+  offset: 1, 8
+  index: -1
+halloween_shengli_143
+  rotate: true
+  xy: 34, 994
+  size: 6, 30
+  orig: 6, 30
+  offset: 0, 0
+  index: -1
+halloween_shengli_145
+  rotate: false
+  xy: 799, 912
+  size: 66, 62
+  orig: 66, 62
+  offset: 0, 0
+  index: -1
+halloween_shengli_146
+  rotate: false
+  xy: 757, 976
+  size: 56, 24
+  orig: 56, 24
+  offset: 0, 0
+  index: -1
+halloween_shengli_147
+  rotate: true
+  xy: 66, 994
+  size: 6, 12
+  orig: 6, 12
+  offset: 0, 0
+  index: -1
+halloween_shengli_150
+  rotate: false
+  xy: 873, 975
+  size: 62, 25
+  orig: 62, 25
+  offset: 0, 0
+  index: -1
+halloween_shengli_151
+  rotate: false
+  xy: 2, 454
+  size: 639, 108
+  orig: 676, 122
+  offset: 18, 7
+  index: -1
+halloween_shengli_152
+  rotate: false
+  xy: 172, 954
+  size: 56, 35
+  orig: 56, 35
+  offset: 0, 0
+  index: -1
+halloween_shengli_154
+  rotate: true
+  xy: 2, 964
+  size: 28, 44
+  orig: 28, 44
+  offset: 0, 0
+  index: -1
+halloween_shengli_155
+  rotate: true
+  xy: 48, 964
+  size: 28, 44
+  orig: 28, 44
+  offset: 0, 0
+  index: -1
+halloween_shengli_156
+  rotate: true
+  xy: 182, 991
+  size: 9, 49
+  orig: 9, 49
+  offset: 0, 0
+  index: -1
+halloween_shengli_157
+  rotate: true
+  xy: 640, 947
+  size: 38, 44
+  orig: 40, 45
+  offset: 1, 0
+  index: -1
+halloween_shengli_158
+  rotate: false
+  xy: 230, 954
+  size: 44, 35
+  orig: 44, 35
+  offset: 0, 0
+  index: -1
+halloween_shengli_162
+  rotate: true
+  xy: 294, 990
+  size: 10, 34
+  orig: 10, 34
+  offset: 0, 0
+  index: -1
+halloween_shengli_163
+  rotate: false
+  xy: 2, 832
+  size: 1014, 51
+  orig: 1014, 51
+  offset: 0, 0
+  index: -1
+halloween_shengli_164
+  rotate: true
+  xy: 598, 948
+  size: 38, 40
+  orig: 39, 41
+  offset: 0, 0
+  index: -1
+halloween_shengli_165
+  rotate: false
+  xy: 276, 953
+  size: 40, 35
+  orig: 40, 35
+  offset: 0, 0
+  index: -1
+halloween_shengli_166
+  rotate: true
+  xy: 686, 945
+  size: 38, 44
+  orig: 40, 45
+  offset: 1, 0
+  index: -1
+halloween_shengli_170
+  rotate: true
+  xy: 80, 994
+  size: 6, 30
+  orig: 6, 30
+  offset: 0, 0
+  index: -1
+halloween_shengli_171
+  rotate: true
+  xy: 167, 993
+  size: 7, 13
+  orig: 7, 13
+  offset: 0, 0
+  index: -1
+halloween_shengli_172
+  rotate: false
+  xy: 510, 951
+  size: 44, 36
+  orig: 44, 36
+  offset: 0, 0
+  index: -1
+halloween_shengli_174
+  rotate: false
+  xy: 2, 885
+  size: 698, 58
+  orig: 698, 58
+  offset: 0, 0
+  index: -1
+halloween_shengli_179
+  rotate: false
+  xy: 2, 776
+  size: 997, 54
+  orig: 998, 54
+  offset: 1, 0
+  index: -1
+halloween_shengli_183
+  rotate: false
+  xy: 318, 953
+  size: 56, 35
+  orig: 56, 35
+  offset: 0, 0
+  index: -1
+halloween_shengli_190
+  rotate: false
+  xy: 450, 2
+  size: 452, 128
+  orig: 455, 138
+  offset: 2, 8
+  index: -1
+halloween_shengli_191
+  rotate: true
+  xy: 407, 989
+  size: 11, 26
+  orig: 12, 26
+  offset: 0, 0
+  index: -1
+halloween_shengli_194
+  rotate: false
+  xy: 815, 976
+  size: 56, 24
+  orig: 56, 24
+  offset: 0, 0
+  index: -1
+halloween_shengli_197
+  rotate: true
+  xy: 823, 350
+  size: 212, 187
+  orig: 216, 190
+  offset: 1, 0
+  index: -1
+halloween_shengli_202
+  rotate: false
+  xy: 2, 718
+  size: 759, 56
+  orig: 759, 56
+  offset: 0, 0
+  index: -1
+halloween_shengli_203
+  rotate: false
+  xy: 937, 975
+  size: 62, 25
+  orig: 62, 25
+  offset: 0, 0
+  index: -1
+halloween_shengli_205
+  rotate: false
+  xy: 2, 326
+  size: 430, 126
+  orig: 436, 131
+  offset: 2, 4
+  index: -1
+halloween_shengli_211
+  rotate: true
+  xy: 435, 989
+  size: 11, 36
+  orig: 11, 36
+  offset: 0, 0
+  index: -1
+halloween_shengli_214
+  rotate: true
+  xy: 112, 994
+  size: 6, 30
+  orig: 6, 30
+  offset: 0, 0
+  index: -1
+halloween_shengli_217
+  rotate: false
+  xy: 376, 952
+  size: 40, 35
+  orig: 40, 35
+  offset: 0, 0
+  index: -1
+halloween_shengli_222
+  rotate: true
+  xy: 687, 985
+  size: 15, 50
+  orig: 15, 50
+  offset: 0, 0
+  index: -1
+halloween_shengli_226
+  rotate: false
+  xy: 2, 645
+  size: 988, 71
+  orig: 988, 71
+  offset: 0, 0
+  index: -1
+halloween_shengli_228
+  rotate: false
+  xy: 418, 952
+  size: 44, 35
+  orig: 44, 35
+  offset: 0, 0
+  index: -1
+halloween_shengli_230
+  rotate: true
+  xy: 330, 990
+  size: 10, 39
+  orig: 10, 39
+  offset: 0, 0
+  index: -1
+halloween_shengli_232
+  rotate: false
+  xy: 2, 188
+  size: 420, 136
+  orig: 425, 139
+  offset: 2, 1
+  index: -1
+halloween_shengli_234
+  rotate: true
+  xy: 473, 989
+  size: 11, 49
+  orig: 11, 49
+  offset: 0, 0
+  index: -1
+halloween_shengli_240
+  rotate: true
+  xy: 556, 949
+  size: 37, 40
+  orig: 40, 42
+  offset: 2, 0
+  index: -1
+halloween_shengli_241
+  rotate: true
+  xy: 233, 991
+  size: 9, 31
+  orig: 9, 31
+  offset: 0, 0
+  index: -1
+halloween_shengli_242
+  rotate: true
+  xy: 643, 393
+  size: 169, 178
+  orig: 173, 181
+  offset: 2, 1
+  index: -1
+halloween_shengli_243
+  rotate: true
+  xy: 591, 988
+  size: 12, 50
+  orig: 13, 51
+  offset: 0, 1
+  index: -1
+halloween_shengli_244
+  rotate: true
+  xy: 371, 990
+  size: 10, 34
+  orig: 12, 35
+  offset: 1, 1
+  index: -1
+halloween_shengli_245
+  rotate: true
+  xy: 266, 991
+  size: 9, 26
+  orig: 10, 27
+  offset: 1, 1
+  index: -1
+halloween_shengli_246
+  rotate: true
+  xy: 524, 989
+  size: 11, 14
+  orig: 12, 14
+  offset: 1, 0
+  index: -1
+halloween_shengli_247
+  rotate: false
+  xy: 739, 984
+  size: 16, 16
+  orig: 17, 17
+  offset: 1, 0
+  index: -1
+halloween_shengli_248
+  rotate: true
+  xy: 540, 989
+  size: 11, 49
+  orig: 14, 49
+  offset: 2, 0
+  index: -1
+halloween_shengli_249
+  rotate: true
+  xy: 643, 987
+  size: 13, 42
+  orig: 21, 43
+  offset: 3, 0
+  index: -1
+
+halloween_shengli_ske2.png
+size: 956,1016
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+halloween_shengli_169
+  rotate: false
+  xy: 2, 407
+  size: 952, 607
+  orig: 953, 607
+  offset: 0, 0
+  index: -1
+halloween_shengli_176
+  rotate: false
+  xy: 670, 2
+  size: 263, 403
+  orig: 263, 403
+  offset: 0, 0
+  index: -1
+halloween_shengli_201
+  rotate: false
+  xy: 2, 70
+  size: 666, 335
+  orig: 666, 335
+  offset: 0, 0
+  index: -1
+
+halloween_shengli_ske3.png
+size: 954,996
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+halloween_shengli_192
+  rotate: false
+  xy: 2, 389
+  size: 950, 605
+  orig: 953, 607
+  offset: 2, 0
+  index: -1
+halloween_shengli_193
+  rotate: false
+  xy: 453, 52
+  size: 493, 335
+  orig: 493, 335
+  offset: 0, 0
+  index: -1
+halloween_shengli_215
+  rotate: false
+  xy: 2, 2
+  size: 449, 385
+  orig: 449, 385
+  offset: 0, 0
+  index: -1
+
+halloween_shengli_ske4.png
+size: 906,1012
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+halloween_shengli_128
+  rotate: false
+  xy: 2, 810
+  size: 700, 200
+  orig: 700, 200
+  offset: 0, 0
+  index: -1
+halloween_shengli_131
+  rotate: false
+  xy: 2, 608
+  size: 700, 200
+  orig: 700, 200
+  offset: 0, 0
+  index: -1
+halloween_shengli_136
+  rotate: false
+  xy: 2, 406
+  size: 700, 200
+  orig: 700, 200
+  offset: 0, 0
+  index: -1
+halloween_shengli_137
+  rotate: false
+  xy: 2, 204
+  size: 700, 200
+  orig: 700, 200
+  offset: 0, 0
+  index: -1
+halloween_shengli_153
+  rotate: true
+  xy: 704, 310
+  size: 700, 200
+  orig: 700, 200
+  offset: 0, 0
+  index: -1
+halloween_shengli_212
+  rotate: false
+  xy: 2, 2
+  size: 700, 200
+  orig: 700, 200
+  offset: 0, 0
+  index: -1
+
+halloween_shengli_ske5.png
+size: 905,1001
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+halloween_shengli_168
+  rotate: false
+  xy: 2, 194
+  size: 700, 199
+  orig: 700, 200
+  offset: 0, 0
+  index: -1
+halloween_shengli_200
+  rotate: true
+  xy: 704, 300
+  size: 699, 199
+  orig: 699, 200
+  offset: 0, 0
+  index: -1
+halloween_shengli_216
+  rotate: false
+  xy: 2, 2
+  size: 698, 190
+  orig: 699, 192
+  offset: 1, 1
+  index: -1
+halloween_shengli_219
+  rotate: false
+  xy: 2, 799
+  size: 700, 200
+  orig: 700, 200
+  offset: 0, 0
+  index: -1
+halloween_shengli_225
+  rotate: false
+  xy: 2, 597
+  size: 700, 200
+  orig: 700, 200
+  offset: 0, 0
+  index: -1
+halloween_shengli_238
+  rotate: false
+  xy: 2, 395
+  size: 700, 200
+  orig: 700, 200
+  offset: 0, 0
+  index: -1
+
+halloween_shengli_ske6.png
+size: 1016,956
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+halloween_shengli_125
+  rotate: false
+  xy: 2, 134
+  size: 312, 432
+  orig: 312, 432
+  offset: 0, 0
+  index: -1
+halloween_shengli_141
+  rotate: false
+  xy: 421, 221
+  size: 385, 365
+  orig: 385, 365
+  offset: 0, 0
+  index: -1
+halloween_shengli_180
+  rotate: true
+  xy: 861, 269
+  size: 685, 153
+  orig: 699, 159
+  offset: 14, 1
+  index: -1
+halloween_shengli_207
+  rotate: false
+  xy: 421, 588
+  size: 438, 366
+  orig: 438, 366
+  offset: 0, 0
+  index: -1
+halloween_shengli_224
+  rotate: false
+  xy: 316, 2
+  size: 636, 217
+  orig: 636, 217
+  offset: 0, 0
+  index: -1
+halloween_shengli_237
+  rotate: false
+  xy: 2, 568
+  size: 417, 386
+  orig: 417, 386
+  offset: 0, 0
+  index: -1
+
+halloween_shengli_ske7.png
+size: 1020,953
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+halloween_shengli_129
+  rotate: false
+  xy: 2, 392
+  size: 583, 140
+  orig: 586, 146
+  offset: 3, 4
+  index: -1
+halloween_shengli_138
+  rotate: false
+  xy: 2, 814
+  size: 449, 137
+  orig: 452, 141
+  offset: 0, 3
+  index: -1
+halloween_shengli_173
+  rotate: false
+  xy: 535, 2
+  size: 448, 142
+  orig: 448, 142
+  offset: 0, 0
+  index: -1
+halloween_shengli_177
+  rotate: true
+  xy: 587, 288
+  size: 244, 323
+  orig: 249, 325
+  offset: 2, 2
+  index: -1
+halloween_shengli_184
+  rotate: false
+  xy: 453, 814
+  size: 448, 137
+  orig: 451, 140
+  offset: 1, 1
+  index: -1
+halloween_shengli_187
+  rotate: false
+  xy: 426, 534
+  size: 560, 139
+  orig: 562, 143
+  offset: 2, 2
+  index: -1
+halloween_shengli_196
+  rotate: false
+  xy: 2, 675
+  size: 535, 137
+  orig: 537, 140
+  offset: 2, 1
+  index: -1
+halloween_shengli_208
+  rotate: false
+  xy: 539, 675
+  size: 450, 137
+  orig: 455, 146
+  offset: 1, 8
+  index: -1
+halloween_shengli_209
+  rotate: false
+  xy: 2, 250
+  size: 446, 140
+  orig: 448, 141
+  offset: 2, 0
+  index: -1
+halloween_shengli_213
+  rotate: false
+  xy: 450, 146
+  size: 568, 140
+  orig: 568, 143
+  offset: 0, 2
+  index: -1
+halloween_shengli_218
+  rotate: false
+  xy: 2, 535
+  size: 422, 138
+  orig: 434, 140
+  offset: 3, 0
+  index: -1
+halloween_shengli_233
+  rotate: false
+  xy: 2, 4
+  size: 531, 140
+  orig: 534, 145
+  offset: 1, 4
+  index: -1
+
+halloween_shengli_ske8.png
+size: 1013,976
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+halloween_shengli_140
+  rotate: true
+  xy: 866, 179
+  size: 547, 145
+  orig: 548, 150
+  offset: 1, 4
+  index: -1
+halloween_shengli_159
+  rotate: false
+  xy: 2, 453
+  size: 599, 149
+  orig: 600, 150
+  offset: 1, 1
+  index: -1
+halloween_shengli_161
+  rotate: false
+  xy: 2, 756
+  size: 613, 218
+  orig: 613, 218
+  offset: 0, 0
+  index: -1
+halloween_shengli_185
+  rotate: false
+  xy: 2, 151
+  size: 592, 149
+  orig: 597, 150
+  offset: 5, 1
+  index: -1
+halloween_shengli_188
+  rotate: false
+  xy: 2, 2
+  size: 592, 147
+  orig: 596, 149
+  offset: 4, 2
+  index: -1
+halloween_shengli_198
+  rotate: false
+  xy: 603, 303
+  size: 261, 423
+  orig: 261, 423
+  offset: 0, 0
+  index: -1
+halloween_shengli_206
+  rotate: false
+  xy: 2, 604
+  size: 599, 150
+  orig: 600, 150
+  offset: 1, 0
+  index: -1
+halloween_shengli_236
+  rotate: true
+  xy: 617, 728
+  size: 246, 320
+  orig: 249, 325
+  offset: 1, 0
+  index: -1
+halloween_shengli_239
+  rotate: false
+  xy: 2, 302
+  size: 596, 149
+  orig: 599, 150
+  offset: 1, 1
+  index: -1
+
+halloween_shengli_ske9.png
+size: 997,1008
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+halloween_shengli_160
+  rotate: true
+  xy: 440, 128
+  size: 581, 141
+  orig: 581, 143
+  offset: 0, 1
+  index: -1
+halloween_shengli_175
+  rotate: true
+  xy: 583, 143
+  size: 566, 149
+  orig: 567, 150
+  offset: 1, 1
+  index: -1
+halloween_shengli_182
+  rotate: true
+  xy: 734, 447
+  size: 559, 146
+  orig: 559, 148
+  offset: 0, 2
+  index: -1
+halloween_shengli_195
+  rotate: false
+  xy: 2, 711
+  size: 587, 149
+  orig: 587, 150
+  offset: 0, 1
+  index: -1
+halloween_shengli_204
+  rotate: false
+  xy: 2, 862
+  size: 597, 144
+  orig: 598, 149
+  offset: 0, 2
+  index: -1
+halloween_shengli_221
+  rotate: false
+  xy: 734, 2
+  size: 261, 443
+  orig: 261, 443
+  offset: 0, 0
+  index: -1
+halloween_shengli_229
+  rotate: true
+  xy: 148, 124
+  size: 585, 147
+  orig: 595, 149
+  offset: 10, 2
+  index: -1
+halloween_shengli_231
+  rotate: true
+  xy: 2, 118
+  size: 591, 144
+  orig: 594, 146
+  offset: 1, 1
+  index: -1
+halloween_shengli_235
+  rotate: true
+  xy: 297, 115
+  size: 594, 141
+  orig: 596, 146
+  offset: 1, 4
+  index: -1
+
+halloween_shengli_ske10.png
+size: 1014,891
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+halloween_shengli_144
+  rotate: false
+  xy: 2, 743
+  size: 556, 146
+  orig: 556, 148
+  offset: 0, 2
+  index: -1
+halloween_shengli_148
+  rotate: true
+  xy: 498, 201
+  size: 540, 145
+  orig: 541, 148
+  offset: 1, 3
+  index: -1
+halloween_shengli_149
+  rotate: true
+  xy: 844, 213
+  size: 532, 148
+  orig: 537, 150
+  offset: 5, 2
+  index: -1
+halloween_shengli_167
+  rotate: false
+  xy: 452, 2
+  size: 487, 197
+  orig: 487, 197
+  offset: 0, 0
+  index: -1
+halloween_shengli_178
+  rotate: true
+  xy: 148, 190
+  size: 551, 148
+  orig: 562, 150
+  offset: 1, 2
+  index: -1
+halloween_shengli_181
+  rotate: false
+  xy: 2, 39
+  size: 448, 142
+  orig: 448, 143
+  offset: 0, 0
+  index: -1
+halloween_shengli_189
+  rotate: true
+  xy: 298, 252
+  size: 489, 198
+  orig: 489, 198
+  offset: 0, 0
+  index: -1
+halloween_shengli_199
+  rotate: false
+  xy: 560, 747
+  size: 452, 142
+  orig: 457, 147
+  offset: 1, 4
+  index: -1
+halloween_shengli_223
+  rotate: true
+  xy: 2, 183
+  size: 558, 144
+  orig: 558, 147
+  offset: 0, 3
+  index: -1
+halloween_shengli_227
+  rotate: true
+  xy: 645, 256
+  size: 489, 197
+  orig: 489, 197
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,111 @@
+
+jiuxianlawang_xuanchangjiemian_zhongjichang.png
+size: 898,282
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lkpy_chujifang_body
+  rotate: false
+  xy: 348, 23
+  size: 299, 257
+  orig: 299, 257
+  offset: 0, 0
+  index: -1
+lkpy_chujifang_dizuo
+  rotate: true
+  xy: 2, 12
+  size: 268, 344
+  orig: 268, 344
+  offset: 0, 0
+  index: -1
+lkpy_chujifang_wei
+  rotate: false
+  xy: 729, 56
+  size: 91, 120
+  orig: 91, 120
+  offset: 0, 0
+  index: -1
+lkpy_chujifang_youbiyan
+  rotate: false
+  xy: 711, 3
+  size: 30, 34
+  orig: 30, 34
+  offset: 0, 0
+  index: -1
+lkpy_chujifang_youchui
+  rotate: true
+  xy: 822, 107
+  size: 69, 73
+  orig: 69, 73
+  offset: 0, 0
+  index: -1
+lkpy_chujifang_youmei
+  rotate: false
+  xy: 348, 12
+  size: 22, 9
+  orig: 22, 9
+  offset: 0, 0
+  index: -1
+lkpy_chujifang_youwei
+  rotate: false
+  xy: 845, 29
+  size: 39, 33
+  orig: 39, 33
+  offset: 0, 0
+  index: -1
+lkpy_chujifang_youyan
+  rotate: true
+  xy: 743, 4
+  size: 50, 41
+  orig: 50, 41
+  offset: 0, 0
+  index: -1
+lkpy_chujifang_zuiba
+  rotate: false
+  xy: 822, 64
+  size: 67, 41
+  orig: 67, 41
+  offset: 0, 0
+  index: -1
+lkpy_chujifang_zuobiyan
+  rotate: true
+  xy: 649, 2
+  size: 35, 33
+  orig: 35, 33
+  offset: 0, 0
+  index: -1
+lkpy_chujifang_zuochui
+  rotate: false
+  xy: 649, 39
+  size: 78, 137
+  orig: 78, 137
+  offset: 0, 0
+  index: -1
+lkpy_chujifang_zuomei
+  rotate: true
+  xy: 876, 251
+  size: 29, 20
+  orig: 29, 20
+  offset: 0, 0
+  index: -1
+lkpy_chujifang_zuowei
+  rotate: true
+  xy: 684, 2
+  size: 35, 25
+  orig: 35, 25
+  offset: 0, 0
+  index: -1
+lkpy_chujifang_zuoyan
+  rotate: false
+  xy: 786, 9
+  size: 57, 45
+  orig: 57, 45
+  offset: 0, 0
+  index: -1
+lkpy_huacao
+  rotate: false
+  xy: 649, 178
+  size: 225, 102
+  orig: 225, 102
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+
+bairenniuniu_dengdaikaiju.png
+size: 243,129
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+qin
+  rotate: false
+  xy: 62, 1
+  size: 58, 64
+  orig: 58, 64
+  offset: 0, 0
+  index: -1
+deng
+  rotate: false
+  xy: 122, 1
+  size: 58, 63
+  orig: 58, 63
+  offset: 0, 0
+  index: -1
+dai
+  rotate: false
+  xy: 182, 1
+  size: 58, 63
+  orig: 58, 63
+  offset: 0, 0
+  index: -1
+xia
+  rotate: false
+  xy: 182, 66
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+ju
+  rotate: false
+  xy: 1, 66
+  size: 59, 61
+  orig: 59, 61
+  offset: 0, 0
+  index: -1
+nai
+  rotate: false
+  xy: 122, 66
+  size: 58, 61
+  orig: 58, 61
+  offset: 0, 0
+  index: -1
+xin
+  rotate: false
+  xy: 1, 1
+  size: 59, 63
+  orig: 59, 63
+  offset: 0, 0
+  index: -1
+gui_txt_point
+  rotate: false
+  xy: 62, 67
+  size: 17, 21
+  orig: 17, 21
+  offset: 0, 0
+  index: -1

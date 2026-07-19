@@ -1,0 +1,132 @@
+
+pk_bipai.png
+size: 2025,1478
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mengban02
+  rotate: false
+  xy: 1, 1127
+  size: 333, 187
+  orig: 333, 187
+  offset: 0, 0
+  index: -1
+lan
+  rotate: false
+  xy: 1, 943
+  size: 883, 182
+  orig: 883, 182
+  offset: 0, 0
+  index: -1
+hong
+  rotate: false
+  xy: 886, 943
+  size: 860, 182
+  orig: 860, 182
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 1, 1
+  size: 935, 940
+  orig: 1024, 1024
+  offset: 45, 42
+  index: -1
+v
+  rotate: false
+  xy: 336, 1127
+  size: 195, 178
+  orig: 195, 178
+  offset: 0, 0
+  index: -1
+s
+  rotate: false
+  xy: 1804, 772
+  size: 219, 190
+  orig: 219, 190
+  offset: 0, 0
+  index: -1
+shanguang
+  rotate: false
+  xy: 1383, 514
+  size: 264, 263
+  orig: 300, 300
+  offset: 18, 19
+  index: -1
+guangci
+  rotate: false
+  xy: 1649, 514
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+xian_9
+  rotate: false
+  xy: 938, 675
+  size: 399, 162
+  orig: 500, 200
+  offset: 0, 13
+  index: -1
+xian_7
+  rotate: false
+  xy: 938, 513
+  size: 443, 160
+  orig: 500, 200
+  offset: 0, 13
+  index: -1
+xian_6
+  rotate: false
+  xy: 938, 349
+  size: 467, 162
+  orig: 500, 200
+  offset: 0, 11
+  index: -1
+xian_2
+  rotate: false
+  xy: 938, 1
+  size: 500, 178
+  orig: 500, 200
+  offset: 0, 6
+  index: -1
+xian_1
+  rotate: false
+  xy: 1440, 1
+  size: 500, 178
+  orig: 500, 200
+  offset: 0, 6
+  index: -1
+xian_10
+  rotate: false
+  xy: 1, 1316
+  size: 365, 160
+  orig: 500, 200
+  offset: 0, 15
+  index: -1
+xian_5
+  rotate: false
+  xy: 1440, 348
+  size: 489, 164
+  orig: 500, 200
+  offset: 0, 9
+  index: -1
+xian_3
+  rotate: false
+  xy: 938, 181
+  size: 500, 166
+  orig: 500, 200
+  offset: 0, 7
+  index: -1
+xian_8
+  rotate: false
+  xy: 1383, 779
+  size: 419, 161
+  orig: 500, 200
+  offset: 0, 13
+  index: -1
+xian_4
+  rotate: false
+  xy: 1440, 181
+  size: 500, 165
+  orig: 500, 200
+  offset: 0, 8
+  index: -1

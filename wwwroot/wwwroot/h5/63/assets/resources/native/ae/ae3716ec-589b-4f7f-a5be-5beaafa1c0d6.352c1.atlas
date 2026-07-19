@@ -1,0 +1,27 @@
+
+paotai08_baozha.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+paodan
+  rotate: false
+  xy: 2, 2
+  size: 161, 162
+  orig: 161, 162
+  offset: 0, 0
+  index: -1
+paodan01
+  rotate: false
+  xy: 326, 36
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+sanzhangpai_glow1
+  rotate: false
+  xy: 165, 5
+  size: 159, 159
+  orig: 159, 159
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,55 @@
+
+hs_yaoyiy_zhuangjia.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hsyaoyiy_01
+  rotate: false
+  xy: 2, 33
+  size: 176, 85
+  orig: 176, 85
+  offset: 0, 0
+  index: -1
+hsyaoyiy_02
+  rotate: false
+  xy: 336, 48
+  size: 92, 70
+  orig: 92, 70
+  offset: 0, 0
+  index: -1
+hsyaoyiy_03
+  rotate: false
+  xy: 46, 7
+  size: 32, 24
+  orig: 32, 24
+  offset: 0, 0
+  index: -1
+hsyaoyiy_04
+  rotate: true
+  xy: 2, 2
+  size: 29, 42
+  orig: 29, 42
+  offset: 0, 0
+  index: -1
+hsyaoyiy_05
+  rotate: false
+  xy: 430, 58
+  size: 27, 24
+  orig: 27, 24
+  offset: 0, 0
+  index: -1
+hsyaoyiy_06
+  rotate: false
+  xy: 430, 84
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+hsyaoyiy_07
+  rotate: false
+  xy: 180, 42
+  size: 154, 76
+  orig: 154, 76
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,328 @@
+
+sirenniniu_xuanchangxiaotubiao.png
+size: 978,109
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huobao1
+  rotate: false
+  xy: 2, 54
+  size: 47, 53
+  orig: 47, 53
+  offset: 0, 0
+  index: -1
+huomiao/001/hong_0000
+  rotate: false
+  xy: 2, 2
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/001/hong_0001
+  rotate: false
+  xy: 51, 57
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/001/hong_0002
+  rotate: false
+  xy: 93, 57
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/001/hong_0003
+  rotate: false
+  xy: 135, 57
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/001/hong_0004
+  rotate: false
+  xy: 177, 57
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/001/hong_0005
+  rotate: false
+  xy: 219, 57
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/001/hong_0006
+  rotate: false
+  xy: 261, 57
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/001/hong_0007
+  rotate: false
+  xy: 303, 57
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/001/hong_0008
+  rotate: false
+  xy: 345, 57
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/001/hong_0009
+  rotate: false
+  xy: 387, 57
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/001/hong_0010
+  rotate: false
+  xy: 429, 57
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/001/hong_0011
+  rotate: false
+  xy: 471, 57
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/001/hong_0012
+  rotate: false
+  xy: 513, 57
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/001/hong_0013
+  rotate: false
+  xy: 555, 57
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/001/hong_0014
+  rotate: false
+  xy: 597, 57
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/002/lan_0000
+  rotate: false
+  xy: 639, 57
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/002/lan_0001
+  rotate: false
+  xy: 681, 57
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/002/lan_0002
+  rotate: false
+  xy: 723, 57
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/002/lan_0003
+  rotate: false
+  xy: 765, 57
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/002/lan_0004
+  rotate: false
+  xy: 807, 57
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/002/lan_0005
+  rotate: false
+  xy: 849, 57
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/002/lan_0006
+  rotate: false
+  xy: 891, 57
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/002/lan_0007
+  rotate: false
+  xy: 933, 57
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/002/lan_0008
+  rotate: false
+  xy: 44, 2
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/002/lan_0009
+  rotate: false
+  xy: 86, 5
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/002/lan_0010
+  rotate: false
+  xy: 128, 5
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/002/lan_0011
+  rotate: false
+  xy: 170, 5
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/002/lan_0012
+  rotate: false
+  xy: 212, 5
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/002/lan_0013
+  rotate: false
+  xy: 254, 5
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/002/lan_0014
+  rotate: false
+  xy: 296, 5
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/003/lv_0000
+  rotate: false
+  xy: 338, 5
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/003/lv_0001
+  rotate: false
+  xy: 380, 5
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/003/lv_0002
+  rotate: false
+  xy: 422, 5
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/003/lv_0003
+  rotate: false
+  xy: 464, 5
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/003/lv_0004
+  rotate: false
+  xy: 506, 5
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/003/lv_0005
+  rotate: false
+  xy: 548, 5
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/003/lv_0006
+  rotate: false
+  xy: 590, 5
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/003/lv_0007
+  rotate: false
+  xy: 632, 5
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/003/lv_0008
+  rotate: false
+  xy: 674, 5
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/003/lv_0009
+  rotate: false
+  xy: 716, 5
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/003/lv_0010
+  rotate: false
+  xy: 758, 5
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/003/lv_0011
+  rotate: false
+  xy: 800, 5
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/003/lv_0012
+  rotate: false
+  xy: 842, 5
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/003/lv_0013
+  rotate: false
+  xy: 884, 5
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+huomiao/003/lv_0014
+  rotate: true
+  xy: 926, 15
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,111 @@
+
+hongbao_kaiqizhong.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dian
+  rotate: false
+  xy: 2, 2
+  size: 10, 9
+  orig: 10, 9
+  offset: 0, 0
+  index: -1
+jingbi_a0000
+  rotate: false
+  xy: 2, 13
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+jingbi_a0001
+  rotate: false
+  xy: 109, 13
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+jingbi_a0002
+  rotate: false
+  xy: 216, 13
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+jingbi_a0003
+  rotate: false
+  xy: 323, 13
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+jingbi_a0004
+  rotate: false
+  xy: 430, 13
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+jingbi_a0005
+  rotate: false
+  xy: 537, 13
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+jingbi_a0006
+  rotate: false
+  xy: 644, 13
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+jingbi_a0007
+  rotate: false
+  xy: 751, 13
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+jingbi_a0008
+  rotate: false
+  xy: 858, 13
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+jingbi_a0009
+  rotate: false
+  xy: 965, 13
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+jingbi_a0010
+  rotate: false
+  xy: 1072, 13
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+kai
+  rotate: false
+  xy: 1179, 88
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+qi
+  rotate: false
+  xy: 1179, 55
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+zhong
+  rotate: true
+  xy: 1213, 88
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1

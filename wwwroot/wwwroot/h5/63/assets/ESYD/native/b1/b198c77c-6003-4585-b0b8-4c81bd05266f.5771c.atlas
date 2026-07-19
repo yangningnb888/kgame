@@ -1,0 +1,202 @@
+
+wxl_spine.png
+size: 457,269
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wxl_spine/flare_orange
+  rotate: false
+  xy: 2, 178
+  size: 252, 89
+  orig: 252, 89
+  offset: 0, 0
+  index: -1
+wxl_spine/light/L_00
+  rotate: false
+  xy: 356, 19
+  size: 47, 22
+  orig: 47, 22
+  offset: 0, 0
+  index: -1
+wxl_spine/light/L_01
+  rotate: false
+  xy: 356, 124
+  size: 53, 25
+  orig: 53, 25
+  offset: 0, 0
+  index: -1
+wxl_spine/light/L_02
+  rotate: true
+  xy: 426, 151
+  size: 56, 26
+  orig: 56, 26
+  offset: 0, 0
+  index: -1
+wxl_spine/light/L_03
+  rotate: false
+  xy: 356, 97
+  size: 53, 25
+  orig: 53, 25
+  offset: 0, 0
+  index: -1
+wxl_spine/light/L_04
+  rotate: false
+  xy: 2, 2
+  size: 46, 18
+  orig: 46, 18
+  offset: 0, 0
+  index: -1
+wxl_spine/light/L_05
+  rotate: false
+  xy: 347, 71
+  size: 53, 24
+  orig: 53, 24
+  offset: 0, 0
+  index: -1
+wxl_spine/light/L_06
+  rotate: false
+  xy: 402, 72
+  size: 47, 22
+  orig: 47, 22
+  offset: 0, 0
+  index: -1
+wxl_spine/light/L_07
+  rotate: true
+  xy: 405, 23
+  size: 47, 22
+  orig: 47, 22
+  offset: 0, 0
+  index: -1
+wxl_spine/light/L_08
+  rotate: false
+  xy: 354, 43
+  size: 49, 26
+  orig: 49, 26
+  offset: 0, 0
+  index: -1
+wxl_spine/light/L_09
+  rotate: true
+  xy: 411, 96
+  size: 53, 25
+  orig: 53, 25
+  offset: 0, 0
+  index: -1
+wxl_spine/light/L_10
+  rotate: false
+  xy: 238, 36
+  size: 54, 30
+  orig: 54, 30
+  offset: 0, 0
+  index: -1
+wxl_spine/light/L_11
+  rotate: false
+  xy: 238, 9
+  size: 56, 25
+  orig: 56, 25
+  offset: 0, 0
+  index: -1
+wxl_spine/light/L_12
+  rotate: false
+  xy: 294, 40
+  size: 58, 26
+  orig: 58, 26
+  offset: 0, 0
+  index: -1
+wxl_spine/light/L_13
+  rotate: true
+  xy: 426, 209
+  size: 58, 29
+  orig: 58, 29
+  offset: 0, 0
+  index: -1
+wxl_spine/light/L_14
+  rotate: false
+  xy: 296, 12
+  size: 58, 26
+  orig: 58, 26
+  offset: 0, 0
+  index: -1
+wxl_spine/light/L_15
+  rotate: false
+  xy: 50, 2
+  size: 46, 18
+  orig: 46, 18
+  offset: 0, 0
+  index: -1
+wxl_spine/wxl_fl/wxl_fl_00000
+  rotate: false
+  xy: 2, 126
+  size: 116, 50
+  orig: 116, 50
+  offset: 0, 0
+  index: -1
+wxl_spine/wxl_fl/wxl_fl_00001
+  rotate: false
+  xy: 256, 217
+  size: 116, 50
+  orig: 116, 50
+  offset: 0, 0
+  index: -1
+wxl_spine/wxl_fl/wxl_fl_00002
+  rotate: false
+  xy: 2, 74
+  size: 116, 50
+  orig: 116, 50
+  offset: 0, 0
+  index: -1
+wxl_spine/wxl_fl/wxl_fl_00003
+  rotate: false
+  xy: 120, 126
+  size: 116, 50
+  orig: 116, 50
+  offset: 0, 0
+  index: -1
+wxl_spine/wxl_fl/wxl_fl_00004
+  rotate: false
+  xy: 2, 22
+  size: 116, 50
+  orig: 116, 50
+  offset: 0, 0
+  index: -1
+wxl_spine/wxl_fl/wxl_fl_00005
+  rotate: false
+  xy: 120, 74
+  size: 116, 50
+  orig: 116, 50
+  offset: 0, 0
+  index: -1
+wxl_spine/wxl_fl/wxl_fl_00006
+  rotate: false
+  xy: 120, 22
+  size: 116, 50
+  orig: 116, 50
+  offset: 0, 0
+  index: -1
+wxl_spine/wxl_fl/wxl_fl_00007
+  rotate: false
+  xy: 256, 165
+  size: 116, 50
+  orig: 116, 50
+  offset: 0, 0
+  index: -1
+wxl_spine/wxl_fl/wxl_fl_00008
+  rotate: true
+  xy: 374, 151
+  size: 116, 50
+  orig: 116, 50
+  offset: 0, 0
+  index: -1
+wxl_spine/wxl_fl/wxl_fl_00009
+  rotate: false
+  xy: 238, 113
+  size: 116, 50
+  orig: 116, 50
+  offset: 0, 0
+  index: -1
+wxl_spine/wxl_text
+  rotate: false
+  xy: 238, 68
+  size: 107, 43
+  orig: 107, 43
+  offset: 0, 0
+  index: -1

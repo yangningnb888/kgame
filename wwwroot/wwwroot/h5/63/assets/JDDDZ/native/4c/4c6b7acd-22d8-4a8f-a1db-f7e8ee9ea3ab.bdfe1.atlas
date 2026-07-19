@@ -1,0 +1,62 @@
+
+325ddz_beijing_ma.png
+size: 557,93
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+325ddz_beijing_che
+  rotate: false
+  xy: 2, 36
+  size: 122, 55
+  orig: 122, 55
+  offset: 0, 0
+  index: -1
+325ddz_beijing_chelun
+  rotate: false
+  xy: 126, 54
+  size: 36, 37
+  orig: 36, 37
+  offset: 0, 0
+  index: -1
+325ddz_beijing_ma00
+  rotate: true
+  xy: 192, 16
+  size: 75, 71
+  orig: 75, 71
+  offset: 0, 0
+  index: -1
+325ddz_beijing_ma01
+  rotate: true
+  xy: 265, 16
+  size: 75, 71
+  orig: 75, 71
+  offset: 0, 0
+  index: -1
+325ddz_beijing_ma02
+  rotate: true
+  xy: 338, 16
+  size: 75, 71
+  orig: 75, 71
+  offset: 0, 0
+  index: -1
+325ddz_beijing_ma03
+  rotate: true
+  xy: 411, 16
+  size: 75, 71
+  orig: 75, 71
+  offset: 0, 0
+  index: -1
+325ddz_beijing_ma04
+  rotate: true
+  xy: 484, 16
+  size: 75, 71
+  orig: 75, 71
+  offset: 0, 0
+  index: -1
+325ddz_beijing_yingzi
+  rotate: false
+  xy: 2, 2
+  size: 188, 32
+  orig: 188, 32
+  offset: 0, 0
+  index: -1

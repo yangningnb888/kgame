@@ -1,0 +1,20 @@
+
+jiesuanyinglebiaozhi_zhajinhua.png
+size: 239,71
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yingjiabiaozhi
+  rotate: false
+  xy: 1, 1
+  size: 165, 63
+  orig: 166, 63
+  offset: 0, 0
+  index: -1
+huangshaxing
+  rotate: false
+  xy: 168, 1
+  size: 69, 68
+  orig: 73, 73
+  offset: 2, 5
+  index: -1

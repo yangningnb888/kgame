@@ -1,0 +1,62 @@
+
+puyu_tongyong_shandian.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/pao5effects_01
+  rotate: false
+  xy: 2, 329
+  size: 154, 107
+  orig: 154, 107
+  offset: 0, 0
+  index: -1
+images/pao5effects_02
+  rotate: false
+  xy: 2, 220
+  size: 154, 107
+  orig: 154, 107
+  offset: 0, 0
+  index: -1
+images/pao5effects_03
+  rotate: false
+  xy: 158, 329
+  size: 154, 107
+  orig: 154, 107
+  offset: 0, 0
+  index: -1
+images/pao5effects_04
+  rotate: false
+  xy: 2, 111
+  size: 154, 107
+  orig: 154, 107
+  offset: 0, 0
+  index: -1
+images/pao5effects_05
+  rotate: false
+  xy: 158, 220
+  size: 154, 107
+  orig: 154, 107
+  offset: 0, 0
+  index: -1
+images/pao5effects_06
+  rotate: false
+  xy: 314, 329
+  size: 154, 107
+  orig: 154, 107
+  offset: 0, 0
+  index: -1
+images/pao5effects_07
+  rotate: false
+  xy: 2, 2
+  size: 154, 107
+  orig: 154, 107
+  offset: 0, 0
+  index: -1
+images/pao5effects_08
+  rotate: false
+  xy: 158, 111
+  size: 154, 107
+  orig: 154, 107
+  offset: 0, 0
+  index: -1

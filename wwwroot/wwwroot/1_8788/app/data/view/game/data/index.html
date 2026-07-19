@@ -1,0 +1,635 @@
+{extend name="../../admin/view/main"}
+
+{block name="button"}
+{/block}
+{block name="content"}
+<body>
+<div class="layui-tab layui-tab-card think-bg-white">
+    <div style="display: none" id="display">{$display}</div>
+    <fieldset class="table-search-fieldset">
+        <legend>生成代理号</legend>
+        <div style="margin: 10px 10px 10px 10px" id="btn">
+            <form class="layui-form layui-form-pane" action="" id="createagent">
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">初始uid</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="startuid" id="startuid" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">生成数量</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="num" id="num" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">初始金币</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="gold" id="gold" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">初始兑换卡</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="rcard" id="rcard" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">权限</label>
+                        <div class="layui-input-inline">
+                            <select name="cpower">
+                                <option value="0" selected="">无权限</option>
+                                <option value="1">可控</option>
+                                <option value="2">最高权限</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <!--注意此处button标签里的type属性-->
+                        <button type="button" class="layui-btn layui-btn-primary" lay-submit data-type="reload"
+                                lay-filter="data-search-btn1"> 生成
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </fieldset>
+    <fieldset class="table-search-fieldset">
+        <legend>批量修改游戏配置</legend>
+        <div style="margin: 10px 10px 10px 10px" id="game">
+            <form class="layui-form layui-form-pane" action="" id="gameconfig">
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">游戏类型</label>
+                        <div class="layui-input-inline">
+                            <select id="seession" lay-filter="seession">
+                                <option value="0" selected=""></option>
+                                <option value="1">多人</option>
+                                <option value="2">捕鱼</option>
+                                <option value="3">棋牌</option>
+                                <option value="4">街机</option>
+                                <option value="5">休闲</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">游戏名称</label>
+                        <div class="layui-input-inline">
+                            <select id="gamename">
+                                <option value="0" selected=""></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">状态</label>
+                        <div class="layui-input-inline">
+                            <select name="status">
+                                <option value="0">不修改</option>
+                                <option value="1">开启</option>
+                                <option value="2">关闭</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">入库比</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="percent" id="percent" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">库存</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="profit" id="profit" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <!--注意此处button标签里的type属性-->
+                        <button type="button" class="layui-btn layui-btn-primary" lay-submit data-type="reload"
+                                lay-filter="data-search-btn2"><i class="layui-icon"></i> 修改
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </fieldset>
+    <fieldset class="table-search-fieldset">
+        <legend>批量玩家信息</legend>
+        <div style="margin: 10px 10px 10px 10px" id="userinfo">
+            <form class="layui-form layui-form-pane" action="" id="updategold">
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">uid</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="upuid" id="upuid" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">金币</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="upgold" id="upgold" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">兑换卡</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="uprcard" id="uprcard" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">换绑手机</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="uprtel" id="uptel" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">修改上级</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="uprsuperior" id="upsuperior" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">场控</label>
+                        <div class="layui-input-inline">
+                            <select id="upcontrol" lay-filter="upcontrol">
+                                <option value="0" selected="">正常</option>
+                                <option value="-1">控</option>
+                                <option value="1">放</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">目标值</label>
+                        <div class="layui-input-inline">
+                            <div class="layui-input-inline">
+                                <!--注意此处input标签里的id-->
+                                <input class="layui-input" name="upflag" id="upflag" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <!--注意此处button标签里的type属性-->
+                        <button type="button" class="layui-btn layui-btn-primary" lay-submit data-type="reload"
+                                lay-filter="data-search-btn3"><i class="layui-icon"></i> 修改
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </fieldset>
+    <fieldset class="table-search-fieldset">
+        <legend>封禁玩家</legend>
+        <div style="margin: 10px 10px 10px 10px" id="banuser">
+            <form class="layui-form layui-form-pane" action="" id="user">
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">设备号</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="equipmentcard" id="equipmentcard" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">IP</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="last_ip" id="last_ip" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">uid</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="uid" id="uid" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">状态</label>
+                        <div class="layui-input-inline">
+                            <select id="upstatus" lay-filter="upstatus">
+                                <option value="1" selected="">解封</option>
+                                <option value="0">封禁</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <!--注意此处button标签里的type属性-->
+                        <button type="button" class="layui-btn layui-btn-primary" lay-submit data-type="reload"
+                                lay-filter="data-search-btn4"><i class="layui-icon"></i> 确定
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </fieldset>
+    <fieldset class="table-search-fieldset">
+        <legend>修改代理权限</legend>
+        <div style="margin: 10px 10px 10px 10px" id="upagent">
+            <form class="layui-form layui-form-pane" action="" id="uppower">
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">代理uid</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="agent" id="agent" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">权限</label>
+                        <div class="layui-input-inline">
+                            <select name="power" id="power">
+                                <option value="0" selected="">无权限</option>
+                                <option value="1">可控</option>
+                                <option value="2">最高权限</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <!--注意此处button标签里的type属性-->
+                        <button type="button" class="layui-btn layui-btn-primary" lay-submit data-type="reload"
+                                lay-filter="data-search-btn5"><i class="layui-icon"></i> 修改
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </fieldset>
+    <fieldset class="table-search-fieldset">
+        <legend>系统维护时间</legend>
+        <div style="margin: 10px 10px 10px 10px" id="wh">
+            <form class="layui-form layui-form-pane" action="" id="time">
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">开始维护时间</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="start" id="start" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">结束维护时间</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="end" id="end" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <!--注意此处button标签里的type属性-->
+                        <button type="button" class="layui-btn layui-btn-primary" lay-submit data-type="reload"
+                                lay-filter="data-search-btn6"><i class="layui-icon"></i> 设置
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </fieldset>
+    <fieldset class="table-search-fieldset">
+        <legend>加金币</legend>
+        <div style="margin: 10px 10px 10px 10px" id="addgold">
+            <form class="layui-form layui-form-pane" action="" id="addgoldform">
+                <div class="layui-form-item">
+                    <div class="layui-in-line">
+                        <label class="layui-form-label">账号(uid/手机号)</label>
+                        <div class="layui-input-in-line">
+                            <input class="layui-input" name="account" id="account" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-in-line">
+                        <label class="layui-form-label">增加金币</label>
+                        <div class="layui-input-in-line">
+                            <input class="layui-input" name="amount" id="amount" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-in-line">
+                        <button type="button" class="layui-btn layui-btn-normal" lay-submit data-type="reload"
+                                lay-filter="data-search-btn7"> 加金币
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </fieldset>
+</div>
+</body>
+<script>
+    layui.use(['form'], function () {
+        var form = layui.form;
+        var dis = $("#display").text();
+
+        $("#userinfo").css('display', dis);
+        form.render();
+        form.on('submit(data-search-btn1)', function (data) {
+            let startuid = $("#startuid").val();
+            let num = $("#num").val();
+            let gold = $("#gold").val();
+            let rcard = $("#rcard").val();
+            let cpower = $("select[name='cpower']").val();
+            if (startuid + num >= 10000000 || num > 100) {
+                alert('生成代理uid不得超过7位，且每次生成不能超过100个账号')
+                return false;
+            }
+
+            if (!gold) {
+                gold = 0;
+            }
+
+            if (!rcard) {
+                rcard = 0;
+            }
+
+            if (cpower < 0 || cpower > 2) {
+                cpower = 0;
+            }
+
+            $.ajax({　　　　　　　　　　　　　　　　　　　　//交互传值
+                url: '{:url("createagent")}',　　　　　　　　　　　　//传地址
+                type: 'post',　　　　　　　　　　　　　　　　　　//传的方式
+                data: {
+                    'startuid': startuid,
+                    'num': num,
+                    'gold': gold,
+                    'rcard': rcard,
+                    'cpower': cpower,
+                },
+                success: res => {
+                    if (res.data) {
+                        var timestamp = parseInt(Date.parse(new Date()) / 1000);
+                        download("agent" + timestamp + ".txt", res.data);
+                    } else {
+                        alert('生成失败');
+                    }
+                },
+            });
+
+            return false;
+        });
+
+        form.on('select(seession)', function (data) {
+            $.ajax({　　　　　　　　　　　　　　　　　　　　//交互传值
+                url: '{:url("gameseession")}',　　　　　　　　　　　　//传地址
+                type: 'post',　　　　　　　　　　　　　　　　　　//传的方式
+                data: {
+                    'value': data.value
+                },
+                success: res => {
+                    console.log(res);　　　　　　//收到后台返回的数据  是否添加成功
+                    $("#gamename").empty();
+                    let data = res.data;
+                    $("#gamename").append("<option value=0 selected=''>修改全类型</option>");
+                    for (let i = 0; i < data.length; i++) {
+                        $("#gamename").append("<option value=" + data[i].gtype + " >" + data[i].name + "</option>");
+                    }
+                    form.render('select');
+                },
+            });
+            return false;
+        });
+
+        form.on('submit(data-search-btn2)', function (data) {
+            let seession = $('#seession option:selected').val();
+            let gamename = $('#gamename option:selected').val();
+            let status = $("select[name='status']").val();
+            let percent = $("#percent").val();
+            let profit = $("#profit").val();
+            let _data = {'seession': seession, 'gtype': gamename};
+
+            if (status > 0 && status < 3) {
+                _data['status'] = status;
+            }
+
+            if (percent > 0 && percent <= 100) {
+                _data['percent'] = percent;
+            }
+
+            if (profit !== "") {
+                _data['profit'] = profit;
+            }
+
+            if (Object.keys(_data).length >= 3) {
+                $.ajax({　　　　　　　　　　　　　　　　　　　　//交互传值
+                    url: '{:url("updategameinfo")}',　　　　　　　　　　　　//传地址
+                    type: 'post',　　　　　　　　　　　　　　　　　　//传的方式
+                    data: _data,
+                    success: res => {
+                        console.log(res);
+                        alert('修改成功');
+                    },
+                    error: function () {
+                        alert('修改失败');
+                    }
+                });
+            }
+
+            return false;
+        });
+
+        form.on('submit(data-search-btn3)', function (data) {
+            let upuid = $("#upuid").val();
+            let upgold = $("#upgold").val();
+            let uprcard = $("#uprcard").val();
+            let uprtel = $("input[name='uprtel']").val();
+            let uprsuperior = $("input[name='uprsuperior']").val();
+            let upcontrol = $("#upcontrol option:selected").val();
+            let upflag = $("input[name='upflag']").val();
+
+            let _data = {};
+            if (upuid !== "") {
+                _data['upuid'] = upuid;
+                if (upgold !== "") {
+                    _data['upgold'] = upgold;
+                }
+                if (uprcard !== "") {
+                    _data['uprcard'] = uprcard;
+                }
+
+                if (uprtel) {
+                    if (!(/^1[3456789]d{9}$/.test(uprtel))) {
+                        alert("手机号码有误，请重填");
+                        return false;
+                    }
+                    _data['uprtel'] = uprtel;
+                }
+
+                if (uprsuperior) {
+                    _data['uprsuperior'] = uprsuperior;
+                }
+
+                if (upflag && /^\d+$/.test(upflag)) {
+                    _data['upcontrol'] = upcontrol;
+                    _data['upflag'] = upflag * upcontrol;
+                }
+            }
+
+            if (Object.keys(_data).length >= 2) {
+                $.ajax({　　　　　　　　　　　　　　　　　　　　//交互传值
+                    url: '{:url("updateuserinfo")}',　　　　　　　　　　　　//传地址
+                    type: 'post',　　　　　　　　　　　　　　　　　　//传的方式
+                    data: _data,
+                    success: res => {
+                        console.log(res);
+                        if (res.info) {
+                            alert(res.info);
+                        } else {
+                            alert('修改成功');
+                        }
+                    },
+                });
+            }
+
+            return false;
+        });
+
+        form.on('submit(data-search-btn4)', function () {
+            let uid = $("#uid").val();
+            let equipmentcard = $("#equipmentcard").val();
+            let last_ip = $("#last_ip").val();
+            let status = $("#upstatus option:selected").val();
+
+            let _data = {'status': status, 'uid': uid, 'equipmentcard': equipmentcard, 'last_ip': last_ip};
+            /*if (uid) {
+                _data['uid'] = uid;
+            }
+
+            if (equipmentcard) {
+                _data['equipmentcard'] = equipmentcard;
+            }
+
+            if (last_ip) {
+                _data['last_ip'] = last_ip;
+            }*/
+            console.log(_data)
+            if (Object.keys(_data).length > 1) {
+                $.ajax({　　　　　　　　　　　　　　　　　　　　//交互传值
+                    url: '{:url("banuser")}',　　　　　　　　　　　　//传地址
+                    type: 'post',　　　　　　　　　　　　　　　　　　//传的方式
+                    data: _data,
+                    success: res => {
+                        console.log(res);
+                        if (res.info) {
+                            alert(res.info);
+                        } else {
+                            alert('修改成功');
+                        }
+                    },
+                });
+            }
+
+            return false;
+        });
+
+        form.on('submit(data-search-btn5)', function (data) {
+            let agent = $("#agent").val();
+            let power = $("#power option:selected").val();
+
+            let _data = {'agent': agent, 'power': power};
+
+            console.log(_data)
+            if (agent && power) {
+                $.ajax({　　　　　　　　　　　　　　　　　　　　//交互传值
+                    url: '{:url("agentpower")}',　　　　　　　　　　　　//传地址
+                    type: 'post',　　　　　　　　　　　　　　　　　　//传的方式
+                    data: _data,
+                    success: res => {
+                        console.log(res);
+                        if (res.info) {
+                            alert(res.info);
+                        } else {
+                            alert('修改成功');
+                        }
+                    },
+                });
+            }
+
+            return false;
+        });
+
+        form.on('submit(data-search-btn6)', function (data) {
+            let start = $("#start").val();
+            let end = $("#end").val();
+
+            alert(start)
+            if (start && end) {
+                $.ajax({　　　　　　　　　　　　　　　　　　　　//交互传值
+                    url: '{:url("setwh")}',　　　　　　　　　　　　//传地址
+                    type: 'post',　　　　　　　　　　　　　　　　　　//传的方式
+                    data: {
+                        'start': start,
+                        'end': end,
+                    },
+                    success: res => {
+                        console.log(res);
+                        if (res.info) {
+                            alert(res.info);
+                        } else {
+                            alert('修改成功');
+                        }
+                    },
+                });
+            }
+
+            return false;
+        });
+
+        laydate.render({
+            elem: '#start'  // 输出框id
+            , type: 'datetime'
+        });
+
+        laydate.render({
+            elem: '#end'  // 输出框id
+            , type: 'datetime'
+        });
+
+        form.on('submit(data-search-btn7)', function () {
+            let account = $("#account").val();
+            let amount = $("#amount").val();
+            if (!account || !amount || Number(amount) <= 0) {
+                alert('请填写账号和大于0的金币数量');
+                return false;
+            }
+            $.ajax({
+                url: '{:url("addgold")}',
+                type: 'post',
+                data: {'account': account, 'amount': amount},
+                success: res => {
+                    console.log(res);
+                    if (res.info) {
+                        alert(res.info);
+                    } else {
+                        alert((res.msg || '加金币成功') + (res.data && res.data.gold !== undefined ? '，当前金币：' + res.data.gold : ''));
+                    }
+                },
+                error: function () {
+                    alert('操作失败');
+                }
+            });
+            return false;
+        });
+    });
+
+    function download(filename, text) {
+        var pom = document.createElement('a');
+        pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+        pom.setAttribute('download', filename);
+        if (document.createEvent) {
+            var event = document.createEvent('MouseEvents');
+            event.initEvent('click', true, true);
+            pom.dispatchEvent(event);
+        } else {
+            pom.click();
+        }
+    }
+</script>
+
+{/block}

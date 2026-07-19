@@ -1,0 +1,312 @@
+
+duofuduocai_jinlong_shang.png
+size: 1023,1018
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jlff_05
+  rotate: true
+  xy: 677, 14
+  size: 306, 261
+  orig: 306, 261
+  offset: 0, 0
+  index: -1
+jlff_06
+  rotate: true
+  xy: 350, 2
+  size: 318, 325
+  orig: 318, 325
+  offset: 0, 0
+  index: -1
+jlff_07
+  rotate: false
+  xy: 2, 670
+  size: 387, 346
+  orig: 387, 346
+  offset: 0, 0
+  index: -1
+jlff_08
+  rotate: false
+  xy: 391, 670
+  size: 384, 346
+  orig: 384, 346
+  offset: 0, 0
+  index: -1
+jlff_09
+  rotate: false
+  xy: 677, 322
+  size: 294, 346
+  orig: 294, 346
+  offset: 0, 0
+  index: -1
+jlff_10
+  rotate: true
+  xy: 2, 314
+  size: 354, 346
+  orig: 354, 346
+  offset: 0, 0
+  index: -1
+jlff_11
+  rotate: false
+  xy: 350, 322
+  size: 325, 346
+  orig: 325, 346
+  offset: 0, 0
+  index: -1
+jlff_12
+  rotate: true
+  xy: 2, 14
+  size: 298, 346
+  orig: 298, 346
+  offset: 0, 0
+  index: -1
+jlfflizi_01
+  rotate: true
+  xy: 998, 872
+  size: 25, 18
+  orig: 25, 18
+  offset: 0, 0
+  index: -1
+jlfflizi_02
+  rotate: true
+  xy: 998, 899
+  size: 25, 19
+  orig: 25, 19
+  offset: 0, 0
+  index: -1
+jlfflizi_03
+  rotate: true
+  xy: 973, 551
+  size: 117, 41
+  orig: 117, 41
+  offset: 0, 0
+  index: -1
+jlfflizi_13
+  rotate: false
+  xy: 777, 670
+  size: 219, 346
+  orig: 219, 346
+  offset: 0, 0
+  index: -1
+jlfflizi_19
+  rotate: false
+  xy: 940, 111
+  size: 74, 209
+  orig: 74, 209
+  offset: 0, 0
+  index: -1
+jlfflizi_20
+  rotate: true
+  xy: 940, 56
+  size: 53, 80
+  orig: 53, 80
+  offset: 0, 0
+  index: -1
+jlfflizi_21
+  rotate: false
+  xy: 973, 464
+  size: 26, 85
+  orig: 26, 85
+  offset: 0, 0
+  index: -1
+jlfflizi_22
+  rotate: false
+  xy: 998, 926
+  size: 23, 90
+  orig: 23, 90
+  offset: 0, 0
+  index: -1
+
+duofuduocai_jinlong_shang2.png
+size: 1024,1012
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+duofuduocai_glow2
+  rotate: false
+  xy: 251, 335
+  size: 191, 327
+  orig: 191, 327
+  offset: 0, 0
+  index: -1
+jlff_01
+  rotate: true
+  xy: 935, 827
+  size: 183, 61
+  orig: 183, 61
+  offset: 0, 0
+  index: -1
+jlff_02
+  rotate: false
+  xy: 696, 18
+  size: 249, 97
+  orig: 249, 97
+  offset: 0, 0
+  index: -1
+jlff_13
+  rotate: false
+  xy: 2, 664
+  size: 250, 346
+  orig: 250, 346
+  offset: 0, 0
+  index: -1
+jlff_14
+  rotate: false
+  xy: 2, 316
+  size: 247, 346
+  orig: 247, 346
+  offset: 0, 0
+  index: -1
+jlff_15
+  rotate: false
+  xy: 463, 75
+  size: 231, 282
+  orig: 231, 282
+  offset: 0, 0
+  index: -1
+jlff_19
+  rotate: false
+  xy: 463, 2
+  size: 124, 71
+  orig: 124, 71
+  offset: 0, 0
+  index: -1
+jlfflizi_07
+  rotate: false
+  xy: 2, 2
+  size: 238, 312
+  orig: 238, 312
+  offset: 0, 0
+  index: -1
+jlfflizi_08
+  rotate: false
+  xy: 474, 701
+  size: 237, 309
+  orig: 237, 309
+  offset: 0, 0
+  index: -1
+jlfflizi_09
+  rotate: false
+  xy: 444, 359
+  size: 186, 305
+  orig: 186, 305
+  offset: 0, 0
+  index: -1
+jlfflizi_10
+  rotate: false
+  xy: 632, 397
+  size: 193, 302
+  orig: 193, 302
+  offset: 0, 0
+  index: -1
+jlfflizi_11
+  rotate: false
+  xy: 713, 712
+  size: 220, 298
+  orig: 220, 298
+  offset: 0, 0
+  index: -1
+jlfflizi_12
+  rotate: false
+  xy: 242, 19
+  size: 219, 295
+  orig: 219, 295
+  offset: 0, 0
+  index: -1
+jlfflizi_14
+  rotate: false
+  xy: 254, 666
+  size: 218, 344
+  orig: 218, 344
+  offset: 0, 0
+  index: -1
+jlfflizi_15
+  rotate: false
+  xy: 696, 117
+  size: 218, 278
+  orig: 218, 278
+  offset: 0, 0
+  index: -1
+jlfflizi_17
+  rotate: false
+  xy: 827, 431
+  size: 169, 279
+  orig: 169, 279
+  offset: 0, 0
+  index: -1
+jlfflizi_18
+  rotate: false
+  xy: 916, 152
+  size: 106, 277
+  orig: 106, 277
+  offset: 0, 0
+  index: -1
+
+duofuduocai_jinlong_shang3.png
+size: 983,386
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jlff_03
+  rotate: false
+  xy: 222, 7
+  size: 270, 142
+  orig: 270, 142
+  offset: 0, 0
+  index: -1
+jlff_04
+  rotate: false
+  xy: 463, 185
+  size: 268, 199
+  orig: 268, 199
+  offset: 0, 0
+  index: -1
+jlff_16
+  rotate: true
+  xy: 733, 174
+  size: 210, 217
+  orig: 210, 217
+  offset: 0, 0
+  index: -1
+jlff_17
+  rotate: false
+  xy: 686, 9
+  size: 179, 163
+  orig: 179, 163
+  offset: 0, 0
+  index: -1
+jlff_18
+  rotate: true
+  xy: 867, 17
+  size: 155, 114
+  orig: 155, 114
+  offset: 0, 0
+  index: -1
+jlfflizi_04
+  rotate: false
+  xy: 2, 2
+  size: 142, 102
+  orig: 142, 102
+  offset: 0, 0
+  index: -1
+jlfflizi_05
+  rotate: false
+  xy: 494, 11
+  size: 190, 172
+  orig: 190, 172
+  offset: 0, 0
+  index: -1
+jlfflizi_06
+  rotate: false
+  xy: 222, 151
+  size: 239, 233
+  orig: 239, 233
+  offset: 0, 0
+  index: -1
+jlfflizi_16
+  rotate: false
+  xy: 2, 106
+  size: 218, 278
+  orig: 218, 278
+  offset: 0, 0
+  index: -1

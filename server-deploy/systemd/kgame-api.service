@@ -1,0 +1,21 @@
+[Unit]
+Description=KGame FastAPI Login Service (uvicorn :9493)
+After=network.target mysql.service
+Wants=mysql.service
+
+[Service]
+Type=simple
+WorkingDirectory=__KGAPI_DIR__
+ExecStart=__KGAPI_DIR__/venv-linux/bin/python -m app.main
+Restart=always
+RestartSec=5
+# 数据库连接（与代码默认一致；如改过密码在此覆盖）
+Environment=KGAME_DB_HOST=127.0.0.1
+Environment=KGAME_DB_PORT=3306
+Environment=KGAME_DB_USER=root
+Environment=KGAME_DB_PASS=86e201113604c41f
+Environment=KGAME_DB_NAME=63
+User=root
+
+[Install]
+WantedBy=multi-user.target

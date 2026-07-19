@@ -1,0 +1,76 @@
+
+325ddz_baiwanchang_donghua.png
+size: 616,174
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+325ddz_baiwanchang_bianzi
+  rotate: false
+  xy: 554, 117
+  size: 60, 55
+  orig: 60, 55
+  offset: 0, 0
+  index: -1
+325ddz_baiwanchang_body
+  rotate: false
+  xy: 284, 57
+  size: 173, 115
+  orig: 173, 115
+  offset: 0, 0
+  index: -1
+325ddz_baiwanchang_huzi00
+  rotate: true
+  xy: 355, 3
+  size: 52, 22
+  orig: 52, 22
+  offset: 0, 0
+  index: -1
+325ddz_baiwanchang_huzi01
+  rotate: false
+  xy: 554, 65
+  size: 39, 20
+  orig: 39, 20
+  offset: 0, 0
+  index: -1
+325ddz_baiwanchang_tou
+  rotate: true
+  xy: 2, 3
+  size: 169, 189
+  orig: 169, 189
+  offset: 0, 0
+  index: -1
+325ddz_baiwanchang_tui
+  rotate: true
+  xy: 193, 9
+  size: 163, 89
+  orig: 163, 89
+  offset: 0, 0
+  index: -1
+325ddz_baiwanchang_yanjing
+  rotate: false
+  xy: 571, 87
+  size: 41, 28
+  orig: 41, 28
+  offset: 0, 0
+  index: -1
+325ddz_baiwanchang_yingzi
+  rotate: false
+  xy: 379, 11
+  size: 190, 44
+  orig: 190, 44
+  offset: 0, 0
+  index: -1
+325ddz_baiwanchang_youshou
+  rotate: false
+  xy: 459, 58
+  size: 93, 114
+  orig: 93, 114
+  offset: 0, 0
+  index: -1
+325ddz_baiwanchang_zuoshou
+  rotate: true
+  xy: 284, 2
+  size: 53, 69
+  orig: 53, 69
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,104 @@
+
+xldb_xuanchang_tiyanfang.png
+size: 598,281
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xldb_tiyanfang_body
+  rotate: false
+  xy: 334, 39
+  size: 125, 107
+  orig: 125, 107
+  offset: 0, 0
+  index: -1
+xldb_tiyanfang_dizuo
+  rotate: true
+  xy: 2, 6
+  size: 273, 330
+  orig: 273, 330
+  offset: 0, 0
+  index: -1
+xldb_tiyanfang_lian
+  rotate: false
+  xy: 334, 148
+  size: 147, 131
+  orig: 147, 131
+  offset: 0, 0
+  index: -1
+xldb_tiyanfang_qi00
+  rotate: true
+  xy: 483, 162
+  size: 117, 113
+  orig: 117, 113
+  offset: 0, 0
+  index: -1
+xldb_tiyanfang_qi01
+  rotate: false
+  xy: 574, 53
+  size: 20, 14
+  orig: 20, 14
+  offset: 0, 0
+  index: -1
+xldb_tiyanfang_qi02
+  rotate: true
+  xy: 483, 149
+  size: 11, 23
+  orig: 11, 23
+  offset: 0, 0
+  index: -1
+xldb_tiyanfang_qipao00
+  rotate: false
+  xy: 430, 16
+  size: 20, 21
+  orig: 20, 21
+  offset: 0, 0
+  index: -1
+xldb_tiyanfang_qipao01
+  rotate: false
+  xy: 547, 42
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+xldb_tiyanfang_qipao02
+  rotate: true
+  xy: 390, 2
+  size: 35, 38
+  orig: 35, 38
+  offset: 0, 0
+  index: -1
+xldb_tiyanfang_yanjing
+  rotate: true
+  xy: 547, 69
+  size: 91, 49
+  orig: 91, 49
+  offset: 0, 0
+  index: -1
+xldb_tiyanfang_youmei
+  rotate: true
+  xy: 508, 148
+  size: 12, 9
+  orig: 12, 9
+  offset: 0, 0
+  index: -1
+xldb_tiyanfang_youqi
+  rotate: false
+  xy: 334, 3
+  size: 54, 34
+  orig: 54, 34
+  offset: 0, 0
+  index: -1
+xldb_tiyanfang_zuomei
+  rotate: false
+  xy: 574, 37
+  size: 18, 14
+  orig: 18, 14
+  offset: 0, 0
+  index: -1
+xldb_tiyanfang_zuoqi
+  rotate: true
+  xy: 461, 37
+  size: 109, 84
+  orig: 109, 84
+  offset: 0, 0
+  index: -1

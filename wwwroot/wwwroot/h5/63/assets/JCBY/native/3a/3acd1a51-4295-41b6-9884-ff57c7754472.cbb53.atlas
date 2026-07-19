@@ -1,0 +1,83 @@
+
+baofuliAnimation.png
+size: 989,745
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baofuli_baioti_001
+  rotate: false
+  xy: 2, 223
+  size: 381, 137
+  orig: 381, 137
+  offset: 0, 0
+  index: -1
+baofuli_beijingguang_001
+  rotate: false
+  xy: 717, 487
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+baofuli_beijingguang_002
+  rotate: false
+  xy: 731, 229
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+baofuli_nihongdeng_002
+  rotate: true
+  xy: 393, 407
+  size: 336, 322
+  orig: 336, 322
+  offset: 0, 0
+  index: -1
+baofuli_nihongdeng_a_001
+  rotate: false
+  xy: 393, 83
+  size: 336, 322
+  orig: 336, 322
+  offset: 0, 0
+  index: -1
+baofuli_qiuqiu_a
+  rotate: false
+  xy: 317, 152
+  size: 69, 69
+  orig: 69, 69
+  offset: 0, 0
+  index: -1
+baofuli_shansuoxingxing_001
+  rotate: false
+  xy: 910, 210
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+baofuli_xingxingbanzi001
+  rotate: false
+  xy: 2, 362
+  size: 389, 381
+  orig: 389, 381
+  offset: 0, 0
+  index: -1
+baofuli_zhanghu_jiaose_001
+  rotate: false
+  xy: 2, 2
+  size: 313, 219
+  orig: 313, 219
+  offset: 0, 0
+  index: -1
+baofuli_ziti_baofule_001
+  rotate: true
+  xy: 317, 4
+  size: 146, 57
+  orig: 146, 57
+  offset: 0, 0
+  index: -1
+noImage
+  rotate: false
+  xy: 731, 50
+  size: 177, 177
+  orig: 177, 177
+  offset: 0, 0
+  index: -1

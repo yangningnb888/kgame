@@ -1,0 +1,509 @@
+
+heguandonghua_shuihuzhuan.png
+size: 1012,1012
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+heguandaiji0001
+  rotate: true
+  xy: 736, 730
+  size: 280, 274
+  orig: 280, 274
+  offset: 0, 0
+  index: -1
+heguandaiji0002
+  rotate: true
+  xy: 736, 448
+  size: 280, 274
+  orig: 280, 274
+  offset: 0, 0
+  index: -1
+heguandaiji0003
+  rotate: true
+  xy: 736, 166
+  size: 280, 274
+  orig: 280, 274
+  offset: 0, 0
+  index: -1
+heguandaiji0004
+  rotate: false
+  xy: 2, 2
+  size: 280, 274
+  orig: 280, 274
+  offset: 0, 0
+  index: -1
+heguandaiji0005
+  rotate: false
+  xy: 284, 2
+  size: 280, 274
+  orig: 280, 274
+  offset: 0, 0
+  index: -1
+heguanshulefengnu0001
+  rotate: false
+  xy: 2, 675
+  size: 395, 335
+  orig: 395, 335
+  offset: 0, 0
+  index: -1
+heguanshulefengnu0002
+  rotate: true
+  xy: 399, 615
+  size: 395, 335
+  orig: 395, 335
+  offset: 0, 0
+  index: -1
+heguanshulefengnu0003
+  rotate: true
+  xy: 2, 278
+  size: 395, 335
+  orig: 395, 335
+  offset: 0, 0
+  index: -1
+heguanshulefengnu0004
+  rotate: false
+  xy: 339, 278
+  size: 395, 335
+  orig: 395, 335
+  offset: 0, 0
+  index: -1
+
+heguandonghua_shuihuzhuan2.png
+size: 1013,1018
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+heguandaiji0006
+  rotate: true
+  xy: 2, 2
+  size: 280, 274
+  orig: 280, 274
+  offset: 0, 0
+  index: -1
+heguandaiji0007
+  rotate: true
+  xy: 278, 2
+  size: 280, 274
+  orig: 280, 274
+  offset: 0, 0
+  index: -1
+heguandaiji0008
+  rotate: true
+  xy: 554, 2
+  size: 280, 274
+  orig: 280, 274
+  offset: 0, 0
+  index: -1
+heguanshulefengnu0005
+  rotate: false
+  xy: 2, 681
+  size: 395, 335
+  orig: 395, 335
+  offset: 0, 0
+  index: -1
+heguanshulefengnu0006
+  rotate: false
+  xy: 399, 681
+  size: 395, 335
+  orig: 395, 335
+  offset: 0, 0
+  index: -1
+heguanshulefengnu0007
+  rotate: true
+  xy: 2, 284
+  size: 395, 335
+  orig: 395, 335
+  offset: 0, 0
+  index: -1
+heguanshulefengnu0008
+  rotate: true
+  xy: 339, 284
+  size: 395, 335
+  orig: 395, 335
+  offset: 0, 0
+  index: -1
+heguanshulefengnu0009
+  rotate: true
+  xy: 676, 284
+  size: 395, 335
+  orig: 395, 335
+  offset: 0, 0
+  index: -1
+
+heguandonghua_shuihuzhuan3.png
+size: 796,1013
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+heguankule0001
+  rotate: false
+  xy: 399, 2
+  size: 380, 335
+  orig: 380, 335
+  offset: 0, 0
+  index: -1
+heguanshulefengnu0010
+  rotate: false
+  xy: 2, 676
+  size: 395, 335
+  orig: 395, 335
+  offset: 0, 0
+  index: -1
+heguanshulefengnu0011
+  rotate: false
+  xy: 2, 339
+  size: 395, 335
+  orig: 395, 335
+  offset: 0, 0
+  index: -1
+heguanshulefengnu0012
+  rotate: false
+  xy: 399, 676
+  size: 395, 335
+  orig: 395, 335
+  offset: 0, 0
+  index: -1
+heguanshulefengnu0013
+  rotate: false
+  xy: 2, 2
+  size: 395, 335
+  orig: 395, 335
+  offset: 0, 0
+  index: -1
+heguanshulefengnu0014
+  rotate: false
+  xy: 399, 339
+  size: 395, 335
+  orig: 395, 335
+  offset: 0, 0
+  index: -1
+
+heguandonghua_shuihuzhuan4.png
+size: 1023,1018
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+heguankaixin0001
+  rotate: false
+  xy: 2, 721
+  size: 385, 295
+  orig: 385, 295
+  offset: 0, 0
+  index: -1
+heguankaixin0002
+  rotate: false
+  xy: 339, 339
+  size: 385, 295
+  orig: 385, 295
+  offset: 0, 0
+  index: -1
+heguankaixin0003
+  rotate: true
+  xy: 726, 631
+  size: 385, 295
+  orig: 385, 295
+  offset: 0, 0
+  index: -1
+heguankaixin0004
+  rotate: true
+  xy: 726, 244
+  size: 385, 295
+  orig: 385, 295
+  offset: 0, 0
+  index: -1
+heguankule0002
+  rotate: true
+  xy: 389, 636
+  size: 380, 335
+  orig: 380, 335
+  offset: 0, 0
+  index: -1
+heguankule0003
+  rotate: true
+  xy: 2, 339
+  size: 380, 335
+  orig: 380, 335
+  offset: 0, 0
+  index: -1
+heguankule0004
+  rotate: false
+  xy: 2, 2
+  size: 380, 335
+  orig: 380, 335
+  offset: 0, 0
+  index: -1
+heguanyaoshaizhong0001
+  rotate: false
+  xy: 384, 17
+  size: 315, 320
+  orig: 315, 320
+  offset: 0, 0
+  index: -1
+
+heguandonghua_shuihuzhuan5.png
+size: 1013,1018
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+heguankaixin0005
+  rotate: false
+  xy: 2, 2
+  size: 385, 295
+  orig: 385, 295
+  offset: 0, 0
+  index: -1
+heguankaixin0006
+  rotate: false
+  xy: 389, 2
+  size: 385, 295
+  orig: 385, 295
+  offset: 0, 0
+  index: -1
+heguankule0005
+  rotate: false
+  xy: 2, 681
+  size: 380, 335
+  orig: 380, 335
+  offset: 0, 0
+  index: -1
+heguankule0006
+  rotate: false
+  xy: 384, 681
+  size: 380, 335
+  orig: 380, 335
+  offset: 0, 0
+  index: -1
+heguankule0007
+  rotate: true
+  xy: 2, 299
+  size: 380, 335
+  orig: 380, 335
+  offset: 0, 0
+  index: -1
+heguankule0008
+  rotate: true
+  xy: 339, 299
+  size: 380, 335
+  orig: 380, 335
+  offset: 0, 0
+  index: -1
+heguankule0009
+  rotate: true
+  xy: 676, 299
+  size: 380, 335
+  orig: 380, 335
+  offset: 0, 0
+  index: -1
+
+heguandonghua_shuihuzhuan6.png
+size: 1013,1023
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+heguankaixin0007
+  rotate: false
+  xy: 2, 7
+  size: 385, 295
+  orig: 385, 295
+  offset: 0, 0
+  index: -1
+heguankule0010
+  rotate: false
+  xy: 2, 686
+  size: 380, 335
+  orig: 380, 335
+  offset: 0, 0
+  index: -1
+heguankule0011
+  rotate: false
+  xy: 384, 686
+  size: 380, 335
+  orig: 380, 335
+  offset: 0, 0
+  index: -1
+heguankule0012
+  rotate: true
+  xy: 2, 304
+  size: 380, 335
+  orig: 380, 335
+  offset: 0, 0
+  index: -1
+heguankule0013
+  rotate: true
+  xy: 339, 304
+  size: 380, 335
+  orig: 380, 335
+  offset: 0, 0
+  index: -1
+heguankule0014
+  rotate: true
+  xy: 676, 304
+  size: 380, 335
+  orig: 380, 335
+  offset: 0, 0
+  index: -1
+huguandakaishaizhong0001
+  rotate: false
+  xy: 389, 2
+  size: 350, 300
+  orig: 350, 300
+  offset: 0, 0
+  index: -1
+
+heguandonghua_shuihuzhuan7.png
+size: 1023,993
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+heguanyaoshaizhong0002
+  rotate: true
+  xy: 354, 72
+  size: 315, 320
+  orig: 315, 320
+  offset: 0, 0
+  index: -1
+heguanyaoshaizhong0003
+  rotate: false
+  xy: 706, 319
+  size: 315, 320
+  orig: 315, 320
+  offset: 0, 0
+  index: -1
+heguanyaoshaizhong0004
+  rotate: true
+  xy: 676, 2
+  size: 315, 320
+  orig: 315, 320
+  offset: 0, 0
+  index: -1
+huguandakaishaizhong0002
+  rotate: false
+  xy: 2, 691
+  size: 350, 300
+  orig: 350, 300
+  offset: 0, 0
+  index: -1
+huguandakaishaizhong0003
+  rotate: false
+  xy: 2, 389
+  size: 350, 300
+  orig: 350, 300
+  offset: 0, 0
+  index: -1
+huguandakaishaizhong0004
+  rotate: false
+  xy: 354, 691
+  size: 350, 300
+  orig: 350, 300
+  offset: 0, 0
+  index: -1
+huguandakaishaizhong0005
+  rotate: false
+  xy: 2, 87
+  size: 350, 300
+  orig: 350, 300
+  offset: 0, 0
+  index: -1
+huguandakaishaizhong0006
+  rotate: false
+  xy: 354, 389
+  size: 350, 300
+  orig: 350, 300
+  offset: 0, 0
+  index: -1
+huguandakaishaizhong0007
+  rotate: true
+  xy: 706, 641
+  size: 350, 300
+  orig: 350, 300
+  offset: 0, 0
+  index: -1
+
+heguandonghua_shuihuzhuan8.png
+size: 953,968
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+heguanyaoshaizhong0005
+  rotate: false
+  xy: 2, 646
+  size: 315, 320
+  orig: 315, 320
+  offset: 0, 0
+  index: -1
+heguanyaoshaizhong0006
+  rotate: false
+  xy: 2, 324
+  size: 315, 320
+  orig: 315, 320
+  offset: 0, 0
+  index: -1
+heguanyaoshaizhong0007
+  rotate: false
+  xy: 319, 646
+  size: 315, 320
+  orig: 315, 320
+  offset: 0, 0
+  index: -1
+heguanyaoshaizhong0008
+  rotate: false
+  xy: 2, 2
+  size: 315, 320
+  orig: 315, 320
+  offset: 0, 0
+  index: -1
+heguanyaoshaizhong0009
+  rotate: false
+  xy: 319, 324
+  size: 315, 320
+  orig: 315, 320
+  offset: 0, 0
+  index: -1
+heguanyaoshaizhong0010
+  rotate: false
+  xy: 636, 646
+  size: 315, 320
+  orig: 315, 320
+  offset: 0, 0
+  index: -1
+heguanyaoshaizhong0011
+  rotate: false
+  xy: 319, 2
+  size: 315, 320
+  orig: 315, 320
+  offset: 0, 0
+  index: -1
+heguanyaoshaizhong0012
+  rotate: false
+  xy: 636, 324
+  size: 315, 320
+  orig: 315, 320
+  offset: 0, 0
+  index: -1
+heguanyaoshaizhong0013
+  rotate: false
+  xy: 636, 2
+  size: 315, 320
+  orig: 315, 320
+  offset: 0, 0
+  index: -1
+
+heguandonghua_shuihuzhuan9.png
+size: 636,324
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+heguanyaoshaizhong0014
+  rotate: false
+  xy: 2, 2
+  size: 315, 320
+  orig: 315, 320
+  offset: 0, 0
+  index: -1
+heguanyaoshaizhong0015
+  rotate: false
+  xy: 319, 2
+  size: 315, 320
+  orig: 315, 320
+  offset: 0, 0
+  index: -1

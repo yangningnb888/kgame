@@ -1,0 +1,55 @@
+
+tongbiniuniu4_jiesuan.png
+size: 874,485
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang
+  rotate: false
+  xy: 450, 146
+  size: 351, 337
+  orig: 351, 337
+  offset: 0, 0
+  index: -1
+guang_2
+  rotate: false
+  xy: 2, 37
+  size: 446, 446
+  orig: 446, 446
+  offset: 0, 0
+  index: -1
+maozi
+  rotate: false
+  xy: 622, 59
+  size: 176, 85
+  orig: 176, 85
+  offset: 0, 0
+  index: -1
+niujiao_1
+  rotate: true
+  xy: 803, 270
+  size: 75, 68
+  orig: 75, 68
+  offset: 0, 0
+  index: -1
+niujiao_2
+  rotate: true
+  xy: 800, 65
+  size: 79, 72
+  orig: 79, 72
+  offset: 0, 0
+  index: -1
+zi_shengli
+  rotate: false
+  xy: 450, 2
+  size: 170, 142
+  orig: 170, 142
+  offset: 0, 0
+  index: -1
+zi_shengli_1
+  rotate: true
+  xy: 803, 347
+  size: 136, 67
+  orig: 136, 67
+  offset: 0, 0
+  index: -1

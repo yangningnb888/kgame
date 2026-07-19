@@ -1,0 +1,48 @@
+
+dengdai_1_1.png
+size: 124,115
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+deng
+  rotate: false
+  xy: 1, 48
+  size: 39, 46
+  orig: 39, 46
+  offset: 0, 0
+  index: -1
+xia
+  rotate: false
+  xy: 42, 48
+  size: 39, 44
+  orig: 39, 44
+  offset: 0, 0
+  index: -1
+dai
+  rotate: false
+  xy: 1, 1
+  size: 40, 45
+  orig: 40, 45
+  offset: 0, 0
+  index: -1
+yi
+  rotate: false
+  xy: 42, 94
+  size: 41, 15
+  orig: 41, 15
+  offset: 0, 0
+  index: -1
+ju
+  rotate: false
+  xy: 83, 48
+  size: 39, 44
+  orig: 39, 44
+  offset: 0, 0
+  index: -1
+dian
+  rotate: false
+  xy: 1, 96
+  size: 12, 17
+  orig: 12, 17
+  offset: 0, 0
+  index: -1

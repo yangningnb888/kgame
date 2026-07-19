@@ -1,0 +1,76 @@
+
+325ddz_tiyanchang_donghua.png
+size: 585,181
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+325ddz_tiyanfang_beilou
+  rotate: false
+  xy: 504, 49
+  size: 79, 130
+  orig: 79, 130
+  offset: 0, 0
+  index: -1
+325ddz_tiyanfang_body
+  rotate: false
+  xy: 166, 2
+  size: 130, 177
+  orig: 130, 177
+  offset: 0, 0
+  index: -1
+325ddz_tiyanfang_cao
+  rotate: false
+  xy: 298, 50
+  size: 42, 36
+  orig: 42, 36
+  offset: 0, 0
+  index: -1
+325ddz_tiyanfang_daimao
+  rotate: false
+  xy: 342, 60
+  size: 24, 26
+  orig: 24, 26
+  offset: 0, 0
+  index: -1
+325ddz_tiyanfang_tou
+  rotate: true
+  xy: 2, 16
+  size: 163, 162
+  orig: 163, 162
+  offset: 0, 0
+  index: -1
+325ddz_tiyanfang_yanjing
+  rotate: false
+  xy: 298, 6
+  size: 93, 41
+  orig: 93, 41
+  offset: 0, 0
+  index: -1
+325ddz_tiyanfang_yingzi
+  rotate: false
+  xy: 298, 88
+  size: 204, 91
+  orig: 204, 91
+  offset: 0, 0
+  index: -1
+325ddz_tiyanfang_youshou
+  rotate: false
+  xy: 393, 13
+  size: 46, 73
+  orig: 46, 73
+  offset: 0, 0
+  index: -1
+325ddz_tiyanfang_zuobi
+  rotate: true
+  xy: 482, 2
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+325ddz_tiyanfang_zuoshou
+  rotate: true
+  xy: 441, 22
+  size: 64, 39
+  orig: 64, 39
+  offset: 0, 0
+  index: -1

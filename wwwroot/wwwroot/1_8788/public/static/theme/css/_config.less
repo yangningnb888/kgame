@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+// +----------------------------------------------------------------------
+// | ThinkAdmin
+// +----------------------------------------------------------------------
+// | 版权所有 2014~2022 广州楚才信息科技有限公司 [ http://www.cuci.cc ]
+// +----------------------------------------------------------------------
+// | 官方网站: https://thinkadmin.top
+// +----------------------------------------------------------------------
+// | 开源协议 ( https://mit-license.org )
+// +----------------------------------------------------------------------
+// | gitee 代码仓库：https://gitee.com/zoujingli/ThinkAdmin
+// | github 代码仓库：https://github.com/zoujingli/ThinkAdmin
+// +----------------------------------------------------------------------
+
+// 默认盒边框样式
+@BoxBorderColor: #EEE;
+@BoxBorderRadius: 3px;
+
+// 输入边线颜色
+@RadioBorderNormalColor: #CCC;
+@InputBorderNormalColor: #EEE;
+@InputBorderActiveColor: #DDD;
+
+// 基础阴影配置
+@ShadowMinOuter: 0 0 4px 0 rgba(0, 0, 0, 0.20);
+@ShadowMaxOuter: 0 0 6px 0 rgba(0, 0, 0, 0.20);
+@ShadowMaxInset: 0 1px 20px 0 rgba(0, 0, 0, 0.10) inset;
+@ShadowDownInset: 0 1px 6px 0 rgba(0, 0, 0, 0.10) inset;
+
+// 导航条颜色配置
+@TopHeaderTextColor: #333;
+@TopHeaderBackColor: #FFF;
+@TopHeaderBottomLine: 1px solid rgba(0, 0, 0, 0.10);
+@TopHeaderNavNormalTextColor: @TopHeaderTextColor;
+@TopHeaderNavNormalBackColor: @TopHeaderBackColor;
+
+// 导航条按钮颜色
+@TopHeaderHeight: 50px;
+@TopHeaderNavHoverTextColor: #000;
+@TopHeaderNavHoverBackColor: rgba(0, 0, 0, 0.05);
+@TopHeaderNavActiveTextColor: #000;
+@TopHeaderNavActiveBackColor: rgba(0, 0, 0, 0.10);
+
+// 左侧菜单布局颜色
+@LeftMainBackColor: #20222A !important;
+
+@LeftMainNavHoverBackColor: rgba(99, 99, 99, 0.2);
+@LeftMainNavHoverTextColor: #FFF;
+
+@LeftMainNavNormalBackColor: none;
+@LeftMainNavNormalTextColor: #EEE;
+
+@LeftMainNavActiveBackColor: #098;
+@LeftMainNavActiveTextColor: #FFF;
+
+// 加载页面背景颜色
+@LoadBackColor: #EFEFEF;
+
+// 窗口页面背景颜色
+@BodyMainTop: 51px;
+@BodyMainBackColor: #EFEFEF;
+
+// 左侧菜单大小
+@LayoutMiniLeftSize: 50px;
+@LayoutDefaLeftSzie: 200px;
+
+// 最小滚动样式
+#defaScrollbar() {
+  height: 100%;
+  display: block;
+  overflow: auto;
+  overflow-x: hidden;
+  &::-webkit-scrollbar {
+    width: 3px !important;
+
+    &-track {
+      background: #666 !important
+    }
+
+    &-thumb {
+      background-color: #999 !important
+    }
+  }
+}
+
+// 通用延时动态
+#defaTransition() {
+  transition: all .2s linear;
+  -o-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -webkit-transition: all .2s linear;
+}

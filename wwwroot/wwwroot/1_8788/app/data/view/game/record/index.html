@@ -1,0 +1,84 @@
+{extend name="../../admin/view/main"}
+
+{block name="button"}
+{/block}
+
+{block name="content"}
+<body>
+<div class="layui-tab layui-tab-card think-bg-white">
+    <fieldset class="table-search-fieldset">
+        <legend>搜索信息</legend>
+        <div style="margin: 10px 10px 10px 10px" id="btn">
+            <form class="layui-form layui-form-pane" action="" id="test">
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">搜索玩家</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="uid" id="player" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <!--注意此处button标签里的type属性-->
+                        <button type="button" class="layui-btn layui-btn-primary" lay-submit data-type="reload"
+                                lay-filter="data-search-btn"><i class="layui-icon"></i> 搜 索
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </fieldset>
+    <table class="layui-hide" id="gamelist" lay-filter="profit"></table>
+</div>
+</body>
+<script>
+
+    layui.use(['table', 'form'], function () {
+        let table = layui.table;
+        let form = layui.form;
+
+        form.render();
+        table.render({
+            elem: '#gamelist'
+            , url: '{:url("gamelist")}'
+            , cellMinWidth: 100 //全局定义常规单元格的最小宽度，layui 2.2.1 新增
+            , id: 'gamelist'
+            , cols: [[
+                {field: 'uid', title: 'uid', align: 'center'}
+                , {field: 'name', title: '游戏名称', align: 'center'}
+                , {field: 'begintime', title: '进入时间', align: 'center'}
+                , {field: 'begingold', title: '初始金币', align: 'center'}
+                , {field: 'endtime', title: '结束时间', align: 'center'}
+                , {field: 'endgold', title: '结束金币', align: 'center'}
+            ]]
+            , page: true
+            , limit: 18
+            , parseData: function (res) {
+                console.log(res.data);
+                return {
+                    'code': 0
+                    , 'msg': ''
+                    , 'count': res.count
+                    , 'data': res.data
+                }
+            }
+        });
+
+        form.on('submit(data-search-btn)', function (data) {
+            //alert(data.value);
+            console.log(data.field);
+            //console.log(data.field.status);
+            table.reload('gamelist', {
+                page: {
+                    curr: 1 //重新从第 1 页开始
+                }
+                , where: data.field
+                , url: '{:url("gamelist")}'//后台做模糊搜索接口路径
+                , method: 'post'
+            });
+            return false;
+        });
+    });
+</script>
+
+{/block}

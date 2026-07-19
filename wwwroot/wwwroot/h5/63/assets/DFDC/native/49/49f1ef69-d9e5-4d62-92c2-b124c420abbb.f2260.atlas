@@ -1,0 +1,41 @@
+
+zsyy_mubu.png
+size: 208,515
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zsyh_changmubu1
+  rotate: false
+  xy: 0, 66
+  size: 102, 449
+  orig: 102, 449
+  offset: 0, 0
+  index: -1
+zsyh_mubu
+  rotate: false
+  xy: 104, 218
+  size: 102, 297
+  orig: 102, 297
+  offset: 0, 0
+  index: -1
+zsyh_mubu_jz
+  rotate: true
+  xy: 187, 0
+  size: 216, 21
+  orig: 216, 21
+  offset: 0, 0
+  index: -1
+zsyh_mubu_sz
+  rotate: true
+  xy: 0, 1
+  size: 21, 139
+  orig: 21, 139
+  offset: 0, 0
+  index: -1
+zsyh_shanglian
+  rotate: true
+  xy: 104, 24
+  size: 192, 81
+  orig: 192, 90
+  offset: 0, 9
+  index: -1

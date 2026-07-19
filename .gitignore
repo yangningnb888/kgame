@@ -1,0 +1,23 @@
+# ---------- 运行时 / 缓存 / 日志（不应入库）----------
+*.pid
+*.bak
+nohup.out
+msg/
+log/
+logs/
+win-logs/
+__pycache__/
+*.pyc
+/venv/
+/venv-linux/
+
+# ---------- 前端调试残留 ----------
+/assets/main/_*.js
+/assets/main/_*.txt
+
+# ---------- 部署生成物 ----------
+.db-imported
+*.log
+
+# 本机整理脚本（非部署产物）
+_stage.ps1

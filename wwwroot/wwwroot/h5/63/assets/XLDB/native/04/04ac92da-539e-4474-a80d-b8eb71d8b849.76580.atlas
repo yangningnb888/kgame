@@ -1,0 +1,13 @@
+
+ui_suoding_01.png
+size: 154,154
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_suoding_01
+  rotate: false
+  xy: 2, 2
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1

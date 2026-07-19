@@ -1,0 +1,97 @@
+
+lkpy_xuanfang_chujifang.png
+size: 912,280
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lkpy_dizuo
+  rotate: true
+  xy: 2, 10
+  size: 268, 344
+  orig: 268, 344
+  offset: 0, 0
+  index: -1
+lkpy_gaojifang_body
+  rotate: true
+  xy: 579, 86
+  size: 192, 151
+  orig: 192, 151
+  offset: 0, 0
+  index: -1
+lkpy_gaojifang_fadai
+  rotate: true
+  xy: 649, 6
+  size: 43, 42
+  orig: 43, 42
+  offset: 0, 0
+  index: -1
+lkpy_gaojifang_fadai01
+  rotate: false
+  xy: 649, 51
+  size: 63, 33
+  orig: 63, 33
+  offset: 0, 0
+  index: -1
+lkpy_gaojifang_pifeng
+  rotate: false
+  xy: 405, 5
+  size: 88, 46
+  orig: 88, 46
+  offset: 0, 0
+  index: -1
+lkpy_gaojifang_tou
+  rotate: true
+  xy: 732, 20
+  size: 110, 151
+  orig: 110, 151
+  offset: 0, 0
+  index: -1
+lkpy_gaojifang_toufa
+  rotate: true
+  xy: 571, 12
+  size: 68, 41
+  orig: 68, 41
+  offset: 0, 0
+  index: -1
+lkpy_gaojifang_yanjing
+  rotate: true
+  xy: 614, 20
+  size: 64, 33
+  orig: 64, 33
+  offset: 0, 0
+  index: -1
+lkpy_gaojifang_youshou
+  rotate: true
+  xy: 732, 132
+  size: 146, 178
+  orig: 146, 178
+  offset: 0, 0
+  index: -1
+lkpy_gaojifang_yuanbao
+  rotate: false
+  xy: 348, 2
+  size: 55, 49
+  orig: 55, 49
+  offset: 0, 0
+  index: -1
+lkpy_gaojifang_zuoquan
+  rotate: true
+  xy: 452, 82
+  size: 196, 125
+  orig: 196, 125
+  offset: 0, 0
+  index: -1
+lkpy_gaojifang_zuoshou
+  rotate: true
+  xy: 495, 2
+  size: 78, 74
+  orig: 78, 74
+  offset: 0, 0
+  index: -1
+lkpy_huacao
+  rotate: true
+  xy: 348, 53
+  size: 225, 102
+  orig: 225, 102
+  offset: 0, 0
+  index: -1

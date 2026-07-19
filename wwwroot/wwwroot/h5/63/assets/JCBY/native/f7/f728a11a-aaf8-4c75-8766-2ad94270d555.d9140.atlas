@@ -1,0 +1,139 @@
+
+bingo-boss.png
+size: 1004,367
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1guangquandayu
+  rotate: false
+  xy: 389, 2
+  size: 177, 177
+  orig: 177, 177
+  offset: 0, 0
+  index: -1
+frog-bread
+  rotate: false
+  xy: 389, 2
+  size: 177, 177
+  orig: 177, 177
+  offset: 0, 0
+  index: -1
+frog-eye
+  rotate: false
+  xy: 389, 2
+  size: 177, 177
+  orig: 177, 177
+  offset: 0, 0
+  index: -1
+frog-head
+  rotate: false
+  xy: 389, 2
+  size: 177, 177
+  orig: 177, 177
+  offset: 0, 0
+  index: -1
+frog-lefthand
+  rotate: false
+  xy: 389, 2
+  size: 177, 177
+  orig: 177, 177
+  offset: 0, 0
+  index: -1
+frog-righthand
+  rotate: false
+  xy: 389, 2
+  size: 177, 177
+  orig: 177, 177
+  offset: 0, 0
+  index: -1
+frog-tripe
+  rotate: false
+  xy: 389, 2
+  size: 177, 177
+  orig: 177, 177
+  offset: 0, 0
+  index: -1
+shanxingxing111
+  rotate: false
+  xy: 389, 2
+  size: 177, 177
+  orig: 177, 177
+  offset: 0, 0
+  index: -1
+frog-bread3
+  rotate: false
+  xy: 846, 208
+  size: 156, 157
+  orig: 156, 157
+  offset: 0, 0
+  index: -1
+frog-eye3
+  rotate: true
+  xy: 962, 87
+  size: 119, 33
+  orig: 119, 33
+  offset: 0, 0
+  index: -1
+frog-head3
+  rotate: true
+  xy: 846, 14
+  size: 192, 114
+  orig: 192, 114
+  offset: 0, 0
+  index: -1
+frog-lefthand3
+  rotate: true
+  xy: 290, 37
+  size: 54, 84
+  orig: 54, 84
+  offset: 0, 0
+  index: -1
+frog-righthand3
+  rotate: true
+  xy: 2, 10
+  size: 81, 95
+  orig: 81, 95
+  offset: 0, 0
+  index: -1
+frog-tripe3
+  rotate: false
+  xy: 178, 28
+  size: 110, 63
+  orig: 110, 63
+  offset: 0, 0
+  index: -1
+guangquandayu2
+  rotate: false
+  xy: 99, 18
+  size: 77, 73
+  orig: 77, 73
+  offset: 0, 0
+  index: -1
+light1
+  rotate: false
+  xy: 593, 187
+  size: 251, 178
+  orig: 251, 178
+  offset: 0, 0
+  index: -1
+light2
+  rotate: false
+  xy: 593, 7
+  size: 251, 178
+  orig: 251, 178
+  offset: 0, 0
+  index: -1
+pan-boss
+  rotate: false
+  xy: 2, 93
+  size: 385, 272
+  orig: 385, 272
+  offset: 0, 0
+  index: -1
+shanxingxing1113
+  rotate: false
+  xy: 389, 181
+  size: 202, 184
+  orig: 202, 184
+  offset: 0, 0
+  index: -1

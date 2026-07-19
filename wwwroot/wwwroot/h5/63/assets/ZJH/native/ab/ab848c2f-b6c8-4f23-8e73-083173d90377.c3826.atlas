@@ -1,0 +1,279 @@
+
+325_zhajinghua_xuanfangjian_chujichang.png
+size: 980,969
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang01
+  rotate: true
+  xy: 817, 726
+  size: 241, 150
+  orig: 241, 150
+  offset: 0, 0
+  index: -1
+guang02
+  rotate: true
+  xy: 577, 528
+  size: 245, 147
+  orig: 245, 147
+  offset: 0, 0
+  index: -1
+heitao
+  rotate: false
+  xy: 2, 732
+  size: 296, 235
+  orig: 296, 235
+  offset: 0, 0
+  index: -1
+houpiaodai
+  rotate: true
+  xy: 726, 520
+  size: 253, 40
+  orig: 253, 40
+  offset: 0, 0
+  index: -1
+jingbi
+  rotate: true
+  xy: 152, 349
+  size: 161, 96
+  orig: 161, 96
+  offset: 0, 0
+  index: -1
+jingbi_01
+  rotate: true
+  xy: 152, 186
+  size: 161, 96
+  orig: 161, 96
+  offset: 0, 0
+  index: -1
+piku01
+  rotate: true
+  xy: 300, 722
+  size: 245, 275
+  orig: 245, 275
+  offset: 0, 0
+  index: -1
+puke02
+  rotate: true
+  xy: 2, 512
+  size: 218, 256
+  orig: 218, 256
+  offset: 0, 0
+  index: -1
+puke03
+  rotate: true
+  xy: 577, 775
+  size: 192, 238
+  orig: 192, 238
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_01
+  rotate: false
+  xy: 768, 606
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_02
+  rotate: false
+  xy: 768, 486
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_03
+  rotate: false
+  xy: 260, 602
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_04
+  rotate: false
+  xy: 410, 602
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_05
+  rotate: false
+  xy: 410, 602
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_06
+  rotate: false
+  xy: 260, 482
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_07
+  rotate: false
+  xy: 410, 482
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_08
+  rotate: false
+  xy: 560, 408
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_09
+  rotate: false
+  xy: 2, 392
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_10
+  rotate: false
+  xy: 2, 272
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_11
+  rotate: false
+  xy: 710, 366
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_12
+  rotate: true
+  xy: 860, 336
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_13
+  rotate: false
+  xy: 250, 362
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_14
+  rotate: false
+  xy: 400, 362
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_15
+  rotate: false
+  xy: 550, 288
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_16
+  rotate: false
+  xy: 700, 246
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_17
+  rotate: true
+  xy: 850, 186
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_18
+  rotate: false
+  xy: 250, 242
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_19
+  rotate: false
+  xy: 2, 152
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_20
+  rotate: false
+  xy: 400, 242
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_21
+  rotate: false
+  xy: 550, 168
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_22
+  rotate: false
+  xy: 700, 126
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_23
+  rotate: true
+  xy: 850, 36
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_24
+  rotate: true
+  xy: 250, 92
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_25
+  rotate: true
+  xy: 2, 2
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_26
+  rotate: true
+  xy: 122, 2
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_27
+  rotate: false
+  xy: 370, 122
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_28
+  rotate: false
+  xy: 520, 48
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_29
+  rotate: false
+  xy: 370, 2
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/shaoguang_30
+  rotate: false
+  xy: 670, 6
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1

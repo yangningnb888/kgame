@@ -1,0 +1,124 @@
+
+shandianyu_shandian_1.png
+size: 974,988
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shandianyu_dian2_01
+  rotate: false
+  xy: 2, 536
+  size: 160, 450
+  orig: 160, 450
+  offset: 0, 0
+  index: -1
+shandianyu_dian2_02
+  rotate: false
+  xy: 2, 84
+  size: 160, 450
+  orig: 160, 450
+  offset: 0, 0
+  index: -1
+shandianyu_dian2_03
+  rotate: false
+  xy: 164, 536
+  size: 160, 450
+  orig: 160, 450
+  offset: 0, 0
+  index: -1
+shandianyu_dian2_04
+  rotate: false
+  xy: 164, 84
+  size: 160, 450
+  orig: 160, 450
+  offset: 0, 0
+  index: -1
+shandianyu_dian2_05
+  rotate: false
+  xy: 326, 536
+  size: 160, 450
+  orig: 160, 450
+  offset: 0, 0
+  index: -1
+shandianyu_dian2_06
+  rotate: false
+  xy: 326, 84
+  size: 160, 450
+  orig: 160, 450
+  offset: 0, 0
+  index: -1
+shandianyu_dian2_07
+  rotate: false
+  xy: 488, 536
+  size: 160, 450
+  orig: 160, 450
+  offset: 0, 0
+  index: -1
+shandianyu_dian_01
+  rotate: false
+  xy: 488, 84
+  size: 160, 450
+  orig: 160, 450
+  offset: 0, 0
+  index: -1
+shandianyu_dian_02
+  rotate: false
+  xy: 650, 536
+  size: 160, 450
+  orig: 160, 450
+  offset: 0, 0
+  index: -1
+shandianyu_dian_03
+  rotate: false
+  xy: 650, 84
+  size: 160, 450
+  orig: 160, 450
+  offset: 0, 0
+  index: -1
+shandianyu_dian_04
+  rotate: false
+  xy: 812, 536
+  size: 160, 450
+  orig: 160, 450
+  offset: 0, 0
+  index: -1
+shandianyu_dian_05
+  rotate: false
+  xy: 812, 84
+  size: 160, 450
+  orig: 160, 450
+  offset: 0, 0
+  index: -1
+shandianyu_guang
+  rotate: false
+  xy: 2, 2
+  size: 78, 80
+  orig: 78, 80
+  offset: 0, 0
+  index: -1
+
+shandianyu_shandian_12.png
+size: 652,326
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shandianyu_dian_06
+  rotate: true
+  xy: 2, 164
+  size: 160, 450
+  orig: 160, 450
+  offset: 0, 0
+  index: -1
+shandianyu_dian_07
+  rotate: true
+  xy: 2, 2
+  size: 160, 450
+  orig: 160, 450
+  offset: 0, 0
+  index: -1
+shandianyu_glow1
+  rotate: false
+  xy: 454, 128
+  size: 196, 196
+  orig: 196, 196
+  offset: 0, 0
+  index: -1

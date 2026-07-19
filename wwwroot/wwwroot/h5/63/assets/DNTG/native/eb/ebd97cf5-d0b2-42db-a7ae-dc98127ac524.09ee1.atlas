@@ -1,0 +1,111 @@
+
+325dntg_xuanchang_shiwanchang.png
+size: 856,398
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+325dntg_shiwanchang_bangzi
+  rotate: false
+  xy: 2, 2
+  size: 248, 116
+  orig: 248, 116
+  offset: 0, 0
+  index: -1
+325dntg_shiwanchang_body
+  rotate: false
+  xy: 747, 120
+  size: 93, 83
+  orig: 93, 83
+  offset: 0, 0
+  index: -1
+325dntg_shiwanchang_dizuo
+  rotate: true
+  xy: 2, 120
+  size: 276, 414
+  orig: 276, 414
+  offset: 0, 0
+  index: -1
+325dntg_shiwanchang_huo00
+  rotate: true
+  xy: 462, 4
+  size: 117, 187
+  orig: 117, 187
+  offset: 0, 0
+  index: -1
+325dntg_shiwanchang_huo01
+  rotate: false
+  xy: 747, 40
+  size: 94, 78
+  orig: 94, 78
+  offset: 0, 0
+  index: -1
+325dntg_shiwanchang_huo02
+  rotate: false
+  xy: 564, 158
+  size: 135, 95
+  orig: 135, 95
+  offset: 0, 0
+  index: -1
+325dntg_shiwanchang_kuzi
+  rotate: true
+  xy: 789, 279
+  size: 117, 65
+  orig: 117, 65
+  offset: 0, 0
+  index: -1
+325dntg_shiwanchang_piaodai00
+  rotate: false
+  xy: 701, 205
+  size: 136, 67
+  orig: 136, 67
+  offset: 0, 0
+  index: -1
+325dntg_shiwanchang_piaodai01
+  rotate: true
+  xy: 684, 274
+  size: 122, 103
+  orig: 122, 103
+  offset: 0, 0
+  index: -1
+325dntg_shiwanchang_pifeng
+  rotate: false
+  xy: 252, 2
+  size: 208, 116
+  orig: 208, 116
+  offset: 0, 0
+  index: -1
+325dntg_shiwanchang_tou
+  rotate: false
+  xy: 564, 255
+  size: 118, 141
+  orig: 118, 141
+  offset: 0, 0
+  index: -1
+325dntg_shiwanchang_yanjing
+  rotate: false
+  xy: 418, 123
+  size: 74, 40
+  orig: 74, 40
+  offset: 0, 0
+  index: -1
+325dntg_shiwanchang_youshou
+  rotate: false
+  xy: 494, 129
+  size: 48, 34
+  orig: 48, 34
+  offset: 0, 0
+  index: -1
+325dntg_shiwanchang_yunduo
+  rotate: true
+  xy: 418, 165
+  size: 231, 144
+  orig: 231, 144
+  offset: 0, 0
+  index: -1
+325dntg_shiwanchang_zuoshou
+  rotate: true
+  xy: 651, 24
+  size: 132, 94
+  orig: 132, 94
+  offset: 0, 0
+  index: -1

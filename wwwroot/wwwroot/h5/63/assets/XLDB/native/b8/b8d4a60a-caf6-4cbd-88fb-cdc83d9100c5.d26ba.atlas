@@ -1,0 +1,83 @@
+
+xldb_xuanfang_chujifang.png
+size: 783,277
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xldb_chujifang_beiqi
+  rotate: false
+  xy: 453, 101
+  size: 119, 174
+  orig: 119, 174
+  offset: 0, 0
+  index: -1
+xldb_chujifang_body
+  rotate: false
+  xy: 334, 55
+  size: 117, 220
+  orig: 117, 220
+  offset: 0, 0
+  index: -1
+xldb_chujifang_dizuo
+  rotate: true
+  xy: 2, 2
+  size: 273, 330
+  orig: 273, 330
+  offset: 0, 0
+  index: -1
+xldb_chujifang_guang
+  rotate: false
+  xy: 574, 30
+  size: 142, 120
+  orig: 142, 120
+  offset: 0, 0
+  index: -1
+xldb_chujifang_qipao00
+  rotate: false
+  xy: 718, 30
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+xldb_chujifang_qipao01
+  rotate: false
+  xy: 731, 236
+  size: 38, 39
+  orig: 38, 39
+  offset: 0, 0
+  index: -1
+xldb_chujifang_tou
+  rotate: false
+  xy: 574, 152
+  size: 155, 123
+  orig: 155, 123
+  offset: 0, 0
+  index: -1
+xldb_chujifang_youshou
+  rotate: false
+  xy: 718, 61
+  size: 63, 89
+  orig: 63, 89
+  offset: 0, 0
+  index: -1
+xldb_chujifang_youyan
+  rotate: false
+  xy: 378, 20
+  size: 31, 33
+  orig: 31, 33
+  offset: 0, 0
+  index: -1
+xldb_chujifang_zuoshou
+  rotate: true
+  xy: 453, 13
+  size: 86, 109
+  orig: 86, 109
+  offset: 0, 0
+  index: -1
+xldb_chujifang_zuoyan
+  rotate: false
+  xy: 334, 12
+  size: 42, 41
+  orig: 42, 41
+  offset: 0, 0
+  index: -1

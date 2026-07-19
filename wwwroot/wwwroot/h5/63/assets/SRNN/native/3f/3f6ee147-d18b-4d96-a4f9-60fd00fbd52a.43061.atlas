@@ -1,0 +1,111 @@
+
+tongbiniuniu4_kaishi.png
+size: 996,430
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GAME START
+  rotate: false
+  xy: 2, 240
+  size: 604, 188
+  orig: 604, 188
+  offset: 0, 0
+  index: -1
+maozi_a
+  rotate: false
+  xy: 608, 195
+  size: 284, 124
+  orig: 284, 124
+  offset: 0, 0
+  index: -1
+qiang_1
+  rotate: false
+  xy: 566, 12
+  size: 182, 181
+  orig: 182, 181
+  offset: 0, 0
+  index: -1
+qiang_2
+  rotate: true
+  xy: 750, 13
+  size: 180, 176
+  orig: 180, 176
+  offset: 0, 0
+  index: -1
+xulie/dl_brps_shenqiangshou-animation1_0
+  rotate: true
+  xy: 2, 15
+  size: 66, 117
+  orig: 66, 117
+  offset: 0, 0
+  index: -1
+xulie/dl_brps_shenqiangshou-animation1_1
+  rotate: false
+  xy: 498, 121
+  size: 66, 117
+  orig: 66, 117
+  offset: 0, 0
+  index: -1
+xulie/dl_brps_shenqiangshou-animation1_2
+  rotate: false
+  xy: 498, 2
+  size: 66, 117
+  orig: 66, 117
+  offset: 0, 0
+  index: -1
+xulie/dl_brps_shenqiangshou-animation1_3
+  rotate: false
+  xy: 894, 202
+  size: 66, 117
+  orig: 66, 117
+  offset: 0, 0
+  index: -1
+xulie/dl_brps_shenqiangshou-animation1_4
+  rotate: true
+  xy: 121, 15
+  size: 66, 117
+  orig: 66, 117
+  offset: 0, 0
+  index: -1
+xulie/dl_brps_shenqiangshou-animation1_5
+  rotate: true
+  xy: 240, 15
+  size: 66, 117
+  orig: 66, 117
+  offset: 0, 0
+  index: -1
+xulie/dl_brps_shenqiangshou-animation1_6
+  rotate: true
+  xy: 359, 15
+  size: 66, 117
+  orig: 66, 117
+  offset: 0, 0
+  index: -1
+xulie/dl_brps_shenqiangshou-animation1_7
+  rotate: false
+  xy: 928, 83
+  size: 66, 117
+  orig: 66, 117
+  offset: 0, 0
+  index: -1
+zi_guang
+  rotate: false
+  xy: 2, 83
+  size: 494, 155
+  orig: 494, 155
+  offset: 0, 0
+  index: -1
+zi_kaishiyouxi
+  rotate: false
+  xy: 608, 321
+  size: 385, 107
+  orig: 385, 107
+  offset: 0, 0
+  index: -1
+zidan
+  rotate: false
+  xy: 928, 26
+  size: 53, 55
+  orig: 53, 55
+  offset: 0, 0
+  index: -1

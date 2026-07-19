@@ -1,0 +1,118 @@
+
+lkpy_xuanfang_gaojifang.png
+size: 1004,333
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lkpy_shiwanchang_beike
+  rotate: false
+  xy: 758, 35
+  size: 216, 78
+  orig: 216, 78
+  offset: 0, 0
+  index: -1
+lkpy_shiwanchang_body
+  rotate: false
+  xy: 675, 2
+  size: 81, 111
+  orig: 81, 111
+  offset: 0, 0
+  index: -1
+lkpy_shiwanchang_difa
+  rotate: false
+  xy: 460, 98
+  size: 204, 233
+  orig: 204, 233
+  offset: 0, 0
+  index: -1
+lkpy_shiwanchang_dizuo
+  rotate: true
+  xy: 112, 63
+  size: 268, 346
+  orig: 268, 346
+  offset: 0, 0
+  index: -1
+lkpy_shiwanchang_shuicao
+  rotate: true
+  xy: 2, 56
+  size: 275, 108
+  orig: 275, 108
+  offset: 0, 0
+  index: -1
+lkpy_shiwanchang_tou
+  rotate: false
+  xy: 666, 115
+  size: 157, 216
+  orig: 157, 216
+  offset: 0, 0
+  index: -1
+lkpy_shiwanchang_toufa00
+  rotate: false
+  xy: 825, 124
+  size: 177, 207
+  orig: 177, 207
+  offset: 0, 0
+  index: -1
+lkpy_shiwanchang_toufa01
+  rotate: false
+  xy: 2, 7
+  size: 73, 47
+  orig: 73, 47
+  offset: 0, 0
+  index: -1
+lkpy_shiwanchang_toufa02
+  rotate: true
+  xy: 122, 3
+  size: 58, 89
+  orig: 58, 89
+  offset: 0, 0
+  index: -1
+lkpy_shiwanchang_toufa03
+  rotate: true
+  xy: 364, 23
+  size: 38, 95
+  orig: 38, 95
+  offset: 0, 0
+  index: -1
+lkpy_shiwanchang_wei
+  rotate: false
+  xy: 485, 7
+  size: 118, 89
+  orig: 118, 89
+  offset: 0, 0
+  index: -1
+lkpy_shiwanchang_yanjing
+  rotate: false
+  xy: 213, 18
+  size: 77, 43
+  orig: 77, 43
+  offset: 0, 0
+  index: -1
+lkpy_shiwanchang_youshou
+  rotate: false
+  xy: 292, 22
+  size: 70, 39
+  orig: 70, 39
+  offset: 0, 0
+  index: -1
+lkpy_shiwanchang_yu00
+  rotate: true
+  xy: 77, 9
+  size: 45, 43
+  orig: 45, 43
+  offset: 0, 0
+  index: -1
+lkpy_shiwanchang_yu01
+  rotate: true
+  xy: 460, 66
+  size: 30, 23
+  orig: 30, 23
+  offset: 0, 0
+  index: -1
+lkpy_shiwanchang_zuoshou
+  rotate: true
+  xy: 605, 11
+  size: 85, 68
+  orig: 85, 68
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,48 @@
+
+xldb_xuanchang_beijing.png
+size: 1781,754
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xlbd_xuanchang_wugui00
+  rotate: true
+  xy: 1628, 270
+  size: 215, 86
+  orig: 215, 86
+  offset: 0, 0
+  index: -1
+xlbd_xuanchang_wugui01
+  rotate: true
+  xy: 1628, 163
+  size: 105, 83
+  orig: 105, 83
+  offset: 0, 0
+  index: -1
+xlbd_xuanchang_wugui02
+  rotate: false
+  xy: 1628, 108
+  size: 48, 53
+  orig: 48, 53
+  offset: 0, 0
+  index: -1
+xlbd_xuanchang_wugui03
+  rotate: true
+  xy: 1716, 366
+  size: 119, 42
+  orig: 119, 42
+  offset: 0, 0
+  index: -1
+xldb_xuanchang_beijing
+  rotate: false
+  xy: 2, 2
+  size: 1624, 750
+  orig: 1624, 750
+  offset: 0, 0
+  index: -1
+xldb_xuanchang_guang
+  rotate: true
+  xy: 1628, 487
+  size: 265, 151
+  orig: 265, 151
+  offset: 0, 0
+  index: -1

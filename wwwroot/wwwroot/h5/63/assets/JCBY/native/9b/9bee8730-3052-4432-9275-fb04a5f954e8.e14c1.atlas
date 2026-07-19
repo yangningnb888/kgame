@@ -1,0 +1,41 @@
+
+ruyijingubangwenzidonghua_buyu.png
+size: 444,96
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bangzi
+  rotate: false
+  xy: 92, 3
+  size: 88, 91
+  orig: 88, 91
+  offset: 0, 0
+  index: -1
+guzi
+  rotate: false
+  xy: 357, 5
+  size: 85, 89
+  orig: 85, 89
+  offset: 0, 0
+  index: -1
+jinzi
+  rotate: false
+  xy: 182, 4
+  size: 85, 90
+  orig: 85, 90
+  offset: 0, 0
+  index: -1
+ruzi
+  rotate: false
+  xy: 269, 5
+  size: 86, 89
+  orig: 86, 89
+  offset: 0, 0
+  index: -1
+yizi
+  rotate: false
+  xy: 2, 2
+  size: 88, 92
+  orig: 88, 92
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,167 @@
+
+rw_duzhu1_shenti.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 801, 163
+  size: 297, 91
+  orig: 303, 95
+  offset: 3, 2
+  index: -1
+cp1
+  rotate: true
+  xy: 801, 91
+  size: 70, 59
+  orig: 70, 60
+  offset: 0, 1
+  index: -1
+cp2
+  rotate: true
+  xy: 900, 64
+  size: 39, 64
+  orig: 40, 64
+  offset: 0, 0
+  index: -1
+duandai
+  rotate: false
+  xy: 1242, 33
+  size: 83, 130
+  orig: 83, 130
+  offset: 0, 0
+  index: -1
+eh1
+  rotate: false
+  xy: 690, 5
+  size: 12, 21
+  orig: 12, 21
+  offset: 0, 0
+  index: -1
+eh2
+  rotate: true
+  xy: 645, 11
+  size: 15, 43
+  orig: 15, 43
+  offset: 0, 0
+  index: -1
+fa1
+  rotate: true
+  xy: 966, 31
+  size: 130, 160
+  orig: 130, 160
+  offset: 0, 0
+  index: -1
+fa2
+  rotate: true
+  xy: 1100, 165
+  size: 89, 161
+  orig: 89, 161
+  offset: 0, 0
+  index: -1
+fa4
+  rotate: true
+  xy: 507, 83
+  size: 171, 292
+  orig: 171, 292
+  offset: 0, 0
+  index: -1
+fa5
+  rotate: true
+  xy: 290, 9
+  size: 245, 215
+  orig: 245, 215
+  offset: 0, 0
+  index: -1
+fa6
+  rotate: false
+  xy: 1128, 33
+  size: 112, 130
+  orig: 112, 153
+  offset: 0, 23
+  index: -1
+guang
+  rotate: true
+  xy: 507, 2
+  size: 79, 136
+  orig: 97, 154
+  offset: 11, 17
+  index: -1
+p1
+  rotate: false
+  xy: 910, 117
+  size: 40, 44
+  orig: 40, 44
+  offset: 0, 0
+  index: -1
+p2
+  rotate: true
+  xy: 832, 5
+  size: 34, 42
+  orig: 34, 42
+  offset: 0, 0
+  index: -1
+p3
+  rotate: true
+  xy: 876, 9
+  size: 30, 39
+  orig: 30, 39
+  offset: 0, 0
+  index: -1
+p4
+  rotate: true
+  xy: 787, 3
+  size: 36, 43
+  orig: 36, 43
+  offset: 0, 0
+  index: -1
+shen
+  rotate: true
+  xy: 2, 9
+  size: 245, 286
+  orig: 245, 286
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 1530, 8
+  size: 201, 246
+  orig: 201, 246
+  offset: 0, 0
+  index: -1
+tou1
+  rotate: false
+  xy: 1327, 8
+  size: 201, 246
+  orig: 201, 246
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: true
+  xy: 645, 28
+  size: 53, 140
+  orig: 53, 140
+  offset: 0, 0
+  index: -1
+zhayan
+  rotate: false
+  xy: 1733, 55
+  size: 197, 199
+  orig: 198, 240
+  offset: 1, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 787, 41
+  size: 111, 40
+  orig: 112, 63
+  offset: 1, 0
+  index: -1
+zuoshouxia
+  rotate: true
+  xy: 862, 105
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: -1

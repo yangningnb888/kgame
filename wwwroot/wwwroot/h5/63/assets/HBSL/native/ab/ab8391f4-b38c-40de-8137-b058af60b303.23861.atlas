@@ -1,0 +1,132 @@
+
+hongbao_zhadandonghua.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baozha_01
+  rotate: false
+  xy: 116, 327
+  size: 124, 124
+  orig: 124, 124
+  offset: 0, 0
+  index: -1
+baozha_02
+  rotate: false
+  xy: 486, 475
+  size: 124, 124
+  orig: 124, 124
+  offset: 0, 0
+  index: -1
+baozha_03
+  rotate: false
+  xy: 770, 775
+  size: 124, 124
+  orig: 124, 124
+  offset: 0, 0
+  index: -1
+baozha_04
+  rotate: false
+  xy: 242, 327
+  size: 124, 124
+  orig: 124, 124
+  offset: 0, 0
+  index: -1
+baozha_05
+  rotate: false
+  xy: 652, 616
+  size: 124, 124
+  orig: 124, 124
+  offset: 0, 0
+  index: -1
+baozha_06
+  rotate: false
+  xy: 368, 327
+  size: 124, 124
+  orig: 124, 124
+  offset: 0, 0
+  index: -1
+baozha_07
+  rotate: false
+  xy: 494, 349
+  size: 124, 124
+  orig: 124, 124
+  offset: 0, 0
+  index: -1
+baozha_08
+  rotate: false
+  xy: 95, 126
+  size: 124, 124
+  orig: 124, 124
+  offset: 0, 0
+  index: -1
+lei
+  rotate: false
+  xy: 2, 738
+  size: 482, 283
+  orig: 482, 283
+  offset: 0, 0
+  index: -1
+lei_1
+  rotate: false
+  xy: 2, 453
+  size: 482, 283
+  orig: 482, 283
+  offset: 0, 0
+  index: -1
+ring
+  rotate: false
+  xy: 486, 742
+  size: 282, 279
+  orig: 282, 279
+  offset: 0, 0
+  index: -1
+suibian_1
+  rotate: true
+  xy: 932, 923
+  size: 98, 89
+  orig: 98, 89
+  offset: 0, 0
+  index: -1
+suibian_2
+  rotate: true
+  xy: 2, 107
+  size: 150, 91
+  orig: 150, 91
+  offset: 0, 0
+  index: -1
+suibian_3
+  rotate: false
+  xy: 770, 901
+  size: 160, 120
+  orig: 160, 120
+  offset: 0, 0
+  index: -1
+suibian_4
+  rotate: false
+  xy: 116, 252
+  size: 145, 73
+  orig: 145, 73
+  offset: 0, 0
+  index: -1
+suibian_5
+  rotate: false
+  xy: 2, 259
+  size: 112, 192
+  orig: 112, 192
+  offset: 0, 0
+  index: -1
+suibian_6
+  rotate: false
+  xy: 486, 601
+  size: 164, 139
+  orig: 164, 139
+  offset: 0, 0
+  index: -1
+suibian_7
+  rotate: true
+  xy: 2, 2
+  size: 103, 56
+  orig: 103, 56
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+kebipai_1.png
+size: 227,206
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zjh_tishikuang
+  rotate: false
+  xy: 1, 1
+  size: 144, 203
+  orig: 145, 205
+  offset: 1, 1
+  index: -1
+jiantou
+  rotate: false
+  xy: 147, 1
+  size: 78, 72
+  orig: 78, 72
+  offset: 0, 0
+  index: -1

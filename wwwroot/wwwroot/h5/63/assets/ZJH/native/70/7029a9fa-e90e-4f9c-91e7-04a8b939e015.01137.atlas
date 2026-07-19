@@ -1,0 +1,13 @@
+
+qipai.png
+size: 111,62
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+paimian_qipai
+  rotate: false
+  xy: 1, 1
+  size: 108, 59
+  orig: 108, 59
+  offset: 0, 0
+  index: -1

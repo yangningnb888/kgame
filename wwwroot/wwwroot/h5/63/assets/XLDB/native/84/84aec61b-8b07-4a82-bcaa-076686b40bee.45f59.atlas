@@ -1,0 +1,27 @@
+
+coin-silver.png
+size: 409,77
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coin-invert1
+  rotate: false
+  xy: 329, 2
+  size: 78, 73
+  orig: 78, 73
+  offset: 0, 0
+  index: -1
+coin1
+  rotate: false
+  xy: 249, 2
+  size: 78, 73
+  orig: 78, 73
+  offset: 0, 0
+  index: -1
+shine
+  rotate: true
+  xy: 2, 3
+  size: 72, 245
+  orig: 72, 245
+  offset: 0, 0
+  index: -1

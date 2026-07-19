@@ -1,0 +1,465 @@
+{extend name="../../admin/view/main"}
+
+{block name="button"}
+{/block}
+
+{block name="content"}
+<body>
+<div class="layui-tab layui-tab-card think-bg-white">
+    <fieldset class="table-search-fieldset">
+        <legend>设置管理</legend>
+        <div style="margin: 10px 10px 10px 10px" id="btn">
+            <form class="layui-form layui-form-pane" action="" id="mingdan">
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">UID</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="uid" id="uid" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">赠送次数</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="time" id="time" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">赠送场次</label>
+                        <div class="layui-inline">
+                            <select name="gamelevel" lay-filter="gamelevel">
+                                <option value="0" selected=""></option>
+                                <option value="1">体验场</option>
+                                <option value="2">新手场</option>
+                                <option value="3">初级场</option>
+                                <option value="4">中级场</option>
+                                <option value="5">高级场</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">赠送图标</label>
+                        <div class="layui-inline">
+                            <select name="type" lay-filter="type" id="type">
+                                <option value="0" selected=""></option>
+                                <option value="1">BAR(120)</option>
+                                <option value="2">BARx3(50)</option>
+                                <option value="3">77(40)</option>
+                                <option value="4">77x3(3)</option>
+                                <option value="5">星星(30)</option>
+                                <option value="6">星星x3(3)</option>
+                                <option value="7">西瓜(20)</option>
+                                <option value="8">西瓜x3(3)</option>
+                                <option value="9">铃铛(20)</option>
+                                <option value="10">铃铛x3(3)</option>
+                                <option value="11">柠檬(15)</option>
+                                <option value="12">柠檬x3(3)</option>
+                                <option value="13">橘子(10)</option>
+                                <option value="14">橘子x3(3)</option>
+                                <option value="15">苹果(5)</option>
+                                <option value="16">苹果x3(3)</option>
+                                <option value="17">蓝色Lucky(0)</option>
+                                <option value="18">红色Lucky(0)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <!--注意此处button标签里的type属性-->
+                        <button type="button" class="layui-btn layui-btn-primary" lay-submit data-type="reload"
+                                lay-filter="data-search-btn1"> 赠送
+                        </button>
+                    </div>
+                </div>
+                <div style="clear: both; height: 10px"></div>
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">UID</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="uid1" id="uid1" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">限制分数</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="flagget" id="flagget" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">名单</label>
+                        <div class="layui-input-block">
+                            <input type="radio" name="mingdan" value=-1 title="黑名单">
+                            <input type="radio" name="mingdan" value=1 title="白名单">
+                            <input type="radio" name="mingdan" value=0 title="移除名单">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <!--注意此处button标签里的type属性-->
+                        <button type="button" class="layui-btn layui-btn-primary" lay-submit data-type="reload"
+                                lay-filter="data-search-btn2"> 设置
+                        </button>
+                    </div>
+                    <div style="clear: both;height: 10px"></div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">房间类型</label>
+                        <div class="layui-input-inline">
+                            <select name="level">
+                                <option value="2" selected="">新手场</option>
+                                <option value="3">初级场</option>
+                                <option value="4">中级场</option>
+                                <option value="5">高级场</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">虚拟奖池</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="jackpot" id="jackpot" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <!--注意此处button标签里的type属性-->
+                        <button type="button" class="layui-btn layui-btn-primary" lay-submit data-type="reload"
+                                lay-filter="data-search-btn3"> 设置奖池
+                        </button>
+                    </div>
+                    <div style="clear: both;height: 10px"></div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">新手场库存</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="xsc" id="xsc" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">初级场库存</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="cjc" id="cjc" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">中级场库存</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="zjc" id="zjc" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">高级场库存</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="gjc" id="gjc" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <!--注意此处button标签里的type属性-->
+                        <button type="button" class="layui-btn layui-btn-primary" lay-submit data-type="reload"
+                                lay-filter="data-search-btn" id="data-search-btn-reload-1"> 刷新库存
+                        </button>
+                    </div>
+                    <div class="layui-inline">
+                        <!--注意此处button标签里的type属性-->
+                        <button type="button" class="layui-btn layui-btn-primary" lay-submit data-type="reload"
+                                lay-filter="data-search-btn4"> 设置库存
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </fieldset>
+
+    <div class="layui-row">
+        <div class="layui-col-md5" style="height: 700px">
+            <fieldset class="table-search-fieldset">
+                <legend>开奖列表</legend>
+                <div class="layui-inline">
+                    <!--注意此处button标签里的type属性-->
+                    <button type="button" class="layui-btn layui-btn-primary" lay-submit data-type="reload"
+                            lay-filter="data-search-btn5" id="data-search-btn-reload-2">刷 新
+                    </button>
+                </div>
+            </fieldset>
+            <table class="layui-hide" id="map" lay-filter="test1"></table>
+        </div>
+        <div class="layui-col-md7" style="height: 500px">
+            <fieldset class="table-search-fieldset">
+                <legend>在线玩家</legend>
+                <div class="layui-inline">
+                    <!--注意此处button标签里的type属性-->
+                    <button type="button" class="layui-btn layui-btn-primary" lay-submit data-type="reload"
+                            lay-filter="data-search-btn6" id="data-search-btn-reload-3">刷 新
+                    </button>
+                </div>
+            </fieldset>
+            <table class="layui-hide" id="player" lay-filter="test2"></table>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    layui.use(['table', 'form'], function () {
+        var form = layui.form;
+        let table1 = layui.table;
+        let table2 = layui.table;
+        form.render();
+
+        table1.render({
+            elem: '#map'
+            , url: '{:url("getmaplist")}'
+            , cellMinWidth: 60 //全局定义常规单元格的最小宽度，layui 2.2.1 新增
+            , id: 'map'
+            , limit: Number.MAX_VALUE
+            , cols: [[
+                {field: 'uid', title: 'UID', align: 'center'}
+                , {field: 'level', title: '等级', align: 'center'}
+                , {field: 'type', title: '图标', align: 'center', width: 150}
+                , {field: 'right', title: '操作', align: 'center', toolbar: '#barDemo'}
+            ]]
+            , parseData: function (res) {
+                console.log(res);
+                return {
+                    'code': 0
+                    , 'msg': ''
+                    , 'count': res.count
+                    , 'data': res['data']
+                }
+            }
+        });
+
+        table2.render({
+            elem: '#player'
+            , url: '{:url("getplayerbet")}'
+            , cellMinWidth: 60 //全局定义常规单元格的最小宽度，layui 2.2.1 新增
+            , id: 'player'
+            , limit: Number.MAX_VALUE
+            , cols: [[
+                {field: 'uid', title: 'uid', align: 'center'}
+                , {field: 'nickname', title: '昵称', align: 'center'}
+                , {field: 'level', title: '等级', align: 'center'}
+                , {field: 'gold', title: '金币', align: 'center'}
+                , {field: 'used', title: '上把押注金币', align: 'center'}
+                , {field: 'flag', title: '限制金币', align: 'center'}
+                , {field: 'info', title: '下注详情', align: 'center'}
+            ]]
+            , parseData: function (res) {
+                console.log(res);
+                let profits = res.data['profits'];
+                if (profits.length > 0) {
+                    let _arr = [0, 0, 'xsc', 'cjc', 'zjc', 'gjc'];
+                    for (let i = 0; i < profits.length; i++) {
+                        $("#" + _arr[profits[i]['level']]).attr('placeholder', profits[i]['profit']);
+                    }
+                }
+                return {
+                    'code': 0
+                    , 'msg': ''
+                    , 'count': res.count
+                    , 'data': res.data['list']
+                }
+            }
+        });
+
+        form.on('submit(data-search-btn1)', function () {
+            let uid = $("#uid").val();
+            let time = $("#time").val();
+            let level = $("select[name='gamelevel']").val();
+            let type = $("select[name='type']").val();
+            let data = {};
+            if (uid) {
+                data['uid'] = uid;
+            }
+            if (time) {
+                data['time'] = time;
+            }
+            if (level) {
+                data['level'] = level;
+            }
+
+            if (type) {
+                data['type'] = type;
+            }
+
+            if (Object.keys(data).length >= 4) {
+                $.ajax({　　　　　　　　　　　　　　　　　　　　//交互传值
+                    url: '{:url("addresult")}',　　　　　　　　　　　　//传地址
+                    type: 'post',　　　　　　　　　　　　　　　　　　//传的方式
+                    data: data,
+                    success: res => {
+                        console.log(res);
+                        if ('info' in res.data) {
+                            alert(res.data['info'])
+                        } else {
+                            table1.reload('map', {
+                                url: '{:url("getmaplist")}'
+                            });
+                        }
+                    },
+                });
+            }
+            return false;
+        });
+
+        form.on('submit(data-search-btn2)', function () {
+            let uid = $("#uid1").val();
+            let flagget = $("#flagget").val();
+            let mingdan = $("input[name='mingdan']:checked").val();
+            let data = {};
+            if (uid) {
+                data['uid'] = uid;
+            }
+            if (mingdan) {
+                data['mingdan'] = mingdan;
+            }
+
+            if (flagget && mingdan) {
+                data['flagget'] = mingdan * flagget;
+            }
+
+            if (Object.keys(data).length === 3) {
+                $.ajax({　　　　　　　　　　　　　　　　　　　　//交互传值
+                    url: '{:url("upcontrol")}',　　　　　　　　　　　　//传地址
+                    type: 'post',　　　　　　　　　　　　　　　　　　//传的方式
+                    data: data,
+                    success: res => {
+                        table2.reload('player', {
+                            url: '{:url("getplayerbet")}'
+                        });
+                    },
+                });
+            }
+            return false;
+        });
+
+        form.on('submit(data-search-btn3)', function () {
+            let jackpot = $("#jackpot").val();
+            let level = $("select[name='level']").val();
+            let data = {};
+            if (jackpot && level) {
+                data['jackpot'] = jackpot;
+                data['level'] = level;
+                $.ajax({　　　　　　　　　　　　　　　　　　　　//交互传值
+                    url: '{:url("upjackpot")}',　　　　　　　　　　　　//传地址
+                    type: 'post',　　　　　　　　　　　　　　　　　　//传的方式
+                    data: data,
+                    success: res => {
+                        alert(res['info']);
+                    },
+                });
+            }
+            return false;
+        });
+
+        form.on('submit(data-search-btn)', function () {
+            $.ajax({　　　　　　　　　　　　　　　　　　　　//交互传值
+                url: '{:url("getprofit")}',　　　　　　　　　　　　//传地址
+                type: 'post',　　　　　　　　　　　　　　　　　　//传的方式
+                data: {},
+                success: res => {
+                    if (res.data.length > 0) {
+                        let _arr = [0, 0, 'xsc', 'cjc', 'zjc', 'gjc'];
+                        for (let i = 0; i < res.data.length; i++) {
+                            $("#" + _arr[res.data[i]['level']]).val("");
+                            $("#" + _arr[res.data[i]['level']]).attr('placeholder', res.data[i]['profit']);
+                        }
+                    }
+                },
+            });
+            return false;
+        });
+
+        form.on('submit(data-search-btn4)', function () {
+            let xsc = $("#xsc").val();
+            let cjc = $("#cjc").val();
+            let zjc = $("#zjc").val();
+            let gjc = $("#gjc").val();
+            let data = {};
+
+            if (xsc) {
+                data['xsc'] = xsc;
+            }
+            if (cjc) {
+                data['cjc'] = cjc;
+            }
+            if (zjc) {
+                data['zjc'] = zjc;
+            }
+            if (gjc) {
+                data['gjc'] = gjc;
+            }
+
+            if (Object.keys(data).length > 0) {
+                $.ajax({　　　　　　　　　　　　　　　　　　　　//交互传值
+                    url: '{:url("upprofit")}',　　　　　　　　　　　　//传地址
+                    type: 'post',　　　　　　　　　　　　　　　　　　//传的方式
+                    data: data,
+                    success: res => {
+                        if (res.data.length > 0) {
+                            let _arr = [0, 0, 'xsc', 'cjc', 'zjc', 'gjc'];
+                            for (let i = 0; i < res.data.length; i++) {
+                                $("#" + _arr[res.data[i]['level']]).val("");
+                                $("#" + _arr[res.data[i]['level']]).attr('placeholder', res.data[i]['profit']);
+                            }
+                        }
+                        alert('修改成功');
+                    },
+                });
+            }
+            return false;
+        });
+
+        form.on('submit(data-search-btn5)', function () {
+            table1.reload('map', {
+                url: '{:url("getmaplist")}'
+            });
+        });
+
+        form.on('submit(data-search-btn6)', function () {
+            table2.reload('player', {
+                url: '{:url("getplayerbet")}'
+            });
+        });
+
+        table1.on('tool(test1)', function (obj) {
+            $.ajax({　　　　　　　　　　　　　　　　　　　　//交互传值
+                url: '{:url("delresult")}',　　　　　　　　　　　　//传地址
+                type: 'post',　　　　　　　　　　　　　　　　　　//传的方式
+                data: {
+                    'id': obj.data.id
+                },
+                success: res => {
+                    table1.reload('map', {
+                        url: '{:url("getmaplist")}'
+                    });
+                },
+            });
+        });
+
+
+
+        if("undefined" !== typeof timer_id){
+            clearInterval(timer_id);
+        } else {
+            timer_id = 0;
+        }
+
+        timer_id =setInterval(function () {
+            $("#data-search-btn-reload-1").click();
+            $("#data-search-btn-reload-2").click();
+            $("#data-search-btn-reload-3").click();
+        }, 1900);
+    });
+</script>
+<script type="test/html" id="barDemo">
+    <a class="layui-btn layui-btn-xs layui-btn-warm" lay-event="del">删 除</a>
+
+
+
+
+
+
+</script>
+{/block}

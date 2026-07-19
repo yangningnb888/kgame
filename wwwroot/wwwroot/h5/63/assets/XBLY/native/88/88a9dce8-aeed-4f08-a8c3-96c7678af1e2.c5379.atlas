@@ -1,0 +1,41 @@
+
+xunbaoleyuan4_tongguan.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xunbaoleyuan4_baofu2_glow2
+  rotate: false
+  xy: 2, 286
+  size: 339, 200
+  orig: 339, 200
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_baofu2_kuang3
+  rotate: false
+  xy: 2, 110
+  size: 359, 174
+  orig: 359, 174
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_baofu2_yezi1
+  rotate: false
+  xy: 343, 353
+  size: 88, 133
+  orig: 88, 133
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_baofu_tongguan
+  rotate: false
+  xy: 2, 2
+  size: 311, 106
+  orig: 311, 106
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_baofu_xing
+  rotate: false
+  xy: 343, 289
+  size: 61, 62
+  orig: 61, 62
+  offset: 0, 0
+  index: -1

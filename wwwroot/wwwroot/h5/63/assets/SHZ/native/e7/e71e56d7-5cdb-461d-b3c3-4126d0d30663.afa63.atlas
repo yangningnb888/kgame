@@ -1,0 +1,20 @@
+
+shz_xuanchang_beijing.png
+size: 214,180
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shz_xuanchang_niao
+  rotate: false
+  xy: 2, 49
+  size: 129, 129
+  orig: 129, 129
+  offset: 0, 0
+  index: -1
+shz_xuanchang_wu
+  rotate: true
+  xy: 133, 2
+  size: 176, 79
+  orig: 176, 79
+  offset: 0, 0
+  index: -1

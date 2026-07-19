@@ -1,0 +1,90 @@
+
+guaguale4_zhongjiang.png
+size: 954,854
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guayigua4_dian
+  rotate: true
+  xy: 646, 529
+  size: 323, 301
+  orig: 323, 301
+  offset: 0, 0
+  index: -1
+guayigua4_dianguang
+  rotate: false
+  xy: 367, 506
+  size: 88, 88
+  orig: 88, 88
+  offset: 0, 0
+  index: -1
+guayigua4_huoxing
+  rotate: true
+  xy: 2, 7
+  size: 16, 54
+  orig: 16, 54
+  offset: 0, 0
+  index: -1
+guayigua4_zj_caidai
+  rotate: false
+  xy: 380, 2
+  size: 536, 163
+  orig: 536, 163
+  offset: 0, 0
+  index: -1
+guayigua4_zj_chibang
+  rotate: false
+  xy: 646, 319
+  size: 259, 208
+  orig: 259, 208
+  offset: 0, 0
+  index: -1
+guayigua4_zj_dun
+  rotate: false
+  xy: 2, 152
+  size: 325, 334
+  orig: 325, 334
+  offset: 0, 0
+  index: -1
+guayigua4_zj_huangguan
+  rotate: false
+  xy: 646, 178
+  size: 176, 139
+  orig: 176, 139
+  offset: 0, 0
+  index: -1
+guayigua4_zj_quan
+  rotate: false
+  xy: 824, 189
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+guayigua4_zj_zi
+  rotate: false
+  xy: 2, 25
+  size: 376, 125
+  orig: 376, 125
+  offset: 0, 0
+  index: -1
+guayigua_glow
+  rotate: true
+  xy: 329, 167
+  size: 319, 315
+  orig: 319, 315
+  offset: 0, 0
+  index: -1
+guayigua_guang
+  rotate: false
+  xy: 367, 596
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+guayigua_guangci
+  rotate: true
+  xy: 2, 488
+  size: 364, 363
+  orig: 364, 363
+  offset: 0, 0
+  index: -1

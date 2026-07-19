@@ -1,0 +1,41 @@
+
+rw_duzhu1_shou.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cp1
+  rotate: false
+  xy: 2, 86
+  size: 70, 59
+  orig: 70, 60
+  offset: 0, 1
+  index: -1
+cp2
+  rotate: true
+  xy: 2, 148
+  size: 39, 64
+  orig: 40, 64
+  offset: 0, 0
+  index: -1
+fa1
+  rotate: true
+  xy: 74, 2
+  size: 130, 160
+  orig: 130, 160
+  offset: 0, 0
+  index: -1
+p1
+  rotate: true
+  xy: 68, 147
+  size: 40, 44
+  orig: 40, 44
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: true
+  xy: 114, 134
+  size: 53, 140
+  orig: 53, 140
+  offset: 0, 0
+  index: -1

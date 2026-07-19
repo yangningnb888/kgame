@@ -1,0 +1,234 @@
+{extend name="../../admin/view/main"}
+
+{block name="button"}
+{/block}
+
+{block name="content"}
+<body>
+<div class="layui-tab layui-tab-card think-bg-white">
+    <fieldset class="table-search-fieldset">
+        <legend>搜索信息</legend>
+        <div style="margin: 10px 10px 10px 10px" id="btn">
+            <form class="layui-form layui-form-pane" action="" id="test">
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">状态</label>
+                        <div class="layui-input-inline">
+                            <select name="status" id="status">
+                                <option value="1" selected="">在线</option>
+                                <option value="2">离线</option>
+                                <option value="3">封禁</option>
+                                <option value="4">所有</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">搜索玩家</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="uid" id="player" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">搜索下级</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="superior" id="agent" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">搜索设备</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="equipmentcard" id="equipmentcard" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">搜索IP</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="last_ip" id="last_ip" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <!--注意此处button标签里的type属性-->
+                        <button type="button" class="layui-btn layui-btn-primary" lay-submit data-type="reload"
+                                lay-filter="data-search-btn"><i class="layui-icon"></i> 搜 索
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </fieldset>
+    <table class="layui-hide" id="demo" lay-filter="test"></table>
+
+    <form class="layui-form layui-form-pane" action="" id="open">
+        <div id="alllist" lay-filter="alllist" style="display: none;margin: 20px 20px 20px 20px;text-align: center">
+            <div class="layui-form-item">
+                <div class="layui-inline">
+                    <label class="layui-form-label">UID</label>
+                    <div class="layui-input-inline">
+                        <!--注意此处input标签里的id-->
+                        <input class="layui-input" name="uid" id="uid" autocomplete="off" readonly="readonly">
+                    </div>
+                </div>
+                <div style="clear: both;"></div>
+                <div class="layui-inline">
+                    <label class="layui-form-label">目标值</label>
+                    <div class="layui-input-inline">
+                        <input class="layui-input" name="flag" id="flag" autocomplete="off">
+                    </div>
+                </div>
+                <div style="clear: both;"></div>
+                <div class="layui-inline">
+                    <label class="layui-form-label">状态</label>
+                    <div class="layui-input-inline">
+                        <select name="control" id="control">
+                            <option value="0" selected="">正常</option>
+                            <option value="1">白名单</option>
+                            <option value="-1">黑名单</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+<script>
+    layui.use(['table', 'form'], function () {
+        var table = layui.table;
+        table.render({
+            elem: '#demo'
+            , url: '{:url("test")}'
+            , cellMinWidth: 130 //全局定义常规单元格的最小宽度，layui 2.2.1 新增
+            , id: 'list'
+            , cols: [[
+                {field: 'uid', title: 'uid', align: 'center'}
+                , {field: 'nickname', title: '昵称', align: 'center'}
+                , {field: 'gold', title: '金币', align: 'center'}
+                , {field: 'bank', title: '银行', align: 'center'}
+                , {field: 'rcard', title: '兑换卡', align: 'center'}
+                , {field: 'superior', title: '上级', align: 'center'} //minWidth：局部定义当前单元格的最小宽度，layui 2.2.1 新增
+                , {field: 'income', title: '总入', align: 'center'}
+                , {field: 'expenditure', title: '总出', align: 'center'}
+                , {field: 'tel', title: '绑定手机', width: 120, align: 'center'}
+                , {field: 'last_ip', title: '上次登录ip', width: 120, align: 'center'}
+                , {field: 'equipmentcard', title: '上次登录设备', width: 250, align: 'center'}
+                , {field: 'created', title: '注册时间', width: 150, align: 'center'}
+                , {field: 'last_time', title: '最近登录', width: 150, align: 'center'}
+                , {field: 'control', title: '场控状态', align: 'center'}
+                , {field: 'status', title: '位置', width: 120, align: 'center'}
+                , {fixed: 'right', title: '操作', width: 80, align: 'center', toolbar: '#barDemo'}
+            ]]
+            , page: true
+            , limit: 20
+            , parseData: function (res) {
+                console.log(res);
+                return {
+                    'code': 0
+                    , 'msg': ''
+                    , 'count': res.count
+                    , 'data': res.data
+                }
+            }
+        });
+
+        var form = layui.form;
+        form.render();
+        form.on('submit(data-search-btn)', function (data) {
+            //alert(data.value);
+            console.log(data.field);
+            //console.log(data.field.status);
+            table.reload('list', {
+                page: {
+                    curr: 1 //重新从第 1 页开始
+                }
+                , where: data.field
+                , url: '{:url("select")}'//后台做模糊搜索接口路径
+                , method: 'post'
+            });
+            return false;
+        });
+
+        if ("undefined" === typeof timer_id) {
+            timer_id = 0;
+        }
+
+        addTimer(table);
+        table.on('tool(test)', function (obj) {
+            if ("undefined" !== typeof timer_id) {
+                clearInterval(timer_id);
+            }
+            console.log(obj.data);
+            $("#uid").attr('value', obj.data['uid']);
+            $("#flag").attr('value', 0);
+
+            layer.open({
+                type: 1,
+                title: '修改玩家场控数据',
+                shade: 0.0,
+                area: ['40%', '40%'],
+                content: $('#alllist'),
+                btn: ['确定', '取消'],
+                yes: function (index, layero) {
+                    let flag = $("#flag").val();
+                    flag = Number(flag);
+                    if (flag < 0) {
+                        alert('目标值不能小于0');
+                        return false;
+                    }
+
+                    let control = $("#control option:selected").val();
+                    control = Number(control);
+                    if (control !== -1 && control !== 0 && control !== 1) {
+                        alert('参数错误！');
+                        return false;
+                    }
+
+                    $.ajax({　　　　　　　　　　　　　　　　　　　　//交互传值
+                        url: '{:url("controlupdate")}',　　　　　　　　　　　　//传地址
+                        type: 'post',　　　　　　　　　　　　　　　　　　//传的方式
+                        data: {
+                            'uid': obj.data['uid'],
+                            'control': control,
+                            'flag': flag * control
+                        },
+                        success: res => {
+                            console.log(res)
+                            layer.close(index);
+                            table.reload('list', {
+                                url: '{:url("test")}'
+                            });
+                        },
+                    });
+                },
+                btn2: function (index, layero) {
+                    layer.close(index);
+                },
+                maxmin: true,
+            })
+        })
+    });
+
+    function addTimer(table) {
+        clearInterval(timer_id);
+        timer_id = setInterval(function () {
+            let status = $("#status option:selected").val()
+            let player = $("#player").val();
+            let agent = $("#agent").val();
+            let equipmentcard = $("#equipmentcard").val();
+            let last_ip = $("#last_ip").val();
+            if (status === '1' && !player && !agent && !equipmentcard && !last_ip) {
+                table.reload('list', {
+                    url: '{:url("test")}'//后台做模糊搜索接口路径
+                });
+            }
+        }, 10000);
+    }
+</script>
+<script type="test/html" id="barDemo">
+    <a class="layui-btn layui-btn-xs layui-btn-warm" lay-event="control">控制</a>
+
+</script>
+{/block}

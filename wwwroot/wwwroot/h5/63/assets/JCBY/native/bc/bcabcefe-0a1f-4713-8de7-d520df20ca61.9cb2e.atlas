@@ -1,0 +1,167 @@
+
+zhengyaota_buyu.png
+size: 926,632
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zhengyaota_a0001
+  rotate: false
+  xy: 149, 317
+  size: 145, 166
+  orig: 145, 166
+  offset: 0, 0
+  index: -1
+zhengyaota_a0002
+  rotate: false
+  xy: 296, 317
+  size: 145, 166
+  orig: 145, 166
+  offset: 0, 0
+  index: -1
+zhengyaota_a0003
+  rotate: true
+  xy: 443, 258
+  size: 145, 166
+  orig: 145, 166
+  offset: 0, 0
+  index: -1
+zhengyaota_a0004
+  rotate: false
+  xy: 149, 149
+  size: 145, 166
+  orig: 145, 166
+  offset: 0, 0
+  index: -1
+zhengyaota_a0005
+  rotate: false
+  xy: 2, 90
+  size: 145, 166
+  orig: 145, 166
+  offset: 0, 0
+  index: -1
+zhengyaota_a0006
+  rotate: false
+  xy: 296, 149
+  size: 145, 166
+  orig: 145, 166
+  offset: 0, 0
+  index: -1
+zhengyaota_a0007
+  rotate: false
+  xy: 611, 298
+  size: 145, 166
+  orig: 145, 166
+  offset: 0, 0
+  index: -1
+zhengyaota_a0008
+  rotate: true
+  xy: 739, 485
+  size: 145, 166
+  orig: 145, 166
+  offset: 0, 0
+  index: -1
+zhengyaota_a0009
+  rotate: true
+  xy: 611, 151
+  size: 145, 166
+  orig: 145, 166
+  offset: 0, 0
+  index: -1
+zhengyaota_a0010
+  rotate: false
+  xy: 758, 317
+  size: 145, 166
+  orig: 145, 166
+  offset: 0, 0
+  index: -1
+zhengyaota_a0011
+  rotate: false
+  xy: 443, 90
+  size: 145, 166
+  orig: 145, 166
+  offset: 0, 0
+  index: -1
+zhengyaota_a0012
+  rotate: true
+  xy: 149, 2
+  size: 145, 166
+  orig: 145, 166
+  offset: 0, 0
+  index: -1
+zhengyaota_a0013
+  rotate: false
+  xy: 779, 149
+  size: 145, 166
+  orig: 145, 166
+  offset: 0, 0
+  index: -1
+zhengyaota_a0014
+  rotate: true
+  xy: 590, 4
+  size: 145, 166
+  orig: 145, 166
+  offset: 0, 0
+  index: -1
+zhengyaota_a0015
+  rotate: true
+  xy: 758, 2
+  size: 145, 166
+  orig: 145, 166
+  offset: 0, 0
+  index: -1
+zhengyaota_b0001
+  rotate: true
+  xy: 2, 485
+  size: 145, 225
+  orig: 145, 225
+  offset: 0, 0
+  index: -1
+zhengyaota_b0002
+  rotate: true
+  xy: 229, 485
+  size: 145, 225
+  orig: 145, 225
+  offset: 0, 0
+  index: -1
+zhengyaota_b0003
+  rotate: false
+  xy: 456, 405
+  size: 145, 225
+  orig: 145, 225
+  offset: 0, 0
+  index: -1
+zhengyaota_b0004
+  rotate: false
+  xy: 2, 258
+  size: 145, 225
+  orig: 145, 225
+  offset: 0, 0
+  index: -1
+zhengyaota_c0001
+  rotate: true
+  xy: 603, 549
+  size: 81, 134
+  orig: 81, 134
+  offset: 0, 0
+  index: -1
+zhengyaota_c0002
+  rotate: true
+  xy: 603, 466
+  size: 81, 134
+  orig: 81, 134
+  offset: 0, 0
+  index: -1
+zhengyaota_c0003
+  rotate: true
+  xy: 2, 7
+  size: 81, 134
+  orig: 81, 134
+  offset: 0, 0
+  index: -1
+zhengyaota_c0004
+  rotate: false
+  xy: 317, 13
+  size: 81, 134
+  orig: 81, 134
+  offset: 0, 0
+  index: -1

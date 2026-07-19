@@ -1,0 +1,55 @@
+
+325_qiangzhuangniuniu_gaojichang.png
+size: 656,215
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+325qznn_gaojichang_body
+  rotate: true
+  xy: 2, 2
+  size: 211, 221
+  orig: 211, 221
+  offset: 0, 0
+  index: -1
+325qznn_gaojichang_fengyi00
+  rotate: false
+  xy: 522, 16
+  size: 82, 94
+  orig: 82, 94
+  offset: 0, 0
+  index: -1
+325qznn_gaojichang_fengyi01
+  rotate: true
+  xy: 402, 13
+  size: 97, 118
+  orig: 97, 118
+  offset: 0, 0
+  index: -1
+325qznn_gaojichang_tou
+  rotate: false
+  xy: 225, 24
+  size: 175, 189
+  orig: 175, 189
+  offset: 0, 0
+  index: -1
+325qznn_gaojichang_yanjing
+  rotate: true
+  xy: 595, 133
+  size: 80, 35
+  orig: 80, 35
+  offset: 0, 0
+  index: -1
+325qznn_gaojichang_zuoshou
+  rotate: true
+  xy: 402, 112
+  size: 101, 191
+  orig: 101, 191
+  offset: 0, 0
+  index: -1
+guangban
+  rotate: false
+  xy: 606, 83
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,41 @@
+
+hit_paokou_1.png
+size: 712,148
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hit_paokou_1
+  rotate: false
+  xy: 2, 2
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+hit_paokou_2
+  rotate: false
+  xy: 144, 2
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+hit_paokou_3
+  rotate: false
+  xy: 286, 2
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+hit_paokou_4
+  rotate: false
+  xy: 428, 2
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+hit_paokou_5
+  rotate: false
+  xy: 570, 2
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1

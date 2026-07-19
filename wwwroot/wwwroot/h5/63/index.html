@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- 登录入口：无 token 时由下方账号登录层显示登录框，不再自动游客登录。
+       URL 已带 token（可选带 gtype 深度链接）时直接启动游戏/大厅。 -->
+
+  <!-- 账号登录层：URL 不含 token 时注入纯 HTML 登录表单。
+       登录成功 -> ?token=...&x=1（不带 gtype，boot 自动进入大厅首页）；
+       游客入口 -> ?x=1（不带 gtype，同样进入大厅）。
+       已带 token+gtype 的深度链接仍会直接进对应游戏。
+       这样不依赖源码原生（本机独立启动下到不了的）Cocos 登录界面。 -->
+  <script type="text/javascript">
+  (function () {
+    var href = window.location.href;
+    if (href.indexOf('token=') !== -1) return; // 已登录，交给游戏启动
+    function showForm() {
+      if (document.getElementById('acctLoginBox')) return;
+      var d = document.createElement('div');
+      d.id = 'acctLoginBox';
+      d.style.cssText = 'position:fixed;left:0;top:0;right:0;bottom:0;background:#1b1f2a;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:sans-serif;z-index:99999';
+      d.innerHTML =
+        '<h2 style="margin-bottom:4px">捕鱼·账号登录</h2>' +
+        '<div style="font-size:12px;opacity:.6;margin-bottom:14px">登录后进入大厅，可在大厅选择任意游戏</div>' +
+        '<input id="accI" placeholder="手机号" style="margin:8px;padding:11px;width:260px;font-size:16px;border-radius:6px;border:none;outline:none">' +
+        '<input id="pwdI" type="password" placeholder="密码" style="margin:8px;padding:11px;width:260px;font-size:16px;border-radius:6px;border:none;outline:none">' +
+        '<button id="accBtn" style="margin:14px;padding:11px 36px;font-size:16px;border:none;border-radius:6px;background:#e6a23c;color:#fff;cursor:pointer">登录</button>' +
+        '<div id="accMsg" style="color:#ff7676;height:20px;font-size:13px"></div>' +
+        '<div style="margin-top:6px;font-size:12px;opacity:.7">测试账号 13800138000 / 123456　|　<a href="?x=1" style="color:#7ec8ff">游客登录</a>（进入大厅）</div>';
+      document.body.appendChild(d);
+      function doLogin() {
+        var acc = document.getElementById('accI').value.trim();
+        var pwd = document.getElementById('pwdI').value;
+        var msg = document.getElementById('accMsg');
+        if (!acc || !pwd) { msg.textContent = '请输入手机号和密码'; return; }
+        msg.textContent = '登录中...';
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', 'http://' + location.hostname + ':9493/login/login/dispatch', true);
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.send('data=' + encodeURIComponent(JSON.stringify({ event: 'Msg_User_Login', data: { telephone: acc, password: pwd, type: 2, code: -1, equipmentcard: '' } })));
+        xhr.onload = function () {
+          var j; try { j = JSON.parse(xhr.responseText); } catch (e) { msg.textContent = '返回解析失败'; return; }
+          if (j && j.code === 200 && j.data && j.data.token) {
+            var base = location.href.split('?')[0].split('#')[0];
+            if (base.charAt(base.length - 1) === '/') base += 'index.html';
+            // 不带 gtype -> boot 自动进入大厅首页
+            location.replace(base + '?token=' + encodeURIComponent(j.data.token) + '&x=1&addr=ws://' + location.hostname + ':16000');
+          } else {
+            msg.textContent = (j && j.msg) ? j.msg : '登录失败';
+          }
+        };
+        xhr.onerror = function () { msg.textContent = '网络错误'; };
+      }
+      document.getElementById('accBtn').onclick = doLogin;
+      document.getElementById('pwdI').addEventListener('keydown', function (e) { if (e.key === 'Enter') doLogin(); });
+    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', showForm);
+    else showForm();
+  })();
+  </script>
+
+  <meta charset="utf-8">
+
+  <title>Cocos Creator | caijingtest</title>
+
+  <!-- 移动端加载提示 -->
+  <style>
+    #kgame-loading {
+      position: fixed; left: 0; top: 0; right: 0; bottom: 0;
+      background: #1a1a2e; z-index: 999; display: flex;
+      flex-direction: column; align-items: center; justify-content: center;
+      color: #fff; font-family: sans-serif;
+    }
+    #kgame-loading .spinner {
+      width: 40px; height: 40px;
+      border: 4px solid rgba(255,255,255,0.2);
+      border-top-color: #ffd700;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin-bottom: 16px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    #kgame-loading .text { font-size: 16px; color: #ccc; }
+    #kgame-loading .sub { font-size: 12px; color: #888; margin-top: 6px; }
+  </style>
+  <script>
+    // Cocos 启动成功后自动隐藏加载提示
+    document.addEventListener('DOMContentLoaded', function() {
+      var obs = new MutationObserver(function() {
+        if (document.getElementById('GameCanvas') || document.getElementById('GameDiv')) {
+          var ld = document.getElementById('kgame-loading');
+          if (ld) ld.style.display = 'none';
+          obs.disconnect();
+        }
+      });
+      obs.observe(document.body, { childList: true, subtree: true });
+    });
+  </script>
+  <!-- 加载提示占位 -->
+  <div id="kgame-loading">
+    <div class="spinner"></div>
+    <div class="text">游戏资源加载中...</div>
+    <div class="sub">首次加载约需 10-20 秒</div>
+  </div>
+
+  <!--http://www.html5rocks.com/en/mobile/mobifying/-->
+  <meta name="viewport"
+        content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1"/>
+
+  <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- 强制不使用缓存，确保前端修复能立即生效 -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+
+  <!-- force webkit on 360 -->
+  <meta name="renderer" content="webkit"/>
+  <meta name="force-rendering" content="webkit"/>
+  <!-- force edge on IE -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- force full screen on some browser -->
+  <meta name="full-screen" content="yes"/>
+  <meta name="x5-fullscreen" content="true"/>
+  <meta name="360-fullscreen" content="true"/>
+  
+  <!-- force screen orientation on some browser -->
+  <meta name="screen-orientation" content="landscape"/>
+  <meta name="x5-orientation" content="landscape">
+
+  <!--fix fireball/issues/3568 -->
+  <!--<meta name="browsermode" content="application">-->
+  <meta name="x5-page-mode" content="app">
+
+  <!--<link rel="apple-touch-icon" href=".png" />-->
+  <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
+
+  <link rel="stylesheet" type="text/css" href="style-mobile.d00d0.css?v=1.0.5"/>
+  <link rel="icon" href="favicon.8de18.ico?v=1.0.5"/>
+</head>
+<body>
+  <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
+  <div id="splash">
+    <div class="progress-bar stripes">
+      <span style="width: 0%"></span>
+    </div>
+  </div>
+
+<script src="src/settings.96e30.js?v=1.0.5" charset="utf-8"></script>
+
+<script src="main.9c1d5.js?v=1.0.5" charset="utf-8"></script>
+
+<script type="text/javascript">
+(function () {
+    // open web debugger console
+    if (typeof VConsole !== 'undefined') {
+        window.vConsole = new VConsole();
+    }
+
+    var debug = window._CCSettings.debug;
+    var splash = document.getElementById('splash');
+    splash.style.display = 'none';
+
+    function loadScript (moduleName, cb) {
+      function scriptLoaded () {
+          document.body.removeChild(domScript);
+          domScript.removeEventListener('load', scriptLoaded, false);
+          cb && cb();
+      };
+      var domScript = document.createElement('script');
+      domScript.async = true;
+      domScript.src = moduleName;
+      domScript.addEventListener('load', scriptLoaded, false);
+      document.body.appendChild(domScript);
+    }
+
+    loadScript(debug ? 'cocos2d-js.js' : 'cocos2d-js-min.9b359.js', function () {
+      if (CC_PHYSICS_BUILTIN || CC_PHYSICS_CANNON) {
+        loadScript(debug ? 'physics.js' : 'physics-min.js', window.boot);
+      }
+      else {
+        window.boot();
+      }
+    });
+})();
+</script>
+</body>
+</html>

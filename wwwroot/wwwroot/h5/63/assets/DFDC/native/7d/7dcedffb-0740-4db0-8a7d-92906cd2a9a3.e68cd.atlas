@@ -1,0 +1,41 @@
+
+duofuduocai_jiesuan_b.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dfdc_js_di
+  rotate: false
+  xy: 2, 2
+  size: 974, 453
+  orig: 974, 453
+  offset: 0, 0
+  index: -1
+dfdc_js_lvk1
+  rotate: false
+  xy: 978, 169
+  size: 767, 286
+  orig: 767, 286
+  offset: 0, 0
+  index: -1
+dfdc_js_mfyx
+  rotate: false
+  xy: 978, 88
+  size: 383, 79
+  orig: 383, 79
+  offset: 0, 0
+  index: -1
+duofuduocai_shanguang
+  rotate: false
+  xy: 1747, 351
+  size: 256, 104
+  orig: 256, 120
+  offset: 0, 8
+  index: -1
+guanghuan
+  rotate: false
+  xy: 1747, 238
+  size: 111, 111
+  orig: 128, 128
+  offset: 9, 8
+  index: -1

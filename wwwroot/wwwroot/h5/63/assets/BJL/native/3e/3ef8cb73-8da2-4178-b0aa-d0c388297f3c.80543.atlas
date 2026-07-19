@@ -1,0 +1,111 @@
+
+325_huanle30miao_jiesuan_new.png
+size: 992,509
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+piaodai_1
+  rotate: true
+  xy: 647, 273
+  size: 30, 48
+  orig: 30, 48
+  offset: 0, 0
+  index: -1
+piaodai_2
+  rotate: true
+  xy: 647, 235
+  size: 36, 46
+  orig: 36, 46
+  offset: 0, 0
+  index: -1
+piaodai_3
+  rotate: true
+  xy: 647, 305
+  size: 37, 48
+  orig: 37, 48
+  offset: 0, 0
+  index: -1
+piaodai_4
+  rotate: false
+  xy: 690, 206
+  size: 19, 27
+  orig: 19, 27
+  offset: 0, 0
+  index: -1
+piaodai_5
+  rotate: true
+  xy: 647, 197
+  size: 36, 41
+  orig: 36, 41
+  offset: 0, 0
+  index: -1
+shengli_A
+  rotate: true
+  xy: 713, 70
+  size: 272, 277
+  orig: 272, 277
+  offset: 0, 0
+  index: -1
+shengli_b
+  rotate: true
+  xy: 161, 149
+  size: 358, 275
+  orig: 358, 275
+  offset: 0, 0
+  index: -1
+shengli_c
+  rotate: true
+  xy: 161, 2
+  size: 145, 136
+  orig: 145, 136
+  offset: 0, 0
+  index: -1
+shengli_d
+  rotate: true
+  xy: 543, 159
+  size: 183, 102
+  orig: 183, 102
+  offset: 0, 0
+  index: -1
+shengli_e
+  rotate: false
+  xy: 299, 12
+  size: 146, 135
+  orig: 146, 135
+  offset: 0, 0
+  index: -1
+shengli_f
+  rotate: true
+  xy: 2, 10
+  size: 497, 157
+  orig: 497, 157
+  offset: 0, 0
+  index: -1
+shibai_a
+  rotate: false
+  xy: 447, 344
+  size: 535, 163
+  orig: 535, 163
+  offset: 0, 0
+  index: -1
+shibai_b
+  rotate: true
+  xy: 447, 3
+  size: 153, 131
+  orig: 153, 131
+  offset: 0, 0
+  index: -1
+shibai_c
+  rotate: true
+  xy: 580, 4
+  size: 153, 131
+  orig: 153, 131
+  offset: 0, 0
+  index: -1
+shibai_d
+  rotate: true
+  xy: 438, 158
+  size: 184, 103
+  orig: 184, 103
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,153 @@
+
+bosslaixi.png
+size: 906,406
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+400
+  rotate: false
+  xy: 304, 96
+  size: 365, 79
+  orig: 365, 79
+  offset: 0, 0
+  index: -1
+bossbg
+  rotate: true
+  xy: 304, 268
+  size: 136, 328
+  orig: 136, 328
+  offset: 0, 0
+  index: -1
+bosslaixi_long
+  rotate: false
+  xy: 2, 101
+  size: 300, 303
+  orig: 300, 303
+  offset: 0, 0
+  index: -1
+bosslaixi_long_glow
+  rotate: false
+  xy: 634, 264
+  size: 170, 140
+  orig: 170, 140
+  offset: 0, 0
+  index: -1
+bosslaixi_sg_1
+  rotate: false
+  xy: 2, 54
+  size: 160, 45
+  orig: 160, 45
+  offset: 0, 0
+  index: -1
+bosslaixi_sg_10
+  rotate: true
+  xy: 859, 82
+  size: 160, 45
+  orig: 160, 45
+  offset: 0, 0
+  index: -1
+bosslaixi_sg_11
+  rotate: false
+  xy: 164, 49
+  size: 160, 45
+  orig: 160, 45
+  offset: 0, 0
+  index: -1
+bosslaixi_sg_12
+  rotate: false
+  xy: 326, 49
+  size: 160, 45
+  orig: 160, 45
+  offset: 0, 0
+  index: -1
+bosslaixi_sg_13
+  rotate: false
+  xy: 488, 49
+  size: 160, 45
+  orig: 160, 45
+  offset: 0, 0
+  index: -1
+bosslaixi_sg_14
+  rotate: false
+  xy: 164, 2
+  size: 160, 45
+  orig: 160, 45
+  offset: 0, 0
+  index: -1
+bosslaixi_sg_15
+  rotate: false
+  xy: 326, 2
+  size: 160, 45
+  orig: 160, 45
+  offset: 0, 0
+  index: -1
+bosslaixi_sg_16
+  rotate: false
+  xy: 488, 2
+  size: 160, 45
+  orig: 160, 45
+  offset: 0, 0
+  index: -1
+bosslaixi_sg_2
+  rotate: false
+  xy: 2, 7
+  size: 160, 45
+  orig: 160, 45
+  offset: 0, 0
+  index: -1
+bosslaixi_sg_3
+  rotate: false
+  xy: 626, 217
+  size: 160, 45
+  orig: 160, 45
+  offset: 0, 0
+  index: -1
+bosslaixi_sg_4
+  rotate: true
+  xy: 806, 244
+  size: 160, 45
+  orig: 160, 45
+  offset: 0, 0
+  index: -1
+bosslaixi_sg_5
+  rotate: true
+  xy: 853, 244
+  size: 160, 45
+  orig: 160, 45
+  offset: 0, 0
+  index: -1
+bosslaixi_sg_6
+  rotate: true
+  xy: 671, 55
+  size: 160, 45
+  orig: 160, 45
+  offset: 0, 0
+  index: -1
+bosslaixi_sg_7
+  rotate: true
+  xy: 718, 55
+  size: 160, 45
+  orig: 160, 45
+  offset: 0, 0
+  index: -1
+bosslaixi_sg_8
+  rotate: true
+  xy: 765, 55
+  size: 160, 45
+  orig: 160, 45
+  offset: 0, 0
+  index: -1
+bosslaixi_sg_9
+  rotate: true
+  xy: 812, 82
+  size: 160, 45
+  orig: 160, 45
+  offset: 0, 0
+  index: -1
+shenhailongwang
+  rotate: false
+  xy: 304, 177
+  size: 320, 89
+  orig: 320, 89
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,116 @@
+
+xunbaoleyuan4_shimen.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xunbaoleyuan_men1
+  rotate: false
+  xy: 2, 261
+  size: 851, 750
+  orig: 851, 750
+  offset: 0, 0
+  index: -1
+xunbaoleyuan_menfeng_glow
+  rotate: false
+  xy: 981, 792
+  size: 35, 219
+  orig: 35, 219
+  offset: 0, 0
+  index: -1
+xunbaoleyuan_quan_glow
+  rotate: true
+  xy: 498, 23
+  size: 236, 224
+  orig: 236, 224
+  offset: 0, 0
+  index: -1
+xunbaoleyuan_yezi8
+  rotate: true
+  xy: 855, 254
+  size: 247, 77
+  orig: 247, 77
+  offset: 0, 0
+  index: -1
+xunbaoleyuan_yezi_1
+  rotate: false
+  xy: 934, 348
+  size: 72, 153
+  orig: 72, 153
+  offset: 0, 0
+  index: -1
+xunbaoleyuan_yezi_2
+  rotate: true
+  xy: 855, 706
+  size: 305, 124
+  orig: 305, 124
+  offset: 0, 0
+  index: -1
+xunbaoleyuan_yezi_3
+  rotate: true
+  xy: 724, 79
+  size: 173, 296
+  orig: 173, 296
+  offset: 0, 0
+  index: -1
+xunbaoleyuan_yezi_4
+  rotate: true
+  xy: 280, 2
+  size: 257, 216
+  orig: 257, 216
+  offset: 0, 0
+  index: -1
+xunbaoleyuan_yezi_5
+  rotate: true
+  xy: 855, 503
+  size: 201, 139
+  orig: 201, 139
+  offset: 0, 0
+  index: -1
+xunbaoleyuan_yezi_6
+  rotate: true
+  xy: 2, 27
+  size: 232, 276
+  orig: 232, 276
+  offset: 0, 0
+  index: -1
+
+xunbaoleyuan4_shimen2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xunbaoleyuan_men2
+  rotate: false
+  xy: 2, 225
+  size: 849, 750
+  orig: 849, 750
+  offset: 0, 0
+  index: -1
+xunbaoleyuan_shine
+  rotate: false
+  xy: 2, 2
+  size: 205, 221
+  orig: 205, 221
+  offset: 0, 0
+  index: -1
+
+xunbaoleyuan4_shimen3.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xunbaoleyuan_men_glow
+  rotate: false
+  xy: 383, 20
+  size: 364, 364
+  orig: 364, 364
+  offset: 0, 0
+  index: -1
+xunbaoleyuan_yezi_7
+  rotate: false
+  xy: 2, 2
+  size: 379, 382
+  orig: 379, 382
+  offset: 0, 0
+  index: -1

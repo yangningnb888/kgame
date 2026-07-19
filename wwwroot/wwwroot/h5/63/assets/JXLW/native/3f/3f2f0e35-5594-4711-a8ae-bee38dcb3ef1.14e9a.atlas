@@ -1,0 +1,20 @@
+
+bairenniuniujiesuan_donghua.png
+size: 530,252
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang
+  rotate: true
+  xy: 2, 2
+  size: 248, 288
+  orig: 248, 288
+  offset: 0, 0
+  index: -1
+qianmian
+  rotate: false
+  xy: 292, 12
+  size: 236, 238
+  orig: 236, 238
+  offset: 0, 0
+  index: -1

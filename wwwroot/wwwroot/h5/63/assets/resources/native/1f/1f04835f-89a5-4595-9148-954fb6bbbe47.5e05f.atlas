@@ -1,0 +1,27 @@
+
+paotai00.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+paotai01_paokou
+  rotate: false
+  xy: 255, 64
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1
+paotai01_paokouguang
+  rotate: true
+  xy: 2, 2
+  size: 121, 142
+  orig: 121, 142
+  offset: 0, 0
+  index: -1
+paotai01_zuo
+  rotate: false
+  xy: 146, 44
+  size: 107, 79
+  orig: 107, 79
+  offset: 0, 0
+  index: -1

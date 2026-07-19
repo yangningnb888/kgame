@@ -1,0 +1,83 @@
+
+dfdc_fj_zsyh.png
+size: 990,360
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 278, 6
+  size: 269, 352
+  orig: 269, 352
+  offset: 0, 0
+  index: -1
+dt_lizi
+  rotate: false
+  xy: 863, 90
+  size: 57, 44
+  orig: 57, 44
+  offset: 0, 0
+  index: -1
+eye
+  rotate: true
+  xy: 608, 13
+  size: 69, 14
+  orig: 69, 14
+  offset: 0, 0
+  index: -1
+jinbi
+  rotate: false
+  xy: 922, 110
+  size: 25, 24
+  orig: 25, 24
+  offset: 0, 0
+  index: -1
+kuangkuang
+  rotate: false
+  xy: 2, 2
+  size: 274, 356
+  orig: 274, 356
+  offset: 0, 0
+  index: -1
+qianjing
+  rotate: true
+  xy: 714, 8
+  size: 258, 147
+  orig: 258, 147
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 549, 84
+  size: 163, 274
+  orig: 163, 274
+  offset: 0, 0
+  index: -1
+youbian
+  rotate: false
+  xy: 624, 24
+  size: 88, 58
+  orig: 88, 58
+  offset: 0, 0
+  index: -1
+zhuanshi
+  rotate: false
+  xy: 863, 136
+  size: 125, 130
+  orig: 125, 130
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 714, 268
+  size: 259, 90
+  orig: 259, 90
+  offset: 0, 0
+  index: -1
+zuobian
+  rotate: true
+  xy: 549, 7
+  size: 75, 57
+  orig: 75, 57
+  offset: 0, 0
+  index: -1

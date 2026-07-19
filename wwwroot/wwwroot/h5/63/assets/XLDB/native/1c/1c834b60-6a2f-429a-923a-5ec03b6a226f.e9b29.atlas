@@ -1,0 +1,48 @@
+
+bosaidonglong.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bsd_body
+  rotate: false
+  xy: 2, 403
+  size: 1009, 99
+  orig: 1009, 99
+  offset: 0, 0
+  index: -1
+bsd_foot01
+  rotate: false
+  xy: 219, 254
+  size: 173, 147
+  orig: 173, 147
+  offset: 0, 0
+  index: -1
+bsd_foot02
+  rotate: true
+  xy: 394, 258
+  size: 143, 163
+  orig: 143, 163
+  offset: 0, 0
+  index: -1
+bsd_hand01
+  rotate: false
+  xy: 2, 2
+  size: 187, 195
+  orig: 187, 195
+  offset: 0, 0
+  index: -1
+bsd_hand02
+  rotate: true
+  xy: 559, 270
+  size: 131, 159
+  orig: 131, 159
+  offset: 0, 0
+  index: -1
+bsd_head
+  rotate: false
+  xy: 2, 199
+  size: 215, 202
+  orig: 215, 202
+  offset: 0, 0
+  index: -1

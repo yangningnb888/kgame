@@ -1,0 +1,82 @@
+
+benchibaomajiesuan_donghua.png
+size: 990,1023
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang01
+  rotate: false
+  xy: 2, 898
+  size: 606, 123
+  orig: 606, 123
+  offset: 0, 0
+  index: -1
+guang01_shu
+  rotate: false
+  xy: 2, 773
+  size: 606, 123
+  orig: 606, 123
+  offset: 0, 0
+  index: -1
+guang02
+  rotate: true
+  xy: 2, 523
+  size: 248, 540
+  orig: 248, 540
+  offset: 0, 0
+  index: -1
+guang02_1
+  rotate: false
+  xy: 2, 2
+  size: 284, 519
+  orig: 284, 519
+  offset: 0, 0
+  index: -1
+guang03
+  rotate: false
+  xy: 704, 201
+  size: 284, 529
+  orig: 284, 529
+  offset: 0, 0
+  index: -1
+guang03_1
+  rotate: false
+  xy: 288, 13
+  size: 248, 508
+  orig: 248, 508
+  offset: 0, 0
+  index: -1
+shengli
+  rotate: false
+  xy: 610, 881
+  size: 343, 140
+  orig: 343, 140
+  offset: 0, 0
+  index: -1
+shibai
+  rotate: false
+  xy: 610, 732
+  size: 331, 147
+  orig: 331, 147
+  offset: 0, 0
+  index: -1
+zi_guang02
+  rotate: true
+  xy: 538, 21
+  size: 500, 164
+  orig: 500, 164
+  offset: 0, 0
+  index: -1
+
+benchibaomajiesuan_donghua2.png
+size: 503,161
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zi_guang01
+  rotate: false
+  xy: 2, 2
+  size: 499, 157
+  orig: 499, 157
+  offset: 0, 0
+  index: -1

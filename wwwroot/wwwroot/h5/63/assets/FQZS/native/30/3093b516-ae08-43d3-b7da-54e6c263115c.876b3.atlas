@@ -1,0 +1,90 @@
+
+ostrich.png
+size: 359,281
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ostrich/btm_1
+  rotate: true
+  xy: 216, 2
+  size: 134, 47
+  orig: 134, 47
+  offset: 0, 0
+  index: -1
+ostrich/eye1
+  rotate: true
+  xy: 60, 135
+  size: 144, 56
+  orig: 144, 56
+  offset: 0, 0
+  index: -1
+ostrich/eye2_1
+  rotate: true
+  xy: 2, 130
+  size: 149, 56
+  orig: 149, 56
+  offset: 0, 0
+  index: -1
+ostrich/eye3_1
+  rotate: true
+  xy: 118, 136
+  size: 143, 56
+  orig: 143, 56
+  offset: 0, 0
+  index: -1
+ostrich/eye_
+  rotate: false
+  xy: 216, 211
+  size: 141, 68
+  orig: 141, 68
+  offset: 0, 0
+  index: -1
+ostrich/eye_bL_1
+  rotate: false
+  xy: 176, 242
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+ostrich/eye_bR_1
+  rotate: false
+  xy: 176, 203
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+ostrich/hair
+  rotate: true
+  xy: 176, 151
+  size: 50, 34
+  orig: 50, 34
+  offset: 0, 0
+  index: -1
+ostrich/head_5
+  rotate: false
+  xy: 2, 29
+  size: 130, 99
+  orig: 130, 99
+  offset: 0, 0
+  index: -1
+ostrich/mouth1_6
+  rotate: false
+  xy: 215, 138
+  size: 128, 71
+  orig: 128, 71
+  offset: 0, 0
+  index: -1
+ostrich/mouth2_6
+  rotate: true
+  xy: 134, 4
+  size: 130, 80
+  orig: 130, 80
+  offset: 0, 0
+  index: -1
+ostrich/mouth3_5
+  rotate: true
+  xy: 265, 8
+  size: 128, 85
+  orig: 128, 85
+  offset: 0, 0
+  index: -1

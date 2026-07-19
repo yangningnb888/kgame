@@ -1,0 +1,27 @@
+
+325bcbm_chedeng_shanyao.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+325bcbm_chedeng-00
+  rotate: false
+  xy: 294, 40
+  size: 87, 50
+  orig: 87, 50
+  offset: 0, 0
+  index: -1
+325bcbm_chedeng-01
+  rotate: false
+  xy: 178, 12
+  size: 114, 78
+  orig: 114, 78
+  offset: 0, 0
+  index: -1
+325bcbm_chedeng-02
+  rotate: false
+  xy: 2, 2
+  size: 174, 88
+  orig: 174, 88
+  offset: 0, 0
+  index: -1

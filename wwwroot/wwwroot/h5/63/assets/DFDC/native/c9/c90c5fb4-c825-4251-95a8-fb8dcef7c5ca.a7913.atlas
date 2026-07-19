@@ -1,0 +1,13 @@
+
+duofuduocai_kuaisukaishi.png
+size: 32,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shine
+  rotate: false
+  xy: 2, 2
+  size: 21, 73
+  orig: 21, 73
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,48 @@
+
+wudifenghuolunwenzidonghua_buyu.png
+size: 822,224
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wudifenghuolunwenzi0002
+  rotate: false
+  xy: 2, 150
+  size: 408, 72
+  orig: 408, 72
+  offset: 0, 0
+  index: -1
+wudifenghuolunwenzi0003
+  rotate: false
+  xy: 2, 76
+  size: 408, 72
+  orig: 408, 72
+  offset: 0, 0
+  index: -1
+wudifenghuolunwenzi0004
+  rotate: false
+  xy: 412, 150
+  size: 408, 72
+  orig: 408, 72
+  offset: 0, 0
+  index: -1
+wudifenghuolunwenzi0005
+  rotate: false
+  xy: 2, 2
+  size: 408, 72
+  orig: 408, 72
+  offset: 0, 0
+  index: -1
+wudifenghuolunwenzi0006
+  rotate: false
+  xy: 412, 76
+  size: 408, 72
+  orig: 408, 72
+  offset: 0, 0
+  index: -1
+wudifenghuolunwenzi0007
+  rotate: false
+  xy: 412, 2
+  size: 408, 72
+  orig: 408, 72
+  offset: 0, 0
+  index: -1

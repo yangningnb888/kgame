@@ -1,0 +1,167 @@
+
+start_game.png
+size: 2001,1382
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arrow
+  rotate: true
+  xy: 1359, 36
+  size: 99, 72
+  orig: 99, 72
+  offset: 0, 0
+  index: -1
+card_black
+  rotate: false
+  xy: 691, 13
+  size: 163, 122
+  orig: 163, 122
+  offset: 0, 0
+  index: -1
+card_red
+  rotate: true
+  xy: 856, 2
+  size: 133, 111
+  orig: 133, 111
+  offset: 0, 0
+  index: -1
+card_rhombus
+  rotate: true
+  xy: 969, 7
+  size: 128, 100
+  orig: 128, 100
+  offset: 0, 0
+  index: -1
+chip_black
+  rotate: true
+  xy: 1276, 35
+  size: 100, 81
+  orig: 100, 81
+  offset: 0, 0
+  index: -1
+chip_red
+  rotate: true
+  xy: 1071, 16
+  size: 119, 100
+  orig: 119, 100
+  offset: 0, 0
+  index: -1
+flare2_orange
+  rotate: false
+  xy: 2, 9
+  size: 356, 126
+  orig: 356, 126
+  offset: 0, 0
+  index: -1
+flare_a
+  rotate: false
+  xy: 360, 48
+  size: 329, 87
+  orig: 329, 87
+  offset: 0, 0
+  index: -1
+flare_b
+  rotate: false
+  xy: 1173, 34
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+frame
+  rotate: false
+  xy: 2, 1158
+  size: 1493, 222
+  orig: 1493, 222
+  offset: 0, 0
+  index: -1
+startgame_FL/startgame_FL_00007
+  rotate: true
+  xy: 1497, 641
+  size: 739, 250
+  orig: 739, 250
+  offset: 0, 0
+  index: -1
+startgame_FL/startgame_FL_00008
+  rotate: true
+  xy: 1749, 641
+  size: 739, 250
+  orig: 739, 250
+  offset: 0, 0
+  index: -1
+startgame_FL/startgame_FL_00009
+  rotate: false
+  xy: 2, 389
+  size: 739, 250
+  orig: 739, 250
+  offset: 0, 0
+  index: -1
+startgame_FL/startgame_FL_00010
+  rotate: false
+  xy: 2, 906
+  size: 739, 250
+  orig: 739, 250
+  offset: 0, 0
+  index: -1
+startgame_FL/startgame_FL_00011
+  rotate: false
+  xy: 2, 654
+  size: 739, 250
+  orig: 739, 250
+  offset: 0, 0
+  index: -1
+startgame_FL/startgame_FL_00012
+  rotate: false
+  xy: 2, 137
+  size: 739, 250
+  orig: 739, 250
+  offset: 0, 0
+  index: -1
+startgame_FL/startgame_FL_00013
+  rotate: false
+  xy: 743, 389
+  size: 739, 250
+  orig: 739, 250
+  offset: 0, 0
+  index: -1
+startgame_FL/startgame_FL_00014
+  rotate: false
+  xy: 743, 137
+  size: 739, 250
+  orig: 739, 250
+  offset: 0, 0
+  index: -1
+startgame_FL/startgame_FL_00015
+  rotate: false
+  xy: 743, 906
+  size: 739, 250
+  orig: 739, 250
+  offset: 0, 0
+  index: -1
+startgame_FL/startgame_FL_00016
+  rotate: false
+  xy: 743, 654
+  size: 739, 250
+  orig: 739, 250
+  offset: 0, 0
+  index: -1
+startgame_bottom
+  rotate: true
+  xy: 1663, 43
+  size: 596, 173
+  orig: 596, 173
+  offset: 0, 0
+  index: -1
+startgame_glow
+  rotate: true
+  xy: 1484, 31
+  size: 608, 177
+  orig: 608, 177
+  offset: 0, 0
+  index: -1
+startgame_text
+  rotate: true
+  xy: 1838, 62
+  size: 577, 146
+  orig: 577, 146
+  offset: 0, 0
+  index: -1

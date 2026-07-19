@@ -1,0 +1,140 @@
+{extend name="../../admin/view/main"}
+
+{block name="button"}
+{/block}
+
+{block name="content"}
+<body>
+<div class="layui-tab layui-tab-card think-bg-white">
+    <fieldset class="table-search-fieldset">
+        <legend>搜索信息</legend>
+        <div style="margin: 10px 10px 10px 10px" id="btn">
+            <form class="layui-form layui-form-pane" action="" id="test">
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">类型</label>
+                        <div class="layui-input-inline">
+                            <select name="type">
+                                <option value="1">收入</option>
+                                <option value="2">支出</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">赠送类别</label>
+                        <div class="layui-input-inline">
+                            <select name="currency">
+                                <option value="1">金币</option>
+                                <option value="2">兑换卡</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">关系</label>
+                        <div class="layui-input-inline">
+                            <select name="relationship">
+                                <option value="1">全部</option>
+                                <option value="2">上级</option>
+                                <option value="3">下级</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">搜索玩家</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="uid" id="player" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">查询时间区间</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="start" id="start" autocomplete="off">
+                        </div>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="end" id="end" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <!--注意此处button标签里的type属性-->
+                        <button type="button" class="layui-btn layui-btn-primary" lay-submit data-type="reload"
+                                lay-filter="data-search-btn"><i class="layui-icon"></i> 搜 索
+                        </button>
+                    </div>
+                    <div style="clear: both;"></div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">总 金 额:</label>
+                        <div class="layui-input-inline">
+                            <!--注意此处input标签里的id-->
+                            <input class="layui-input" name="allnum" id="allnum" autocomplete="off"
+                                   disabled="disabled">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </fieldset>
+    <table class="layui-hide" id="mail" lay-filter="profit"></table>
+</div>
+</body>
+<script>
+    layui.use(['table', 'form'], function () {
+        let table = layui.table;
+        let form = layui.form;
+        form.render();
+        table.render({
+            elem: '#mail'
+            , url: '{:url("getmail")}'
+            , cellMinWidth: 100 //全局定义常规单元格的最小宽度，layui 2.2.1 新增
+            , id: 'mail'
+            , cols: [[
+                {field: 'uid', title: '接收者', align: 'center'}
+                , {field: 'outuid', title: '发送者', align: 'center'}
+                , {field: 'number', title: '金额', align: 'center'}
+                , {field: 'created', title: '时间', align: 'center'}
+                , {field: 'status', title: '状态', align: 'center'}
+            ]]
+            , page: true
+            , limit: 18
+            , parseData: function (res) {
+                console.log(res)
+                $("#allnum").attr('value', res.allnum);
+                return {
+                    'code': 0
+                    , 'msg': ''
+                    , 'count': res.count
+                    , 'data': res.data
+                }
+            }
+        });
+
+        laydate.render({
+            elem: '#start'  // 输出框id
+            , type: 'datetime'
+        });
+
+        laydate.render({
+            elem: '#end'  // 输出框id
+            , type: 'datetime'
+        });
+
+        form.on('submit(data-search-btn)', function (data) {
+            //alert(data.value);
+            console.log(data);
+            //console.log(data.field.status);
+            table.reload('mail', {
+                page: {
+                    curr: 1 //重新从第 1 页开始
+                }
+                , where: data.field
+                , url: '{:url("getmail")}'//后台做模糊搜索接口路径
+                , method: 'post'
+            });
+            return false;
+        });
+    });
+</script>
+
+{/block}

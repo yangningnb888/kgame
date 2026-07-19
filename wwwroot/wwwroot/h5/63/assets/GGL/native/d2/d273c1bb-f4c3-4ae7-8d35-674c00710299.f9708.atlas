@@ -1,0 +1,76 @@
+
+guaguale4_zhuanfanle.png
+size: 908,787
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guayigua4_dian
+  rotate: false
+  xy: 368, 319
+  size: 323, 301
+  orig: 323, 301
+  offset: 0, 0
+  index: -1
+guayigua4_dianguang
+  rotate: false
+  xy: 818, 532
+  size: 88, 88
+  orig: 88, 88
+  offset: 0, 0
+  index: -1
+guayigua4_huoxing
+  rotate: false
+  xy: 329, 366
+  size: 16, 54
+  orig: 16, 54
+  offset: 0, 0
+  index: -1
+guayigua4_zfl_caidai
+  rotate: false
+  xy: 368, 622
+  size: 535, 163
+  orig: 535, 163
+  offset: 0, 0
+  index: -1
+guayigua4_zfl_dun
+  rotate: false
+  xy: 2, 86
+  size: 325, 334
+  orig: 325, 334
+  offset: 0, 0
+  index: -1
+guayigua4_zfl_huangguan
+  rotate: false
+  xy: 2, 2
+  size: 142, 82
+  orig: 142, 82
+  offset: 0, 0
+  index: -1
+guayigua4_zfl_zi
+  rotate: true
+  xy: 693, 322
+  size: 298, 123
+  orig: 298, 123
+  offset: 0, 0
+  index: -1
+guayigua_glow
+  rotate: false
+  xy: 329, 2
+  size: 319, 315
+  orig: 319, 315
+  offset: 0, 0
+  index: -1
+guayigua_guang
+  rotate: false
+  xy: 650, 61
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+guayigua_guangci
+  rotate: false
+  xy: 2, 422
+  size: 364, 363
+  orig: 364, 363
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,139 @@
+
+xunbaoleyuan4_baofu.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shine
+  rotate: false
+  xy: 992, 942
+  size: 21, 73
+  orig: 21, 73
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_baofu_glow
+  rotate: true
+  xy: 153, 260
+  size: 285, 220
+  orig: 285, 220
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_baofu_glow2
+  rotate: false
+  xy: 2, 712
+  size: 392, 303
+  orig: 392, 303
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_baofu_kuang1
+  rotate: false
+  xy: 2, 547
+  size: 351, 163
+  orig: 351, 163
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_baofu_kuang2
+  rotate: false
+  xy: 153, 181
+  size: 174, 77
+  orig: 174, 77
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_baofu_kuang3
+  rotate: false
+  xy: 355, 550
+  size: 281, 149
+  orig: 281, 149
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_baofu_tongguan
+  rotate: true
+  xy: 555, 237
+  size: 311, 106
+  orig: 311, 106
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_baofu_xing
+  rotate: false
+  xy: 329, 196
+  size: 61, 62
+  orig: 61, 62
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_baofu_yezi1
+  rotate: false
+  xy: 150, 49
+  size: 93, 130
+  orig: 93, 130
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_baofu_yezi2
+  rotate: false
+  xy: 689, 758
+  size: 91, 100
+  orig: 91, 100
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_baofu_zi
+  rotate: false
+  xy: 752, 914
+  size: 238, 101
+  orig: 238, 101
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_di2_cb
+  rotate: false
+  xy: 638, 602
+  size: 80, 97
+  orig: 80, 97
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_di2_glow
+  rotate: false
+  xy: 396, 701
+  size: 291, 157
+  orig: 291, 157
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_di2_kuang1
+  rotate: false
+  xy: 396, 860
+  size: 354, 155
+  orig: 354, 155
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_di2_kuang2
+  rotate: true
+  xy: 2, 2
+  size: 182, 77
+  orig: 182, 77
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_di3_cb
+  rotate: false
+  xy: 245, 46
+  size: 81, 133
+  orig: 81, 133
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_di3_glow
+  rotate: true
+  xy: 375, 269
+  size: 279, 178
+  orig: 279, 178
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_di3_kuang1
+  rotate: true
+  xy: 2, 186
+  size: 359, 149
+  orig: 359, 149
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_di3_kuang2
+  rotate: true
+  xy: 81, 9
+  size: 175, 67
+  orig: 175, 67
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,55 @@
+
+tongjidonghua_1.png
+size: 504,565
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guanghuan_3
+  rotate: false
+  xy: 2, 36
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+guangquan01
+  rotate: false
+  xy: 132, 36
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+guangquan02
+  rotate: false
+  xy: 290, 176
+  size: 212, 212
+  orig: 212, 212
+  offset: 0, 0
+  index: -1
+guangquan_1
+  rotate: false
+  xy: 317, 390
+  size: 174, 173
+  orig: 174, 173
+  offset: 0, 0
+  index: -1
+tongji_daizi
+  rotate: false
+  xy: 2, 454
+  size: 313, 109
+  orig: 313, 109
+  offset: 0, 0
+  index: -1
+tongji_dipan_1
+  rotate: false
+  xy: 2, 166
+  size: 286, 286
+  orig: 286, 286
+  offset: 0, 0
+  index: -1
+tongji_yu
+  rotate: false
+  xy: 290, 2
+  size: 189, 172
+  orig: 189, 172
+  offset: 0, 0
+  index: -1

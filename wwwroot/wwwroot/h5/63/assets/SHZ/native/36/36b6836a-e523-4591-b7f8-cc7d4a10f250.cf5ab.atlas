@@ -1,0 +1,27 @@
+
+zhuozidoudong_shuihuzhuan.png
+size: 1792,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yuanbao1
+  rotate: true
+  xy: 1628, 54
+  size: 200, 80
+  orig: 200, 80
+  offset: 0, 0
+  index: -1
+yuanbao2
+  rotate: true
+  xy: 1710, 104
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+zhuomiandoudong0001
+  rotate: false
+  xy: 2, 2
+  size: 1624, 252
+  orig: 1624, 252
+  offset: 0, 0
+  index: -1

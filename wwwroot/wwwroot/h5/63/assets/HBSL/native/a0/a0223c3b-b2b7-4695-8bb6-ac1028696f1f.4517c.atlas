@@ -1,0 +1,111 @@
+
+hongbao_caijingdajiang.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+9xlw_caidai_01
+  rotate: false
+  xy: 913, 793
+  size: 92, 111
+  orig: 280, 300
+  offset: 36, 107
+  index: -1
+9xlw_caidai_02
+  rotate: false
+  xy: 211, 40
+  size: 163, 174
+  orig: 280, 300
+  offset: 39, 106
+  index: -1
+9xlw_caidai_03
+  rotate: false
+  xy: 792, 406
+  size: 177, 192
+  orig: 280, 300
+  offset: 47, 97
+  index: -1
+9xlw_caidai_04
+  rotate: false
+  xy: 376, 20
+  size: 195, 192
+  orig: 280, 300
+  offset: 49, 96
+  index: -1
+9xlw_caidai_05
+  rotate: false
+  xy: 589, 399
+  size: 201, 199
+  orig: 280, 300
+  offset: 52, 80
+  index: -1
+9xlw_caidai_06
+  rotate: false
+  xy: 379, 391
+  size: 208, 207
+  orig: 280, 300
+  offset: 54, 53
+  index: -1
+9xlw_caidai_07
+  rotate: false
+  xy: 2, 2
+  size: 207, 212
+  orig: 280, 300
+  offset: 56, 39
+  index: -1
+9xlw_caidai_08
+  rotate: true
+  xy: 379, 214
+  size: 175, 206
+  orig: 280, 300
+  offset: 58, 17
+  index: -1
+9xlw_caidai_09
+  rotate: true
+  xy: 573, 39
+  size: 173, 161
+  orig: 280, 300
+  offset: 59, 40
+  index: -1
+9xlw_caidai_10
+  rotate: false
+  xy: 851, 906
+  size: 171, 112
+  orig: 280, 300
+  offset: 64, 25
+  index: -1
+GUANG
+  rotate: false
+  xy: 2, 216
+  size: 375, 382
+  orig: 375, 481
+  offset: 0, 50
+  index: -1
+RUNPAN
+  rotate: false
+  xy: 2, 600
+  size: 847, 418
+  orig: 847, 418
+  offset: 0, 0
+  index: -1
+ZI
+  rotate: true
+  xy: 851, 610
+  size: 294, 60
+  orig: 294, 60
+  offset: 0, 0
+  index: -1
+ZI1
+  rotate: true
+  xy: 913, 685
+  size: 106, 55
+  orig: 106, 55
+  offset: 0, 0
+  index: -1
+ZI2
+  rotate: false
+  xy: 589, 342
+  size: 106, 55
+  orig: 106, 55
+  offset: 0, 0
+  index: -1

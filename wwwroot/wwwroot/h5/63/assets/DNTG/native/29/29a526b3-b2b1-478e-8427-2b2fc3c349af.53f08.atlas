@@ -1,0 +1,97 @@
+
+325dntg_xuanchang_wanpaochang.png
+size: 827,392
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+325dntg_wanpaochang_body
+  rotate: false
+  xy: 418, 216
+  size: 205, 174
+  orig: 205, 174
+  offset: 0, 0
+  index: -1
+325dntg_wanpaochang_dizuo
+  rotate: true
+  xy: 2, 114
+  size: 276, 414
+  orig: 276, 414
+  offset: 0, 0
+  index: -1
+325dntg_wanpaochang_guike
+  rotate: false
+  xy: 418, 2
+  size: 127, 116
+  orig: 127, 116
+  offset: 0, 0
+  index: -1
+325dntg_wanpaochang_haidai00
+  rotate: false
+  xy: 567, 15
+  size: 228, 142
+  orig: 228, 142
+  offset: 0, 0
+  index: -1
+325dntg_wanpaochang_haidai01
+  rotate: true
+  xy: 292, 18
+  size: 94, 105
+  orig: 94, 105
+  offset: 0, 0
+  index: -1
+325dntg_wanpaochang_maozi00
+  rotate: true
+  xy: 547, 82
+  size: 36, 18
+  orig: 36, 18
+  offset: 0, 0
+  index: -1
+325dntg_wanpaochang_maozi01
+  rotate: true
+  xy: 547, 45
+  size: 35, 18
+  orig: 35, 18
+  offset: 0, 0
+  index: -1
+325dntg_wanpaochang_tou
+  rotate: true
+  xy: 172, 25
+  size: 87, 118
+  orig: 87, 118
+  offset: 0, 0
+  index: -1
+325dntg_wanpaochang_yanjing
+  rotate: true
+  xy: 399, 44
+  size: 68, 17
+  orig: 68, 17
+  offset: 0, 0
+  index: -1
+325dntg_wanpaochang_youshou
+  rotate: false
+  xy: 418, 120
+  size: 147, 94
+  orig: 147, 94
+  offset: 0, 0
+  index: -1
+325dntg_wanpaochang_youxiu
+  rotate: false
+  xy: 771, 280
+  size: 54, 110
+  orig: 54, 110
+  offset: 0, 0
+  index: -1
+325dntg_wanpaochang_yunduo
+  rotate: true
+  xy: 625, 159
+  size: 231, 144
+  orig: 231, 144
+  offset: 0, 0
+  index: -1
+325dntg_wanpaochang_zuoshou
+  rotate: true
+  xy: 2, 3
+  size: 109, 168
+  orig: 109, 168
+  offset: 0, 0
+  index: -1

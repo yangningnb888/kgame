@@ -1,0 +1,90 @@
+
+zhadanyu_baozha.png
+size: 512,308
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skill_guangxian_01
+  rotate: false
+  xy: 2, 116
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+yuleibaozha_1
+  rotate: false
+  xy: 2, 14
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+yuleibaozha_10
+  rotate: false
+  xy: 410, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+yuleibaozha_11
+  rotate: false
+  xy: 410, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+yuleibaozha_2
+  rotate: false
+  xy: 194, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+yuleibaozha_3
+  rotate: false
+  xy: 296, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+yuleibaozha_4
+  rotate: false
+  xy: 398, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+yuleibaozha_5
+  rotate: false
+  xy: 104, 14
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+yuleibaozha_6
+  rotate: false
+  xy: 206, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+yuleibaozha_7
+  rotate: false
+  xy: 308, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+yuleibaozha_8
+  rotate: false
+  xy: 206, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+yuleibaozha_9
+  rotate: false
+  xy: 308, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

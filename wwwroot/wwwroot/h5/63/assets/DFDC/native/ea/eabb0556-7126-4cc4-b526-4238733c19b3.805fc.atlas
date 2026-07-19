@@ -1,0 +1,258 @@
+
+duofuduocai_zhaocaijinbao.png
+size: 1001,655
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+duofuduocai_jubaopen_erduo
+  rotate: false
+  xy: 562, 2
+  size: 61, 74
+  orig: 61, 74
+  offset: 0, 0
+  index: -1
+duofuduocai_jubaopen_glow3
+  rotate: false
+  xy: 264, 391
+  size: 109, 62
+  orig: 109, 62
+  offset: 0, 0
+  index: -1
+duofuduocai_jubaopen_jbi3kj
+  rotate: true
+  xy: 827, 136
+  size: 122, 41
+  orig: 122, 41
+  offset: 0, 0
+  index: -1
+duofuduocai_jubaopen_kj
+  rotate: true
+  xy: 560, 481
+  size: 172, 102
+  orig: 172, 102
+  offset: 0, 0
+  index: -1
+duofuduocai_kaijiang_glow1
+  rotate: true
+  xy: 2, 389
+  size: 264, 260
+  orig: 264, 260
+  offset: 0, 0
+  index: -1
+duofuduocai_kaijiang_glow2
+  rotate: false
+  xy: 2, 156
+  size: 227, 231
+  orig: 227, 231
+  offset: 0, 0
+  index: -1
+duofuduocai_kaijiang_lizi
+  rotate: true
+  xy: 708, 393
+  size: 106, 105
+  orig: 106, 105
+  offset: 0, 0
+  index: -1
+duofuduocai_kaijiang_quan
+  rotate: false
+  xy: 827, 20
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_01
+  rotate: false
+  xy: 600, 237
+  size: 137, 154
+  orig: 137, 154
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_02
+  rotate: false
+  xy: 464, 40
+  size: 96, 156
+  orig: 96, 156
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_03
+  rotate: true
+  xy: 502, 393
+  size: 65, 156
+  orig: 65, 156
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_04
+  rotate: true
+  xy: 231, 156
+  size: 29, 156
+  orig: 29, 156
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_05
+  rotate: false
+  xy: 516, 235
+  size: 82, 156
+  orig: 82, 156
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_06
+  rotate: false
+  xy: 562, 78
+  size: 109, 155
+  orig: 109, 155
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_07
+  rotate: false
+  xy: 664, 501
+  size: 151, 152
+  orig: 151, 152
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_guangyun
+  rotate: true
+  xy: 739, 260
+  size: 131, 130
+  orig: 131, 130
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_jbi_glow
+  rotate: false
+  xy: 871, 528
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_jbi_glow2
+  rotate: false
+  xy: 866, 401
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_jbi_glow3
+  rotate: false
+  xy: 871, 274
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_jbi_glow4
+  rotate: false
+  xy: 871, 147
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_jindi
+  rotate: false
+  xy: 2, 2
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_kaijiang_01
+  rotate: false
+  xy: 943, 92
+  size: 56, 53
+  orig: 56, 53
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_kaijiang_02
+  rotate: true
+  xy: 943, 36
+  size: 54, 55
+  orig: 54, 55
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_kaijiang_03
+  rotate: false
+  xy: 375, 391
+  size: 50, 62
+  orig: 50, 62
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_kaijiang_04
+  rotate: false
+  xy: 427, 391
+  size: 73, 67
+  orig: 73, 67
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_kaijiang_05
+  rotate: false
+  xy: 625, 8
+  size: 108, 68
+  orig: 108, 68
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_kaijiang_06
+  rotate: true
+  xy: 817, 559
+  size: 94, 47
+  orig: 94, 47
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_kaijiang_07
+  rotate: true
+  xy: 660, 393
+  size: 86, 46
+  orig: 86, 46
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_kaijiang_08
+  rotate: true
+  xy: 817, 475
+  size: 82, 47
+  orig: 82, 47
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_landi
+  rotate: false
+  xy: 156, 2
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_lvdi
+  rotate: false
+  xy: 310, 2
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_wawa_1
+  rotate: false
+  xy: 231, 187
+  size: 146, 200
+  orig: 146, 200
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_wawa_2
+  rotate: false
+  xy: 379, 198
+  size: 135, 191
+  orig: 135, 191
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_wawa_3
+  rotate: false
+  xy: 419, 460
+  size: 139, 193
+  orig: 139, 193
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_wawa_4
+  rotate: false
+  xy: 264, 455
+  size: 153, 198
+  orig: 153, 198
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_zidi
+  rotate: false
+  xy: 673, 83
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1

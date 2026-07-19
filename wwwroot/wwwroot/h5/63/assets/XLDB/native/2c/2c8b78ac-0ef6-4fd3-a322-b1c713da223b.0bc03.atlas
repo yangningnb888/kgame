@@ -1,0 +1,20 @@
+
+bingdongyu_bingdong.png
+size: 822,534
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bingdongyu_glow
+  rotate: true
+  xy: 2, 39
+  size: 493, 490
+  orig: 493, 490
+  offset: 0, 0
+  index: -1
+bingdongyu_shuang
+  rotate: true
+  xy: 494, 2
+  size: 530, 326
+  orig: 530, 326
+  offset: 0, 0
+  index: -1

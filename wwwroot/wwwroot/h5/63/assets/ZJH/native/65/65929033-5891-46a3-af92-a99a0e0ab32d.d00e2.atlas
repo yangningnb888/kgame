@@ -1,0 +1,41 @@
+
+fapai_zhajinghua_1.png
+size: 511,179
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pukebeimian
+  rotate: false
+  xy: 147, 1
+  size: 144, 176
+  orig: 144, 177
+  offset: 0, 1
+  index: -1
+baibanpai
+  rotate: false
+  xy: 1, 1
+  size: 144, 176
+  orig: 144, 177
+  offset: 0, 1
+  index: -1
+puke1111
+  rotate: false
+  xy: 293, 1
+  size: 144, 176
+  orig: 144, 176
+  offset: 0, 0
+  index: -1
+hongtao11
+  rotate: false
+  xy: 439, 1
+  size: 38, 33
+  orig: 40, 41
+  offset: 1, 0
+  index: -1
+dak-hong1
+  rotate: false
+  xy: 479, 1
+  size: 30, 37
+  orig: 43, 41
+  offset: 7, 2
+  index: -1

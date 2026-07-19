@@ -1,0 +1,118 @@
+
+yu26_buyu.png
+size: 994,559
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fish24_02
+  rotate: false
+  xy: 345, 3
+  size: 129, 134
+  orig: 129, 134
+  offset: 0, 0
+  index: -1
+fish24_02-02
+  rotate: false
+  xy: 838, 213
+  size: 141, 132
+  orig: 141, 132
+  offset: 0, 0
+  index: -1
+fish24_02-03
+  rotate: false
+  xy: 612, 10
+  size: 139, 127
+  orig: 139, 127
+  offset: 0, 0
+  index: -1
+fish24_02-04
+  rotate: true
+  xy: 2, 2
+  size: 135, 130
+  orig: 135, 130
+  offset: 0, 0
+  index: -1
+fish24_02-05
+  rotate: true
+  xy: 476, 6
+  size: 136, 134
+  orig: 136, 134
+  offset: 0, 0
+  index: -1
+fish24_02-06
+  rotate: true
+  xy: 753, 24
+  size: 141, 124
+  orig: 141, 124
+  offset: 0, 0
+  index: -1
+g
+  rotate: false
+  xy: 422, 144
+  size: 189, 189
+  orig: 189, 189
+  offset: 0, 0
+  index: -1
+l_e25_b0
+  rotate: false
+  xy: 879, 80
+  size: 46, 131
+  orig: 46, 131
+  offset: 0, 0
+  index: -1
+l_e25_b10
+  rotate: true
+  xy: 652, 436
+  size: 121, 224
+  orig: 121, 224
+  offset: 0, 0
+  index: -1
+l_e25_b12
+  rotate: true
+  xy: 134, 13
+  size: 124, 209
+  orig: 124, 209
+  offset: 0, 0
+  index: -1
+l_e25_b2
+  rotate: true
+  xy: 652, 362
+  size: 72, 222
+  orig: 72, 222
+  offset: 0, 0
+  index: -1
+l_e25_b4
+  rotate: false
+  xy: 613, 139
+  size: 106, 194
+  orig: 106, 194
+  offset: 0, 0
+  index: -1
+l_e25_b6
+  rotate: false
+  xy: 721, 167
+  size: 115, 193
+  orig: 115, 193
+  offset: 0, 0
+  index: -1
+l_e25_b8
+  rotate: false
+  xy: 878, 347
+  size: 114, 210
+  orig: 114, 210
+  offset: 0, 0
+  index: -1
+ring
+  rotate: false
+  xy: 2, 139
+  size: 418, 418
+  orig: 418, 418
+  offset: 0, 0
+  index: -1
+s
+  rotate: false
+  xy: 422, 335
+  size: 228, 222
+  orig: 228, 222
+  offset: 0, 0
+  index: -1

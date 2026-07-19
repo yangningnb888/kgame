@@ -1,0 +1,125 @@
+
+lkpy_xuanfang_tiyanfang.png
+size: 964,272
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lkpy_dizuo
+  rotate: true
+  xy: 2, 2
+  size: 268, 344
+  orig: 268, 344
+  offset: 0, 0
+  index: -1
+lkpy_huacao
+  rotate: false
+  xy: 548, 168
+  size: 225, 102
+  orig: 225, 102
+  offset: 0, 0
+  index: -1
+lkpy_zhongjifang_body
+  rotate: false
+  xy: 348, 119
+  size: 198, 151
+  orig: 198, 151
+  offset: 0, 0
+  index: -1
+lkpy_zhongjifang_jian
+  rotate: false
+  xy: 775, 171
+  size: 126, 99
+  orig: 126, 99
+  offset: 0, 0
+  index: -1
+lkpy_zhongjifang_jinbi00
+  rotate: true
+  xy: 637, 2
+  size: 53, 24
+  orig: 53, 24
+  offset: 0, 0
+  index: -1
+lkpy_zhongjifang_jinbi01
+  rotate: true
+  xy: 903, 179
+  size: 91, 41
+  orig: 91, 41
+  offset: 0, 0
+  index: -1
+lkpy_zhongjifang_jinbi02
+  rotate: true
+  xy: 912, 68
+  size: 55, 49
+  orig: 55, 49
+  offset: 0, 0
+  index: -1
+lkpy_zhongjifang_pifeng
+  rotate: true
+  xy: 775, 101
+  size: 68, 127
+  orig: 68, 127
+  offset: 0, 0
+  index: -1
+lkpy_zhongjifang_weijing
+  rotate: false
+  xy: 348, 10
+  size: 209, 107
+  orig: 209, 107
+  offset: 0, 0
+  index: -1
+lkpy_zhongjifang_youshou
+  rotate: true
+  xy: 904, 125
+  size: 52, 58
+  orig: 52, 58
+  offset: 0, 0
+  index: -1
+lkpy_zhongjifang_youtououtou
+  rotate: false
+  xy: 663, 62
+  size: 104, 104
+  orig: 104, 104
+  offset: 0, 0
+  index: -1
+lkpy_zhongjifang_youyanjing
+  rotate: true
+  xy: 871, 34
+  size: 65, 39
+  orig: 65, 39
+  offset: 0, 0
+  index: -1
+lkpy_zhongjifang_yu
+  rotate: true
+  xy: 912, 15
+  size: 51, 49
+  orig: 51, 49
+  offset: 0, 0
+  index: -1
+lkpy_zhongjifang_zuojiao
+  rotate: true
+  xy: 769, 2
+  size: 97, 100
+  orig: 97, 100
+  offset: 0, 0
+  index: -1
+lkpy_zhongjifang_zuoshou
+  rotate: false
+  xy: 663, 5
+  size: 62, 55
+  orig: 62, 55
+  offset: 0, 0
+  index: -1
+lkpy_zhongjifang_zuotou
+  rotate: false
+  xy: 559, 57
+  size: 102, 109
+  orig: 102, 109
+  offset: 0, 0
+  index: -1
+lkpy_zhongjifang_zuoyanjing
+  rotate: false
+  xy: 559, 21
+  size: 76, 34
+  orig: 76, 34
+  offset: 0, 0
+  index: -1

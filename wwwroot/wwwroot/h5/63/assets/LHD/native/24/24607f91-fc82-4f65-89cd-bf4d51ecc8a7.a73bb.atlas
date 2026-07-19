@@ -1,0 +1,41 @@
+
+longvshu.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+V
+  rotate: false
+  xy: 281, 71
+  size: 47, 37
+  orig: 47, 37
+  offset: 0, 0
+  index: -1
+di
+  rotate: false
+  xy: 2, 56
+  size: 192, 52
+  orig: 192, 52
+  offset: 0, 0
+  index: -1
+hu
+  rotate: false
+  xy: 2, 2
+  size: 100, 52
+  orig: 100, 52
+  offset: 0, 0
+  index: -1
+long
+  rotate: false
+  xy: 196, 29
+  size: 83, 79
+  orig: 83, 79
+  offset: 0, 0
+  index: -1
+s
+  rotate: false
+  xy: 104, 24
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1

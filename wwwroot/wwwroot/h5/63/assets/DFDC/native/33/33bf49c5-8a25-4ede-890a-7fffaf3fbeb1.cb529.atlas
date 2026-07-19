@@ -1,0 +1,76 @@
+
+duofuduocai_jubaopen.png
+size: 803,109
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+duofuduocai_guang
+  rotate: true
+  xy: 714, 12
+  size: 95, 87
+  orig: 95, 87
+  offset: 0, 0
+  index: -1
+duofuduocai_jubaopen
+  rotate: false
+  xy: 168, 33
+  size: 158, 74
+  orig: 158, 74
+  offset: 0, 0
+  index: -1
+duofuduocai_jubaopen_1
+  rotate: false
+  xy: 466, 45
+  size: 135, 62
+  orig: 135, 62
+  offset: 0, 0
+  index: -1
+duofuduocai_jubaopen_2
+  rotate: false
+  xy: 328, 5
+  size: 136, 102
+  orig: 136, 102
+  offset: 0, 0
+  index: -1
+duofuduocai_jubaopen_3
+  rotate: false
+  xy: 2, 21
+  size: 164, 86
+  orig: 164, 86
+  offset: 0, 0
+  index: -1
+duofuduocai_jubaopen_glow
+  rotate: false
+  xy: 603, 45
+  size: 109, 62
+  orig: 109, 62
+  offset: 0, 0
+  index: -1
+duofuduocai_jubaopen_jbi1
+  rotate: false
+  xy: 2, 4
+  size: 109, 15
+  orig: 109, 15
+  offset: 0, 0
+  index: -1
+duofuduocai_jubaopen_jbi2
+  rotate: false
+  xy: 590, 13
+  size: 120, 30
+  orig: 120, 30
+  offset: 0, 0
+  index: -1
+duofuduocai_jubaopen_jbi3
+  rotate: false
+  xy: 466, 2
+  size: 122, 41
+  orig: 122, 41
+  offset: 0, 0
+  index: -1
+shine
+  rotate: true
+  xy: 168, 10
+  size: 21, 73
+  orig: 21, 73
+  offset: 0, 0
+  index: -1

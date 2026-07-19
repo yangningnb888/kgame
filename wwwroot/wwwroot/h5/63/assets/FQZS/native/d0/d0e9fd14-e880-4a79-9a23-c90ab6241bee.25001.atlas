@@ -1,0 +1,111 @@
+
+chicken.png
+size: 454,148
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chicken/btm
+  rotate: true
+  xy: 331, 61
+  size: 45, 49
+  orig: 45, 49
+  offset: 0, 0
+  index: -1
+chicken/c1
+  rotate: false
+  xy: 233, 108
+  size: 106, 38
+  orig: 106, 38
+  offset: 0, 0
+  index: -1
+chicken/c2
+  rotate: false
+  xy: 152, 14
+  size: 106, 39
+  orig: 106, 39
+  offset: 0, 0
+  index: -1
+chicken/eye_Lb
+  rotate: true
+  xy: 428, 123
+  size: 23, 24
+  orig: 23, 24
+  offset: 0, 0
+  index: -1
+chicken/eye_Lw
+  rotate: false
+  xy: 282, 59
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+chicken/eye_Rb
+  rotate: false
+  xy: 402, 122
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+chicken/eye_Rw
+  rotate: true
+  xy: 233, 58
+  size: 48, 47
+  orig: 48, 47
+  offset: 0, 0
+  index: -1
+chicken/face
+  rotate: true
+  xy: 2, 19
+  size: 127, 75
+  orig: 127, 75
+  offset: 0, 0
+  index: -1
+chicken/face2
+  rotate: true
+  xy: 79, 14
+  size: 132, 71
+  orig: 132, 71
+  offset: 0, 0
+  index: -1
+chicken/light
+  rotate: false
+  xy: 152, 55
+  size: 79, 91
+  orig: 79, 91
+  offset: 0, 0
+  index: -1
+chicken/mouth1_3
+  rotate: true
+  xy: 326, 3
+  size: 54, 52
+  orig: 54, 52
+  offset: 0, 0
+  index: -1
+chicken/mouth2_3
+  rotate: false
+  xy: 260, 4
+  size: 64, 52
+  orig: 64, 52
+  offset: 0, 0
+  index: -1
+chicken/mouth3_2
+  rotate: false
+  xy: 380, 2
+  size: 68, 57
+  orig: 68, 57
+  offset: 0, 0
+  index: -1
+chicken/top
+  rotate: true
+  xy: 341, 114
+  size: 32, 59
+  orig: 32, 59
+  offset: 0, 0
+  index: -1
+chicken/top_b
+  rotate: true
+  xy: 382, 76
+  size: 36, 52
+  orig: 36, 52
+  offset: 0, 0
+  index: -1

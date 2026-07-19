@@ -1,0 +1,69 @@
+
+xiazhu_danshou.png
+size: 921,960
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xiazhu_danshou_9
+  rotate: false
+  xy: 476, 1
+  size: 443, 205
+  orig: 496, 226
+  offset: 0, 18
+  index: -1
+xiazhu_danshou_7
+  rotate: false
+  xy: 1, 1
+  size: 473, 197
+  orig: 496, 226
+  offset: 0, 27
+  index: -1
+xiazhu_danshou_6
+  rotate: false
+  xy: 1, 397
+  size: 451, 188
+  orig: 496, 226
+  offset: 0, 38
+  index: -1
+xiazhu_danshou_4
+  rotate: false
+  xy: 416, 598
+  size: 496, 160
+  orig: 496, 226
+  offset: 0, 38
+  index: -1
+xiazhu_danshou_2
+  rotate: false
+  xy: 454, 410
+  size: 451, 186
+  orig: 496, 226
+  offset: 0, 19
+  index: -1
+xiazhu_danshou_1
+  rotate: false
+  xy: 1, 790
+  size: 486, 168
+  orig: 496, 226
+  offset: 0, 40
+  index: -1
+xiazhu_danshou_8
+  rotate: false
+  xy: 1, 200
+  size: 464, 195
+  orig: 496, 226
+  offset: 0, 26
+  index: -1
+xiazhu_danshou_5
+  rotate: false
+  xy: 1, 587
+  size: 413, 201
+  orig: 496, 226
+  offset: 0, 0
+  index: -1
+xiazhu_danshou_3
+  rotate: false
+  xy: 467, 208
+  size: 425, 200
+  orig: 496, 226
+  offset: 0, 5
+  index: -1

@@ -1,0 +1,83 @@
+
+ksxz_spine.png
+size: 915,308
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ksxz_spine/card3
+  rotate: true
+  xy: 2, 2
+  size: 143, 107
+  orig: 143, 107
+  offset: 0, 0
+  index: -1
+ksxz_spine/chouma_r
+  rotate: false
+  xy: 819, 215
+  size: 91, 91
+  orig: 91, 91
+  offset: 0, 0
+  index: -1
+ksxz_spine/heitao
+  rotate: true
+  xy: 2, 147
+  size: 159, 158
+  orig: 159, 158
+  offset: 0, 0
+  index: -1
+ksxz_spine/kai
+  rotate: true
+  xy: 360, 53
+  size: 125, 122
+  orig: 125, 122
+  offset: 0, 0
+  index: -1
+ksxz_spine/ksxz_frame
+  rotate: false
+  xy: 380, 190
+  size: 437, 116
+  orig: 437, 116
+  offset: 0, 0
+  index: -1
+ksxz_spine/ksxz_text
+  rotate: false
+  xy: 484, 83
+  size: 429, 105
+  orig: 429, 105
+  offset: 0, 0
+  index: -1
+ksxz_spine/light1
+  rotate: true
+  xy: 288, 180
+  size: 126, 90
+  orig: 126, 90
+  offset: 0, 0
+  index: -1
+ksxz_spine/light2
+  rotate: false
+  xy: 484, 2
+  size: 371, 79
+  orig: 371, 79
+  offset: 0, 0
+  index: -1
+ksxz_spine/shi
+  rotate: true
+  xy: 162, 171
+  size: 135, 124
+  orig: 135, 124
+  offset: 0, 0
+  index: -1
+ksxz_spine/xia
+  rotate: true
+  xy: 236, 41
+  size: 128, 122
+  orig: 128, 122
+  offset: 0, 0
+  index: -1
+ksxz_spine/zhu
+  rotate: true
+  xy: 111, 5
+  size: 140, 123
+  orig: 140, 123
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,97 @@
+
+xldb_xuanchang_zhongjichang.png
+size: 488,519
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xldb_zhongjichang_beiqi
+  rotate: false
+  xy: 2, 10
+  size: 104, 62
+  orig: 104, 62
+  offset: 0, 0
+  index: -1
+xldb_zhongjichang_body
+  rotate: false
+  xy: 277, 231
+  size: 200, 286
+  orig: 200, 286
+  offset: 0, 0
+  index: -1
+xldb_zhongjichang_dizuo
+  rotate: false
+  xy: 2, 187
+  size: 273, 330
+  orig: 273, 330
+  offset: 0, 0
+  index: -1
+xldb_zhongjichang_jinbi00
+  rotate: false
+  xy: 108, 46
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+xldb_zhongjichang_jinbi01
+  rotate: false
+  xy: 473, 202
+  size: 13, 27
+  orig: 13, 27
+  offset: 0, 0
+  index: -1
+xldb_zhongjichang_jinbi02
+  rotate: false
+  xy: 438, 202
+  size: 33, 27
+  orig: 33, 27
+  offset: 0, 0
+  index: -1
+xldb_zhongjichang_jinbi03
+  rotate: false
+  xy: 253, 166
+  size: 15, 19
+  orig: 15, 19
+  offset: 0, 0
+  index: -1
+xldb_zhongjichang_liaoya
+  rotate: false
+  xy: 211, 116
+  size: 18, 27
+  orig: 18, 27
+  offset: 0, 0
+  index: -1
+xldb_zhongjichang_tou
+  rotate: false
+  xy: 2, 74
+  size: 207, 111
+  orig: 207, 111
+  offset: 0, 0
+  index: -1
+xldb_zhongjichang_xiae
+  rotate: false
+  xy: 316, 19
+  size: 98, 85
+  orig: 98, 85
+  offset: 0, 0
+  index: -1
+xldb_zhongjichang_yanjing
+  rotate: false
+  xy: 211, 145
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+xldb_zhongjichang_youshou
+  rotate: false
+  xy: 211, 2
+  size: 103, 102
+  orig: 103, 102
+  offset: 0, 0
+  index: -1
+xldb_zhongjichang_zuoshou
+  rotate: true
+  xy: 277, 106
+  size: 123, 159
+  orig: 123, 159
+  offset: 0, 0
+  index: -1

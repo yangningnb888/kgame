@@ -1,0 +1,55 @@
+
+paotai09_baozha.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/baozha001
+  rotate: false
+  xy: 2, 2
+  size: 144, 148
+  orig: 144, 148
+  offset: 0, 0
+  index: -1
+images/baozha002
+  rotate: false
+  xy: 148, 2
+  size: 144, 148
+  orig: 144, 148
+  offset: 0, 0
+  index: -1
+images/baozha003
+  rotate: false
+  xy: 294, 2
+  size: 144, 148
+  orig: 144, 148
+  offset: 0, 0
+  index: -1
+images/baozha004
+  rotate: false
+  xy: 440, 2
+  size: 144, 148
+  orig: 144, 148
+  offset: 0, 0
+  index: -1
+images/baozha005
+  rotate: false
+  xy: 586, 2
+  size: 144, 148
+  orig: 144, 148
+  offset: 0, 0
+  index: -1
+images/baozha006
+  rotate: false
+  xy: 732, 2
+  size: 144, 148
+  orig: 144, 148
+  offset: 0, 0
+  index: -1
+images/paodan01
+  rotate: false
+  xy: 878, 22
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1

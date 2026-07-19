@@ -1,0 +1,90 @@
+
+shz_xuanchang_pingminchang.png
+size: 1004,393
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shz_tiyanchang_body
+  rotate: true
+  xy: 745, 205
+  size: 186, 257
+  orig: 186, 257
+  offset: 0, 0
+  index: -1
+shz_tiyanchang_datui
+  rotate: true
+  xy: 870, 35
+  size: 168, 115
+  orig: 168, 115
+  offset: 0, 0
+  index: -1
+shz_tiyanchang_erhuan
+  rotate: true
+  xy: 478, 19
+  size: 10, 30
+  orig: 10, 30
+  offset: 0, 0
+  index: -1
+shz_tiyanchang_qizi00
+  rotate: false
+  xy: 2, 5
+  size: 312, 386
+  orig: 312, 386
+  offset: 0, 0
+  index: -1
+shz_tiyanchang_qizi01
+  rotate: true
+  xy: 316, 74
+  size: 317, 295
+  orig: 317, 295
+  offset: 0, 0
+  index: -1
+shz_tiyanchang_tou
+  rotate: true
+  xy: 613, 2
+  size: 95, 130
+  orig: 95, 130
+  offset: 0, 0
+  index: -1
+shz_tiyanchang_toufa00
+  rotate: false
+  xy: 401, 11
+  size: 75, 61
+  orig: 75, 61
+  offset: 0, 0
+  index: -1
+shz_tiyanchang_toufa01
+  rotate: true
+  xy: 316, 11
+  size: 61, 83
+  orig: 61, 83
+  offset: 0, 0
+  index: -1
+shz_tiyanchang_toufa02
+  rotate: true
+  xy: 733, 116
+  size: 87, 135
+  orig: 87, 135
+  offset: 0, 0
+  index: -1
+shz_tiyanchang_yanjing
+  rotate: true
+  xy: 478, 31
+  size: 41, 14
+  orig: 41, 14
+  offset: 0, 0
+  index: -1
+shz_tiyanchang_youshou
+  rotate: false
+  xy: 613, 99
+  size: 118, 292
+  orig: 118, 292
+  offset: 0, 0
+  index: -1
+shz_tiyanchang_zuoshou
+  rotate: true
+  xy: 745, 4
+  size: 110, 114
+  orig: 110, 114
+  offset: 0, 0
+  index: -1

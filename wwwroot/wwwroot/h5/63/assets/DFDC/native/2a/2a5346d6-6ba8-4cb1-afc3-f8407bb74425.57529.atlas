@@ -1,0 +1,97 @@
+
+duocaiduofu_caishengbanganniu.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jiaose
+  rotate: false
+  xy: 2, 42
+  size: 89, 84
+  orig: 89, 84
+  offset: 0, 0
+  index: -1
+jinbi
+  rotate: false
+  xy: 217, 107
+  size: 22, 19
+  orig: 22, 19
+  offset: 0, 0
+  index: -1
+star05_3631_01
+  rotate: false
+  xy: 2, 2
+  size: 9, 9
+  orig: 31, 31
+  offset: 11, 11
+  index: -1
+star05_3631_02
+  rotate: false
+  xy: 192, 103
+  size: 23, 23
+  orig: 31, 31
+  offset: 4, 4
+  index: -1
+star05_3631_03
+  rotate: false
+  xy: 159, 69
+  size: 24, 24
+  orig: 31, 31
+  offset: 4, 3
+  index: -1
+star05_3631_04
+  rotate: false
+  xy: 93, 95
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+star05_3631_05
+  rotate: false
+  xy: 93, 62
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+star05_3631_06
+  rotate: false
+  xy: 126, 95
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+star05_3631_07
+  rotate: false
+  xy: 126, 62
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+star05_3631_08
+  rotate: false
+  xy: 159, 95
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+xingxing01
+  rotate: false
+  xy: 77, 30
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+xingxing02
+  rotate: true
+  xy: 241, 112
+  size: 14, 13
+  orig: 14, 13
+  offset: 0, 0
+  index: -1
+zi
+  rotate: true
+  xy: 2, 13
+  size: 27, 73
+  orig: 27, 73
+  offset: 0, 0
+  index: -1

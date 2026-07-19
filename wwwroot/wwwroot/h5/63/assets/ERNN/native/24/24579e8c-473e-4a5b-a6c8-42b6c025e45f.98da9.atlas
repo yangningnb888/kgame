@@ -1,0 +1,62 @@
+
+325_qiangzhuangniuniu_chujichang.png
+size: 305,508
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 2
+  size: 127, 156
+  orig: 127, 156
+  offset: 0, 0
+  index: -1
+eye
+  rotate: true
+  xy: 255, 439
+  size: 67, 43
+  orig: 67, 43
+  offset: 0, 0
+  index: -1
+guangdian
+  rotate: false
+  xy: 255, 389
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+pifeng
+  rotate: true
+  xy: 131, 17
+  size: 122, 161
+  orig: 122, 161
+  offset: 0, 0
+  index: -1
+qiang
+  rotate: false
+  xy: 2, 339
+  size: 251, 167
+  orig: 251, 167
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 160
+  size: 180, 177
+  orig: 180, 177
+  offset: 0, 0
+  index: -1
+yifuqian
+  rotate: false
+  xy: 184, 141
+  size: 99, 196
+  orig: 99, 196
+  offset: 0, 0
+  index: -1
+yiling
+  rotate: false
+  xy: 255, 362
+  size: 38, 25
+  orig: 38, 25
+  offset: 0, 0
+  index: -1

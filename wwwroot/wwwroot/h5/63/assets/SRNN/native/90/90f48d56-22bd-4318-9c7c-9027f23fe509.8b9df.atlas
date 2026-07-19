@@ -1,0 +1,139 @@
+
+325_srnn_dengdaixiaju.png
+size: 187,522
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+honghei
+  rotate: true
+  xy: 148, 122
+  size: 398, 23
+  orig: 398, 23
+  offset: 0, 0
+  index: -1
+hongheidazhan_dai
+  rotate: false
+  xy: 70, 206
+  size: 65, 63
+  orig: 65, 63
+  offset: 0, 0
+  index: -1
+hongheidazhan_deng
+  rotate: false
+  xy: 2, 457
+  size: 71, 63
+  orig: 71, 63
+  offset: 0, 0
+  index: -1
+hongheidazhan_ju
+  rotate: false
+  xy: 2, 265
+  size: 66, 60
+  orig: 66, 60
+  offset: 0, 0
+  index: -1
+hongheidazhan_nai
+  rotate: false
+  xy: 75, 461
+  size: 71, 59
+  orig: 71, 59
+  offset: 0, 0
+  index: -1
+hongheidazhan_qing
+  rotate: false
+  xy: 2, 200
+  size: 65, 63
+  orig: 65, 63
+  offset: 0, 0
+  index: -1
+hongheidazhan_xia
+  rotate: false
+  xy: 2, 139
+  size: 64, 59
+  orig: 64, 59
+  offset: 0, 0
+  index: -1
+hongheidazhan_xin
+  rotate: false
+  xy: 2, 392
+  size: 68, 63
+  orig: 68, 63
+  offset: 0, 0
+  index: -1
+hongheidazhan_yi
+  rotate: true
+  xy: 125, 2
+  size: 18, 23
+  orig: 18, 23
+  offset: 0, 0
+  index: -1
+jia
+  rotate: false
+  xy: 2, 327
+  size: 67, 63
+  orig: 67, 63
+  offset: 0, 0
+  index: -1
+jiaozhuang
+  rotate: false
+  xy: 69, 142
+  size: 65, 62
+  orig: 65, 62
+  offset: 0, 0
+  index: -1
+wanjia
+  rotate: false
+  xy: 71, 271
+  size: 67, 60
+  orig: 67, 60
+  offset: 0, 0
+  index: -1
+zhu
+  rotate: false
+  xy: 72, 333
+  size: 68, 62
+  orig: 68, 62
+  offset: 0, 0
+  index: -1
+zhuang
+  rotate: false
+  xy: 75, 397
+  size: 69, 62
+  orig: 69, 62
+  offset: 0, 0
+  index: -1
+zidong
+  rotate: true
+  xy: 125, 22
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+zidong1
+  rotate: false
+  xy: 2, 77
+  size: 62, 60
+  orig: 62, 60
+  offset: 0, 0
+  index: -1
+zidong2
+  rotate: false
+  xy: 68, 81
+  size: 63, 59
+  orig: 63, 59
+  offset: 0, 0
+  index: -1
+zidong3
+  rotate: false
+  xy: 2, 15
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+zidong4
+  rotate: false
+  xy: 64, 15
+  size: 59, 60
+  orig: 59, 60
+  offset: 0, 0
+  index: -1

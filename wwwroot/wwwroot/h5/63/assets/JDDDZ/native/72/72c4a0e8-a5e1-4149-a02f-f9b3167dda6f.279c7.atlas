@@ -1,0 +1,62 @@
+
+325ddz_shiwanchang_donghua.png
+size: 604,146
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+325ddz_shiwanchang_body
+  rotate: false
+  xy: 153, 9
+  size: 124, 135
+  orig: 124, 135
+  offset: 0, 0
+  index: -1
+325ddz_shiwanchang_tou
+  rotate: false
+  xy: 2, 5
+  size: 149, 139
+  orig: 149, 139
+  offset: 0, 0
+  index: -1
+325ddz_shiwanchang_yanjing
+  rotate: false
+  xy: 498, 37
+  size: 86, 26
+  orig: 86, 26
+  offset: 0, 0
+  index: -1
+325ddz_shiwanchang_yingzi
+  rotate: false
+  xy: 279, 6
+  size: 217, 48
+  orig: 217, 48
+  offset: 0, 0
+  index: -1
+325ddz_shiwanchang_youjiao
+  rotate: true
+  xy: 556, 4
+  size: 31, 46
+  orig: 31, 46
+  offset: 0, 0
+  index: -1
+325ddz_shiwanchang_youshou
+  rotate: false
+  xy: 279, 56
+  size: 187, 88
+  orig: 187, 88
+  offset: 0, 0
+  index: -1
+325ddz_shiwanchang_zuojiao
+  rotate: true
+  xy: 498, 2
+  size: 33, 56
+  orig: 33, 56
+  offset: 0, 0
+  index: -1
+325ddz_shiwanchang_zuoshou
+  rotate: true
+  xy: 468, 65
+  size: 79, 121
+  orig: 79, 121
+  offset: 0, 0
+  index: -1

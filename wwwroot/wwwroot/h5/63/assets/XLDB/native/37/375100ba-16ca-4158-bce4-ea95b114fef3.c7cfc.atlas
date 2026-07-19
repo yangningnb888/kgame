@@ -1,0 +1,76 @@
+
+dianqiou_1.png
+size: 687,276
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zhadanyu_1
+  rotate: false
+  xy: 2, 139
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+zhadanyu_10
+  rotate: false
+  xy: 550, 2
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+zhadanyu_2
+  rotate: false
+  xy: 2, 2
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+zhadanyu_3
+  rotate: false
+  xy: 139, 139
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+zhadanyu_4
+  rotate: false
+  xy: 139, 2
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+zhadanyu_5
+  rotate: false
+  xy: 276, 139
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+zhadanyu_6
+  rotate: false
+  xy: 276, 2
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+zhadanyu_7
+  rotate: false
+  xy: 413, 139
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+zhadanyu_8
+  rotate: false
+  xy: 413, 2
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+zhadanyu_9
+  rotate: false
+  xy: 550, 139
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1

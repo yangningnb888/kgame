@@ -1,0 +1,55 @@
+
+paotai03_baozha.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+longhudazhan4_shandian_01
+  rotate: false
+  xy: 145, 124
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+longhudazhan4_shandian_02
+  rotate: false
+  xy: 267, 124
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+longhudazhan4_shandian_03
+  rotate: false
+  xy: 389, 124
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+longhudazhan4_shandian_04
+  rotate: false
+  xy: 145, 2
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+longhudazhan4_shandian_05
+  rotate: false
+  xy: 267, 2
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+longhudazhan4_shandian_06
+  rotate: false
+  xy: 389, 2
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+wangzi002
+  rotate: false
+  xy: 2, 89
+  size: 141, 155
+  orig: 141, 155
+  offset: 0, 0
+  index: -1

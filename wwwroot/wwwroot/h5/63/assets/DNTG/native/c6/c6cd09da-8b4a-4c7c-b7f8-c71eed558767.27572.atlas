@@ -1,0 +1,125 @@
+
+325dntg_xuanchang_sanshiwanchang.png
+size: 819,392
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+325dntg_sanshiwanchang_body
+  rotate: false
+  xy: 418, 148
+  size: 154, 242
+  orig: 154, 242
+  offset: 0, 0
+  index: -1
+325dntg_sanshiwanchang_daoju
+  rotate: true
+  xy: 753, 262
+  size: 58, 64
+  orig: 58, 64
+  offset: 0, 0
+  index: -1
+325dntg_sanshiwanchang_dizuo
+  rotate: true
+  xy: 2, 114
+  size: 276, 414
+  orig: 276, 414
+  offset: 0, 0
+  index: -1
+325dntg_sanshiwanchang_jijiao
+  rotate: true
+  xy: 702, 269
+  size: 75, 48
+  orig: 75, 48
+  offset: 0, 0
+  index: -1
+325dntg_sanshiwanchang_peiyu
+  rotate: true
+  xy: 247, 2
+  size: 31, 74
+  orig: 31, 74
+  offset: 0, 0
+  index: -1
+325dntg_sanshiwanchang_tou
+  rotate: false
+  xy: 574, 151
+  size: 126, 239
+  orig: 126, 239
+  offset: 0, 0
+  index: -1
+325dntg_sanshiwanchang_weiba
+  rotate: true
+  xy: 247, 35
+  size: 77, 144
+  orig: 77, 144
+  offset: 0, 0
+  index: -1
+325dntg_sanshiwanchang_yanjing
+  rotate: false
+  xy: 122, 3
+  size: 58, 17
+  orig: 58, 17
+  offset: 0, 0
+  index: -1
+325dntg_sanshiwanchang_youhuzi
+  rotate: false
+  xy: 702, 346
+  size: 49, 44
+  orig: 49, 44
+  offset: 0, 0
+  index: -1
+325dntg_sanshiwanchang_youshou
+  rotate: false
+  xy: 685, 6
+  size: 66, 143
+  orig: 66, 143
+  offset: 0, 0
+  index: -1
+325dntg_sanshiwanchang_youshui
+  rotate: false
+  xy: 753, 64
+  size: 57, 123
+  orig: 57, 123
+  offset: 0, 0
+  index: -1
+325dntg_sanshiwanchang_yunduo
+  rotate: false
+  xy: 452, 2
+  size: 231, 144
+  orig: 231, 144
+  offset: 0, 0
+  index: -1
+325dntg_sanshiwanchang_zhuzi
+  rotate: false
+  xy: 753, 189
+  size: 62, 71
+  orig: 62, 71
+  offset: 0, 0
+  index: -1
+325dntg_sanshiwanchang_zhuzi00
+  rotate: true
+  xy: 753, 322
+  size: 68, 64
+  orig: 68, 64
+  offset: 0, 0
+  index: -1
+325dntg_sanshiwanchang_zuohuzi
+  rotate: true
+  xy: 393, 35
+  size: 77, 57
+  orig: 77, 57
+  offset: 0, 0
+  index: -1
+325dntg_sanshiwanchang_zuoshou
+  rotate: true
+  xy: 2, 8
+  size: 104, 118
+  orig: 104, 118
+  offset: 0, 0
+  index: -1
+325dntg_sanshiwanchang_zuoshui
+  rotate: true
+  xy: 122, 22
+  size: 90, 123
+  orig: 90, 123
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,146 @@
+
+rw_nongmin1_shenti.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 3
+  size: 294, 91
+  orig: 299, 93
+  offset: 2, 1
+  index: -1
+biyan
+  rotate: false
+  xy: 669, 151
+  size: 158, 38
+  orig: 158, 39
+  offset: 0, 0
+  index: -1
+cp1
+  rotate: true
+  xy: 669, 108
+  size: 41, 75
+  orig: 41, 75
+  offset: 0, 0
+  index: -1
+cp2
+  rotate: true
+  xy: 498, 2
+  size: 16, 34
+  orig: 16, 35
+  offset: 0, 1
+  index: -1
+fa1
+  rotate: false
+  xy: 869, 2
+  size: 192, 150
+  orig: 192, 150
+  offset: 0, 0
+  index: -1
+fa2
+  rotate: true
+  xy: 298, 8
+  size: 92, 198
+  orig: 92, 198
+  offset: 0, 0
+  index: -1
+fa3
+  rotate: true
+  xy: 2, 96
+  size: 153, 273
+  orig: 153, 273
+  offset: 0, 0
+  index: -1
+fa4
+  rotate: true
+  xy: 277, 102
+  size: 147, 272
+  orig: 147, 272
+  offset: 0, 0
+  index: -1
+p1
+  rotate: false
+  xy: 848, 196
+  size: 47, 53
+  orig: 47, 53
+  offset: 0, 0
+  index: -1
+p2
+  rotate: true
+  xy: 816, 108
+  size: 41, 51
+  orig: 41, 51
+  offset: 0, 0
+  index: -1
+p3
+  rotate: true
+  xy: 829, 154
+  size: 35, 46
+  orig: 35, 46
+  offset: 0, 0
+  index: -1
+p4
+  rotate: false
+  xy: 720, 30
+  size: 43, 50
+  orig: 43, 50
+  offset: 0, 0
+  index: -1
+shen
+  rotate: false
+  xy: 551, 111
+  size: 116, 138
+  orig: 116, 138
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 1236, 12
+  size: 168, 237
+  orig: 168, 237
+  offset: 0, 0
+  index: -1
+tou1
+  rotate: false
+  xy: 1063, 12
+  size: 171, 237
+  orig: 176, 249
+  offset: 3, 6
+  index: -1
+youshou
+  rotate: true
+  xy: 720, 82
+  size: 24, 121
+  orig: 24, 121
+  offset: 0, 0
+  index: -1
+youtui
+  rotate: true
+  xy: 498, 20
+  size: 80, 170
+  orig: 80, 170
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: true
+  xy: 670, 11
+  size: 95, 48
+  orig: 95, 48
+  offset: 0, 0
+  index: -1
+zuoshouxia
+  rotate: true
+  xy: 746, 115
+  size: 34, 68
+  orig: 34, 68
+  offset: 0, 0
+  index: -1
+zuotui
+  rotate: true
+  xy: 669, 191
+  size: 58, 177
+  orig: 58, 177
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,118 @@
+
+rw_dizhu.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a4
+  rotate: false
+  xy: 411, 54
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 431, 168
+  size: 279, 86
+  orig: 283, 89
+  offset: 2, 1
+  index: -1
+biyan
+  rotate: false
+  xy: 262, 5
+  size: 141, 36
+  orig: 142, 36
+  offset: 1, 0
+  index: -1
+p1
+  rotate: true
+  xy: 595, 6
+  size: 53, 59
+  orig: 54, 59
+  offset: 1, 0
+  index: -1
+p2
+  rotate: true
+  xy: 444, 44
+  size: 46, 56
+  orig: 46, 57
+  offset: 0, 0
+  index: -1
+p3
+  rotate: true
+  xy: 405, 3
+  size: 38, 51
+  orig: 39, 51
+  offset: 0, 0
+  index: -1
+p4
+  rotate: false
+  xy: 718, 16
+  size: 48, 56
+  orig: 48, 57
+  offset: 0, 1
+  index: -1
+shenti
+  rotate: false
+  xy: 262, 87
+  size: 167, 167
+  orig: 167, 167
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 2, 21
+  size: 233, 258
+  orig: 234, 258
+  offset: 0, 0
+  index: -1
+toufa
+  rotate: true
+  xy: 458, 24
+  size: 18, 50
+  orig: 18, 50
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: true
+  xy: 262, 43
+  size: 42, 147
+  orig: 42, 147
+  offset: 0, 0
+  index: -1
+youtui
+  rotate: true
+  xy: 673, 74
+  size: 92, 149
+  orig: 92, 149
+  offset: 0, 0
+  index: -1
+zs1
+  rotate: true
+  xy: 431, 92
+  size: 74, 72
+  orig: 77, 72
+  offset: 3, 0
+  index: -1
+zs2
+  rotate: false
+  xy: 510, 2
+  size: 83, 57
+  orig: 84, 57
+  offset: 1, 0
+  index: -1
+zs3
+  rotate: false
+  xy: 656, 11
+  size: 60, 48
+  orig: 63, 53
+  offset: 2, 5
+  index: -1
+zuotui
+  rotate: true
+  xy: 505, 61
+  size: 105, 166
+  orig: 109, 166
+  offset: 0, 0
+  index: -1

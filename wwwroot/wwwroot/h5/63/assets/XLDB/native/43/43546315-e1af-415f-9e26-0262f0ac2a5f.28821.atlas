@@ -1,0 +1,76 @@
+
+renshengyingjia.png
+size: 773,1049
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hedan_guangshu
+  rotate: true
+  xy: 534, 289
+  size: 226, 224
+  orig: 226, 224
+  offset: 0, 0
+  index: -1
+hedan_guangshu_1
+  rotate: true
+  xy: 534, 61
+  size: 226, 224
+  orig: 226, 224
+  offset: 0, 0
+  index: -1
+hedan_smoke
+  rotate: false
+  xy: 181, 2
+  size: 152, 99
+  orig: 152, 99
+  offset: 0, 0
+  index: -1
+hedancaidai
+  rotate: true
+  xy: 666, 653
+  size: 394, 105
+  orig: 394, 105
+  offset: 0, 0
+  index: -1
+hedandiban
+  rotate: true
+  xy: 2, 517
+  size: 530, 330
+  orig: 530, 330
+  offset: 0, 0
+  index: -1
+hedanhuode_zi
+  rotate: false
+  xy: 181, 103
+  size: 337, 80
+  orig: 337, 80
+  offset: 0, 0
+  index: -1
+landeng
+  rotate: false
+  xy: 2, 185
+  size: 530, 330
+  orig: 530, 330
+  offset: 0, 0
+  index: -1
+lvdeng
+  rotate: true
+  xy: 334, 517
+  size: 530, 330
+  orig: 530, 330
+  offset: 0, 0
+  index: -1
+pook_bydrqp_tbl0
+  rotate: false
+  xy: 2, 6
+  size: 177, 177
+  orig: 177, 177
+  offset: 0, 0
+  index: -1
+pook_bydrqp_tbl1
+  rotate: false
+  xy: 2, 6
+  size: 177, 177
+  orig: 177, 177
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,132 @@
+
+benchibaoma_xuanzhong.png
+size: 972,790
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bcbm_guangxiao_1
+  rotate: true
+  xy: 2, 351
+  size: 210, 180
+  orig: 210, 180
+  offset: 0, 0
+  index: -1
+bcbm_guangxiao_10
+  rotate: true
+  xy: 593, 578
+  size: 210, 180
+  orig: 210, 180
+  offset: 0, 0
+  index: -1
+bcbm_guangxiao_11
+  rotate: false
+  xy: 760, 396
+  size: 210, 180
+  orig: 210, 180
+  offset: 0, 0
+  index: -1
+bcbm_guangxiao_12
+  rotate: true
+  xy: 775, 578
+  size: 210, 180
+  orig: 210, 180
+  offset: 0, 0
+  index: -1
+bcbm_guangxiao_13
+  rotate: true
+  xy: 548, 184
+  size: 210, 180
+  orig: 210, 180
+  offset: 0, 0
+  index: -1
+bcbm_guangxiao_14
+  rotate: false
+  xy: 548, 2
+  size: 210, 180
+  orig: 210, 180
+  offset: 0, 0
+  index: -1
+bcbm_guangxiao_15
+  rotate: true
+  xy: 730, 184
+  size: 210, 180
+  orig: 210, 180
+  offset: 0, 0
+  index: -1
+bcbm_guangxiao_16
+  rotate: false
+  xy: 760, 2
+  size: 210, 180
+  orig: 210, 180
+  offset: 0, 0
+  index: -1
+bcbm_guangxiao_2
+  rotate: true
+  xy: 2, 139
+  size: 210, 180
+  orig: 210, 180
+  offset: 0, 0
+  index: -1
+bcbm_guangxiao_3
+  rotate: true
+  xy: 184, 351
+  size: 210, 180
+  orig: 210, 180
+  offset: 0, 0
+  index: -1
+bcbm_guangxiao_4
+  rotate: true
+  xy: 229, 578
+  size: 210, 180
+  orig: 210, 180
+  offset: 0, 0
+  index: -1
+bcbm_guangxiao_5
+  rotate: true
+  xy: 184, 139
+  size: 210, 180
+  orig: 210, 180
+  offset: 0, 0
+  index: -1
+bcbm_guangxiao_6
+  rotate: true
+  xy: 366, 366
+  size: 210, 180
+  orig: 210, 180
+  offset: 0, 0
+  index: -1
+bcbm_guangxiao_7
+  rotate: true
+  xy: 411, 578
+  size: 210, 180
+  orig: 210, 180
+  offset: 0, 0
+  index: -1
+bcbm_guangxiao_8
+  rotate: true
+  xy: 366, 154
+  size: 210, 180
+  orig: 210, 180
+  offset: 0, 0
+  index: -1
+bcbm_guangxiao_9
+  rotate: false
+  xy: 548, 396
+  size: 210, 180
+  orig: 210, 180
+  offset: 0, 0
+  index: -1
+benchibaoma_glow2
+  rotate: false
+  xy: 2, 26
+  size: 111, 111
+  orig: 111, 111
+  offset: 0, 0
+  index: -1
+benchibaoma_glow3
+  rotate: false
+  xy: 2, 563
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1

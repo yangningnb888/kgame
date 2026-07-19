@@ -1,0 +1,83 @@
+
+shz_xuanchang_tuhaochang.png
+size: 977,737
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shz_xiaozichang_body
+  rotate: true
+  xy: 581, 8
+  size: 171, 215
+  orig: 171, 215
+  offset: 0, 0
+  index: -1
+shz_xiaozichang_lianzhu
+  rotate: true
+  xy: 581, 196
+  size: 152, 133
+  orig: 152, 133
+  offset: 0, 0
+  index: -1
+shz_xiaozichang_paozi00
+  rotate: false
+  xy: 317, 379
+  size: 258, 356
+  orig: 258, 356
+  offset: 0, 0
+  index: -1
+shz_xiaozichang_paozi01
+  rotate: true
+  xy: 2, 14
+  size: 333, 280
+  orig: 333, 280
+  offset: 0, 0
+  index: -1
+shz_xiaozichang_qizi00
+  rotate: false
+  xy: 2, 349
+  size: 313, 386
+  orig: 313, 386
+  offset: 0, 0
+  index: -1
+shz_xiaozichang_qizi01
+  rotate: true
+  xy: 284, 30
+  size: 317, 295
+  orig: 317, 295
+  offset: 0, 0
+  index: -1
+shz_xiaozichang_tou
+  rotate: true
+  xy: 577, 350
+  size: 72, 139
+  orig: 72, 139
+  offset: 0, 0
+  index: -1
+shz_xiaozichang_wuqi
+  rotate: true
+  xy: 577, 424
+  size: 311, 301
+  orig: 311, 301
+  offset: 0, 0
+  index: -1
+shz_xiaozichang_yanjing
+  rotate: false
+  xy: 2, 2
+  size: 39, 10
+  orig: 39, 10
+  offset: 0, 0
+  index: -1
+shz_xiaozichang_youshou
+  rotate: true
+  xy: 798, 70
+  size: 109, 145
+  orig: 109, 145
+  offset: 0, 0
+  index: -1
+shz_xiaozichang_zuoshou
+  rotate: true
+  xy: 718, 181
+  size: 241, 257
+  orig: 241, 257
+  offset: 0, 0
+  index: -1

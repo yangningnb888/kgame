@@ -1,0 +1,97 @@
+
+325_jcby_zhujiemian_tiyanchang.png
+size: 1003,316
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+325_jcby_baoxiang
+  rotate: true
+  xy: 2, 12
+  size: 302, 322
+  orig: 302, 322
+  offset: 0, 0
+  index: -1
+325_jcby_body_a
+  rotate: false
+  xy: 685, 21
+  size: 176, 176
+  orig: 176, 176
+  offset: 0, 0
+  index: -1
+325_jcby_chuan
+  rotate: true
+  xy: 326, 43
+  size: 271, 357
+  orig: 271, 357
+  offset: 0, 0
+  index: -1
+325_jcby_eye_a
+  rotate: false
+  xy: 863, 2
+  size: 115, 78
+  orig: 115, 78
+  offset: 0, 0
+  index: -1
+325_jcby_haicao
+  rotate: false
+  xy: 863, 82
+  size: 100, 101
+  orig: 100, 101
+  offset: 0, 0
+  index: -1
+325_jcby_hudiejie
+  rotate: false
+  xy: 965, 102
+  size: 34, 39
+  orig: 34, 39
+  offset: 0, 0
+  index: -1
+325_jcby_qizhi01
+  rotate: true
+  xy: 946, 234
+  size: 80, 53
+  orig: 80, 53
+  offset: 0, 0
+  index: -1
+325_jcby_qizhi02
+  rotate: false
+  xy: 685, 199
+  size: 259, 115
+  orig: 259, 115
+  offset: 0, 0
+  index: -1
+325_jcby_quanquan
+  rotate: false
+  xy: 326, 10
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+325_jcby_shou01
+  rotate: false
+  xy: 359, 12
+  size: 43, 29
+  orig: 43, 29
+  offset: 0, 0
+  index: -1
+325_jcby_shou02
+  rotate: true
+  xy: 965, 143
+  size: 40, 34
+  orig: 40, 34
+  offset: 0, 0
+  index: -1
+325_jcby_xingxing_a
+  rotate: false
+  xy: 980, 78
+  size: 21, 22
+  orig: 21, 22
+  offset: 0, 0
+  index: -1
+325_jcby_zhuiba
+  rotate: false
+  xy: 946, 185
+  size: 45, 47
+  orig: 45, 47
+  offset: 0, 0
+  index: -1

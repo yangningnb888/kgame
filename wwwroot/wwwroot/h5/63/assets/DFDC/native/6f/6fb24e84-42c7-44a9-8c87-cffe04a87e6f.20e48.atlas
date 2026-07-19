@@ -1,0 +1,20 @@
+
+duofuduocai_fu_bianfu.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+duofuduocai_bianfu_chibang1
+  rotate: false
+  xy: 2, 2
+  size: 32, 51
+  orig: 33, 52
+  offset: 1, 0
+  index: -1
+duofuduocai_bianfu_shenti
+  rotate: false
+  xy: 36, 4
+  size: 24, 49
+  orig: 24, 50
+  offset: 0, 1
+  index: -1

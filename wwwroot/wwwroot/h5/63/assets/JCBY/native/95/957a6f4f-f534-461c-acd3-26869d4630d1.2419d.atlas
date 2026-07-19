@@ -1,0 +1,174 @@
+
+ruyijingubangdonghua_buyu.png
+size: 1007,678
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_circle
+  rotate: false
+  xy: 2, 438
+  size: 237, 238
+  orig: 237, 238
+  offset: 0, 0
+  index: -1
+fish_48_pic01
+  rotate: false
+  xy: 2, 256
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+fish_48_pic02
+  rotate: false
+  xy: 2, 74
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+fish_48_pic03
+  rotate: false
+  xy: 184, 256
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+fish_48_pic04
+  rotate: false
+  xy: 184, 74
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+fish_48_pic05
+  rotate: false
+  xy: 241, 496
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+fish_48_pic06
+  rotate: false
+  xy: 423, 496
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+fish_48_pic07
+  rotate: false
+  xy: 366, 268
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+fish_48_pic08
+  rotate: false
+  xy: 605, 496
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+fish_48_pic09
+  rotate: false
+  xy: 366, 86
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+fish_48_pic10
+  rotate: false
+  xy: 640, 314
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+fish_48_pic11
+  rotate: false
+  xy: 787, 496
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+fish_48_pic12
+  rotate: false
+  xy: 822, 314
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+fish_48_pic13
+  rotate: false
+  xy: 548, 132
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+fish_48_pic14
+  rotate: false
+  xy: 730, 132
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+fish_48_weapon_00000
+  rotate: true
+  xy: 432, 465
+  size: 29, 206
+  orig: 29, 206
+  offset: 0, 0
+  index: -1
+fish_48_weapon_00001
+  rotate: true
+  xy: 241, 450
+  size: 44, 189
+  orig: 44, 189
+  offset: 0, 0
+  index: -1
+fish_48_weapon_00002
+  rotate: true
+  xy: 505, 2
+  size: 82, 160
+  orig: 82, 160
+  offset: 0, 0
+  index: -1
+fish_48_weapon_00003
+  rotate: false
+  xy: 912, 200
+  size: 93, 112
+  orig: 93, 112
+  offset: 0, 0
+  index: -1
+fish_48_weapon_00004
+  rotate: true
+  xy: 969, 567
+  size: 109, 35
+  orig: 109, 35
+  offset: 0, 0
+  index: -1
+fish_48_weapon_00005
+  rotate: true
+  xy: 818, 16
+  size: 114, 102
+  orig: 114, 102
+  offset: 0, 0
+  index: -1
+fish_48_weapon_00006
+  rotate: true
+  xy: 667, 24
+  size: 106, 149
+  orig: 106, 149
+  offset: 0, 0
+  index: -1
+fish_48_weapon_00007
+  rotate: true
+  xy: 307, 19
+  size: 53, 196
+  orig: 53, 196
+  offset: 0, 0
+  index: -1
+text_ryjgb
+  rotate: false
+  xy: 2, 9
+  size: 303, 63
+  orig: 303, 63
+  offset: 0, 0
+  index: -1

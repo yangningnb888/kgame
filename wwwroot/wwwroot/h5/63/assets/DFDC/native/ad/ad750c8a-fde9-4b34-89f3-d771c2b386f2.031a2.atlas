@@ -1,0 +1,139 @@
+
+duofuduocai_zhongjiangquyu.png
+size: 936,520
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dfjj_jujiang_glow
+  rotate: false
+  xy: 2, 49
+  size: 185, 45
+  orig: 185, 45
+  offset: 0, 0
+  index: -1
+dldj_dajiang_glow
+  rotate: false
+  xy: 2, 2
+  size: 185, 45
+  orig: 185, 45
+  offset: 0, 0
+  index: -1
+dszj_zhongjiang_glow
+  rotate: false
+  xy: 225, 60
+  size: 185, 45
+  orig: 185, 45
+  offset: 0, 0
+  index: -1
+duofuduocai_s
+  rotate: false
+  xy: 451, 414
+  size: 256, 104
+  orig: 256, 104
+  offset: 0, 0
+  index: -1
+dxjj_xiaojiang_glow
+  rotate: false
+  xy: 189, 13
+  size: 185, 45
+  orig: 185, 45
+  offset: 0, 0
+  index: -1
+flsx_jcglow_01
+  rotate: false
+  xy: 709, 394
+  size: 222, 124
+  orig: 222, 124
+  offset: 0, 0
+  index: -1
+flsx_jcglow_02
+  rotate: false
+  xy: 451, 286
+  size: 222, 126
+  orig: 222, 126
+  offset: 0, 0
+  index: -1
+flsx_jcglow_03
+  rotate: false
+  xy: 675, 264
+  size: 222, 128
+  orig: 222, 128
+  offset: 0, 0
+  index: -1
+flsx_jcglow_04
+  rotate: false
+  xy: 449, 148
+  size: 222, 136
+  orig: 222, 136
+  offset: 0, 0
+  index: -1
+flsx_jcglow_05
+  rotate: false
+  xy: 227, 379
+  size: 222, 139
+  orig: 222, 139
+  offset: 0, 0
+  index: -1
+flsx_jcglow_06
+  rotate: false
+  xy: 2, 379
+  size: 223, 139
+  orig: 223, 139
+  offset: 0, 0
+  index: -1
+flsx_jcglow_07
+  rotate: false
+  xy: 2, 96
+  size: 221, 139
+  orig: 221, 139
+  offset: 0, 0
+  index: -1
+flsx_jcglow_08
+  rotate: false
+  xy: 226, 238
+  size: 221, 139
+  orig: 221, 139
+  offset: 0, 0
+  index: -1
+flsx_jcglow_09
+  rotate: false
+  xy: 2, 237
+  size: 222, 140
+  orig: 222, 140
+  offset: 0, 0
+  index: -1
+flsx_jcglow_10
+  rotate: false
+  xy: 673, 131
+  size: 222, 131
+  orig: 222, 131
+  offset: 0, 0
+  index: -1
+flsx_jcglow_11
+  rotate: false
+  xy: 225, 107
+  size: 222, 128
+  orig: 222, 128
+  offset: 0, 0
+  index: -1
+flsx_jcglow_12
+  rotate: false
+  xy: 449, 22
+  size: 222, 124
+  orig: 222, 124
+  offset: 0, 0
+  index: -1
+flsx_jcglow_13
+  rotate: false
+  xy: 673, 10
+  size: 222, 119
+  orig: 222, 119
+  offset: 0, 0
+  index: -1
+noImage
+  rotate: false
+  xy: 933, 517
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

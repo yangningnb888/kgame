@@ -1,0 +1,125 @@
+
+rw_nongmin1.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 6
+  size: 294, 91
+  orig: 299, 93
+  offset: 2, 1
+  index: -1
+biyan
+  rotate: false
+  xy: 669, 154
+  size: 158, 38
+  orig: 158, 39
+  offset: 0, 0
+  index: -1
+fa1
+  rotate: false
+  xy: 792, 2
+  size: 192, 150
+  orig: 192, 150
+  offset: 0, 0
+  index: -1
+fa2
+  rotate: true
+  xy: 298, 11
+  size: 92, 198
+  orig: 92, 198
+  offset: 0, 0
+  index: -1
+fa3
+  rotate: true
+  xy: 2, 99
+  size: 153, 273
+  orig: 153, 273
+  offset: 0, 0
+  index: -1
+fa4
+  rotate: true
+  xy: 277, 105
+  size: 147, 272
+  orig: 147, 272
+  offset: 0, 0
+  index: -1
+p1
+  rotate: false
+  xy: 670, 23
+  size: 47, 53
+  orig: 47, 53
+  offset: 0, 0
+  index: -1
+p2
+  rotate: true
+  xy: 848, 159
+  size: 41, 51
+  orig: 41, 51
+  offset: 0, 0
+  index: -1
+p3
+  rotate: true
+  xy: 719, 5
+  size: 35, 46
+  orig: 35, 46
+  offset: 0, 0
+  index: -1
+p4
+  rotate: false
+  xy: 848, 202
+  size: 43, 50
+  orig: 43, 50
+  offset: 0, 0
+  index: -1
+shen
+  rotate: false
+  xy: 551, 114
+  size: 116, 138
+  orig: 116, 138
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 986, 15
+  size: 168, 237
+  orig: 168, 237
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: true
+  xy: 669, 128
+  size: 24, 121
+  orig: 24, 121
+  offset: 0, 0
+  index: -1
+youtui
+  rotate: true
+  xy: 498, 23
+  size: 80, 170
+  orig: 80, 170
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 670, 78
+  size: 95, 48
+  orig: 95, 48
+  offset: 0, 0
+  index: -1
+zuoshouxia
+  rotate: true
+  xy: 719, 42
+  size: 34, 68
+  orig: 34, 68
+  offset: 0, 0
+  index: -1
+zuotui
+  rotate: true
+  xy: 669, 194
+  size: 58, 177
+  orig: 58, 177
+  offset: 0, 0
+  index: -1

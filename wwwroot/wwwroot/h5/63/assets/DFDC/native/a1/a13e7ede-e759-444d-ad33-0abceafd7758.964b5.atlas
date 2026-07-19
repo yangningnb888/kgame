@@ -1,0 +1,97 @@
+
+duofuduocai_shengji.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dfdc_shengji_01
+  rotate: true
+  xy: 2, 326
+  size: 160, 200
+  orig: 160, 200
+  offset: 0, 0
+  index: -1
+dfdc_shengji_02
+  rotate: true
+  xy: 204, 326
+  size: 160, 200
+  orig: 160, 200
+  offset: 0, 0
+  index: -1
+dfdc_shengji_03
+  rotate: true
+  xy: 406, 326
+  size: 160, 200
+  orig: 160, 200
+  offset: 0, 0
+  index: -1
+dfdc_shengji_04
+  rotate: true
+  xy: 608, 326
+  size: 160, 200
+  orig: 160, 200
+  offset: 0, 0
+  index: -1
+dfdc_shengji_05
+  rotate: true
+  xy: 810, 326
+  size: 160, 200
+  orig: 160, 200
+  offset: 0, 0
+  index: -1
+dfdc_shengji_06
+  rotate: true
+  xy: 2, 164
+  size: 160, 200
+  orig: 160, 200
+  offset: 0, 0
+  index: -1
+dfdc_shengji_07
+  rotate: true
+  xy: 204, 164
+  size: 160, 200
+  orig: 160, 200
+  offset: 0, 0
+  index: -1
+dfdc_shengji_08
+  rotate: true
+  xy: 406, 164
+  size: 160, 200
+  orig: 160, 200
+  offset: 0, 0
+  index: -1
+dfdc_shengji_09
+  rotate: true
+  xy: 608, 164
+  size: 160, 200
+  orig: 160, 200
+  offset: 0, 0
+  index: -1
+dfdc_shengji_10
+  rotate: true
+  xy: 810, 164
+  size: 160, 200
+  orig: 160, 200
+  offset: 0, 0
+  index: -1
+dfdc_shengji_11
+  rotate: true
+  xy: 2, 2
+  size: 160, 200
+  orig: 160, 200
+  offset: 0, 0
+  index: -1
+dfdc_shengji_12
+  rotate: true
+  xy: 204, 2
+  size: 160, 200
+  orig: 160, 200
+  offset: 0, 0
+  index: -1
+dfdc_shengji_13
+  rotate: true
+  xy: 406, 2
+  size: 160, 200
+  orig: 160, 200
+  offset: 0, 0
+  index: -1

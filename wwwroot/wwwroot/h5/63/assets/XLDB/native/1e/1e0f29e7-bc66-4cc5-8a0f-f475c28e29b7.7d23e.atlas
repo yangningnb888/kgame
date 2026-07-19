@@ -1,0 +1,13 @@
+
+skill_pochan_01.png
+size: 204,100
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pochan
+  rotate: false
+  xy: 2, 2
+  size: 200, 96
+  orig: 200, 96
+  offset: 0, 0
+  index: -1

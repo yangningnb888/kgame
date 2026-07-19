@@ -1,0 +1,34 @@
+
+325_shuixuzhuan_dagudonghua.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ditu
+  rotate: false
+  xy: 2, 2
+  size: 94, 109
+  orig: 94, 109
+  offset: 0, 0
+  index: -1
+guangquan
+  rotate: false
+  xy: 98, 7
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+guchui01
+  rotate: true
+  xy: 157, 66
+  size: 45, 61
+  orig: 45, 61
+  offset: 0, 0
+  index: -1
+guchui02
+  rotate: false
+  xy: 98, 59
+  size: 57, 52
+  orig: 57, 52
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,104 @@
+
+gold_shark.png
+size: 478,141
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gold_shark/L
+  rotate: false
+  xy: 316, 12
+  size: 31, 41
+  orig: 31, 41
+  offset: 0, 0
+  index: -1
+gold_shark/R
+  rotate: false
+  xy: 349, 12
+  size: 31, 41
+  orig: 31, 41
+  offset: 0, 0
+  index: -1
+gold_shark/eye_L
+  rotate: true
+  xy: 277, 2
+  size: 42, 37
+  orig: 42, 37
+  offset: 0, 0
+  index: -1
+gold_shark/eye_R
+  rotate: false
+  xy: 2, 3
+  size: 42, 37
+  orig: 42, 37
+  offset: 0, 0
+  index: -1
+gold_shark/eye_bL1
+  rotate: false
+  xy: 124, 26
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+gold_shark/eye_bL2
+  rotate: false
+  xy: 46, 4
+  size: 37, 36
+  orig: 37, 36
+  offset: 0, 0
+  index: -1
+gold_shark/eye_bR1
+  rotate: false
+  xy: 124, 11
+  size: 14, 13
+  orig: 14, 13
+  offset: 0, 0
+  index: -1
+gold_shark/eye_bR2
+  rotate: false
+  xy: 85, 4
+  size: 37, 36
+  orig: 37, 36
+  offset: 0, 0
+  index: -1
+gold_shark/head_new
+  rotate: false
+  xy: 143, 3
+  size: 132, 41
+  orig: 132, 41
+  offset: 0, 0
+  index: -1
+gold_shark/head_new-1
+  rotate: false
+  xy: 282, 55
+  size: 129, 84
+  orig: 129, 84
+  offset: 0, 0
+  index: -1
+gold_shark/mouth1_2
+  rotate: false
+  xy: 143, 46
+  size: 137, 93
+  orig: 137, 93
+  offset: 0, 0
+  index: -1
+gold_shark/mouth2_2
+  rotate: false
+  xy: 2, 42
+  size: 139, 97
+  orig: 139, 97
+  offset: 0, 0
+  index: -1
+gold_shark/mouth_in
+  rotate: true
+  xy: 413, 11
+  size: 128, 63
+  orig: 128, 63
+  offset: 0, 0
+  index: -1
+gold_shark/nose_1
+  rotate: true
+  xy: 382, 21
+  size: 32, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+jinbilan_jbi.png
+size: 76,77
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+img_public_icon_jinbi
+  rotate: false
+  xy: 2, 2
+  size: 72, 73
+  orig: 72, 73
+  offset: 0, 0
+  index: -1

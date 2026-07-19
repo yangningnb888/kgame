@@ -1,0 +1,83 @@
+
+liansuoshandianwenzidonghua_buyu.png
+size: 104,278
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dianzi
+  rotate: false
+  xy: 2, 34
+  size: 59, 48
+  orig: 59, 48
+  offset: 0, 0
+  index: -1
+lianzi
+  rotate: false
+  xy: 2, 84
+  size: 60, 56
+  orig: 60, 56
+  offset: 0, 0
+  index: -1
+shandiandianliu0001
+  rotate: true
+  xy: 72, 227
+  size: 49, 30
+  orig: 49, 30
+  offset: 0, 0
+  index: -1
+shandiandianliu0002
+  rotate: true
+  xy: 72, 176
+  size: 49, 30
+  orig: 49, 30
+  offset: 0, 0
+  index: -1
+shandiandianliu0003
+  rotate: true
+  xy: 72, 176
+  size: 49, 30
+  orig: 49, 30
+  offset: 0, 0
+  index: -1
+shandiandianliu0004
+  rotate: true
+  xy: 72, 125
+  size: 49, 30
+  orig: 49, 30
+  offset: 0, 0
+  index: -1
+shandiandianliu0005
+  rotate: true
+  xy: 64, 74
+  size: 49, 30
+  orig: 49, 30
+  offset: 0, 0
+  index: -1
+shandiandianliu0006
+  rotate: true
+  xy: 63, 23
+  size: 49, 30
+  orig: 49, 30
+  offset: 0, 0
+  index: -1
+shandiandianliu0007
+  rotate: false
+  xy: 2, 2
+  size: 49, 30
+  orig: 49, 30
+  offset: 0, 0
+  index: -1
+shanzi
+  rotate: true
+  xy: 2, 210
+  size: 66, 68
+  orig: 66, 68
+  offset: 0, 0
+  index: -1
+suozi
+  rotate: true
+  xy: 2, 142
+  size: 66, 68
+  orig: 66, 68
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+paotai05_baozha.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a1
+  rotate: false
+  xy: 163, 10
+  size: 144, 153
+  orig: 144, 153
+  offset: 0, 0
+  index: -1
+b2
+  rotate: false
+  xy: 2, 2
+  size: 159, 161
+  orig: 159, 161
+  offset: 0, 0
+  index: -1
+c3
+  rotate: false
+  xy: 309, 29
+  size: 129, 134
+  orig: 129, 134
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,76 @@
+
+xunbaoleyuan4_anniu.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xunlongduobao4_anniu_01
+  rotate: false
+  xy: 2, 350
+  size: 112, 106
+  orig: 112, 106
+  offset: 0, 0
+  index: -1
+xunlongduobao4_anniu_02
+  rotate: false
+  xy: 2, 242
+  size: 112, 106
+  orig: 112, 106
+  offset: 0, 0
+  index: -1
+xunlongduobao4_anniu_03
+  rotate: false
+  xy: 116, 350
+  size: 112, 106
+  orig: 112, 106
+  offset: 0, 0
+  index: -1
+xunlongduobao4_anniu_04
+  rotate: false
+  xy: 2, 134
+  size: 112, 106
+  orig: 112, 106
+  offset: 0, 0
+  index: -1
+xunlongduobao4_anniu_05
+  rotate: false
+  xy: 116, 242
+  size: 112, 106
+  orig: 112, 106
+  offset: 0, 0
+  index: -1
+xunlongduobao4_anniu_06
+  rotate: false
+  xy: 230, 350
+  size: 112, 106
+  orig: 112, 106
+  offset: 0, 0
+  index: -1
+xunlongduobao4_anniu_07
+  rotate: false
+  xy: 2, 26
+  size: 112, 106
+  orig: 112, 106
+  offset: 0, 0
+  index: -1
+xunlongduobao4_anniu_08
+  rotate: false
+  xy: 116, 134
+  size: 112, 106
+  orig: 112, 106
+  offset: 0, 0
+  index: -1
+xunlongduobao4_anniu_09
+  rotate: false
+  xy: 230, 242
+  size: 112, 106
+  orig: 112, 106
+  offset: 0, 0
+  index: -1
+xunlongduobao4_anniu_10
+  rotate: false
+  xy: 344, 350
+  size: 112, 106
+  orig: 112, 106
+  offset: 0, 0
+  index: -1

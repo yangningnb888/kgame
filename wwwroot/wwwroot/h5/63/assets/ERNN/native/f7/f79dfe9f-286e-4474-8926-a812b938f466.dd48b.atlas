@@ -1,0 +1,55 @@
+
+325_qiangzhuangniuniu_tiyanchang.png
+size: 630,197
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 2, 2
+  size: 193, 200
+  orig: 193, 200
+  offset: 0, 0
+  index: -1
+eye
+  rotate: true
+  xy: 581, 107
+  size: 88, 47
+  orig: 88, 47
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 492, 108
+  size: 87, 87
+  orig: 87, 87
+  offset: 0, 0
+  index: -1
+qiang
+  rotate: true
+  xy: 411, 13
+  size: 182, 79
+  orig: 182, 79
+  offset: 0, 0
+  index: -1
+shou01
+  rotate: false
+  xy: 492, 15
+  size: 72, 91
+  orig: 72, 91
+  offset: 0, 0
+  index: -1
+shou02
+  rotate: false
+  xy: 566, 28
+  size: 62, 77
+  orig: 62, 77
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 204, 12
+  size: 205, 183
+  orig: 205, 183
+  offset: 0, 0
+  index: -1

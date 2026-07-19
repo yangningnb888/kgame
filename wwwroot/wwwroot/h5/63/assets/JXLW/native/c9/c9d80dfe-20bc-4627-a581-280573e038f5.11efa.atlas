@@ -1,0 +1,27 @@
+
+jiuxianlawang_xuanchangjiemian_gaojichang.png
+size: 610,252
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang
+  rotate: true
+  xy: 2, 2
+  size: 248, 288
+  orig: 248, 288
+  offset: 0, 0
+  index: -1
+houmian
+  rotate: false
+  xy: 521, 137
+  size: 87, 113
+  orig: 87, 113
+  offset: 0, 0
+  index: -1
+qianmian
+  rotate: true
+  xy: 292, 13
+  size: 237, 227
+  orig: 237, 227
+  offset: 0, 0
+  index: -1

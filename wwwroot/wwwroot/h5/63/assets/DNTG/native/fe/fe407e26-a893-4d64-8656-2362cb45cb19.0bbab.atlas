@@ -1,0 +1,76 @@
+
+325dntg_xuanchang_qianpaochang.png
+size: 916,288
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+325dntg_qianyuanchang_body
+  rotate: false
+  xy: 659, 51
+  size: 105, 116
+  orig: 105, 116
+  offset: 0, 0
+  index: -1
+325dntg_qianyuanchang_dizuo
+  rotate: true
+  xy: 2, 10
+  size: 276, 414
+  orig: 276, 414
+  offset: 0, 0
+  index: -1
+325dntg_qianyuanchang_pifeng
+  rotate: true
+  xy: 829, 111
+  size: 175, 77
+  orig: 175, 77
+  offset: 0, 0
+  index: -1
+325dntg_qianyuanchang_tou
+  rotate: true
+  xy: 659, 169
+  size: 117, 168
+  orig: 117, 168
+  offset: 0, 0
+  index: -1
+325dntg_qianyuanchang_yanjing
+  rotate: false
+  xy: 418, 8
+  size: 68, 45
+  orig: 68, 45
+  offset: 0, 0
+  index: -1
+325dntg_qianyuanchang_youchujiao
+  rotate: false
+  xy: 766, 16
+  size: 74, 93
+  orig: 74, 93
+  offset: 0, 0
+  index: -1
+325dntg_qianyuanchang_youshou
+  rotate: false
+  xy: 564, 2
+  size: 81, 55
+  orig: 81, 55
+  offset: 0, 0
+  index: -1
+325dntg_qianyuanchang_yun
+  rotate: true
+  xy: 418, 55
+  size: 231, 144
+  orig: 231, 144
+  offset: 0, 0
+  index: -1
+325dntg_qianyuanchang_zuochujiao
+  rotate: true
+  xy: 842, 14
+  size: 95, 72
+  orig: 95, 72
+  offset: 0, 0
+  index: -1
+325dntg_qianyuanchang_zuoshou
+  rotate: true
+  xy: 564, 59
+  size: 227, 93
+  orig: 227, 93
+  offset: 0, 0
+  index: -1

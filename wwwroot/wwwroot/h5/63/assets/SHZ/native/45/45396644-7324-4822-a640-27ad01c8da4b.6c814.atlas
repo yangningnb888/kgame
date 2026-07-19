@@ -1,0 +1,188 @@
+
+hutou_shuihuzhuan.png
+size: 952,562
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hutou_hutou/hutou_hutou0000
+  rotate: true
+  xy: 163, 282
+  size: 159, 114
+  orig: 159, 114
+  offset: 0, 0
+  index: -1
+hutou_hutou/hutou_hutou0001
+  rotate: true
+  xy: 2, 163
+  size: 159, 114
+  orig: 159, 114
+  offset: 0, 0
+  index: -1
+hutou_hutou/hutou_hutou0002
+  rotate: true
+  xy: 279, 282
+  size: 159, 114
+  orig: 159, 114
+  offset: 0, 0
+  index: -1
+hutou_hutou/hutou_hutou0003
+  rotate: true
+  xy: 604, 401
+  size: 159, 114
+  orig: 159, 114
+  offset: 0, 0
+  index: -1
+hutou_hutou/hutou_hutou0004
+  rotate: true
+  xy: 720, 401
+  size: 159, 114
+  orig: 159, 114
+  offset: 0, 0
+  index: -1
+hutou_hutou/hutou_hutou0005
+  rotate: true
+  xy: 836, 401
+  size: 159, 114
+  orig: 159, 114
+  offset: 0, 0
+  index: -1
+hutou_hutou/hutou_hutou0006
+  rotate: false
+  xy: 395, 285
+  size: 159, 114
+  orig: 159, 114
+  offset: 0, 0
+  index: -1
+hutou_hutou/hutou_hutou0007
+  rotate: false
+  xy: 556, 285
+  size: 159, 114
+  orig: 159, 114
+  offset: 0, 0
+  index: -1
+hutou_hutou/hutou_hutou0008
+  rotate: true
+  xy: 717, 240
+  size: 159, 114
+  orig: 159, 114
+  offset: 0, 0
+  index: -1
+hutou_hutou/hutou_hutou0009
+  rotate: false
+  xy: 395, 169
+  size: 159, 114
+  orig: 159, 114
+  offset: 0, 0
+  index: -1
+hutou_hutou/hutou_hutou0010
+  rotate: true
+  xy: 556, 124
+  size: 159, 114
+  orig: 159, 114
+  offset: 0, 0
+  index: -1
+hutou_hutou/hutou_hutou0011
+  rotate: false
+  xy: 672, 124
+  size: 159, 114
+  orig: 159, 114
+  offset: 0, 0
+  index: -1
+hutou_hutou/hutou_hutou0012
+  rotate: true
+  xy: 118, 121
+  size: 159, 114
+  orig: 159, 114
+  offset: 0, 0
+  index: -1
+hutou_hutou/hutou_hutou0013
+  rotate: true
+  xy: 2, 2
+  size: 159, 114
+  orig: 159, 114
+  offset: 0, 0
+  index: -1
+hutou_hutou/hutou_hutou0014
+  rotate: true
+  xy: 234, 121
+  size: 159, 114
+  orig: 159, 114
+  offset: 0, 0
+  index: -1
+hutou_hutou/hutou_hutou0015
+  rotate: false
+  xy: 350, 53
+  size: 159, 114
+  orig: 159, 114
+  offset: 0, 0
+  index: -1
+hutou_hutou/hutou_hutou0016
+  rotate: false
+  xy: 118, 5
+  size: 159, 114
+  orig: 159, 114
+  offset: 0, 0
+  index: -1
+hutou_hutou/hutou_hutou0017
+  rotate: true
+  xy: 833, 240
+  size: 159, 114
+  orig: 159, 114
+  offset: 0, 0
+  index: -1
+hutou_hutou/hutou_hutou0018
+  rotate: true
+  xy: 833, 79
+  size: 159, 114
+  orig: 159, 114
+  offset: 0, 0
+  index: -1
+hutou_hutou/hutou_hutou0019
+  rotate: false
+  xy: 511, 8
+  size: 159, 114
+  orig: 159, 114
+  offset: 0, 0
+  index: -1
+hutou_hutou/hutou_hutou0020
+  rotate: false
+  xy: 672, 8
+  size: 159, 114
+  orig: 159, 114
+  offset: 0, 0
+  index: -1
+hutoushanguang_hutoushanguang/hutoushanguang_hutoushanguang0000
+  rotate: false
+  xy: 2, 443
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+hutoushanguang_hutoushanguang/hutoushanguang_hutoushanguang0001
+  rotate: false
+  xy: 163, 443
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+hutoushanguang_hutoushanguang/hutoushanguang_hutoushanguang0002
+  rotate: false
+  xy: 324, 443
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+hutoushanguang_hutoushanguang/hutoushanguang_hutoushanguang0003
+  rotate: true
+  xy: 485, 401
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1
+hutoushanguang_hutoushanguang/hutoushanguang_hutoushanguang0004
+  rotate: false
+  xy: 2, 324
+  size: 159, 117
+  orig: 159, 117
+  offset: 0, 0
+  index: -1

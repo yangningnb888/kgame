@@ -1,0 +1,132 @@
+
+xunbaoleyuan4_baoshi.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xunbaoleyuan4_1hongbaoshi
+  rotate: false
+  xy: 2, 168
+  size: 70, 73
+  orig: 70, 73
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_1huangbaoshi
+  rotate: false
+  xy: 2, 93
+  size: 70, 73
+  orig: 70, 73
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_1lanbaoshi
+  rotate: false
+  xy: 74, 168
+  size: 70, 73
+  orig: 70, 73
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_1lvbaoshi
+  rotate: false
+  xy: 2, 18
+  size: 70, 73
+  orig: 70, 73
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_1zibaoshi
+  rotate: false
+  xy: 74, 93
+  size: 70, 73
+  orig: 70, 73
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_2hongbaoshi
+  rotate: false
+  xy: 218, 95
+  size: 70, 71
+  orig: 70, 71
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_2huangbaoshi
+  rotate: false
+  xy: 290, 170
+  size: 70, 71
+  orig: 70, 71
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_2lanbaoshi
+  rotate: false
+  xy: 218, 22
+  size: 70, 71
+  orig: 70, 71
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_2lvbaoshi
+  rotate: false
+  xy: 290, 97
+  size: 70, 71
+  orig: 70, 71
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_2zibaoshi
+  rotate: false
+  xy: 362, 170
+  size: 70, 71
+  orig: 70, 71
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_3hongbaoshi
+  rotate: false
+  xy: 146, 168
+  size: 70, 73
+  orig: 70, 73
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_3huangbaoshi
+  rotate: false
+  xy: 74, 18
+  size: 70, 73
+  orig: 70, 73
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_3lanbaoshi
+  rotate: false
+  xy: 146, 93
+  size: 70, 73
+  orig: 70, 73
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_3lvbaoshi
+  rotate: false
+  xy: 218, 168
+  size: 70, 73
+  orig: 70, 73
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_3zibaoshi
+  rotate: false
+  xy: 146, 18
+  size: 70, 73
+  orig: 70, 73
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_dian
+  rotate: false
+  xy: 218, 18
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_huoxing
+  rotate: false
+  xy: 2, 2
+  size: 17, 14
+  orig: 17, 14
+  offset: 0, 0
+  index: -1
+xunbaoleyuan4_zhadan
+  rotate: false
+  xy: 290, 24
+  size: 70, 71
+  orig: 70, 71
+  offset: 0, 0
+  index: -1

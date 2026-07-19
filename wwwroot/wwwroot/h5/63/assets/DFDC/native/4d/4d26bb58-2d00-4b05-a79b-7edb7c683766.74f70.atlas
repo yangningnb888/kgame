@@ -1,0 +1,83 @@
+
+dfdc_fj_cfxm.png
+size: 888,463
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/00000
+  rotate: false
+  xy: 758, 81
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+image/caifuBG
+  rotate: false
+  xy: 278, 109
+  size: 268, 352
+  orig: 268, 352
+  offset: 0, 0
+  index: -1
+image/caifujinbi
+  rotate: false
+  xy: 2, 42
+  size: 268, 61
+  orig: 268, 61
+  offset: 0, 0
+  index: -1
+image/caifukuang
+  rotate: false
+  xy: 2, 105
+  size: 274, 356
+  orig: 274, 356
+  offset: 0, 0
+  index: -1
+image/caifuxiongmao
+  rotate: false
+  xy: 548, 211
+  size: 268, 250
+  orig: 268, 250
+  offset: 0, 0
+  index: -1
+image/caifuxiongmaotou
+  rotate: true
+  xy: 548, 15
+  size: 194, 208
+  orig: 194, 208
+  offset: 0, 0
+  index: -1
+image/caifuxiongmaoyouer
+  rotate: false
+  xy: 490, 2
+  size: 39, 42
+  orig: 39, 42
+  offset: 0, 0
+  index: -1
+image/caifuxiongmaozuoer
+  rotate: true
+  xy: 490, 46
+  size: 61, 56
+  orig: 61, 56
+  offset: 0, 0
+  index: -1
+image/caifuxiongyoubiyan
+  rotate: false
+  xy: 818, 428
+  size: 17, 33
+  orig: 17, 33
+  offset: 0, 0
+  index: -1
+image/caifuxiongzuobiyan
+  rotate: false
+  xy: 2, 11
+  size: 36, 29
+  orig: 36, 29
+  offset: 0, 0
+  index: -1
+image/caifuzuzi
+  rotate: true
+  xy: 278, 24
+  size: 83, 210
+  orig: 83, 210
+  offset: 0, 0
+  index: -1

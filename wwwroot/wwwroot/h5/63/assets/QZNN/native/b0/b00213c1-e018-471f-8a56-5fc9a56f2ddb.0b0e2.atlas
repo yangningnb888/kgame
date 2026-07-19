@@ -1,0 +1,27 @@
+
+errenniuniu4_zhuang.png
+size: 230,102
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+errenniuniu4_shanguang
+  rotate: false
+  xy: 168, 40
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+errenniuniu4_shanguang01
+  rotate: false
+  xy: 2, 19
+  size: 164, 81
+  orig: 164, 81
+  offset: 0, 0
+  index: -1
+errenniuniu4_zhuang
+  rotate: true
+  xy: 168, 2
+  size: 36, 42
+  orig: 36, 42
+  offset: 0, 0
+  index: -1

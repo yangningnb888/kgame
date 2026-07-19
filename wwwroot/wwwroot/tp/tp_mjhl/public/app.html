@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <script type="text/javascript" src="https://web.cdn.openinstall.io/openinstall.js"></script>
+</head>
+<style type="text/css">
+    body {
+        background: url('./static/theme/img/trunbg.jpg') no-repeat 0 0;
+        background-size: cover;
+        background-attachment: fixed
+    }
+
+    #btn {
+        width: 600px;
+        height: 100px;
+        border: none;
+        position: fixed;
+        top: 60%;
+        left: 0;
+        right: 0;
+        margin:0 auto;
+        background: url('./static/theme/img/wybtn.png');
+        background-size:100% 100%;
+    }
+
+    #downloadButton {
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-right: 40%;
+        width: 300px;
+        height: 80px;
+        background: url('./static/theme/img/wybtn.png') no-repeat;
+    }
+
+    @media(max-width:768px) {
+        body {
+            background-image:url('./static/theme/img/mate.jpg');
+        }
+
+        #btn {
+            width: 300px;
+            height: 50px;
+            border: none;
+            position: fixed;
+            top: 60%;
+            left: 0;
+            right: 0;
+            margin:0 auto;
+            background: url('./static/theme/img/matebtn.png');
+            background-size:100% 100%;
+        }
+    }
+</style>
+<body>
+<div id="btn">
+    <button id="downloadButton" style="width: 100%;height: 100%;opacity: 0"></button>
+</div>
+<script type="text/javascript">
+    var data = OpenInstall.parseUrlParams();
+    var url = location.search;
+    var theRequest = new Object();
+    if (url.indexOf("?") != -1) {
+        var str = url.substr(1);
+        strs = str.split("&");
+        for (var i = 0; i < strs.length; i++) {
+            theRequest[strs[i].split("=")[0]] = decodeURI(strs[i].split("=")[1]);
+        }
+    }
+
+    //自动调起
+   /* new OpenInstall({
+        appKey: "idc4t8",   //appkey参数配置,需要自行替换对应的appkey
+        onready : function() {
+            var m = this,
+                button = document.getElementById("downloadButton");
+            m.schemeWakeup();
+            m.wakeupOrInstall();
+        }
+    }, data);*/
+
+    //点击跳转
+    new OpenInstall({
+        appKey: "idc4t8",   //appkey参数配置,需要自行替换对应的appkey
+        onready : function() {
+            var m = this, button = document.getElementById("downloadButton");
+            button.onclick = function () {
+                m.wakeupOrInstall();
+                return false;
+            }
+            /*m.schemeWakeup();
+            m.wakeupOrInstall();*/
+        }
+    }, data);
+
+</script>
+</body>
+</html>

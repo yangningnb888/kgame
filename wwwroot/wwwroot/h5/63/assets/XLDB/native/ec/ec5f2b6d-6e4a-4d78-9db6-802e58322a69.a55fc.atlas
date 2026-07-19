@@ -1,0 +1,13 @@
+
+Effect_suoding_01.png
+size: 80,80
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+suoding_01
+  rotate: false
+  xy: 2, 2
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1

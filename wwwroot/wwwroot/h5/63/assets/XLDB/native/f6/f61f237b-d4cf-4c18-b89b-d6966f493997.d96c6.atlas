@@ -1,0 +1,20 @@
+
+teshujiangli.png
+size: 429,222
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guangci_1
+  rotate: false
+  xy: 227, 20
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+xiaozhuanpan
+  rotate: true
+  xy: 2, 2
+  size: 218, 223
+  orig: 218, 223
+  offset: 0, 0
+  index: -1

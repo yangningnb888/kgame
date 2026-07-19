@@ -1,0 +1,125 @@
+
+lion.png
+size: 569,141
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lion/lion_chin
+  rotate: false
+  xy: 285, 70
+  size: 84, 69
+  orig: 84, 69
+  offset: 0, 0
+  index: -1
+lion/lion_ear_L
+  rotate: false
+  xy: 511, 74
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+lion/lion_ear_R
+  rotate: true
+  xy: 481, 35
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+lion/lion_eye_Lb
+  rotate: false
+  xy: 544, 81
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+lion/lion_eye_Lw
+  rotate: false
+  xy: 443, 24
+  size: 36, 42
+  orig: 36, 42
+  offset: 0, 0
+  index: -1
+lion/lion_eye_Rb
+  rotate: false
+  xy: 544, 57
+  size: 23, 22
+  orig: 23, 22
+  offset: 0, 0
+  index: -1
+lion/lion_eye_Rw
+  rotate: true
+  xy: 467, 68
+  size: 36, 42
+  orig: 36, 42
+  offset: 0, 0
+  index: -1
+lion/lion_eye_up
+  rotate: false
+  xy: 371, 68
+  size: 88, 28
+  orig: 88, 28
+  offset: 0, 0
+  index: -1
+lion/lion_eye_up2
+  rotate: false
+  xy: 467, 106
+  size: 94, 33
+  orig: 94, 33
+  offset: 0, 0
+  index: -1
+lion/lion_eye_up3
+  rotate: false
+  xy: 371, 98
+  size: 94, 41
+  orig: 94, 41
+  offset: 0, 0
+  index: -1
+lion/lion_face
+  rotate: false
+  xy: 162, 7
+  size: 120, 62
+  orig: 120, 62
+  offset: 0, 0
+  index: -1
+lion/lion_hair
+  rotate: false
+  xy: 2, 6
+  size: 158, 133
+  orig: 158, 133
+  offset: 0, 0
+  index: -1
+lion/lion_head_up
+  rotate: false
+  xy: 162, 71
+  size: 121, 68
+  orig: 121, 68
+  offset: 0, 0
+  index: -1
+lion/lion_mouth
+  rotate: true
+  xy: 410, 2
+  size: 64, 31
+  orig: 64, 31
+  offset: 0, 0
+  index: -1
+lion/lion_mouth2
+  rotate: false
+  xy: 284, 23
+  size: 72, 45
+  orig: 72, 45
+  offset: 0, 0
+  index: -1
+lion/lion_nose
+  rotate: true
+  xy: 358, 2
+  size: 64, 50
+  orig: 64, 50
+  offset: 0, 0
+  index: -1
+lion/lion_teeth_up
+  rotate: false
+  xy: 284, 12
+  size: 36, 9
+  orig: 36, 9
+  offset: 0, 0
+  index: -1

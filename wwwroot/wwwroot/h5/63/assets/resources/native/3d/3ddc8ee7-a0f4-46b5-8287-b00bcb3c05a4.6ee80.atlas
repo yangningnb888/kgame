@@ -1,0 +1,41 @@
+
+325_zkpaotai_baozha.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+325_ykptbz_00
+  rotate: false
+  xy: 249, 55
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+325_ykptbz_01
+  rotate: false
+  xy: 2, 2
+  size: 245, 245
+  orig: 245, 245
+  offset: 0, 0
+  index: -1
+325_ykptbz_02
+  rotate: false
+  xy: 636, 90
+  size: 194, 157
+  orig: 194, 157
+  offset: 0, 0
+  index: -1
+325_ykptbz_03
+  rotate: false
+  xy: 443, 59
+  size: 191, 188
+  orig: 191, 188
+  offset: 0, 0
+  index: -1
+325_ykptbz_04
+  rotate: false
+  xy: 832, 163
+  size: 83, 84
+  orig: 83, 84
+  offset: 0, 0
+  index: -1

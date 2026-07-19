@@ -1,0 +1,20 @@
+
+325_jcby_zhujiemian_Bg.png
+size: 167,132
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jingchanbuyu_datingbeijing_guang01
+  rotate: false
+  xy: 2, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+jingchanbuyu_datingbeijing_paopao
+  rotate: false
+  xy: 132, 96
+  size: 33, 34
+  orig: 33, 34
+  offset: 0, 0
+  index: -1

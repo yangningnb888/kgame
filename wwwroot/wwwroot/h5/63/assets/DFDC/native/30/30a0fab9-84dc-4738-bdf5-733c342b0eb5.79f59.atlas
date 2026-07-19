@@ -1,0 +1,132 @@
+
+duofuduocai_kaijiang.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+duofuduocai_jubaopen_1
+  rotate: false
+  xy: 577, 322
+  size: 135, 62
+  orig: 135, 62
+  offset: 0, 0
+  index: -1
+duofuduocai_jubaopen_2
+  rotate: false
+  xy: 268, 239
+  size: 136, 102
+  orig: 136, 102
+  offset: 0, 0
+  index: -1
+duofuduocai_jubaopen_glow3
+  rotate: false
+  xy: 892, 317
+  size: 109, 62
+  orig: 109, 62
+  offset: 0, 0
+  index: -1
+duofuduocai_jubaopen_jbi1kj
+  rotate: true
+  xy: 453, 97
+  size: 109, 15
+  orig: 109, 15
+  offset: 0, 0
+  index: -1
+duofuduocai_jubaopen_jbi2kj
+  rotate: true
+  xy: 422, 86
+  size: 120, 29
+  orig: 120, 29
+  offset: 0, 0
+  index: -1
+duofuduocai_jubaopen_jbi3kj
+  rotate: false
+  xy: 421, 315
+  size: 122, 41
+  orig: 122, 41
+  offset: 0, 0
+  index: -1
+duofuduocai_jubaopen_kj
+  rotate: true
+  xy: 231, 75
+  size: 158, 74
+  orig: 158, 74
+  offset: 0, 0
+  index: -1
+duofuduocai_kaijiang_glow1
+  rotate: false
+  xy: 2, 235
+  size: 264, 260
+  orig: 264, 260
+  offset: 0, 0
+  index: -1
+duofuduocai_kaijiang_glow2
+  rotate: false
+  xy: 2, 2
+  size: 227, 231
+  orig: 227, 231
+  offset: 0, 0
+  index: -1
+duofuduocai_kaijiang_lizi
+  rotate: false
+  xy: 422, 208
+  size: 106, 105
+  orig: 128, 128
+  offset: 11, 10
+  index: -1
+duofuduocai_kaijiang_quan
+  rotate: false
+  xy: 892, 381
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+zhaocaijinbao_01
+  rotate: true
+  xy: 421, 358
+  size: 137, 154
+  orig: 170, 173
+  offset: 10, 10
+  index: -1
+zhaocaijinbao_02
+  rotate: true
+  xy: 734, 399
+  size: 96, 156
+  orig: 170, 173
+  offset: 28, 9
+  index: -1
+zhaocaijinbao_03
+  rotate: true
+  xy: 734, 332
+  size: 65, 156
+  orig: 170, 173
+  offset: 46, 9
+  index: -1
+zhaocaijinbao_04
+  rotate: false
+  xy: 391, 81
+  size: 29, 156
+  orig: 170, 173
+  offset: 68, 9
+  index: -1
+zhaocaijinbao_05
+  rotate: false
+  xy: 307, 81
+  size: 82, 156
+  orig: 170, 173
+  offset: 55, 9
+  index: -1
+zhaocaijinbao_06
+  rotate: true
+  xy: 577, 386
+  size: 109, 155
+  orig: 170, 173
+  offset: 43, 10
+  index: -1
+zhaocaijinbao_07
+  rotate: false
+  xy: 268, 343
+  size: 151, 152
+  orig: 170, 173
+  offset: 10, 11
+  index: -1

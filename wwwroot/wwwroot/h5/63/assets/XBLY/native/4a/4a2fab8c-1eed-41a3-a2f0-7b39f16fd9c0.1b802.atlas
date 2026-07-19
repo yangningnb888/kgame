@@ -1,0 +1,76 @@
+
+xunlongduobao_duobao.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coin
+  rotate: false
+  xy: 2, 127
+  size: 243, 364
+  orig: 243, 364
+  offset: 0, 0
+  index: -1
+coin-invert
+  rotate: false
+  xy: 247, 162
+  size: 207, 329
+  orig: 207, 329
+  offset: 0, 0
+  index: -1
+shine
+  rotate: false
+  xy: 456, 246
+  size: 72, 245
+  orig: 72, 245
+  offset: 0, 0
+  index: -1
+xunlongduobao_guangci_01
+  rotate: false
+  xy: 2, 2
+  size: 86, 123
+  orig: 86, 123
+  offset: 0, 0
+  index: -1
+xunlongduobao_guangci_02
+  rotate: false
+  xy: 530, 368
+  size: 86, 123
+  orig: 86, 123
+  offset: 0, 0
+  index: -1
+xunlongduobao_guangci_03
+  rotate: false
+  xy: 90, 2
+  size: 86, 123
+  orig: 86, 123
+  offset: 0, 0
+  index: -1
+xunlongduobao_guangci_04
+  rotate: false
+  xy: 618, 368
+  size: 86, 123
+  orig: 86, 123
+  offset: 0, 0
+  index: -1
+xunlongduobao_guangci_05
+  rotate: true
+  xy: 530, 280
+  size: 86, 123
+  orig: 86, 123
+  offset: 0, 0
+  index: -1
+xunlongduobao_guangci_06
+  rotate: false
+  xy: 706, 368
+  size: 86, 123
+  orig: 86, 123
+  offset: 0, 0
+  index: -1
+xunlongduobao_paiguang
+  rotate: true
+  xy: 655, 280
+  size: 86, 123
+  orig: 86, 123
+  offset: 0, 0
+  index: -1

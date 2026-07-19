@@ -1,0 +1,270 @@
+{extend name="../../admin/view/main"}
+
+{block name="button"}
+{/block}
+
+{block name="content"}
+<body>
+
+<table class="layui-hide" id="robot" lay-filter="test"></table>
+<div id="alllist" lay-filter="alllist" style="display: none;">
+    <div class="layui-form-item"></div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">游 戏 名 称</label>
+        <div class="layui-input-inline">
+            <input type="text" readonly="readonly" id="gamename" class="layui-input">
+        </div>
+        <label class="layui-form-label">等 级</label>
+        <div class="layui-input-inline">
+            <input type="text" readonly="readonly" id="level" autocomplete="off" class="layui-input">
+        </div>
+        <label class="layui-form-label">最 少 AI 数 量</label>
+        <div class="layui-input-inline">
+            <input type="text" name="ai_base" lay-verify="required" id="ai_base" autocomplete="off" class="layui-input">
+        </div>
+        <label class="layui-form-label">最 大 AI 数 量</label>
+        <div class="layui-input-inline">
+            <input type="text" name="ai_max" lay-verify="required" id="ai_max" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">房 间 数 量</label>
+        <div class="layui-input-inline">
+            <input type="text" name="benginroom" lay-verify="required" id="benginroom" autocomplete="off"
+                   class="layui-input">
+        </div>
+        <label class="layui-form-label">库 存</label>
+        <div class="layui-input-inline">
+            <input type="text" name="profit" lay-verify="required" id="profit" autocomplete="off" class="layui-input"
+                   value="">
+        </div>
+        <label class="layui-form-label">入 库 比</label>
+        <div class="layui-input-inline">
+            <input type="text" name="percent" lay-verify="required" id="percent" autocomplete="off" class="layui-input">
+        </div>
+        <label class="layui-form-label">最 大 下 注 额</label>
+        <div class="layui-input-inline">
+            <input type="text" name="maxbet" lay-verify="required" id="maxbet" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">库 存 偏 移 量</label>
+        <div class="layui-input-inline">
+            <input type="text" name="flag" lay-verify="required" id="flag" autocomplete="off" class="layui-input">
+        </div>
+        <label class="layui-form-label">库 存 上 限</label>
+        <div class="layui-input-inline">
+            <input type="text" name="maxprofit" lay-verify="required" id="maxprofit" autocomplete="off"
+                   class="layui-input">
+        </div>
+        <label class="layui-form-label">库 存 下 限</label>
+        <div class="layui-input-inline">
+            <input type="text" name="minprofit" lay-verify="required" id="minprofit" autocomplete="off"
+                   class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item" id="doubles1">
+        <label class="layui-form-label">押 注 额 倍 率</label>
+        <div class="layui-input-inline">
+            <input type="text" name="double1" lay-verify="required" id="double1" autocomplete="off" class="layui-input">
+        </div>
+        <label class="layui-form-label">控 制 概 率</label>
+        <div class="layui-input-inline">
+            <input type="text" name="rand1" lay-verify="required" id="rand1" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item" id="doubles2">
+        <label class="layui-form-label">押 注 额 倍 率</label>
+        <div class="layui-input-inline">
+            <input type="text" name="double2" lay-verify="required" id="double2" autocomplete="off" class="layui-input">
+        </div>
+        <label class="layui-form-label">控 制 概 率</label>
+        <div class="layui-input-inline">
+            <input type="text" name="rand2" lay-verify="required" id="rand2" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item" id="doubles3">
+        <label class="layui-form-label">押 注 额 倍 率</label>
+        <div class="layui-input-inline">
+            <input type="text" name="double3" lay-verify="required" id="double3" autocomplete="off" class="layui-input">
+        </div>
+        <label class="layui-form-label">控 制 概 率</label>
+        <div class="layui-input-inline">
+            <input type="text" name="rand3" lay-verify="required" id="rand3" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+</div>
+</body>
+
+<script>
+    layui.use(['table', 'layer', 'form'], function () {
+        var table = layui.table
+            , layer = layui.layer
+            , form = layui.form;
+
+        table.render({
+            elem: '#robot'
+            , url: '{:url("robot")}'
+            , cellMinWidth: 60 //全局定义常规单元格的最小宽度，layui 2.2.1 新增
+            , id: 'list'
+            , cols: [[
+                {field: 'gtype', width: 100, title: '游戏ID', align: 'center'}
+                , {field: 'name', width: 150, title: '游戏名称', align: 'center'}
+                , {field: 'level', width: 100, title: '等级', align: 'center'}
+                , {field: 'max_pnum', width: 100, title: '最大人数', align: 'center'}
+                , {field: 'min_gold', width: 120, title: '最少参赛金额', align: 'center'}
+                , {field: 'ai_base', title: '最少陪玩', align: 'center'} //minWidth：局部定义当前单元格的最小宽度，layui 2.2.1 新增
+                , {field: 'ai_max', title: '最大陪玩', align: 'center'}
+                , {field: 'benginroom', title: '初始房间数量', align: 'center'}
+                , {field: 'profit', title: '当前库存金额', align: 'center', edit: 'text', width: 150}
+                , {field: 'controls', width: 250, title: '场控参数', align: 'center'}
+                , {fixed: 'right', title: '操作', align: 'center', toolbar: '#barDemo'}
+            ]]
+            , page: true
+            , limit: 20
+            , limits: [20, 30, 40]
+            , parseData: function (res) {
+                return {
+                    'code': 0
+                    , 'msg': ''
+                    , 'count': res.count
+                    , 'data': res.data
+                }
+            }
+        });
+
+
+        table.on('edit(test)', function (obj) {
+            /*console.log(obj.value);  //修改后的值
+            console.log(obj.field);  //修改字段
+            console.log(obj.data);  //修改行的相关数据*/
+            $.ajax({　　　　　　　　　　　　　　　　　　　　//交互传值
+                url: '{:url("singleupdata")}',　　　　　　　　　　　　//传地址
+                type: 'post',　　　　　　　　　　　　　　　　　　//传的方式
+                data: {
+                    'field': obj.field
+                    , 'value': obj.value
+                    , 'where': {'gtype': obj.data.gtype, 'level': obj.data.level}
+                },
+                success: res => {
+                    console.log(res)　　　　　　　　　　　　　　//收到后台返回的数据  是否添加成功
+                    layer.msg(res.msg, {
+                        time: 1500
+                    })
+                    if (res.code == 0) {　　　　　　　　　　　　　　//数据刷新表单
+                        table.reload('robot');
+                    }
+                },
+            });
+        });
+
+        table.on('tool(test)', function (obj) {
+            console.log(obj.data)
+            var data = JSON.parse(obj.data.controls);
+            $("#gamename").attr("placeholder", obj.data.name);
+            $("#level").attr("placeholder", obj.data.level);
+            $("#ai_base").attr("placeholder", obj.data.ai_base);
+            $("#ai_max").attr("placeholder", obj.data.ai_max);
+            $("#benginroom").attr("placeholder", obj.data.benginroom);
+            $("#profit").attr("placeholder", obj.data.profit);
+            $("#percent").attr("placeholder", data.percent);
+            if ('maxbet' in data) {
+                $("#maxbet").attr("placeholder", data.maxbet);
+            } else {
+                $("#maxbet").removeAttr("placeholder");
+            }
+
+            if ('flag' in data) {
+                $("#flag").attr("placeholder", data.flag);
+            } else {
+                $("#flag").removeAttr("placeholder");
+            }
+
+            if ('maxprofit' in data && 'minprofit' in data) {
+                $("#maxprofit").attr("placeholder", data.maxprofit);
+                $("#minprofit").attr("placeholder", data.minprofit);
+            } else {
+                $("#maxprofit").removeAttr("placeholder");
+                $("#minprofit").removeAttr("placeholder");
+            }
+
+            let str_index = '';
+            if ('doubles' in data) {
+                $("#doubles1").css("visibility", "visible");
+                $("#doubles2").css("visibility", "visible");
+                $("#doubles3").css("visibility", "visible");
+                for (var i = 0; i < data.doubles.length; i++) {
+                    var num = i + 1;
+                    if ('betdouble' in data.doubles[i]) {
+                        str_index = 'betdouble';
+                        $("#double" + num).attr("placeholder", data.doubles[i].betdouble);
+                    } else {
+                        str_index = 'double';
+                        $("#double" + num).attr("placeholder", data.doubles[i].double);
+                    }
+                    $("#rand" + num).attr("placeholder", data.doubles[i].rand);
+                }
+            } else {
+                $("#doubles1").css("visibility", "hidden");
+                $("#doubles2").css("visibility", "hidden");
+                $("#doubles3").css("visibility", "hidden");
+            }
+
+            var inputs = document.getElementsByTagName('input');
+            for (i = 0; i < inputs.length; i++) {
+                inputs[i].value = "";
+            }
+            var arr = ['ai_base', 'ai_max', 'benginroom', 'profit', 'percent', 'maxbet', 'flag', 'maxprofit', 'minprofit'];
+            layer.open({
+                type: 1,
+                title: '场控参数',
+                shade: 0.0,
+                area: ['78%', '60%'],
+                content: $('#alllist'),
+                btn: ['确定', '取消'],
+                yes: function (index, layero) {
+                    var data = {'gtype': obj.data.gtype, 'level': obj.data.level};
+                    for (i = 0; i < arr.length; i++) {
+                        if (document.getElementById(arr[i])) {
+                            data[arr[i]] = document.getElementById(arr[i]).value;
+                        }
+                    }
+
+                    if (str_index) {
+                        data['doubles'] = [];
+                        for (i = 0; i < 3; i++) {
+                            num = i + 1;
+                            data['doubles'][i] = {};
+                            data['doubles'][i][str_index] = $("#doubles" + num).val();
+                            data['doubles'][i]['rand'] = $("#rand" + num).val();
+                        }
+                    }
+
+                    $.ajax({　　　　　　　　　　　　　　　　　　　　//交互传值
+                        url: '{:url("dataupdate")}',　　　　　　　　　　　　//传地址
+                        type: 'post',　　　　　　　　　　　　　　　　　　//传的方式
+                        data: data,
+                        success: res => {
+                            console.log(res)
+                            if (res['info']) {
+                                alert(res['info']);
+                            }
+                            layer.close(index);
+                        },
+                    });
+                },
+                btn2: function (index, layero) {
+                    layer.close(index);
+                },
+                maxmin: true,
+            })
+        })
+    });
+</script>
+<script type="test/html" id="barDemo">
+    <a class="layui-btn layui-btn-xs layui-btn-warm" lay-event="update">编 辑</a>
+</script>
+
+{/block}

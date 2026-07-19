@@ -1,0 +1,139 @@
+
+cfxm_xuanguan.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+caifuxiongmao_bianpao
+  rotate: false
+  xy: 2, 171
+  size: 239, 408
+  orig: 239, 408
+  offset: 0, 0
+  index: -1
+caifuxiongmao_chanchu
+  rotate: true
+  xy: 404, 742
+  size: 239, 408
+  orig: 239, 408
+  offset: 0, 0
+  index: -1
+caifuxiongmao_guangci_1
+  rotate: true
+  xy: 404, 515
+  size: 225, 241
+  orig: 256, 256
+  offset: 16, 7
+  index: -1
+caifuxiongmao_guangci_2
+  rotate: false
+  xy: 2, 581
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+caifuxiongmao_guangci_3
+  rotate: false
+  xy: 647, 519
+  size: 210, 221
+  orig: 210, 221
+  offset: 0, 0
+  index: -1
+caifuxiongmao_liyu
+  rotate: true
+  xy: 814, 742
+  size: 239, 408
+  orig: 239, 408
+  offset: 0, 0
+  index: -1
+caifuxiongmao_qilin
+  rotate: true
+  xy: 1634, 755
+  size: 226, 382
+  orig: 239, 408
+  offset: 11, 20
+  index: -1
+caifuxiongmao_xiongmao
+  rotate: true
+  xy: 1224, 742
+  size: 239, 408
+  orig: 239, 408
+  offset: 0, 0
+  index: -1
+cfxm_kliuguang_01
+  rotate: false
+  xy: 243, 454
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+cfxm_kliuguang_02
+  rotate: false
+  xy: 859, 615
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+cfxm_kliuguang_03
+  rotate: false
+  xy: 243, 327
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+cfxm_kliuguang_04
+  rotate: false
+  xy: 986, 615
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+cfxm_kliuguang_05
+  rotate: false
+  xy: 243, 200
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+cfxm_kliuguang_06
+  rotate: false
+  xy: 1113, 615
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+cfxm_kliuguang_07
+  rotate: false
+  xy: 1240, 615
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+cfxm_kliuguang_08
+  rotate: false
+  xy: 1367, 615
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+cfxm_kliuguang_09
+  rotate: false
+  xy: 1494, 615
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+cfxm_kliuguang_10
+  rotate: false
+  xy: 859, 488
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+jinlongfafafa_bj_xiangyun
+  rotate: false
+  xy: 2, 2
+  size: 241, 167
+  orig: 242, 167
+  offset: 1, 0
+  index: -1

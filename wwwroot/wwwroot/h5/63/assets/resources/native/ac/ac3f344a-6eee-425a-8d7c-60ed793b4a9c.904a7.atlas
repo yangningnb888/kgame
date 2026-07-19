@@ -1,0 +1,62 @@
+
+paotai07_baozha.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pao_bao1
+  rotate: false
+  xy: 2, 94
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+pao_bao2
+  rotate: true
+  xy: 828, 2
+  size: 103, 113
+  orig: 103, 113
+  offset: 0, 0
+  index: -1
+pao_quan1
+  rotate: false
+  xy: 828, 107
+  size: 141, 141
+  orig: 141, 141
+  offset: 0, 0
+  index: -1
+shexian_78
+  rotate: false
+  xy: 158, 93
+  size: 132, 155
+  orig: 132, 155
+  offset: 0, 0
+  index: -1
+shexian_79
+  rotate: false
+  xy: 292, 93
+  size: 132, 155
+  orig: 132, 155
+  offset: 0, 0
+  index: -1
+shexian_80
+  rotate: false
+  xy: 426, 93
+  size: 132, 155
+  orig: 132, 155
+  offset: 0, 0
+  index: -1
+shexian_81
+  rotate: false
+  xy: 560, 93
+  size: 132, 155
+  orig: 132, 155
+  offset: 0, 0
+  index: -1
+shexian_82
+  rotate: false
+  xy: 694, 93
+  size: 132, 155
+  orig: 132, 155
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,41 @@
+
+zhengyaotawenzidonghua_buyu.png
+size: 274,81
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gangzi
+  rotate: false
+  xy: 168, 4
+  size: 51, 75
+  orig: 51, 75
+  offset: 0, 0
+  index: -1
+tazi
+  rotate: false
+  xy: 2, 3
+  size: 55, 76
+  orig: 55, 76
+  offset: 0, 0
+  index: -1
+yaozi
+  rotate: false
+  xy: 59, 3
+  size: 53, 76
+  orig: 53, 76
+  offset: 0, 0
+  index: -1
+zhengzi
+  rotate: false
+  xy: 114, 2
+  size: 52, 77
+  orig: 52, 77
+  offset: 0, 0
+  index: -1
+zhenyaotajinzi
+  rotate: false
+  xy: 221, 5
+  size: 51, 74
+  orig: 51, 74
+  offset: 0, 0
+  index: -1

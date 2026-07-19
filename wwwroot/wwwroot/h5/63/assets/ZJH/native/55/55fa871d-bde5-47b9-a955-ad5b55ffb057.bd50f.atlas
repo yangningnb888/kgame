@@ -1,0 +1,272 @@
+
+325_zhajinghua_xuanfangjian_zhongjifang.png
+size: 1022,977
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang01
+  rotate: true
+  xy: 817, 734
+  size: 241, 150
+  orig: 241, 150
+  offset: 0, 0
+  index: -1
+guang02
+  rotate: true
+  xy: 577, 536
+  size: 245, 147
+  orig: 245, 147
+  offset: 0, 0
+  index: -1
+heitao
+  rotate: false
+  xy: 2, 735
+  size: 296, 240
+  orig: 296, 240
+  offset: 0, 0
+  index: -1
+houpiaodai
+  rotate: true
+  xy: 969, 722
+  size: 253, 40
+  orig: 253, 40
+  offset: 0, 0
+  index: -1
+jingbi
+  rotate: true
+  xy: 726, 603
+  size: 129, 139
+  orig: 129, 139
+  offset: 0, 0
+  index: -1
+piku01
+  rotate: true
+  xy: 300, 730
+  size: 245, 275
+  orig: 245, 275
+  offset: 0, 0
+  index: -1
+puke02
+  rotate: true
+  xy: 2, 515
+  size: 218, 256
+  orig: 218, 256
+  offset: 0, 0
+  index: -1
+puke03
+  rotate: true
+  xy: 577, 783
+  size: 192, 238
+  orig: 192, 238
+  offset: 0, 0
+  index: -1
+xulie/heitao_01
+  rotate: false
+  xy: 867, 602
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_02
+  rotate: true
+  xy: 726, 453
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_03
+  rotate: false
+  xy: 846, 482
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_04
+  rotate: false
+  xy: 846, 362
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_05
+  rotate: false
+  xy: 260, 610
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_06
+  rotate: false
+  xy: 410, 610
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_07
+  rotate: false
+  xy: 260, 490
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_08
+  rotate: false
+  xy: 410, 490
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_09
+  rotate: false
+  xy: 560, 416
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_10
+  rotate: true
+  xy: 710, 303
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_11
+  rotate: false
+  xy: 830, 242
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_12
+  rotate: false
+  xy: 2, 395
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_13
+  rotate: false
+  xy: 152, 370
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_14
+  rotate: false
+  xy: 2, 275
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_15
+  rotate: false
+  xy: 302, 370
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_16
+  rotate: false
+  xy: 452, 296
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_17
+  rotate: false
+  xy: 602, 183
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_18
+  rotate: false
+  xy: 752, 122
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_19
+  rotate: true
+  xy: 902, 92
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_20
+  rotate: false
+  xy: 152, 250
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_21
+  rotate: false
+  xy: 2, 155
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_22
+  rotate: false
+  xy: 302, 250
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_23
+  rotate: false
+  xy: 452, 176
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_24
+  rotate: false
+  xy: 602, 63
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_25
+  rotate: false
+  xy: 752, 2
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_26
+  rotate: true
+  xy: 152, 100
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_27
+  rotate: false
+  xy: 2, 35
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_28
+  rotate: false
+  xy: 272, 130
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_29
+  rotate: false
+  xy: 422, 56
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1
+xulie/heitao_30
+  rotate: false
+  xy: 272, 10
+  size: 148, 118
+  orig: 148, 118
+  offset: 0, 0
+  index: -1

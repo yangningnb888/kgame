@@ -1,0 +1,97 @@
+
+owl.png
+size: 394,134
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+owl/C1
+  rotate: false
+  xy: 142, 11
+  size: 98, 44
+  orig: 98, 44
+  offset: 0, 0
+  index: -1
+owl/C2
+  rotate: false
+  xy: 294, 88
+  size: 98, 44
+  orig: 98, 44
+  offset: 0, 0
+  index: -1
+owl/brow_L
+  rotate: false
+  xy: 294, 63
+  size: 65, 23
+  orig: 65, 23
+  offset: 0, 0
+  index: -1
+owl/brow_R
+  rotate: false
+  xy: 242, 32
+  size: 65, 23
+  orig: 65, 23
+  offset: 0, 0
+  index: -1
+owl/eye_bL
+  rotate: false
+  xy: 309, 33
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+owl/eye_bR
+  rotate: false
+  xy: 242, 2
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+owl/eye_wL
+  rotate: false
+  xy: 142, 57
+  size: 74, 75
+  orig: 74, 75
+  offset: 0, 0
+  index: -1
+owl/eye_wR
+  rotate: false
+  xy: 218, 57
+  size: 74, 75
+  orig: 74, 75
+  offset: 0, 0
+  index: -1
+owl/head_1
+  rotate: false
+  xy: 2, 2
+  size: 138, 130
+  orig: 138, 130
+  offset: 0, 0
+  index: -1
+owl/mouth1
+  rotate: true
+  xy: 361, 62
+  size: 24, 29
+  orig: 24, 29
+  offset: 0, 0
+  index: -1
+owl/mouth2
+  rotate: true
+  xy: 339, 37
+  size: 24, 16
+  orig: 24, 16
+  offset: 0, 0
+  index: -1
+owl/mouth3
+  rotate: false
+  xy: 272, 7
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1
+owl/mouth_b
+  rotate: false
+  xy: 357, 36
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1

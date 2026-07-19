@@ -1,0 +1,90 @@
+
+tzxz_spine.png
+size: 525,515
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tzxz_spine/card2
+  rotate: false
+  xy: 131, 152
+  size: 111, 134
+  orig: 111, 134
+  offset: 0, 0
+  index: -1
+tzxz_spine/chouma_g
+  rotate: true
+  xy: 368, 194
+  size: 92, 60
+  orig: 92, 60
+  offset: 0, 0
+  index: -1
+tzxz_spine/chouma_p
+  rotate: true
+  xy: 368, 101
+  size: 91, 60
+  orig: 91, 60
+  offset: 0, 0
+  index: -1
+tzxz_spine/hongtao
+  rotate: true
+  xy: 127, 5
+  size: 135, 108
+  orig: 135, 108
+  offset: 0, 0
+  index: -1
+tzxz_spine/light1_1
+  rotate: true
+  xy: 430, 14
+  size: 126, 90
+  orig: 126, 90
+  offset: 0, 0
+  index: -1
+tzxz_spine/light2_1
+  rotate: true
+  xy: 444, 142
+  size: 371, 79
+  orig: 371, 79
+  offset: 0, 0
+  index: -1
+tzxz_spine/ting
+  rotate: true
+  xy: 2, 151
+  size: 135, 127
+  orig: 135, 127
+  offset: 0, 0
+  index: -1
+tzxz_spine/tzxz_frame
+  rotate: false
+  xy: 2, 397
+  size: 440, 116
+  orig: 440, 116
+  offset: 0, 0
+  index: -1
+tzxz_spine/tzxz_text
+  rotate: false
+  xy: 2, 288
+  size: 431, 107
+  orig: 431, 107
+  offset: 0, 0
+  index: -1
+tzxz_spine/xia_red
+  rotate: true
+  xy: 237, 12
+  size: 128, 122
+  orig: 128, 122
+  offset: 0, 0
+  index: -1
+tzxz_spine/zhi
+  rotate: true
+  xy: 244, 158
+  size: 128, 122
+  orig: 128, 122
+  offset: 0, 0
+  index: -1
+tzxz_spine/zhu_red
+  rotate: true
+  xy: 2, 2
+  size: 138, 123
+  orig: 138, 123
+  offset: 0, 0
+  index: -1

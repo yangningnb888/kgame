@@ -1,0 +1,125 @@
+
+dengdaikaishi_1_1.png
+size: 256,276
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gui_txt_ready
+  rotate: false
+  xy: 1, 1
+  size: 239, 44
+  orig: 240, 44
+  offset: 0, 0
+  index: -1
+gui_txt_ready_point
+  rotate: false
+  xy: 233, 47
+  size: 12, 16
+  orig: 12, 16
+  offset: 0, 0
+  index: -1
+zjh_kaishisaoguang_8
+  rotate: false
+  xy: 1, 47
+  size: 99, 44
+  orig: 240, 44
+  offset: 72, 0
+  index: -1
+zjh_kaishisaoguang_13
+  rotate: false
+  xy: 192, 185
+  size: 62, 44
+  orig: 240, 44
+  offset: 177, 0
+  index: -1
+zjh_kaishisaoguang_9
+  rotate: false
+  xy: 1, 139
+  size: 97, 44
+  orig: 240, 44
+  offset: 94, 0
+  index: -1
+zjh_kaishisaoguang_2
+  rotate: false
+  xy: 198, 139
+  size: 50, 44
+  orig: 240, 44
+  offset: 0, 0
+  index: -1
+zjh_kaishisaoguang_11
+  rotate: false
+  xy: 1, 185
+  size: 97, 43
+  orig: 240, 44
+  offset: 133, 0
+  index: -1
+zjh_kaishisaoguang_6
+  rotate: false
+  xy: 100, 139
+  size: 96, 44
+  orig: 240, 44
+  offset: 35, 0
+  index: -1
+zjh_kaishisaoguang_14
+  rotate: false
+  xy: 199, 93
+  size: 39, 43
+  orig: 240, 44
+  offset: 200, 1
+  index: -1
+zjh_kaishisaoguang_5
+  rotate: false
+  xy: 100, 93
+  size: 97, 44
+  orig: 240, 44
+  offset: 13, 0
+  index: -1
+zjh_kaishisaoguang_3
+  rotate: false
+  xy: 89, 230
+  size: 70, 44
+  orig: 240, 44
+  offset: 0, 0
+  index: -1
+zjh_kaishisaoguang_1
+  rotate: false
+  xy: 201, 47
+  size: 30, 43
+  orig: 240, 44
+  offset: 0, 1
+  index: -1
+zjh_kaishisaoguang_10
+  rotate: false
+  xy: 1, 93
+  size: 97, 44
+  orig: 240, 44
+  offset: 113, 0
+  index: -1
+zjh_kaishisaoguang_7
+  rotate: false
+  xy: 102, 47
+  size: 97, 44
+  orig: 240, 44
+  offset: 53, 0
+  index: -1
+zjh_kaishisaoguang_4
+  rotate: false
+  xy: 100, 185
+  size: 90, 43
+  orig: 240, 44
+  offset: 0, 1
+  index: -1
+zjh_kaishisaoguang_12
+  rotate: false
+  xy: 1, 230
+  size: 86, 44
+  orig: 240, 44
+  offset: 153, 0
+  index: -1
+zjh_kaishisaoguang_15
+  rotate: false
+  xy: 161, 230
+  size: 26, 42
+  orig: 240, 44
+  offset: 213, 1
+  index: -1

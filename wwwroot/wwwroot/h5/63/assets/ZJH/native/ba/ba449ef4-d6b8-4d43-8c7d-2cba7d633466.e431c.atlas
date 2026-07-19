@@ -1,0 +1,48 @@
+
+bipai_zhajinhua_1.png
+size: 784,725
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pktiaozimohu1
+  rotate: false
+  xy: 1, 148
+  size: 698, 145
+  orig: 715, 150
+  offset: 10, 4
+  index: -1
+pktiaozimohu2
+  rotate: false
+  xy: 1, 1
+  size: 712, 145
+  orig: 747, 150
+  offset: 21, 4
+  index: -1
+pktiaozi1
+  rotate: false
+  xy: 1, 437
+  size: 668, 140
+  orig: 669, 140
+  offset: 0, 0
+  index: -1
+pktiaozi2
+  rotate: false
+  xy: 1, 295
+  size: 679, 140
+  orig: 697, 140
+  offset: 18, 0
+  index: -1
+shandian111
+  rotate: false
+  xy: 671, 437
+  size: 111, 286
+  orig: 138, 328
+  offset: 12, 22
+  index: -1
+popai1111
+  rotate: false
+  xy: 682, 295
+  size: 73, 89
+  orig: 73, 89
+  offset: 0, 0
+  index: -1

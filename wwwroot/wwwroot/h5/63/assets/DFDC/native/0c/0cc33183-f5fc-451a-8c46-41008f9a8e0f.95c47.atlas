@@ -1,0 +1,766 @@
+
+duofuduocai_jinlong.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jinglongfafa_jinbi_01
+  rotate: false
+  xy: 458, 687
+  size: 12, 14
+  orig: 375, 375
+  offset: 103, 361
+  index: -1
+jinglongfafa_jinbi_07
+  rotate: true
+  xy: 307, 2
+  size: 322, 220
+  orig: 375, 375
+  offset: 42, 155
+  index: -1
+jinglongfafa_jinbi_09
+  rotate: true
+  xy: 2, 2
+  size: 322, 303
+  orig: 375, 375
+  offset: 42, 72
+  index: -1
+jinglongfafa_jinbi_65
+  rotate: false
+  xy: 529, 2
+  size: 345, 314
+  orig: 375, 375
+  offset: 3, 0
+  index: -1
+jinlongfafa_lizi_01
+  rotate: false
+  xy: 458, 672
+  size: 12, 13
+  orig: 325, 150
+  offset: 38, 137
+  index: -1
+jinlongfafa_lizi_04
+  rotate: true
+  xy: 939, 829
+  size: 152, 78
+  orig: 325, 150
+  offset: 44, 72
+  index: -1
+jinlongfafa_lizi_07
+  rotate: true
+  xy: 873, 318
+  size: 161, 148
+  orig: 325, 150
+  offset: 56, 2
+  index: -1
+jinlongfafa_lizi_13
+  rotate: true
+  xy: 873, 481
+  size: 163, 148
+  orig: 325, 150
+  offset: 60, 2
+  index: -1
+jinlongfafa_lizi_14
+  rotate: true
+  xy: 876, 161
+  size: 155, 142
+  orig: 325, 150
+  offset: 63, 8
+  index: -1
+jinlongfafa_lizi_15
+  rotate: true
+  xy: 876, 5
+  size: 154, 137
+  orig: 325, 150
+  offset: 64, 13
+  index: -1
+jinlongfafa_long_01
+  rotate: true
+  xy: 939, 670
+  size: 117, 56
+  orig: 812, 375
+  offset: 21, 319
+  index: -1
+jinlongfafa_long_09
+  rotate: false
+  xy: 2, 703
+  size: 468, 318
+  orig: 812, 375
+  offset: 86, 57
+  index: -1
+jinlongfafa_long_11
+  rotate: false
+  xy: 472, 646
+  size: 465, 375
+  orig: 812, 375
+  offset: 146, 0
+  index: -1
+jinlongfafa_long_17
+  rotate: false
+  xy: 458, 327
+  size: 413, 317
+  orig: 812, 375
+  offset: 129, 0
+  index: -1
+jinlongfafa_long_31
+  rotate: false
+  xy: 2, 326
+  size: 454, 375
+  orig: 812, 375
+  offset: 242, 0
+  index: -1
+jinlongfafa_long_46
+  rotate: false
+  xy: 939, 789
+  size: 63, 38
+  orig: 406, 188
+  offset: 210, 0
+  index: -1
+jlfafa_zhezhao
+  rotate: false
+  xy: 939, 983
+  size: 81, 38
+  orig: 81, 38
+  offset: 0, 0
+  index: -1
+
+duofuduocai_jinlong2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jinglongfafa_jinbi_52
+  rotate: true
+  xy: 306, 4
+  size: 372, 343
+  orig: 375, 375
+  offset: 0, 32
+  index: -1
+jinglongfafa_jinbi_67
+  rotate: true
+  xy: 192, 378
+  size: 348, 243
+  orig: 375, 375
+  offset: 5, 0
+  index: -1
+jinglongfafa_jinbi_69
+  rotate: true
+  xy: 860, 164
+  size: 340, 160
+  orig: 375, 375
+  offset: 13, 7
+  index: -1
+jinlongfafa_lizi_02
+  rotate: false
+  xy: 437, 388
+  size: 58, 38
+  orig: 325, 150
+  offset: 37, 112
+  index: -1
+jinlongfafa_lizi_08
+  rotate: false
+  xy: 841, 12
+  size: 165, 150
+  orig: 325, 150
+  offset: 51, 0
+  index: -1
+jinlongfafa_lizi_10
+  rotate: true
+  xy: 2, 2
+  size: 160, 150
+  orig: 325, 150
+  offset: 53, 0
+  index: -1
+jinlongfafa_lizi_11
+  rotate: true
+  xy: 154, 5
+  size: 157, 150
+  orig: 325, 150
+  offset: 55, 0
+  index: -1
+jinlongfafa_lizi_12
+  rotate: false
+  xy: 868, 872
+  size: 153, 150
+  orig: 325, 150
+  offset: 58, 0
+  index: -1
+jinlongfafa_lizi_18
+  rotate: true
+  xy: 192, 175
+  size: 201, 95
+  orig: 325, 150
+  offset: 94, 55
+  index: -1
+jinlongfafa_lizi_25
+  rotate: false
+  xy: 651, 276
+  size: 207, 150
+  orig: 325, 150
+  offset: 91, 0
+  index: -1
+jinlongfafa_lizi_27
+  rotate: true
+  xy: 868, 648
+  size: 222, 150
+  orig: 325, 150
+  offset: 86, 0
+  index: -1
+jinlongfafa_long_07
+  rotate: false
+  xy: 442, 805
+  size: 424, 217
+  orig: 812, 375
+  offset: 56, 158
+  index: -1
+jinlongfafa_long_15
+  rotate: false
+  xy: 2, 728
+  size: 438, 294
+  orig: 812, 375
+  offset: 146, 0
+  index: -1
+jinlongfafa_long_25
+  rotate: false
+  xy: 442, 428
+  size: 416, 375
+  orig: 812, 375
+  offset: 209, 0
+  index: -1
+jinlongfafa_long_33
+  rotate: true
+  xy: 651, 3
+  size: 271, 188
+  orig: 406, 188
+  offset: 94, 0
+  index: -1
+jinlongfafa_long_38
+  rotate: true
+  xy: 2, 442
+  size: 284, 188
+  orig: 406, 188
+  offset: 102, 0
+  index: -1
+jinlongfafa_long_40
+  rotate: true
+  xy: 2, 165
+  size: 261, 188
+  orig: 406, 188
+  offset: 100, 0
+  index: -1
+jinlongfafa_long_42
+  rotate: true
+  xy: 860, 506
+  size: 140, 161
+  orig: 406, 188
+  offset: 172, 0
+  index: -1
+
+duofuduocai_jinlong3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jinglongfafa_jinbi_03
+  rotate: false
+  xy: 2, 4
+  size: 254, 92
+  orig: 375, 375
+  offset: 43, 283
+  index: -1
+jinglongfafa_jinbi_29
+  rotate: true
+  xy: 2, 291
+  size: 352, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+jinglongfafa_jinbi_31
+  rotate: true
+  xy: 379, 293
+  size: 350, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+jinglongfafa_jinbi_71
+  rotate: false
+  xy: 678, 3
+  size: 331, 106
+  orig: 375, 375
+  offset: 21, 0
+  index: -1
+jinlongfafa_lizi_03
+  rotate: true
+  xy: 626, 2
+  size: 94, 50
+  orig: 325, 150
+  offset: 40, 100
+  index: -1
+jinlongfafa_lizi_16
+  rotate: false
+  xy: 539, 2
+  size: 85, 94
+  orig: 325, 150
+  offset: 67, 56
+  index: -1
+jinlongfafa_lizi_17
+  rotate: true
+  xy: 258, 11
+  size: 85, 150
+  orig: 325, 150
+  offset: 67, 0
+  index: -1
+jinlongfafa_long_05
+  rotate: false
+  xy: 649, 111
+  size: 301, 175
+  orig: 812, 375
+  offset: 53, 200
+  index: -1
+jinlongfafa_long_21
+  rotate: false
+  xy: 419, 645
+  size: 398, 375
+  orig: 812, 375
+  offset: 157, 0
+  index: -1
+jinlongfafa_long_27
+  rotate: false
+  xy: 2, 645
+  size: 415, 375
+  orig: 812, 375
+  offset: 243, 0
+  index: -1
+jinlongfafa_long_34
+  rotate: false
+  xy: 2, 98
+  size: 336, 188
+  orig: 406, 188
+  offset: 66, 0
+  index: -1
+jinlongfafa_long_35
+  rotate: true
+  xy: 819, 648
+  size: 372, 188
+  orig: 406, 188
+  offset: 34, 0
+  index: -1
+jinlongfafa_long_36
+  rotate: true
+  xy: 819, 288
+  size: 358, 188
+  orig: 406, 188
+  offset: 48, 0
+  index: -1
+jinlongfafa_long_37
+  rotate: false
+  xy: 340, 98
+  size: 307, 188
+  orig: 406, 188
+  offset: 99, 0
+  index: -1
+jinlongfafa_long_44
+  rotate: true
+  xy: 410, 2
+  size: 94, 127
+  orig: 406, 188
+  offset: 193, 0
+  index: -1
+
+duofuduocai_jinlong4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jinglongfafa_jinbi_05
+  rotate: false
+  xy: 735, 195
+  size: 249, 108
+  orig: 375, 375
+  offset: 48, 267
+  index: -1
+jinglongfafa_jinbi_25
+  rotate: true
+  xy: 379, 11
+  size: 292, 354
+  orig: 375, 375
+  offset: 0, 21
+  index: -1
+jinglongfafa_jinbi_27
+  rotate: true
+  xy: 2, 11
+  size: 292, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+jinglongfafa_jinbi_45
+  rotate: false
+  xy: 401, 328
+  size: 375, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+jinglongfafa_jinbi_63
+  rotate: false
+  xy: 2, 305
+  size: 348, 340
+  orig: 375, 375
+  offset: 3, 17
+  index: -1
+jinlongfafa_lizi_05
+  rotate: true
+  xy: 887, 24
+  size: 169, 113
+  orig: 325, 150
+  offset: 48, 37
+  index: -1
+jinlongfafa_lizi_19
+  rotate: true
+  xy: 735, 2
+  size: 191, 150
+  orig: 325, 150
+  offset: 95, 0
+  index: -1
+jinlongfafa_lizi_24
+  rotate: false
+  xy: 799, 594
+  size: 208, 150
+  orig: 325, 150
+  offset: 93, 0
+  index: -1
+jinlongfafa_lizi_26
+  rotate: false
+  xy: 799, 872
+  size: 215, 150
+  orig: 325, 150
+  offset: 88, 0
+  index: -1
+jinlongfafa_lizi_28
+  rotate: false
+  xy: 778, 305
+  size: 229, 147
+  orig: 325, 150
+  offset: 83, 3
+  index: -1
+jinlongfafa_lizi_29
+  rotate: false
+  xy: 778, 454
+  size: 234, 138
+  orig: 325, 150
+  offset: 81, 12
+  index: -1
+jinlongfafa_long_03
+  rotate: false
+  xy: 799, 746
+  size: 215, 124
+  orig: 812, 375
+  offset: 34, 251
+  index: -1
+jinlongfafa_long_23
+  rotate: false
+  xy: 401, 705
+  size: 396, 317
+  orig: 812, 375
+  offset: 196, 58
+  index: -1
+jinlongfafa_long_29
+  rotate: false
+  xy: 2, 647
+  size: 397, 375
+  orig: 812, 375
+  offset: 262, 0
+  index: -1
+
+duofuduocai_jinlong5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jinglongfafa_jinbi_46
+  rotate: false
+  xy: 2, 531
+  size: 375, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+jinglongfafa_jinbi_47
+  rotate: false
+  xy: 2, 154
+  size: 375, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+jinglongfafa_jinbi_48
+  rotate: false
+  xy: 379, 531
+  size: 375, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+jinglongfafa_jinbi_49
+  rotate: false
+  xy: 379, 154
+  size: 375, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+jinlongfafa_lizi_06
+  rotate: false
+  xy: 756, 452
+  size: 163, 150
+  orig: 325, 150
+  offset: 55, 0
+  index: -1
+jinlongfafa_lizi_09
+  rotate: false
+  xy: 389, 2
+  size: 165, 150
+  orig: 325, 150
+  offset: 50, 0
+  index: -1
+jinlongfafa_lizi_20
+  rotate: false
+  xy: 756, 604
+  size: 182, 150
+  orig: 325, 150
+  offset: 95, 0
+  index: -1
+jinlongfafa_lizi_21
+  rotate: false
+  xy: 203, 2
+  size: 184, 150
+  orig: 325, 150
+  offset: 95, 0
+  index: -1
+jinlongfafa_lizi_22
+  rotate: false
+  xy: 756, 756
+  size: 190, 150
+  orig: 325, 150
+  offset: 94, 0
+  index: -1
+jinlongfafa_lizi_23
+  rotate: false
+  xy: 2, 2
+  size: 199, 150
+  orig: 325, 150
+  offset: 94, 0
+  index: -1
+
+duofuduocai_jinlong6.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jinglongfafa_jinbi_17
+  rotate: true
+  xy: 379, 338
+  size: 333, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+jinglongfafa_jinbi_19
+  rotate: true
+  xy: 2, 9
+  size: 333, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+jinglongfafa_jinbi_21
+  rotate: true
+  xy: 379, 2
+  size: 334, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+jinglongfafa_jinbi_33
+  rotate: true
+  xy: 2, 678
+  size: 326, 375
+  orig: 375, 375
+  offset: 25, 0
+  index: -1
+jinglongfafa_jinbi_35
+  rotate: true
+  xy: 2, 344
+  size: 332, 375
+  orig: 375, 375
+  offset: 21, 0
+  index: -1
+jinglongfafa_jinbi_37
+  rotate: true
+  xy: 379, 673
+  size: 331, 375
+  orig: 375, 375
+  offset: 20, 0
+  index: -1
+
+duofuduocai_jinlong7.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jinglongfafa_jinbi_50
+  rotate: false
+  xy: 2, 379
+  size: 375, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+jinglongfafa_jinbi_51
+  rotate: false
+  xy: 2, 2
+  size: 375, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+jinglongfafa_jinbi_54
+  rotate: false
+  xy: 379, 379
+  size: 375, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+jinglongfafa_jinbi_55
+  rotate: false
+  xy: 379, 2
+  size: 375, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+
+duofuduocai_jinlong8.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jinglongfafa_jinbi_43
+  rotate: false
+  xy: 379, 379
+  size: 371, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+jinglongfafa_jinbi_53
+  rotate: false
+  xy: 379, 2
+  size: 371, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+jinglongfafa_jinbi_56
+  rotate: false
+  xy: 2, 379
+  size: 375, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+jinglongfafa_jinbi_57
+  rotate: false
+  xy: 2, 2
+  size: 375, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+
+duofuduocai_jinlong9.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jinglongfafa_jinbi_13
+  rotate: false
+  xy: 371, 2
+  size: 361, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+jinglongfafa_jinbi_39
+  rotate: false
+  xy: 2, 2
+  size: 367, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+jinglongfafa_jinbi_41
+  rotate: false
+  xy: 372, 379
+  size: 367, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+jinlongfafa_long_19
+  rotate: false
+  xy: 2, 379
+  size: 368, 375
+  orig: 812, 375
+  offset: 133, 0
+  index: -1
+
+duofuduocai_jinlong10.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jinglongfafa_jinbi_15
+  rotate: false
+  xy: 2, 379
+  size: 359, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+jinglongfafa_jinbi_58
+  rotate: false
+  xy: 352, 2
+  size: 346, 375
+  orig: 375, 375
+  offset: 3, 0
+  index: -1
+jinglongfafa_jinbi_60
+  rotate: false
+  xy: 2, 2
+  size: 348, 375
+  orig: 375, 375
+  offset: 4, 0
+  index: -1
+jinglongfafa_jinbi_61
+  rotate: false
+  xy: 363, 379
+  size: 348, 375
+  orig: 375, 375
+  offset: 5, 0
+  index: -1
+
+duofuduocai_jinlong11.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jinglongfafa_jinbi_11
+  rotate: false
+  xy: 345, 390
+  size: 363, 352
+  orig: 375, 375
+  offset: 0, 23
+  index: -1
+jinglongfafa_jinbi_23
+  rotate: false
+  xy: 2, 2
+  size: 334, 363
+  orig: 375, 375
+  offset: 0, 12
+  index: -1
+jinglongfafa_jinbi_59
+  rotate: false
+  xy: 2, 367
+  size: 341, 375
+  orig: 375, 375
+  offset: 3, 0
+  index: -1
+jinlongfafa_long_13
+  rotate: false
+  xy: 345, 46
+  size: 350, 342
+  orig: 812, 375
+  offset: 240, 0
+  index: -1

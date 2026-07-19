@@ -1,0 +1,118 @@
+
+allin_you2_1.png
+size: 993,1758
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+50
+  rotate: false
+  xy: 62, 1078
+  size: 59, 56
+  orig: 59, 56
+  offset: 0, 0
+  index: -1
+1
+  rotate: false
+  xy: 184, 1078
+  size: 58, 56
+  orig: 58, 56
+  offset: 0, 0
+  index: -1
+0.1
+  rotate: false
+  xy: 123, 1078
+  size: 59, 56
+  orig: 59, 56
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 1, 1078
+  size: 59, 56
+  orig: 59, 56
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 417, 695
+  size: 59, 56
+  orig: 59, 56
+  offset: 0, 0
+  index: -1
+100
+  rotate: false
+  xy: 356, 695
+  size: 59, 56
+  orig: 59, 56
+  offset: 0, 0
+  index: -1
+allin_shuangshou_10
+  rotate: false
+  xy: 484, 380
+  size: 353, 382
+  orig: 494, 382
+  offset: 0, 0
+  index: -1
+allin_shuangshou_5
+  rotate: false
+  xy: 1, 1
+  size: 456, 349
+  orig: 494, 382
+  offset: 0, 30
+  index: -1
+allin_shuangshou_6
+  rotate: false
+  xy: 497, 1143
+  size: 494, 232
+  orig: 494, 382
+  offset: 0, 79
+  index: -1
+allin_shuangshou_1
+  rotate: false
+  xy: 1, 695
+  size: 353, 381
+  orig: 494, 382
+  offset: 0, 1
+  index: -1
+allin_shuangshou_7
+  rotate: false
+  xy: 1, 380
+  size: 481, 313
+  orig: 494, 382
+  offset: 0, 0
+  index: -1
+allin_shuangshou_2
+  rotate: false
+  xy: 497, 1377
+  size: 264, 379
+  orig: 494, 382
+  offset: 0, 3
+  index: -1
+allin_shuangshou_8
+  rotate: false
+  xy: 1, 1143
+  size: 494, 235
+  orig: 494, 382
+  offset: 0, 79
+  index: -1
+allin_shuangshou_3
+  rotate: false
+  xy: 708, 764
+  size: 280, 376
+  orig: 494, 382
+  offset: 0, 6
+  index: -1
+allin_shuangshou_9
+  rotate: false
+  xy: 459, 1
+  size: 420, 377
+  orig: 494, 382
+  offset: 0, 0
+  index: -1
+allin_shuangshou_4
+  rotate: false
+  xy: 356, 764
+  size: 350, 377
+  orig: 494, 382
+  offset: 0, 5
+  index: -1

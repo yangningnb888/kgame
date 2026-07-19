@@ -1,0 +1,160 @@
+
+shz_xuanchang_xiaozichang.png
+size: 677,456
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ldyx_chujichang_bei
+  rotate: false
+  xy: 545, 95
+  size: 42, 56
+  orig: 42, 56
+  offset: 0, 0
+  index: -1
+ldyx_chujichang_czi
+  rotate: false
+  xy: 606, 123
+  size: 54, 47
+  orig: 54, 47
+  offset: 0, 0
+  index: -1
+ldyx_chujichang_dizuo
+  rotate: false
+  xy: 2, 6
+  size: 478, 448
+  orig: 478, 448
+  offset: 0, 0
+  index: -1
+ldyx_chujichang_gua
+  rotate: false
+  xy: 482, 338
+  size: 162, 116
+  orig: 162, 116
+  offset: 0, 0
+  index: -1
+ldyx_chujichang_guan
+  rotate: true
+  xy: 482, 2
+  size: 34, 36
+  orig: 34, 36
+  offset: 0, 0
+  index: -1
+ldyx_chujichang_han
+  rotate: true
+  xy: 662, 162
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+ldyx_chujichang_miao
+  rotate: true
+  xy: 609, 220
+  size: 24, 18
+  orig: 24, 18
+  offset: 0, 0
+  index: -1
+ldyx_chujichang_mo
+  rotate: false
+  xy: 482, 153
+  size: 97, 39
+  orig: 97, 39
+  offset: 0, 0
+  index: -1
+ldyx_chujichang_mojing
+  rotate: false
+  xy: 482, 194
+  size: 104, 50
+  orig: 104, 50
+  offset: 0, 0
+  index: -1
+ldyx_chujichang_pao
+  rotate: false
+  xy: 646, 344
+  size: 11, 10
+  orig: 11, 10
+  offset: 0, 0
+  index: -1
+ldyx_chujichang_san
+  rotate: false
+  xy: 482, 246
+  size: 145, 90
+  orig: 145, 90
+  offset: 0, 0
+  index: -1
+ldyx_chujichang_teng
+  rotate: false
+  xy: 482, 97
+  size: 61, 54
+  orig: 61, 54
+  offset: 0, 0
+  index: -1
+ldyx_chujichang_yanjing
+  rotate: true
+  xy: 588, 197
+  size: 47, 19
+  orig: 47, 19
+  offset: 0, 0
+  index: -1
+ldyx_gaojichang_erliu
+  rotate: true
+  xy: 646, 356
+  size: 98, 15
+  orig: 98, 15
+  offset: 0, 0
+  index: -1
+ldyx_gaojichang_hong
+  rotate: false
+  xy: 629, 279
+  size: 46, 57
+  orig: 46, 57
+  offset: 0, 0
+  index: -1
+ldyx_gaojichang_lan
+  rotate: false
+  xy: 629, 220
+  size: 46, 57
+  orig: 46, 57
+  offset: 0, 0
+  index: -1
+ldyx_gaojichang_lv
+  rotate: false
+  xy: 482, 38
+  size: 46, 57
+  orig: 46, 57
+  offset: 0, 0
+  index: -1
+ldyx_gaojichang_san
+  rotate: true
+  xy: 589, 52
+  size: 21, 15
+  orig: 21, 15
+  offset: 0, 0
+  index: -1
+ldyx_gaojichang_si
+  rotate: false
+  xy: 606, 106
+  size: 21, 15
+  orig: 21, 15
+  offset: 0, 0
+  index: -1
+ldyx_gaojichang_thong
+  rotate: true
+  xy: 530, 47
+  size: 46, 57
+  orig: 46, 57
+  offset: 0, 0
+  index: -1
+ldyx_gaojichang_yiwu
+  rotate: true
+  xy: 589, 75
+  size: 95, 15
+  orig: 95, 15
+  offset: 0, 0
+  index: -1
+ldyx_gaojichang_zi
+  rotate: true
+  xy: 609, 172
+  size: 46, 57
+  orig: 46, 57
+  offset: 0, 0
+  index: -1

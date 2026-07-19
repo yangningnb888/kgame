@@ -1,0 +1,20 @@
+
+qipao_buyu.png
+size: 21,24
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+qipao
+  rotate: false
+  xy: 1, 21
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+fish_effect_qipao
+  rotate: false
+  xy: 1, 1
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1

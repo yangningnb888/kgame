@@ -1,0 +1,90 @@
+
+shz_xuanchang_tiyanchang.png
+size: 977,482
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shz_tuhaochang_body
+  rotate: true
+  xy: 347, 17
+  size: 166, 203
+  orig: 166, 203
+  offset: 0, 0
+  index: -1
+shz_tuhaochang_juanzhou
+  rotate: true
+  xy: 666, 76
+  size: 404, 103
+  orig: 404, 103
+  offset: 0, 0
+  index: -1
+shz_tuhaochang_kuzi
+  rotate: false
+  xy: 2, 2
+  size: 337, 166
+  orig: 337, 166
+  offset: 0, 0
+  index: -1
+shz_tuhaochang_qizi00
+  rotate: true
+  xy: 2, 170
+  size: 310, 343
+  orig: 310, 343
+  offset: 0, 0
+  index: -1
+shz_tuhaochang_qizi01
+  rotate: false
+  xy: 347, 185
+  size: 317, 295
+  orig: 317, 295
+  offset: 0, 0
+  index: -1
+shz_tuhaochang_tou
+  rotate: false
+  xy: 552, 57
+  size: 74, 126
+  orig: 74, 126
+  offset: 0, 0
+  index: -1
+shz_tuhaochang_toufa
+  rotate: true
+  xy: 628, 31
+  size: 43, 48
+  orig: 43, 48
+  offset: 0, 0
+  index: -1
+shz_tuhaochang_yanjing
+  rotate: true
+  xy: 595, 15
+  size: 40, 10
+  orig: 40, 10
+  offset: 0, 0
+  index: -1
+shz_tuhaochang_youshou
+  rotate: true
+  xy: 771, 268
+  size: 212, 201
+  orig: 212, 201
+  offset: 0, 0
+  index: -1
+shz_tuhaochang_yumao00
+  rotate: false
+  xy: 942, 203
+  size: 33, 63
+  orig: 33, 63
+  offset: 0, 0
+  index: -1
+shz_tuhaochang_yumao01
+  rotate: true
+  xy: 552, 17
+  size: 38, 41
+  orig: 38, 41
+  offset: 0, 0
+  index: -1
+shz_tuhaochang_zuoshou
+  rotate: true
+  xy: 771, 26
+  size: 240, 169
+  orig: 240, 169
+  offset: 0, 0
+  index: -1

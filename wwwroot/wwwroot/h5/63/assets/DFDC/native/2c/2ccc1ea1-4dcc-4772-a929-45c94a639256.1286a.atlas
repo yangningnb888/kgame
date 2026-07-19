@@ -1,0 +1,111 @@
+
+cfxm_bagua.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cfxm_xg_bagua
+  rotate: false
+  xy: 325, 352
+  size: 159, 158
+  orig: 159, 158
+  offset: 0, 0
+  index: -1
+cfxm_xg_baguadi
+  rotate: false
+  xy: 2, 230
+  size: 321, 280
+  orig: 321, 280
+  offset: 0, 0
+  index: -1
+cfxm_xg_glow
+  rotate: false
+  xy: 325, 239
+  size: 111, 111
+  orig: 111, 111
+  offset: 0, 0
+  index: -1
+cfxm_xg_guanghuan
+  rotate: false
+  xy: 707, 399
+  size: 111, 111
+  orig: 128, 128
+  offset: 9, 8
+  index: -1
+xuanguan_jubaop
+  rotate: false
+  xy: 2, 54
+  size: 317, 174
+  orig: 317, 174
+  offset: 0, 0
+  index: -1
+xuanguan_jubaopg
+  rotate: false
+  xy: 486, 428
+  size: 219, 82
+  orig: 219, 82
+  offset: 0, 0
+  index: -1
+zsyh_jbp_glow_01
+  rotate: false
+  xy: 618, 406
+  size: 67, 20
+  orig: 130, 62
+  offset: 29, 12
+  index: -1
+zsyh_jbp_glow_02
+  rotate: false
+  xy: 486, 333
+  size: 130, 43
+  orig: 130, 62
+  offset: 0, 5
+  index: -1
+zsyh_jbp_glow_03
+  rotate: false
+  xy: 484, 288
+  size: 130, 43
+  orig: 130, 62
+  offset: 0, 5
+  index: -1
+zsyh_jbp_glow_04
+  rotate: true
+  xy: 438, 220
+  size: 130, 44
+  orig: 130, 62
+  offset: 0, 5
+  index: -1
+zsyh_jbp_glow_05
+  rotate: false
+  xy: 820, 415
+  size: 130, 46
+  orig: 130, 62
+  offset: 0, 4
+  index: -1
+zsyh_jbp_glow_06
+  rotate: false
+  xy: 820, 463
+  size: 130, 47
+  orig: 130, 62
+  offset: 0, 4
+  index: -1
+zsyh_jbp_glow_07
+  rotate: false
+  xy: 486, 378
+  size: 130, 48
+  orig: 130, 62
+  offset: 0, 4
+  index: -1
+zsyh_jbp_glow_08
+  rotate: false
+  xy: 2, 2
+  size: 130, 50
+  orig: 130, 62
+  offset: 0, 3
+  index: -1
+zsyh_jbp_glow_09
+  rotate: false
+  xy: 134, 3
+  size: 130, 49
+  orig: 130, 62
+  offset: 0, 5
+  index: -1

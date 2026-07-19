@@ -1,0 +1,55 @@
+
+feiji.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aa
+  rotate: true
+  xy: 797, 81
+  size: 170, 137
+  orig: 172, 139
+  offset: 1, 1
+  index: -1
+bb
+  rotate: true
+  xy: 936, 109
+  size: 142, 137
+  orig: 144, 139
+  offset: 1, 1
+  index: -1
+cc
+  rotate: false
+  xy: 347, 24
+  size: 30, 30
+  orig: 39, 39
+  offset: 4, 3
+  index: -1
+dd
+  rotate: false
+  xy: 347, 56
+  size: 31, 31
+  orig: 41, 38
+  offset: 5, 3
+  index: -1
+ddzfeiji
+  rotate: false
+  xy: 493, 2
+  size: 302, 249
+  orig: 313, 254
+  offset: 6, 5
+  index: -1
+ddzfeijipenqiwei
+  rotate: false
+  xy: 2, 12
+  size: 343, 75
+  orig: 343, 75
+  offset: 0, 0
+  index: -1
+ddzfeijisuduxian
+  rotate: false
+  xy: 2, 89
+  size: 489, 162
+  orig: 514, 168
+  offset: 17, 1
+  index: -1

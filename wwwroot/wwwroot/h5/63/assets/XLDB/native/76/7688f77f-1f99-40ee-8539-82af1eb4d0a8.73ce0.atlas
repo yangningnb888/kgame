@@ -1,0 +1,48 @@
+
+skil_paotaiqiehuan_01.png
+size: 554,94
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skill_paotaiqiehuan_01
+  rotate: false
+  xy: 2, 2
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+skill_paotaiqiehuan_02
+  rotate: false
+  xy: 94, 2
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+skill_paotaiqiehuan_03
+  rotate: false
+  xy: 186, 2
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+skill_paotaiqiehuan_04
+  rotate: false
+  xy: 278, 2
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+skill_paotaiqiehuan_05
+  rotate: false
+  xy: 370, 2
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+skill_paotaiqiehuan_06
+  rotate: false
+  xy: 462, 2
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1

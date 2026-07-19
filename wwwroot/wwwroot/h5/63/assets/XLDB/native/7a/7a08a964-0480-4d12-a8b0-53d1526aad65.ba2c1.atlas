@@ -1,0 +1,69 @@
+
+quntimingzhong_1.png
+size: 1145,129
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mingzhong_1
+  rotate: false
+  xy: 2, 2
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+mingzhong_2
+  rotate: false
+  xy: 129, 2
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+mingzhong_3
+  rotate: false
+  xy: 256, 2
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+mingzhong_4
+  rotate: false
+  xy: 383, 2
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+mingzhong_5
+  rotate: false
+  xy: 510, 2
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+mingzhong_6
+  rotate: false
+  xy: 637, 2
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+mingzhong_7
+  rotate: false
+  xy: 764, 2
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+mingzhong_8
+  rotate: false
+  xy: 891, 2
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+mingzhong_9
+  rotate: false
+  xy: 1018, 2
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1

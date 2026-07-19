@@ -1,0 +1,21 @@
+[Unit]
+Description=KGame Workerman Game Server (63JHLM, register/central/gateway/hall + GAME_* workers)
+After=network.target mysql.service
+Wants=mysql.service
+
+[Service]
+Type=simple
+WorkingDirectory=__GAME_DIR__
+# Workerman 前台模式运行（不加 -d），由 systemd 托管、崩溃自动重启
+ExecStart=__PHP_CLI__ start.php start
+ExecReload=__PHP_CLI__ start.php reload
+ExecStop=__PHP_CLI__ start.php stop
+Restart=always
+RestartSec=5
+# 大量连接需要提高文件句柄上限
+LimitNOFILE=1048576
+# 游戏服要写 pid/log 到自身目录，用 root 运行最省事
+User=root
+
+[Install]
+WantedBy=multi-user.target

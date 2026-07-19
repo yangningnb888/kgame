@@ -1,0 +1,202 @@
+
+likuei.png
+size: 510,826
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+likuei1
+  rotate: false
+  xy: 1, 628
+  size: 122, 122
+  orig: 122, 122
+  offset: 0, 0
+  index: -1
+likui_frame
+  rotate: false
+  xy: 1, 1
+  size: 213, 213
+  orig: 213, 213
+  offset: 0, 0
+  index: -1
+jinbi_1
+  rotate: false
+  xy: 231, 682
+  size: 107, 34
+  orig: 107, 34
+  offset: 0, 0
+  index: -1
+likui_body3
+  rotate: false
+  xy: 231, 630
+  size: 134, 50
+  orig: 134, 50
+  offset: 0, 0
+  index: -1
+likui_body1
+  rotate: false
+  xy: 1, 216
+  size: 142, 131
+  orig: 142, 131
+  offset: 0, 0
+  index: -1
+likui_body2
+  rotate: false
+  xy: 129, 546
+  size: 189, 81
+  orig: 189, 81
+  offset: 0, 0
+  index: -1
+piaodai
+  rotate: false
+  xy: 1, 372
+  size: 290, 111
+  orig: 290, 111
+  offset: 0, 0
+  index: -1
+baoxiang
+  rotate: false
+  xy: 403, 187
+  size: 99, 115
+  orig: 99, 115
+  offset: 0, 0
+  index: -1
+jinbi_2
+  rotate: false
+  xy: 129, 485
+  size: 143, 47
+  orig: 143, 47
+  offset: 0, 0
+  index: -1
+likui_righthand3
+  rotate: false
+  xy: 145, 216
+  size: 67, 70
+  orig: 67, 70
+  offset: 0, 0
+  index: -1
+likui_righthand2
+  rotate: false
+  xy: 367, 630
+  size: 80, 65
+  orig: 80, 65
+  offset: 0, 0
+  index: -1
+likui_righthand1
+  rotate: false
+  xy: 293, 372
+  size: 156, 172
+  orig: 156, 172
+  offset: 0, 0
+  index: -1
+likui_armor1
+  rotate: false
+  xy: 125, 629
+  size: 104, 89
+  orig: 104, 89
+  offset: 0, 0
+  index: -1
+likui_head
+  rotate: false
+  xy: 1, 485
+  size: 126, 141
+  orig: 126, 141
+  offset: 0, 0
+  index: -1
+likui_armor2
+  rotate: false
+  xy: 403, 304
+  size: 43, 39
+  orig: 43, 39
+  offset: 0, 0
+  index: -1
+likui_lefthand2
+  rotate: false
+  xy: 145, 288
+  size: 58, 56
+  orig: 58, 56
+  offset: 0, 0
+  index: -1
+likui_eye
+  rotate: false
+  xy: 403, 345
+  size: 29, 8
+  orig: 29, 8
+  offset: 0, 0
+  index: -1
+likui_eye2
+  rotate: false
+  xy: 403, 355
+  size: 29, 8
+  orig: 29, 8
+  offset: 0, 0
+  index: -1
+likui_lefthand3
+  rotate: false
+  xy: 1, 752
+  size: 85, 72
+  orig: 85, 72
+  offset: 0, 0
+  index: -1
+likui_lefthand1
+  rotate: false
+  xy: 320, 546
+  size: 148, 82
+  orig: 148, 82
+  offset: 0, 0
+  index: -1
+jishaboss
+  rotate: false
+  xy: 125, 720
+  size: 177, 51
+  orig: 177, 51
+  offset: 0, 0
+  index: -1
+shanguang
+  rotate: false
+  xy: 216, 1
+  size: 202, 184
+  orig: 202, 184
+  offset: 0, 0
+  index: -1
+shanguang_1
+  rotate: false
+  xy: 216, 187
+  size: 185, 183
+  orig: 185, 183
+  offset: 0, 0
+  index: -1
+guang1
+  rotate: false
+  xy: 451, 304
+  size: 43, 225
+  orig: 43, 225
+  offset: 0, 0
+  index: -1
+guang2
+  rotate: false
+  xy: 470, 531
+  size: 38, 195
+  orig: 38, 195
+  offset: 0, 0
+  index: -1
+guang3
+  rotate: false
+  xy: 420, 1
+  size: 38, 175
+  orig: 38, 175
+  offset: 0, 0
+  index: -1
+guang4
+  rotate: false
+  xy: 340, 682
+  size: 23, 91
+  orig: 23, 91
+  offset: 0, 0
+  index: -1
+guang5
+  rotate: false
+  xy: 274, 485
+  size: 10, 48
+  orig: 10, 48
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,90 @@
+
+dfdc_xuanchang.png
+size: 807,649
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bwj_dcdf_02
+  rotate: false
+  xy: 252, 301
+  size: 237, 346
+  orig: 237, 346
+  offset: 0, 0
+  index: -1
+bwj_dcdf_03
+  rotate: false
+  xy: 522, 2
+  size: 32, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+bwj_dcdf_03-1
+  rotate: true
+  xy: 764, 60
+  size: 43, 31
+  orig: 43, 31
+  offset: 0, 0
+  index: -1
+bwj_dcdf_04
+  rotate: true
+  xy: 259, 7
+  size: 292, 226
+  orig: 292, 226
+  offset: 0, 0
+  index: -1
+bwj_dcdf_05
+  rotate: false
+  xy: 2, 13
+  size: 255, 257
+  orig: 255, 257
+  offset: 0, 0
+  index: -1
+bwj_dcdf_06
+  rotate: true
+  xy: 487, 31
+  size: 101, 146
+  orig: 101, 146
+  offset: 0, 0
+  index: -1
+bwj_dcdf_07
+  rotate: false
+  xy: 2, 272
+  size: 248, 375
+  orig: 248, 375
+  offset: 0, 0
+  index: -1
+bwj_dcdf_08
+  rotate: false
+  xy: 764, 105
+  size: 41, 27
+  orig: 41, 27
+  offset: 0, 0
+  index: -1
+bwj_dcdf_09
+  rotate: false
+  xy: 487, 3
+  size: 33, 26
+  orig: 33, 26
+  offset: 0, 0
+  index: -1
+bwj_dcdf_10
+  rotate: true
+  xy: 491, 134
+  size: 252, 305
+  orig: 252, 305
+  offset: 0, 0
+  index: -1
+bwj_dcdf_11
+  rotate: false
+  xy: 491, 388
+  size: 301, 259
+  orig: 301, 259
+  offset: 0, 0
+  index: -1
+bwj_dcdf_12
+  rotate: true
+  xy: 635, 43
+  size: 89, 127
+  orig: 89, 127
+  offset: 0, 0
+  index: -1

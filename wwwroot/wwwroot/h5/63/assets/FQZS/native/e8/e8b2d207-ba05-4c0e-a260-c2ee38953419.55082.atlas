@@ -1,0 +1,167 @@
+
+panda.png
+size: 525,141
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+panda/chin2_1
+  rotate: false
+  xy: 147, 74
+  size: 83, 65
+  orig: 83, 65
+  offset: 0, 0
+  index: -1
+panda/chin2_2
+  rotate: false
+  xy: 147, 8
+  size: 78, 64
+  orig: 78, 64
+  offset: 0, 0
+  index: -1
+panda/chin2_3
+  rotate: false
+  xy: 433, 97
+  size: 63, 42
+  orig: 63, 42
+  offset: 0, 0
+  index: -1
+panda/chin2_4
+  rotate: false
+  xy: 367, 97
+  size: 64, 42
+  orig: 64, 42
+  offset: 0, 0
+  index: -1
+panda/chin2_t
+  rotate: false
+  xy: 305, 25
+  size: 44, 11
+  orig: 44, 11
+  offset: 0, 0
+  index: -1
+panda/chin_1
+  rotate: false
+  xy: 232, 89
+  size: 68, 50
+  orig: 68, 50
+  offset: 0, 0
+  index: -1
+panda/chin_2
+  rotate: true
+  xy: 498, 89
+  size: 50, 23
+  orig: 50, 23
+  offset: 0, 0
+  index: -1
+panda/chin_3
+  rotate: true
+  xy: 285, 37
+  size: 50, 18
+  orig: 50, 18
+  offset: 0, 0
+  index: -1
+panda/chin_t
+  rotate: false
+  xy: 303, 15
+  size: 36, 8
+  orig: 36, 8
+  offset: 0, 0
+  index: -1
+panda/ear_L
+  rotate: false
+  xy: 355, 40
+  size: 38, 49
+  orig: 38, 49
+  offset: 0, 0
+  index: -1
+panda/ear_R
+  rotate: false
+  xy: 395, 46
+  size: 38, 49
+  orig: 38, 49
+  offset: 0, 0
+  index: -1
+panda/eye_L2
+  rotate: false
+  xy: 439, 9
+  size: 41, 42
+  orig: 41, 42
+  offset: 0, 0
+  index: -1
+panda/eye_L3
+  rotate: false
+  xy: 482, 45
+  size: 41, 42
+  orig: 41, 42
+  offset: 0, 0
+  index: -1
+panda/eye_LB
+  rotate: false
+  xy: 482, 16
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+panda/eye_LW
+  rotate: true
+  xy: 232, 38
+  size: 49, 51
+  orig: 49, 51
+  offset: 0, 0
+  index: -1
+panda/eye_R2
+  rotate: false
+  xy: 395, 2
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+panda/eye_R3
+  rotate: false
+  xy: 435, 53
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+panda/eye_RB
+  rotate: false
+  xy: 274, 8
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+panda/eye_RW
+  rotate: false
+  xy: 305, 38
+  size: 48, 51
+  orig: 48, 51
+  offset: 0, 0
+  index: -1
+panda/head
+  rotate: false
+  xy: 2, 4
+  size: 143, 135
+  orig: 143, 135
+  offset: 0, 0
+  index: -1
+panda/mouth_up
+  rotate: false
+  xy: 302, 91
+  size: 63, 48
+  orig: 63, 48
+  offset: 0, 0
+  index: -1
+panda/nose
+  rotate: false
+  xy: 227, 8
+  size: 45, 28
+  orig: 45, 28
+  offset: 0, 0
+  index: -1
+panda/teeth_up
+  rotate: false
+  xy: 303, 7
+  size: 36, 6
+  orig: 36, 6
+  offset: 0, 0
+  index: -1
