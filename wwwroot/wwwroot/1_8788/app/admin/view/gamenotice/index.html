@@ -1,55 +1,44 @@
 {extend name="../../admin/view/main"}
-
-{block name="button"}{/block}
-
 {block name="content"}
-<body>
-<div class="layui-tab layui-tab-card think-bg-white">
-
-    <fieldset class="table-search-fieldset">
-        <legend>游戏弹窗公告（玩家登录后弹出）</legend>
-        <div style="margin:10px">
-            <label class="help-label"><b>公告标题</b></label>
-            <input type="text" id="notice_title" class="layui-input" style="max-width:480px"
-                   placeholder="如：防骗公告" value="{$data.title|default=''}">
+<div class="layui-card">
+    <div class="layui-card-header">游戏弹窗公告</div>
+    <div class="layui-card-body">
+        <p class="help-block">
+            以下内容会显示在游戏大厅的公告弹窗中。支持 HTML（如换行请使用 &lt;br&gt; 标签）。保存后玩家重新登录或重新连接大厅即可生效。
+        </p>
+        <div class="layui-form layui-form-pane margin-top-20">
+            <div class="layui-form-item">
+                <label class="layui-form-label">公告内容</label>
+                <div class="layui-input-block">
+                    <textarea id="notice_content" rows="12" class="layui-textarea" placeholder="请输入公告内容，支持 HTML">{$content}</textarea>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button id="save_notice" type="button" class="layui-btn layui-btn-normal">保存公告</button>
+                    <span id="notice_tip" class="text-muted margin-left-10"></span>
+                </div>
+            </div>
         </div>
-        <div style="margin:10px">
-            <label class="help-label"><b>公告日期</b></label>
-            <input type="text" id="notice_date" class="layui-input" style="max-width:480px"
-                   placeholder="如：2022年1月18日" value="{$data.date|default=''}">
-        </div>
-        <div style="margin:10px">
-            <label class="help-label"><b>公告正文</b>支持多行。保存后玩家下次登录、且内容有变化时才再次弹窗（无需重启任何服务）。</label>
-            <textarea id="notice_content" class="layui-textarea" style="min-height:160px;line-height:1.6">{$data.content|default=''}</textarea>
-        </div>
-        <div style="margin:10px">
-            <button type="button" class="layui-btn layui-btn-normal" id="save_notice">保存公告</button>
-            <span class="help-block" id="notice_tip"></span>
-        </div>
-    </fieldset>
-
+    </div>
 </div>
 
 <script>
-    layui.use(['jquery', 'layer'], function () {
-        var $ = layui.jquery, layer = layui.layer;
-
+    require(['jquery'], function ($) {
         $('#save_notice').on('click', function () {
-            var title   = $('#notice_title').val().trim();
-            var date    = $('#notice_date').val().trim();
             var content = $('#notice_content').val();
-            $.post('{:sysuri("admin/game_notice/save")}', {title: title, date: date, content: content}, function (res) {
-                if (res && res.code == 1) {
-                    layer.msg(res.msg || '保存成功');
-                    $('#notice_tip').text('已保存，玩家下次登录即生效（内容变化才会重新弹窗）');
+            $.post('{:sysuri("admin/game_notice/save")}', {content: content}, function (res) {
+                if (res.code == 1) {
+                    layer.msg(res.msg);
+                    $('#notice_tip').text('已保存').show();
                 } else {
-                    layer.msg((res && res.msg) ? res.msg : '保存失败');
+                    layer.msg(res.msg || '保存失败');
+                    $('#notice_tip').text('').hide();
                 }
             }, 'json').fail(function (xhr) {
                 var msg = '保存失败：服务器无响应';
                 if (xhr && xhr.responseText) {
-                    // 若后端抛了异常（如 500 页面），把前 120 字显示出来便于排查
-                    msg = '保存失败：' + xhr.responseText.substring(0, 120).replace(/\s+/g, ' ');
+                    msg = '保存失败：' + xhr.responseText.substring(0, 120);
                 }
                 layer.msg(msg);
             });
