@@ -110,6 +110,10 @@ done
 $MYSQL <<SQL || true
 CREATE USER IF NOT EXISTS '${DB_APP_USER}'@'localhost' IDENTIFIED WITH mysql_native_password BY '${DB_APP_PASS}';
 GRANT ALL PRIVILEGES ON \`63\`.* TO '${DB_APP_USER}'@'localhost';
+# ThinkAdmin(1_8788) 通过 TCP 127.0.0.1 连接，必须单独授权该 host 账户
+# （同 root 的坑：'localhost'(socket) 与 '127.0.0.1'(TCP) 是两个不同账户，否则 Access denied -> 500）
+CREATE USER IF NOT EXISTS '${DB_APP_USER}'@'127.0.0.1' IDENTIFIED WITH mysql_native_password BY '${DB_APP_PASS}';
+GRANT ALL PRIVILEGES ON \`63\`.* TO '${DB_APP_USER}'@'127.0.0.1';
 FLUSH PRIVILEGES;
 SQL
 
