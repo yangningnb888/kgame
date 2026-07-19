@@ -2,8 +2,7 @@
 
 namespace app\admin\controller;
 
-use app\admin\Controller;
-use think\admin\service\AdminService;
+use think\admin\Controller;
 use think\facade\Db;
 
 /**
