@@ -170,6 +170,34 @@
     </div>
   </div>
 
+<!-- 自动版本自愈：每次加载都直连拉取最新 settings（绕过缓存），若主包版本与本地记录不符（说明已部署新版本），自动硬刷新拉取最新，从此无需手动 Ctrl+F5 -->
+<script>
+(function () {
+  var KEY = 'kgame_main_ver';
+  function checkVer() {
+    try {
+      fetch('src/settings.96e30.js?_=' + Date.now(), { cache: 'no-store' })
+        .then(function (r) { return r.text(); })
+        .then(function (txt) {
+          var m = /main:\s*"([a-f0-9]+)"/.exec(txt);
+          if (!m) return;
+          var ver = m[1];
+          var stored = localStorage.getItem(KEY);
+          if (stored && stored !== ver) {
+            localStorage.setItem(KEY, ver);
+            location.reload(true);
+          } else if (!stored) {
+            localStorage.setItem(KEY, ver);
+          }
+        })
+        .catch(function () {});
+    } catch (e) {}
+  }
+  checkVer();
+  setInterval(checkVer, 120000);
+})();
+</script>
+
 <script src="src/settings.96e30.js?v=1.0.6" charset="utf-8"></script>
 
 <script src="main.9c1d5.js?v=1.0.6" charset="utf-8"></script>
