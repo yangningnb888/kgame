@@ -397,4 +397,90 @@ class Data extends Controller
             'data' => ['uid' => $uid, 'gold' => $new]
         ]);
     }
+
+    /**
+     * 后台代玩家使用兑换卡（兑换卡 -> 金币）
+     * 等价于游戏内 Msg_Hall_UseExchangeCard，但作为后台管理员操作，
+     * 不走“代理不能使用 / 每日最多2张”的客户端限制。
+     * 兑换比例与游戏一致：EXCHANGECARD = 100000（见 game/63JHLM/Applications/Config/MyGlobal.php:89）
+     */
+    public function usecard()
+    {
+        $post = input('post.');
+        $account = trim($post['account'] ?? '');
+        $num = intval($post['num'] ?? 0);
+        if ($num <= 0 || $num > 2) {
+            $this->error('兑换数量必须为 1~2 张');
+            return;
+        }
+        if (preg_match('/^1[3-9]\d{9}$/', $account)) {
+            $reg = Db::name('jh_register')->where('telephone', $account)->find();
+            if (empty($reg)) {
+                $this->error('该手机号未注册');
+                return;
+            }
+            $uid = $reg['uid'];
+        } elseif (preg_match('/^\d+$/', $account)) {
+            $uid = $account;
+        } else {
+            $this->error('账号格式错误，请填 uid 或手机号');
+            return;
+        }
+        $user = Db::name('jh_user')->where('uid', $uid)->find();
+        if (empty($user)) {
+            $this->error('用户不存在');
+            return;
+        }
+        if (intval($user['rcard']) < $num) {
+            $this->error('兑换卡不足，当前剩余 ' . intval($user['rcard']) . ' 张');
+            return;
+        }
+        $rate = 100000; // 对应游戏 EXCHANGECARD
+        Db::name('jh_user')->where('uid', $uid)->inc('gold', $rate * $num)->inc('rcard', -$num)->update();
+        $new = Db::name('jh_user')->where('uid', $uid)->field('gold,rcard')->find();
+        return json([
+            'code' => 0,
+            'msg' => '兑换成功：' . $num . ' 张兑换卡 → ' . ($rate * $num) . ' 金币',
+            'data' => ['uid' => $uid, 'gold' => $new['gold'], 'rcard' => $new['rcard']]
+        ]);
+    }
+
+    /**
+     * 后台赠送兑换卡（直接增加 jh_user.rcard 余额）
+     */
+    public function addcard()
+    {
+        $post = input('post.');
+        $account = trim($post['account'] ?? '');
+        $num = intval($post['num'] ?? 0);
+        if ($num <= 0) {
+            $this->error('兑换卡数量必须大于0');
+            return;
+        }
+        if (preg_match('/^1[3-9]\d{9}$/', $account)) {
+            $reg = Db::name('jh_register')->where('telephone', $account)->find();
+            if (empty($reg)) {
+                $this->error('该手机号未注册');
+                return;
+            }
+            $uid = $reg['uid'];
+        } elseif (preg_match('/^\d+$/', $account)) {
+            $uid = $account;
+        } else {
+            $this->error('账号格式错误，请填 uid 或手机号');
+            return;
+        }
+        $user = Db::name('jh_user')->where('uid', $uid)->find();
+        if (empty($user)) {
+            $this->error('用户不存在');
+            return;
+        }
+        Db::name('jh_user')->where('uid', $uid)->inc('rcard', $num)->update();
+        $new = Db::name('jh_user')->where('uid', $uid)->value('rcard');
+        return json([
+            'code' => 0,
+            'msg' => '赠送成功，当前兑换卡：' . $new,
+            'data' => ['uid' => $uid, 'rcard' => $new]
+        ]);
+    }
 }

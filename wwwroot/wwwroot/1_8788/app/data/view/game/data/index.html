@@ -320,6 +320,58 @@
             </form>
         </div>
     </fieldset>
+    <fieldset class="table-search-fieldset">
+        <legend>使用兑换卡（卡→金币）</legend>
+        <div style="margin: 10px 10px 10px 10px" id="usecard">
+            <form class="layui-form layui-form-pane" action="" id="usecardform">
+                <div class="layui-form-item">
+                    <div class="layui-in-line">
+                        <label class="layui-form-label">账号(uid/手机号)</label>
+                        <div class="layui-input-in-line">
+                            <input class="layui-input" name="account" id="usecard_account" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-in-line">
+                        <label class="layui-form-label">兑换张数(1-2)</label>
+                        <div class="layui-input-in-line">
+                            <input class="layui-input" name="num" id="usecard_num" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-in-line">
+                        <button type="button" class="layui-btn layui-btn-normal" lay-submit data-type="reload"
+                                lay-filter="data-search-btn8"> 兑换(卡→金币)
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </fieldset>
+    <fieldset class="table-search-fieldset">
+        <legend>赠送兑换卡</legend>
+        <div style="margin: 10px 10px 10px 10px" id="addcard">
+            <form class="layui-form layui-form-pane" action="" id="addcardform">
+                <div class="layui-form-item">
+                    <div class="layui-in-line">
+                        <label class="layui-form-label">账号(uid/手机号)</label>
+                        <div class="layui-input-in-line">
+                            <input class="layui-input" name="account" id="addcard_account" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-in-line">
+                        <label class="layui-form-label">增加张数</label>
+                        <div class="layui-input-in-line">
+                            <input class="layui-input" name="num" id="addcard_num" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="layui-in-line">
+                        <button type="button" class="layui-btn layui-btn-normal" lay-submit data-type="reload"
+                                lay-filter="data-search-btn9"> 赠送
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </fieldset>
 </div>
 </body>
 <script>
@@ -607,6 +659,58 @@
                         alert(res.info);
                     } else {
                         alert((res.msg || '加金币成功') + (res.data && res.data.gold !== undefined ? '，当前金币：' + res.data.gold : ''));
+                    }
+                },
+                error: function () {
+                    alert('操作失败');
+                }
+            });
+            return false;
+        });
+
+        form.on('submit(data-search-btn8)', function () {
+            let account = $("#usecard_account").val();
+            let num = Number($("#usecard_num").val());
+            if (!account || !num || num <= 0 || num > 2) {
+                alert('请填写账号和 1~2 的兑换张数');
+                return false;
+            }
+            $.ajax({
+                url: '{:url("usecard")}',
+                type: 'post',
+                data: {'account': account, 'num': num},
+                success: res => {
+                    console.log(res);
+                    if (res.info) {
+                        alert(res.info);
+                    } else {
+                        alert((res.msg || '兑换成功') + (res.data ? '，当前金币：' + res.data.gold + '，剩余卡：' + res.data.rcard : ''));
+                    }
+                },
+                error: function () {
+                    alert('操作失败');
+                }
+            });
+            return false;
+        });
+
+        form.on('submit(data-search-btn9)', function () {
+            let account = $("#addcard_account").val();
+            let num = Number($("#addcard_num").val());
+            if (!account || !num || num <= 0) {
+                alert('请填写账号和大于0的张数');
+                return false;
+            }
+            $.ajax({
+                url: '{:url("addcard")}',
+                type: 'post',
+                data: {'account': account, 'num': num},
+                success: res => {
+                    console.log(res);
+                    if (res.info) {
+                        alert(res.info);
+                    } else {
+                        alert((res.msg || '赠送成功') + (res.data ? '，当前兑换卡：' + res.data.rcard : ''));
                     }
                 },
                 error: function () {
