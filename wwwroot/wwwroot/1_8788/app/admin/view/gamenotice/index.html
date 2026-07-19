@@ -38,15 +38,20 @@
             var title   = $('#notice_title').val().trim();
             var date    = $('#notice_date').val().trim();
             var content = $('#notice_content').val();
-            $.post('{:sysuri("admin/game_notice/index")}', {title: title, date: date, content: content}, function (res) {
-                if (res.code == 1) {
+            $.post('{:sysuri("admin/game_notice/save")}', {title: title, date: date, content: content}, function (res) {
+                if (res && res.code == 1) {
                     layer.msg(res.msg || '保存成功');
                     $('#notice_tip').text('已保存，玩家下次登录即生效（内容变化才会重新弹窗）');
                 } else {
-                    layer.msg(res.msg || '保存失败');
+                    layer.msg((res && res.msg) ? res.msg : '保存失败');
                 }
-            }, 'json').fail(function () {
-                layer.msg('保存失败：服务器无响应');
+            }, 'json').fail(function (xhr) {
+                var msg = '保存失败：服务器无响应';
+                if (xhr && xhr.responseText) {
+                    // 若后端抛了异常（如 500 页面），把前 120 字显示出来便于排查
+                    msg = '保存失败：' + xhr.responseText.substring(0, 120).replace(/\s+/g, ' ');
+                }
+                layer.msg(msg);
             });
         });
     });

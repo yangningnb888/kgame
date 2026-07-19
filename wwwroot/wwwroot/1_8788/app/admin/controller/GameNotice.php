@@ -26,19 +26,27 @@ class GameNotice extends Controller
     const KEY = 'GAME_POPUP_NOTICE';
 
     /**
-     * 游戏弹窗公告管理
+     * 游戏弹窗公告管理（页面展示）
      * @auth true
      * @menu true
-     * @throws \think\db\exception\DataNotFoundException
-     * @throws \think\db\exception\DbException
-     * @throws \think\db\exception\ModelNotFoundException
      */
     public function index()
     {
         $this->title = '公告通知';
+        $row  = Db::table('jh_sysconfig')->where('key', self::KEY)->value('val');
+        $data = $row ? json_decode($row, true) : ['title' => '', 'date' => '', 'content' => ''];
+        $this->assign('data', $data);
+        // 视图目录名为 gamenotice（无下划线），显式指定，避免框架按路由 game_notice 去找 view/game_notice/ 而 404
+        $this->fetch('gamenotice/index');
+    }
 
-        // 保存
-        if ($this->request->isPost()) {
+    /**
+     * 保存弹窗公告（独立 action，供前端 JS 直接 POST）
+     * @auth true
+     */
+    public function save()
+    {
+        try {
             $title   = trim(input('post.title', ''));
             $date    = trim(input('post.date', ''));
             $content = input('post.content', ''); // 正文允许换行，不 trim
@@ -47,20 +55,17 @@ class GameNotice extends Controller
                 'date'    => $date,
                 'content' => $content,
             ], JSON_UNESCAPED_UNICODE);
+
             $exists = Db::table('jh_sysconfig')->where('key', self::KEY)->count();
             if ($exists) {
                 Db::table('jh_sysconfig')->where('key', self::KEY)->update(['val' => $val]);
             } else {
                 Db::table('jh_sysconfig')->insert(['key' => self::KEY, 'val' => $val]);
             }
-            $this->success('保存成功');
+            return json(['code' => 1, 'msg' => '保存成功']);
+        } catch (\Throwable $e) {
+            // 任何数据库/写入异常都返回 JSON 错误信息，而不是 500 页面（避免前端解析失败）
+            return json(['code' => 0, 'msg' => '保存失败：' . $e->getMessage()]);
         }
-
-        // 读取
-        $row  = Db::table('jh_sysconfig')->where('key', self::KEY)->value('val');
-        $data = $row ? json_decode($row, true) : ['title' => '', 'date' => '', 'content' => ''];
-        $this->assign('data', $data);
-        // 视图目录名为 gamenotice（无下划线），显式指定，避免框架按路由 game_notice 去找 view/game_notice/ 而 404
-        $this->fetch('gamenotice/index');
     }
 }
