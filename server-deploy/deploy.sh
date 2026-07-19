@@ -165,7 +165,7 @@ systemctl reload nginx
 log "[6/7] 申请 HTTPS 证书 (Let's Encrypt)"
 ###############################################################################
 warn "确保 ${DOMAIN} 的 A 记录已解析到本服务器公网 IP，且 80/443 已放行，否则会失败。"
-certbot --nginx -d "${DOMAIN}" --non-interactive --agree-tos -m "${CERT_EMAIL}" --redirect || \
+certbot --nginx -d "${DOMAIN}" --non-interactive --agree-tos --register-unsafely-without-email --redirect || \
   warn "certbot 失败：请检查域名解析/防火墙后重试： certbot --nginx -d ${DOMAIN}"
 
 ###############################################################################
