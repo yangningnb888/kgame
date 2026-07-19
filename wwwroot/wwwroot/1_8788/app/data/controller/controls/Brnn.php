@@ -104,33 +104,42 @@ class Brnn extends Controller
     {
         $index = ['0', 'tian', 'di', 'xuan', 'huang'];
         $ret = Db::query('SELECT playerbets,endtime FROM jh_player_bet where gtype=2 and level=5');
-        $all = [];
-        foreach ($ret as $key => $value) {
-            $all = $value;
-        }
-        $all['playerbets'] = json_decode($all['playerbets'], true);
-        $_ret = Db::table('jh_game_config')->field('profit')->where('gtype', 2)->where('level', 5)->find();
-        $data = [
-            'bets' => [],
-            'stage' => time() >= $all['endtime'] ? '结算中' : '未开奖',
-            'profit' => $_ret['profit']
-        ];
 
-        foreach ($all['playerbets'] as $key => $value) {
-            $_ret = Db::table('jh_user')->field('nickname')->where('uid', $key)->find();
-            $_data = [
-                'uid' => $key,
-                'nickname' => $_ret['nickname'],
-            ];
-
-            foreach ($index as $key1 => $value1) {
-                if ($key1) {
-                    $_data[$value1] = $value[$key1] ?? 0;
-                }
+        $bets = [];
+        $endtime = 0;
+        if (!empty($ret)) {
+            $last = end($ret);
+            $playerbets = json_decode($last['playerbets'] ?? '', true);
+            if (!is_array($playerbets)) {
+                $playerbets = [];
             }
+            $endtime = intval($last['endtime'] ?? 0);
 
-            $data['bets'][] = $_data;
+            foreach ($playerbets as $key => $value) {
+                $_ret = Db::table('jh_user')->field('nickname')->where('uid', $key)->find();
+                $_data = [
+                    'uid' => $key,
+                    'nickname' => !empty($_ret) ? $_ret['nickname'] : '',
+                ];
+
+                foreach ($index as $key1 => $value1) {
+                    if ($key1) {
+                        $_data[$value1] = $value[$key1] ?? 0;
+                    }
+                }
+
+                $bets[] = $_data;
+            }
         }
+
+        $_ret = Db::table('jh_game_config')->field('profit')->where('gtype', 2)->where('level', 5)->find();
+        $profit = !empty($_ret) ? $_ret['profit'] : 0;
+
+        $data = [
+            'bets' => $bets,
+            'stage' => time() >= $endtime ? '结算中' : '未开奖',
+            'profit' => $profit
+        ];
 
         return json([
             'code' => 0,
