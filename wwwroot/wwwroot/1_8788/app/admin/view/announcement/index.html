@@ -1,0 +1,140 @@
+{extend name="../../admin/view/main"}
+
+{block name="button"}{/block}
+
+{block name="content"}
+<body>
+<div class="layui-tab layui-tab-card think-bg-white">
+
+    <fieldset class="table-search-fieldset">
+        <legend>跑马灯公告（大厅滚动文字）</legend>
+        <div style="margin:10px">
+            <label class="help-label"><b>公告文字</b>每行一条公告，支持多条；保存后立即生效（玩家下次登录即可看到，无需重启）</label>
+            <textarea id="marquee_text" class="layui-textarea" style="min-height:120px;line-height:1.6">{$marquee_text_val}</textarea>
+            <button type="button" class="layui-btn layui-btn-normal" id="save_marquee" style="margin-top:8px">保存跑马灯文字</button>
+            <span class="help-block" id="marquee_tip"></span>
+        </div>
+        <div style="margin:10px">
+            <label class="help-label"><b>公告图片</b>弹窗公告图片（JSON 数组，可任意添加 / 删除）</label>
+            <div id="marquee_imgs" style="margin:6px 0"></div>
+            <div style="margin-top:8px">
+                <input type="text" id="marquee_img_url" class="layui-input inline-block" style="width:62%;vertical-align:middle" placeholder="图片URL，如 https://xxx.com/a.png">
+                <button type="button" class="layui-btn" id="add_marquee_img" style="vertical-align:middle">添加图片</button>
+            </div>
+        </div>
+    </fieldset>
+
+    <fieldset class="table-search-fieldset">
+        <legend>代理公告（登录弹窗文字 + 图片）</legend>
+        <div style="margin:10px">
+            <label class="help-label"><b>代理公告文字</b>每行一条公告，支持多条</label>
+            <textarea id="agent_text" class="layui-textarea" style="min-height:120px;line-height:1.6">{$agent_text_val}</textarea>
+            <button type="button" class="layui-btn layui-btn-normal" id="save_agent" style="margin-top:8px">保存代理公告文字</button>
+            <span class="help-block" id="agent_tip"></span>
+        </div>
+        <div style="margin:10px">
+            <label class="help-label"><b>代理公告图片</b>弹窗图片（JSON 数组，可任意添加 / 删除）</label>
+            <div id="agent_imgs" style="margin:6px 0"></div>
+            <div style="margin-top:8px">
+                <input type="text" id="agent_img_url" class="layui-input inline-block" style="width:62%;vertical-align:middle" placeholder="图片URL，如 https://xxx.com/b.png">
+                <button type="button" class="layui-btn" id="add_agent_img" style="vertical-align:middle">添加图片</button>
+            </div>
+        </div>
+    </fieldset>
+
+</div>
+
+<script>
+    var marqueeImgs = {:json_encode($marquee_imgs, 320)};
+    var agentImgs   = {:json_encode($agent_imgs, 320)};
+
+    function renderMarqueeImgs() {
+        var h = '';
+        if (!marqueeImgs.length) { h = '<span class="color-desc">（暂无图片）</span>'; }
+        for (var i = 0; i < marqueeImgs.length; i++) {
+            h += '<div style="margin:4px 0">' +
+                 '<span class="layui-badge layui-bg-blue" style="margin-right:6px">' + (i + 1) + '</span>' +
+                 '<span class="layui-elip" style="display:inline-block;max-width:60%;vertical-align:middle">' + marqueeImgs[i] + '</span> ' +
+                 '<button type="button" class="layui-btn layui-btn-xs layui-btn-danger del-mi" data-idx="' + i + '">删除</button>' +
+                 '</div>';
+        }
+        document.getElementById('marquee_imgs').innerHTML = h;
+    }
+
+    function renderAgentImgs() {
+        var h = '';
+        if (!agentImgs.length) { h = '<span class="color-desc">（暂无图片）</span>'; }
+        for (var i = 0; i < agentImgs.length; i++) {
+            h += '<div style="margin:4px 0">' +
+                 '<span class="layui-badge layui-bg-blue" style="margin-right:6px">' + (i + 1) + '</span>' +
+                 '<span class="layui-elip" style="display:inline-block;max-width:60%;vertical-align:middle">' + agentImgs[i] + '</span> ' +
+                 '<button type="button" class="layui-btn layui-btn-xs layui-btn-danger del-ai" data-idx="' + i + '">删除</button>' +
+                 '</div>';
+        }
+        document.getElementById('agent_imgs').innerHTML = h;
+    }
+
+    layui.use(['jquery', 'layer'], function () {
+        var $ = layui.jquery, layer = layui.layer;
+
+        // 保存跑马灯文字
+        $('#save_marquee').on('click', function () {
+            var lines = $('#marquee_text').val().split('\n').map(function (s) { return s.trim(); }).filter(function (s) { return s !== ''; });
+            $.post('{:sysuri("admin/announcement/saveMarquee")}', {lines: lines}, function (res) {
+                $('#marquee_tip').text(res.msg || '已保存');
+                layer.msg(res.msg || '已保存');
+            }, 'json');
+        });
+
+        // 添加跑马灯图片
+        $('#add_marquee_img').on('click', function () {
+            var url = $('#marquee_img_url').val().trim();
+            if (!url) { layer.msg('请输入图片URL'); return; }
+            $.post('{:sysuri("admin/announcement/addMarqueeImg")}', {url: url}, function (res) {
+                if (res.code == 0) { marqueeImgs.push(url); renderMarqueeImgs(); $('#marquee_img_url').val(''); layer.msg('已添加'); }
+                else { layer.msg(res.msg); }
+            }, 'json');
+        });
+
+        // 删除跑马灯图片（事件委托）
+        $('#marquee_imgs').on('click', '.del-mi', function () {
+            var idx = $(this).data('idx');
+            $.post('{:sysuri("admin/announcement/delMarqueeImg")}', {idx: idx}, function (res) {
+                if (res.code == 0) { marqueeImgs.splice(idx, 1); renderMarqueeImgs(); layer.msg('已删除'); }
+                else { layer.msg(res.msg); }
+            }, 'json');
+        });
+
+        // 保存代理公告文字
+        $('#save_agent').on('click', function () {
+            var lines = $('#agent_text').val().split('\n').map(function (s) { return s.trim(); }).filter(function (s) { return s !== ''; });
+            $.post('{:sysuri("admin/announcement/saveAgent")}', {lines: lines}, function (res) {
+                $('#agent_tip').text(res.msg || '已保存');
+                layer.msg(res.msg || '已保存');
+            }, 'json');
+        });
+
+        // 添加代理公告图片
+        $('#add_agent_img').on('click', function () {
+            var url = $('#agent_img_url').val().trim();
+            if (!url) { layer.msg('请输入图片URL'); return; }
+            $.post('{:sysuri("admin/announcement/addAgentImg")}', {url: url}, function (res) {
+                if (res.code == 0) { agentImgs.push(url); renderAgentImgs(); $('#agent_img_url').val(''); layer.msg('已添加'); }
+                else { layer.msg(res.msg); }
+            }, 'json');
+        });
+
+        // 删除代理公告图片
+        $('#agent_imgs').on('click', '.del-ai', function () {
+            var idx = $(this).data('idx');
+            $.post('{:sysuri("admin/announcement/delAgentImg")}', {idx: idx}, function (res) {
+                if (res.code == 0) { agentImgs.splice(idx, 1); renderAgentImgs(); layer.msg('已删除'); }
+                else { layer.msg(res.msg); }
+            }, 'json');
+        });
+    });
+
+    renderMarqueeImgs();
+    renderAgentImgs();
+</script>
+{/block}
