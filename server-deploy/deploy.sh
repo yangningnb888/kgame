@@ -112,13 +112,24 @@ SQL
 # 导入 SQL（用 marker 防重复）
 MARK="${SRC_DIR}/.db-imported"
 if [ ! -f "$MARK" ]; then
-  [ -f "${DB_DIR}/63.sql" ]   && { echo "导入 63.sql...";   $MYSQL 63   < "${DB_DIR}/63.sql"; }
-  [ -f "${DB_DIR}/728.sql" ]  && { echo "导入 728.sql...";  $MYSQL 728  < "${DB_DIR}/728.sql"; }
-  [ -f "${DB_DIR}/jili.sql" ] && { echo "导入 jili.sql..."; $MYSQL jili < "${DB_DIR}/jili.sql"; }
-  [ -f "${DB_DIR}/lhj.sql" ]  && { echo "导入 lhj.sql...";  $MYSQL lhj  < "${DB_DIR}/lhj.sql"; }
+  set +e
+  for f in 63 728 jili lhj; do
+    sf="${DB_DIR}/${f}.sql"
+    [ -f "$sf" ] || { echo "跳过（不存在）${f}.sql"; continue; }
+    tf="${DB_DIR}/${f}.sql.filtered"
+    # MySQL 8.0 已移除 NO_AUTO_CREATE_USER，导出 SQL 里该值会导致导入报错退出，先剔除
+    sed -e 's/,NO_AUTO_CREATE_USER//g' -e 's/NO_AUTO_CREATE_USER,//g' -e 's/NO_AUTO_CREATE_USER//g' "$sf" > "$tf"
+    echo "导入 ${f}.sql..."
+    # 宽松 sql_mode：容忍老数据里的 0000-00-00 等零值日期，避免导入中断
+    { echo "SET SESSION sql_mode='NO_ENGINE_SUBSTITUTION';"; cat "$tf"; } | $MYSQL "$f"
+    [ $? -eq 0 ] && echo "  -> ${f}.sql 导入完成" || warn "  -> ${f}.sql 导入出现错误，请检查"
+  done
+  set -e
   date > "$MARK"
   # 关键修复：清空维护时间窗口，否则整天被判维护、账号登录退化成游客
   $MYSQL 63 -e "UPDATE jh_sysconfig SET val='' WHERE \`key\` IN ('SERVER_WHSTART','SERVER_WHEND');" || true
+  # 测试账号 13800138000 落在机器人种子段(uid 66670276, type=1)，翻为真人，否则大厅显示机器人
+  $MYSQL 63 -e "UPDATE jh_user SET type=0 WHERE uid=66670276;" || true
 else
   warn "数据库已导入过（存在 $MARK），跳过。如需重导请删除该文件。"
 fi
