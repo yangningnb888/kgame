@@ -25,10 +25,10 @@ class User(Base):
     gold = Column(BigInteger, default=0, comment="当前金币")
     bank = Column(BigInteger, default=0, comment="银行金币")
     equipmentcard = Column(String(64), default="", comment="设备号")
-    platform = Column(Integer, default=1, comment="平台ID")
+    platform = Column(String(255), default="", comment="平台ID")
     nickname = Column(String(64), default="测试账号")
     headimgurl = Column(String(512), default="")
-    pictureframe = Column(String(128), default="")
+    pictureframe = Column(Integer, default=0)
     mcard = Column(Integer, default=0, comment="月卡数量")
     rcard = Column(Integer, default=0, comment="兑换卡数量")
     battery = Column(Integer, default=0, comment="体力")
@@ -50,7 +50,7 @@ class UserRegister(Base):
     uid = Column(Integer, index=True)
     telephone = Column(String(20), default="")
     password = Column(String(64), default="")
-    created = Column(Integer, default=0)
+    created = Column(DateTime, default=None)
     status = Column(Integer, default=0)
 
 

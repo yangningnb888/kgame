@@ -92,6 +92,10 @@ systemctl enable --now mysql
 # 设置 root 密码（首次）。若已设置会失败，忽略。
 mysql -u root <<SQL 2>/dev/null || true
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '${DB_ROOT_PASS}';
+# 应用(kgame-api)通过 TCP 127.0.0.1 连接，必须单独授权该 host 账户
+# （MySQL 中 'root'@'localhost' 与 'root'@'127.0.0.1' 是两个不同账户，否则 pymysql 报 Access denied -> 500）
+CREATE USER IF NOT EXISTS 'root'@'127.0.0.1' IDENTIFIED WITH mysql_native_password BY '${DB_ROOT_PASS}';
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'127.0.0.1' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 SQL
 
