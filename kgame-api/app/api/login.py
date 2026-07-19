@@ -6,6 +6,7 @@
 import hashlib
 import time
 import json
+import traceback
 from fastapi import APIRouter, Request, Form
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
@@ -55,7 +56,14 @@ async def dispatch(req: Request):
         "Msg_User_forgeBank":         _stub_ok,
     }.get(event, _unknown)
 
-    return await handler(data)
+    try:
+        return await handler(data)
+    except Exception as e:
+        # 临时诊断：把真实异常透传给调用方（定位 500 后移除）
+        return JSONResponse(
+            status_code=200,
+            content={"code": 500, "msg": f"{type(e).__name__}: {e}", "trace": traceback.format_exc()}
+        )
 
 
 async def _unknown(data: dict):
