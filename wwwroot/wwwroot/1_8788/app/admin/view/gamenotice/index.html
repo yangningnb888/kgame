@@ -1,0 +1,52 @@
+{extend name="../../admin/view/main"}
+
+{block name="button"}{/block}
+
+{block name="content"}
+<body>
+<div class="layui-tab layui-tab-card think-bg-white">
+
+    <fieldset class="table-search-fieldset">
+        <legend>游戏弹窗公告（玩家登录后弹出）</legend>
+        <div style="margin:10px">
+            <label class="help-label"><b>公告标题</b></label>
+            <input type="text" id="notice_title" class="layui-input" style="max-width:480px"
+                   placeholder="如：防骗公告" value="{$data.title|default=''}">
+        </div>
+        <div style="margin:10px">
+            <label class="help-label"><b>公告日期</b></label>
+            <input type="text" id="notice_date" class="layui-input" style="max-width:480px"
+                   placeholder="如：2022年1月18日" value="{$data.date|default=''}">
+        </div>
+        <div style="margin:10px">
+            <label class="help-label"><b>公告正文</b>支持多行。保存后玩家下次登录、且内容有变化时才再次弹窗（无需重启任何服务）。</label>
+            <textarea id="notice_content" class="layui-textarea" style="min-height:160px;line-height:1.6">{$data.content|default=''}</textarea>
+        </div>
+        <div style="margin:10px">
+            <button type="button" class="layui-btn layui-btn-normal" id="save_notice">保存公告</button>
+            <span class="help-block" id="notice_tip"></span>
+        </div>
+    </fieldset>
+
+</div>
+
+<script>
+    layui.use(['jquery', 'layer'], function () {
+        var $ = layui.jquery, layer = layui.layer;
+
+        $('#save_notice').on('click', function () {
+            var title   = $('#notice_title').val().trim();
+            var date    = $('#notice_date').val().trim();
+            var content = $('#notice_content').val();
+            $.post('{:sysuri("admin/gamenotice/save")}', {title: title, date: date, content: content}, function (res) {
+                if (res.code == 1) {
+                    layer.msg(res.msg || '保存成功');
+                    $('#notice_tip').text('已保存，玩家下次登录即生效（内容变化才会重新弹窗）');
+                } else {
+                    layer.msg(res.msg || '保存失败');
+                }
+            }, 'json');
+        });
+    });
+</script>
+{/block}
