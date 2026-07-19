@@ -45,7 +45,8 @@ class Data extends Controller
     public function gameseession()
     {
         $post = input('post.');
-        $data = Db::query('SELECT jh_gamename.gtype,`name` FROM jh_gamename INNER JOIN jh_gamestatus ON jh_gamename.gtype=jh_gamestatus.gtype WHERE seession=' . $post['value']);
+        $value = intval($post['value'] ?? 0);
+        $data = Db::query('SELECT jh_gamename.gtype,`name` FROM jh_gamename INNER JOIN jh_gamestatus ON jh_gamename.gtype=jh_gamestatus.gtype WHERE seession=' . $value);
         return json([
             'code' => 0,
             'msg' => '',
@@ -56,64 +57,77 @@ class Data extends Controller
     public function createagent()
     {
         $post = input('post.');
-        $start = $post['startuid'];
-        $num = $post['num'];
-        $gold = $post['gold'];
-        $rcard = $post['rcard'];
-        $cpower = $post['cpower'];
+        $start = intval($post['startuid'] ?? 0);
+        $num = intval($post['num'] ?? 0);
+        $gold = intval($post['gold'] ?? 0);
+        $rcard = intval($post['rcard'] ?? 0);
+        $cpower = intval($post['cpower'] ?? 0);
+
+        if ($start <= 0 || $num <= 0) {
+            return json(['code' => 1, 'msg' => '初始uid和生成数量都必须为正整数', 'data' => '']);
+        }
+        if ($num > 100) {
+            return json(['code' => 1, 'msg' => '每次生成不能超过100个账号', 'data' => '']);
+        }
+        if ($start > 9999999) {
+            return json(['code' => 1, 'msg' => '生成代理uid不得超过7位', 'data' => '']);
+        }
+        if ($cpower < 0 || $cpower > 2) {
+            $cpower = 0;
+        }
+
         $string = '';
-
         for ($i = 0; $i < $num; $i++) {
-            $_res = Db::query('SELECT * FROM jh_user WHERE uid=' . $start);
-            if (!$_res) {
+            $uid = $start + $i;
+            $_res = Db::table('jh_user')->where('uid', $uid)->find();
+            if (empty($_res)) {
                 $pass = rand(100000, 999999);
-                $ret = Db::name('jh_user')->insert([
-                    'uid' => $start,
-                    'gold' => 0,
-                    'bank' => $gold,
-                    'mcard' => 0,
-                    'rcard' => $rcard,
-                    'rcardtime' => 0,
-                    'bankpass' => '888888',
-                    'last_time' => date('Y-m-d H:i:s', time()),
-                    'last_ip' => '0.0.0.0',
-                    'battery' => 0,
-                    'pictureframe' => 0,
-                    'headimgurl' => rand(1, 90),
-                    'nickname' => '代理' . $start % 100,
-                    'sex' => 1,
-                    'type' => 0,
-                    'online' => 2,
-                    'status' => 1,
-                    'display' => 1,
-                    'created' => date('Y-m-d H:i:s', time()),
-                    'agent' => 1,
-                ]);
-
-                if ($ret) {
-                    Db::name('jh_register')->insert([
-                        'uid' => $start,
+                try {
+                    Db::name('jh_user')->insert([
+                        'uid' => $uid,
+                        'gold' => 0,
+                        'bank' => $gold,
+                        'mcard' => 0,
+                        'rcard' => $rcard,
+                        'rcardtime' => 0,
+                        'bankpass' => '888888',
+                        'last_time' => date('Y-m-d H:i:s', time()),
+                        'last_ip' => '0.0.0.0',
+                        'battery' => 0,
+                        'pictureframe' => 0,
+                        'headimgurl' => rand(1, 90),
+                        'nickname' => '代理' . ($uid % 100),
+                        'sex' => 1,
+                        'type' => 0,
+                        'online' => 2,
+                        'status' => 1,
+                        'display' => 1,
                         'created' => date('Y-m-d H:i:s', time()),
-                        'password' => $pass,
+                        'agent' => 1,
+                    ]);
+                    Db::name('jh_register')->insert([
+                        'uid' => $uid,
+                        'created' => date('Y-m-d H:i:s', time()),
+                        'password' => (string)$pass,
                         'status' => 1,
                     ]);
-
                     Db::name('jh_agent')->insert([
-                        'uid' => $start,
+                        'uid' => $uid,
                         'extension' => 0,
                         'power' => $cpower,
                     ]);
-                    $string .= 'uid:' . $start . '          pass:' . $pass . "\r\n";
+                    $string .= 'uid:' . $uid . '          pass:' . $pass . "\r\n";
+                } catch (\Exception $e) {
+                    // 单个账号写入失败（如唯一键冲突）跳过，继续下一个
+                    continue;
                 }
             }
-            $start++;
         }
 
-        return json([
-            'code' => 0,
-            'msg' => '',
-            'data' => $string
-        ]);
+        if ($string === '') {
+            return json(['code' => 1, 'msg' => '未生成任何账号（uid可能已存在或参数有误）', 'data' => '']);
+        }
+        return json(['code' => 0, 'msg' => '生成成功', 'data' => $string]);
     }
 
     public function updategameinfo()
@@ -123,7 +137,8 @@ class Data extends Controller
             if ($post['gtype']) {
                 $gtypes = [$post['gtype']];
             } else {
-                $gtypes = Db::query('SELECT gtype FROM jh_gamestatus WHERE seession=' . $post['seession']);
+                $seession = intval($post['seession'] ?? 0);
+                $gtypes = Db::query('SELECT gtype FROM jh_gamestatus WHERE seession=' . $seession);
                 $gtypes = array_column($gtypes, 'gtype');
             }
 
@@ -173,9 +188,16 @@ class Data extends Controller
         $_res = Db::query('SELECT * FROM jh_user WHERE uid=' . $post['upuid']);
         if ($_res) {
             if (!empty($post['upgold']) || !empty($post['uprcard'])) {
-                $post['upgold'] = $post['upgold'] ?? 0;
-                $post['uprcard'] = $post['uprcard'] ?? 0;
-                Db::query('UPDATE jh_user SET `bank`=`bank`+' . $post['upgold'] . ',`rcard`=`rcard`+' . $post['uprcard'] . ' WHERE uid=' . $post['upuid']);
+                $goldInc = intval($post['upgold'] ?? 0);
+                $rcardInc = intval($post['uprcard'] ?? 0);
+                $q = Db::table('jh_user')->where('uid', $post['upuid']);
+                if ($goldInc != 0) {
+                    $q->inc('bank', $goldInc);
+                }
+                if ($rcardInc != 0) {
+                    $q->inc('rcard', $rcardInc);
+                }
+                $q->update();
             }
 
             if (!empty($post['uptel'])) {
@@ -212,7 +234,11 @@ class Data extends Controller
             }
 
             if (isset($post['upcontrol']) && isset($post['upflag']) && $post['upcontrol'] > -2 && $post['upcontrol'] < 2 && is_numeric($post['upflag'])) {
-                Db::query('UPDATE jh_user_superior SET control=' . $post['upcontrol'] . ' AND curget=0 AND flagget=' . $post['upflag'] . ' WHERE uid=' . $post['upuid']);
+                Db::table('jh_user_superior')->where('uid', $post['upuid'])->update([
+                    'control' => intval($post['upcontrol']),
+                    'curget' => 0,
+                    'flagget' => intval($post['upflag'])
+                ]);
             }
 
             return json([
@@ -232,16 +258,10 @@ class Data extends Controller
     public function banuser()
     {
         $post = $_POST;
-        $where = '';
-        foreach ($post as $key => $value) {
-            if ($key == 'status' || empty($value)) {
-                continue;
-            }
-
-            if ($where) {
-                $where .= ' AND ' . $key . '="' . $value . '"';
-            } else {
-                $where .= $key . '="' . $value . '"';
+        $whereArr = [];
+        foreach (['uid', 'equipmentcard', 'last_ip'] as $key) {
+            if (!empty($post[$key])) {
+                $whereArr[$key] = $post[$key];
             }
         }
 
@@ -269,7 +289,9 @@ class Data extends Controller
             }
         }
 
-        Db::table('jh_user')->where($where)->update(['status' => $post['status']]);
+        if (!empty($whereArr)) {
+            Db::table('jh_user')->where($whereArr)->update(['status' => $post['status']]);
+        }
         return json([
             'code' => 0,
             'msg' => '',
@@ -281,9 +303,11 @@ class Data extends Controller
     {
         $post = input('post.');
 
-        if ($post['power'] >= 0 && $post['power'] <= 2) {
-            Db::table('jh_agent')->where('uid=' . $post['agent'])->update(['power' => $post['power']]);
-            $this->error('修改成功！');
+        $agent = intval($post['agent'] ?? 0);
+        $power = intval($post['power'] ?? -1);
+        if ($agent > 0 && $power >= 0 && $power <= 2) {
+            Db::table('jh_agent')->where('uid', $agent)->update(['power' => $power]);
+            $this->success('修改成功！');
         } else {
             $this->error('修改失败！');
         }

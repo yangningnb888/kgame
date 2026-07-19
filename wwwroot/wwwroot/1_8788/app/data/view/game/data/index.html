@@ -330,22 +330,18 @@
         $("#userinfo").css('display', dis);
         form.render();
         form.on('submit(data-search-btn1)', function (data) {
-            let startuid = $("#startuid").val();
-            let num = $("#num").val();
-            let gold = $("#gold").val();
-            let rcard = $("#rcard").val();
-            let cpower = $("select[name='cpower']").val();
-            if (startuid + num >= 10000000 || num > 100) {
-                alert('生成代理uid不得超过7位，且每次生成不能超过100个账号')
+            let startuid = Number($("#startuid").val());
+            let num = Number($("#num").val());
+            let gold = Number($("#gold").val()) || 0;
+            let rcard = Number($("#rcard").val()) || 0;
+            let cpower = Number($("select[name='cpower']").val());
+            if (!startuid || !num) {
+                alert('请填写初始uid和生成数量');
                 return false;
             }
-
-            if (!gold) {
-                gold = 0;
-            }
-
-            if (!rcard) {
-                rcard = 0;
+            if (startuid > 9999999 || num > 100) {
+                alert('生成代理uid不得超过7位，且每次生成不能超过100个账号')
+                return false;
             }
 
             if (cpower < 0 || cpower > 2) {
@@ -367,9 +363,12 @@
                         var timestamp = parseInt(Date.parse(new Date()) / 1000);
                         download("agent" + timestamp + ".txt", res.data);
                     } else {
-                        alert('生成失败');
+                        alert(res.msg || '生成失败');
                     }
                 },
+                error: function () {
+                    alert('生成请求失败，请重试');
+                }
             });
 
             return false;
