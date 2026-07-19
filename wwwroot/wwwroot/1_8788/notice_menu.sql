@@ -10,19 +10,19 @@
 --   然后在菜单管理界面把新出现的「公告通知」手动拖到「游戏管理」下即可。
 -- ============================================================
 
-INSERT INTO system_menu (pid, title, url, node, icon, status, sort, spt, spc, params)
+-- 说明：MySQL 不允许在 INSERT...SELECT 中直接子查询目标表，故子查询均包一层派生表别名。
+INSERT INTO system_menu (pid, title, url, node, icon, params, target, sort, status)
 SELECT
-    COALESCE((SELECT id FROM system_menu WHERE title LIKE '%游戏管理%' AND url = '#' LIMIT 1), 0),
+    COALESCE((SELECT id FROM (SELECT id FROM system_menu WHERE title LIKE '%游戏管理%' AND url = '#' LIMIT 1) t), 0),
     '公告通知',
     'admin/gamenotice/index',
     'admin/gamenotice/index',
     '',
-    1,
+    '',
+    '_self',
     0,
-    1,
-    0,
-    ''
+    1
 FROM DUAL
 WHERE NOT EXISTS (
-    SELECT 1 FROM system_menu WHERE node = 'admin/gamenotice/index'
+    SELECT 1 FROM (SELECT node FROM system_menu WHERE node = 'admin/gamenotice/index') x
 );
