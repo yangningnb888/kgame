@@ -183,14 +183,20 @@ class Data extends Controller
         $gold = intval($post['gold'] ?? 0);
         $rcard = intval($post['rcard'] ?? 0);
 
-        if ($start <= 0 || $num <= 0) {
-            return json(['code' => 1, 'msg' => '初始uid和生成数量都必须为正整数', 'data' => '']);
+        if ($num <= 0) {
+            return json(['code' => 1, 'msg' => '生成数量必须为正整数', 'data' => '']);
         }
         if ($num > 100) {
             return json(['code' => 1, 'msg' => '每次生成不能超过100个账号', 'data' => '']);
         }
         if ($start > 9999999) {
             return json(['code' => 1, 'msg' => '生成uid不得超过7位', 'data' => '']);
+        }
+        if ($start <= 0) {
+            // 未指定起始uid，自动从 1000000 开始分配一段未使用的uid
+            $base = 1000000;
+            $maxUid = Db::table('jh_user')->where('uid', '>=', $base)->max('uid');
+            $start = $maxUid ? ($maxUid + 1) : $base;
         }
 
         $string = '';

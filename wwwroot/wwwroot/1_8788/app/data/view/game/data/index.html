@@ -65,9 +65,10 @@
             <form class="layui-form layui-form-pane" action="" id="createplayerform">
                 <div class="layui-form-item">
                     <div class="layui-inline">
-                        <label class="layui-form-label">初始uid</label>
+                        <label class="layui-form-label">初始 uid</label>
                         <div class="layui-input-inline">
-                            <input class="layui-input" name="player_startuid" id="player_startuid" autocomplete="off">
+                            <input class="layui-input" name="player_startuid" id="player_startuid"
+                                   autocomplete="off" placeholder="留空自动分配，或填 ≤7 位数字">
                         </div>
                     </div>
                     <div class="layui-inline">
@@ -95,6 +96,9 @@
                     </div>
                 </div>
             </form>
+            <div style="margin: 10px 10px 10px 10px; color:#666; font-size:12px;">
+                提示：登录账号会自动生成为 13 开头的 11 位手机号（如 13188102000），请以下载 txt 里的「登录账号」登录，不要用 uid。
+            </div>
         </div>
     </fieldset>
     <fieldset class="table-search-fieldset">
@@ -763,12 +767,12 @@
             let num = Number($("#player_num").val());
             let gold = Number($("#player_gold").val()) || 0;
             let rcard = Number($("#player_rcard").val()) || 0;
-            if (!startuid || !num) {
-                alert('请填写初始uid和生成数量');
+            if (!num) {
+                alert('请填写生成数量');
                 return false;
             }
-            if (startuid > 9999999 || num > 100) {
-                alert('生成uid不得超过7位，且每次生成不能超过100个账号');
+            if (startuid && (startuid > 9999999 || startuid < 1)) {
+                alert('初始uid必须是 1~9999999 之间的数字，或留空让系统自动分配');
                 return false;
             }
             $.ajax({
