@@ -87,7 +87,7 @@ class Data extends Controller
                 try {
                     Db::name('jh_user')->insert([
                         'uid' => $uid,
-                        'gold' => 0,
+                        'gold' => $gold,
                         'bank' => $gold,
                         'mcard' => 0,
                         'rcard' => $rcard,
@@ -112,8 +112,16 @@ class Data extends Controller
                     continue;
                 }
             } else {
-                // 已存在：确保标记为代理（不破坏原有金币等数据）
-                Db::table('jh_user')->where('uid', $uid)->update(['agent' => 1]);
+                // 已存在：确保标记为代理，并写入初始金币/兑换卡（非0时才覆盖，避免误清空）
+                $_upd = ['agent' => 1];
+                if ($gold > 0) {
+                    $_upd['gold'] = $gold;
+                    $_upd['bank'] = $gold;
+                }
+                if ($rcard > 0) {
+                    $_upd['rcard'] = $rcard;
+                }
+                Db::table('jh_user')->where('uid', $uid)->update($_upd);
             }
 
             // 不论新旧账号，统一设置/更新登录密码（明文，与游戏登录校验一致）
