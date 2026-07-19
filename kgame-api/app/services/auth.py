@@ -9,6 +9,7 @@ import string
 from datetime import datetime, timedelta
 from typing import Optional
 import pymysql
+from sqlalchemy import func
 
 from ..config import TOKEN_SECRET, JWT_SECRET, JWT_ALGORITHM, JWT_EXPIRE_HOURS
 from ..models import User, UserRegister, SessionLocal
