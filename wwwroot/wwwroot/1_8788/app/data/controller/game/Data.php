@@ -164,7 +164,16 @@ class Data extends Controller
     }
 
     /**
-     * 生成游戏账号（普通玩家，与正常注册一致：agent=2 + jh_user_superior）
+     * 生成游戏账号（普通玩家，可正常登录并玩游戏）
+     *
+     * 与普通注册完全一致，且刻意规避两个坑：
+     *  1) jh_user.agent 必须 = 2（玩家）；若 = 1 游戏 Hall 会拦截“代理不能进入游戏”。
+     *  2) 必须清掉 jh_agent 表里的记录 —— 游戏 DBInstance 会按 uid 读 jh_agent，
+     *     只要有记录就会被当成代理（显示代理功能/权限）。之前用“生成代理号”建过的
+     *     uid 会残留该记录，所以这里强制删除。
+     *  3) jh_register.telephone 必须是合法手机号（11位、1[3-9]开头），否则
+     *     Login::user_login 的 /^1[3456789]\d{9}$/ 正则会拦截，导致根本登不进去。
+     *     这里用 uid 派生一个 13 开头的 11 位号作为登录账号（唯一且合规）。
      */
     public function createplayer()
     {
@@ -188,6 +197,8 @@ class Data extends Controller
         for ($i = 0; $i < $num; $i++) {
             $uid = $start + $i;
             $pass = rand(100000, 999999);
+            // 由 uid 派生合法手机号作为登录账号（13 开头 + 9位uid补零），唯一且符合登录正则
+            $account = '13' . str_pad($uid, 9, '0', STR_PAD_LEFT);
             $now = date('Y-m-d H:i:s', time());
 
             $_user = Db::table('jh_user')->where('uid', $uid)->find();
@@ -231,6 +242,9 @@ class Data extends Controller
                 Db::table('jh_user')->where('uid', $uid)->update($_upd);
             }
 
+            // 关键：普通玩家绝不是代理，清掉任何可能存在的 jh_agent 代理记录
+            Db::table('jh_agent')->where('uid', $uid)->delete();
+
             // 普通玩家必须有的上下级记录（与正常注册一致）
             $_sup = Db::table('jh_user_superior')->where('uid', $uid)->find();
             if (empty($_sup)) {
@@ -245,24 +259,25 @@ class Data extends Controller
                 ]);
             }
 
+            // 登录账号（telephone）必须是合法手机号，否则 user_login 正则拦截无法登录
             $_reg = Db::table('jh_register')->where('uid', $uid)->find();
             if (empty($_reg)) {
                 Db::name('jh_register')->insert([
                     'uid' => $uid,
                     'created' => $now,
                     'password' => (string)$pass,
-                    'telephone' => (string)$uid,
+                    'telephone' => $account,
                     'status' => 1,
                 ]);
             } else {
-                $_upd = ['password' => (string)$pass, 'status' => 1];
-                if (empty($_reg['telephone'])) {
-                    $_upd['telephone'] = (string)$uid;
-                }
-                Db::table('jh_register')->where('uid', $uid)->update($_upd);
+                Db::table('jh_register')->where('uid', $uid)->update([
+                    'password' => (string)$pass,
+                    'telephone' => $account,
+                    'status' => 1,
+                ]);
             }
 
-            $string .= 'uid:' . $uid . '          pass:' . $pass . "\r\n";
+            $string .= '登录账号:' . $account . '          uid:' . $uid . '          pass:' . $pass . "\r\n";
         }
 
         if ($string === '') {
